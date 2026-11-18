@@ -1,0 +1,92 @@
+name: FareWatch 15m Monitor
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      test_ntfy:
+        description: "ntfy 테스트 푸시 발송 여부"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "farewatch-monitor"
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run 15m flight fare check & ntfy alerts
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_SERVER: ${{ secrets.NTFY_SERVER }}
+          TEST_NTFY: ${{ github.event.inputs.test_ntfy == 'true' && 'true' || 'false' }}
+        run: npx tsx scripts/monitor.ts
+
+      - name: Commit updated watch-state.json
+        run: |
+          git config user.name "farewatch-bot"
+          git config user.email "farewatch-bot@users.noreply.github.com"
+          if ! git diff --quiet public/watch-state.json; then
+            git add public/watch-state.json
+            git commit -m "chore: update watch-state.json [skip ci]"
+            git push
+          fi
+
+  deploy-pages:
+    needs: monitor
+    if: ${{ github.event.inputs.test_ntfy != 'true' }}
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site for GitHub Pages
+        env:
+          GITHUB_PAGES: "true"
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

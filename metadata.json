@@ -1,0 +1,6 @@
+{
+  "name": "FareWatch",
+  "description": "원하는 여행 기간의 항공권 시세를 상시 감시하고 평소 평균가보다 저렴한 특가 항공권이 나오면 알림을 보내는 미니멀 항공권 감시 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
