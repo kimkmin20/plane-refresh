@@ -52,40 +52,6 @@
       "targetPrice": null,
       "checkIntervalMinutes": 15,
       "isActive": true
-    },
-    {
-      "id": "watch-icn-anywhere",
-      "originCode": "ICN",
-      "originCity": "서울/인천",
-      "destCode": "ANYWHERE",
-      "destCity": "해외 어디든지",
-      "periodMode": "flexible",
-      "startDate": "2026-12-01",
-      "endDate": "2026-12-31",
-      "stayNights": 3,
-      "stayNightsMax": 5,
-      "directOnly": true,
-      "dropThresholdPercent": 15,
-      "targetPrice": 180000,
-      "checkIntervalMinutes": 15,
-      "isActive": true
-    },
-    {
-      "id": "watch-icn-fuk",
-      "originCode": "ICN",
-      "originCity": "서울/인천",
-      "destCode": "FUK",
-      "destCity": "후쿠오카",
-      "periodMode": "flexible",
-      "startDate": "2026-12-05",
-      "endDate": "2027-01-10",
-      "stayNights": 2,
-      "stayNightsMax": 4,
-      "directOnly": true,
-      "dropThresholdPercent": 15,
-      "targetPrice": 190000,
-      "checkIntervalMinutes": 15,
-      "isActive": true
     }
   ]
 }
