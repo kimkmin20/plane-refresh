@@ -14,7 +14,7 @@
       "stayNights": 2,
       "stayNightsMax": 4,
       "directOnly": true,
-      "dropThresholdPercent": 15,
+      "dropThresholdPercent": 10,
       "targetPrice": null,
       "checkIntervalMinutes": 15,
       "isActive": true
