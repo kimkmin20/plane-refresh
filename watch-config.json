@@ -3,6 +3,23 @@
   "ntfyTopic": "",
   "routes": [
     {
+      "id": "route-1795053626737",
+      "originCode": "PUS",
+      "originCity": "부산/김해",
+      "destCode": "ANYWHERE",
+      "destCity": "해외 어디든지",
+      "periodMode": "flexible",
+      "startDate": "2027-01-15",
+      "endDate": "2027-01-31",
+      "stayNights": 2,
+      "stayNightsMax": 4,
+      "directOnly": true,
+      "dropThresholdPercent": 15,
+      "targetPrice": null,
+      "checkIntervalMinutes": 15,
+      "isActive": true
+    },
+    {
       "id": "route-1795053618385",
       "originCode": "TAE",
       "originCity": "대구",
