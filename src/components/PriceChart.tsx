@@ -120,7 +120,7 @@ export function PriceChart({
               textAnchor="end"
               className="fill-neutral-400 text-[9px] font-mono"
             >
-              평균 {formatKRW(baselinePrice)}
+              평소 {formatKRW(baselinePrice)}
             </text>
           </g>
         )}

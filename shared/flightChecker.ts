@@ -860,3 +860,198 @@ export async function sendNtfyNotification(params: {
     );
   }
 }
+
+// ---------------------------------------------------------------------------
+// 출발일별 최저가 달력: '평소 가격' 기준을 만들기 위해 감시 기간 안의
+// 출발일마다 최저가를 조회한다. 중앙값 = 평소 가격.
+// ---------------------------------------------------------------------------
+
+export interface PriceCalendarDay {
+  date: string;
+  price: number;
+  retDate: string;
+}
+
+export interface PriceCalendar {
+  builtAt: string;
+  destCode: string;
+  days: PriceCalendarDay[];
+  totalDates: number;
+  median: number;
+  min: number;
+  minDate: string;
+  minRetDate: string;
+}
+
+function listDates(start: string, end: string): string[] {
+  const out: string[] = [];
+  const t = new Date(`${start}T00:00:00Z`);
+  const last = new Date(`${end}T00:00:00Z`);
+  while (t <= last && out.length < 400) {
+    out.push(t.toISOString().slice(0, 10));
+    t.setUTCDate(t.getUTCDate() + 1);
+  }
+  return out;
+}
+
+/** 날짜가 너무 많으면 고르게 골라 최대 maxDates개만 조회한다. */
+function sampleDates(dates: string[], maxDates: number): string[] {
+  if (dates.length <= maxDates) return dates;
+  const step = dates.length / maxDates;
+  const picked: string[] = [];
+  for (let i = 0; i < maxDates; i++) picked.push(dates[Math.floor(i * step)]);
+  return picked;
+}
+
+export async function buildPriceCalendar(params: {
+  originCode: string;
+  destCode: string;
+  startDate: string;
+  endDate: string;
+  stayNightsMin: number;
+  stayNightsMax: number;
+  directOnly: boolean;
+  maxDates?: number;
+  concurrency?: number;
+}): Promise<PriceCalendar | null> {
+  const dates = sampleDates(
+    listDates(params.startDate, params.endDate),
+    params.maxDates ?? 45
+  );
+  const concurrency = params.concurrency ?? 6;
+  const days: PriceCalendarDay[] = [];
+
+  for (let i = 0; i < dates.length; i += concurrency) {
+    const batch = await Promise.all(
+      dates.slice(i, i + concurrency).map(async (day) => {
+        try {
+          const list = await queryKiwiItineraries({
+            originIds: [`Station:airport:${params.originCode}`],
+            destinationIds: [`Station:airport:${params.destCode}`],
+            periodMode: "flexible",
+            startDate: day,
+            endDate: day,
+            stayNightsMin: params.stayNightsMin,
+            stayNightsMax: params.stayNightsMax,
+            maxStopsCount: params.directOnly ? 0 : 1,
+            sortBy: "PRICE",
+            limit: 5,
+          });
+          const best = list
+            .filter((it) => it.depDate === day)
+            .sort((a, b) => a.price - b.price)[0];
+          return best
+            ? { date: day, price: best.price, retDate: best.retDate }
+            : null;
+        } catch {
+          return null;
+        }
+      })
+    );
+    for (const d of batch) if (d) days.push(d);
+  }
+
+  // 날짜가 너무 적으면 '평소'라고 부르기 어렵다.
+  if (days.length < 5) return null;
+
+  const cheapest = [...days].sort((a, b) => a.price - b.price)[0];
+  return {
+    builtAt: new Date().toISOString(),
+    destCode: params.destCode,
+    days,
+    totalDates: dates.length,
+    median: computeMedian(days.map((d) => d.price)),
+    min: cheapest.price,
+    minDate: cheapest.date,
+    minRetDate: cheapest.retDate,
+  };
+}
+
+/**
+ * '어디든지' 노선용 달력. 앱의 '어디든지' 검색과 똑같은 방식(지역 묶음 검색)으로
+ * 출발일마다 조회해서 도시별 달력을 한꺼번에 만든다.
+ * (Kiwi는 검색 방식에 따라 같은 항공편 가격이 달라서, 같은 방식끼리 비교해야 한다.)
+ */
+export async function buildAnywhereCalendars(params: {
+  originCode: string;
+  destCode: "ANYWHERE" | "ANYWHERE_ALL";
+  startDate: string;
+  endDate: string;
+  stayNightsMin: number;
+  stayNightsMax: number;
+  directOnly: boolean;
+  maxDates?: number;
+  concurrency?: number;
+}): Promise<Record<string, PriceCalendar>> {
+  const dates = sampleDates(
+    listDates(params.startDate, params.endDate),
+    params.maxDates ?? 45
+  );
+  const groups: (string[] | undefined)[] =
+    params.destCode === "ANYWHERE" && KR_AIRPORTS.has(params.originCode)
+      ? INTL_REGION_GROUPS
+      : [undefined];
+  const tasks: { day: string; group: string[] | undefined }[] = [];
+  for (const day of dates) for (const group of groups) tasks.push({ day, group });
+
+  const concurrency = params.concurrency ?? 6;
+  // destCode -> date -> best
+  const perCity = new Map<string, Map<string, PriceCalendarDay>>();
+
+  for (let i = 0; i < tasks.length; i += concurrency) {
+    const batch = await Promise.all(
+      tasks.slice(i, i + concurrency).map(async ({ day, group }) => {
+        try {
+          const list = await queryKiwiItineraries({
+            originIds: [`Station:airport:${params.originCode}`],
+            destinationIds: group,
+            periodMode: "flexible",
+            startDate: day,
+            endDate: day,
+            stayNightsMin: params.stayNightsMin,
+            stayNightsMax: params.stayNightsMax,
+            maxStopsCount: params.directOnly ? 0 : 1,
+            sortBy: "PRICE",
+            limit: 45,
+          });
+          return list.filter(
+            (it) =>
+              it.depDate === day &&
+              it.destCode !== params.originCode &&
+              (params.destCode === "ANYWHERE_ALL" || it.destCountryCode !== "KR")
+          );
+        } catch {
+          return [] as ParsedItinerary[];
+        }
+      })
+    );
+    for (const it of batch.flat()) {
+      if (!it.destCode) continue;
+      let m = perCity.get(it.destCode);
+      if (!m) perCity.set(it.destCode, (m = new Map()));
+      const cur = m.get(it.depDate);
+      if (!cur || it.price < cur.price) {
+        m.set(it.depDate, { date: it.depDate, price: it.price, retDate: it.retDate });
+      }
+    }
+  }
+
+  const builtAt = new Date().toISOString();
+  const out: Record<string, PriceCalendar> = {};
+  for (const [destCode, m] of perCity) {
+    const days = [...m.values()].sort((a, b) => a.date.localeCompare(b.date));
+    if (days.length < 5) continue;
+    const cheapest = [...days].sort((a, b) => a.price - b.price)[0];
+    out[destCode] = {
+      builtAt,
+      destCode,
+      days,
+      totalDates: dates.length,
+      median: computeMedian(days.map((d) => d.price)),
+      min: cheapest.price,
+      minDate: cheapest.date,
+      minRetDate: cheapest.retDate,
+    };
+  }
+  return out;
+}

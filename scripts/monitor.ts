@@ -2,12 +2,20 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import {
+  buildAnywhereCalendars,
+  buildPriceCalendar,
   buildSkyscannerUrl,
   checkFlightRoute,
   sendNtfyNotification,
   type AnywhereDealItem,
+  type PriceCalendar,
   type SourceLink,
 } from "../shared/flightChecker.ts";
+
+/** 날짜별 가격 달력(평소 가격 기준)을 다시 만드는 주기 */
+const CALENDAR_TTL_MS = 6 * 60 * 60 * 1000;
+/** 이미 알린 특가는 이만큼(5%) 더 싸져야 다시 알린다 */
+const REALERT_EXTRA_DROP = 0.05;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -50,7 +58,31 @@ interface PricePoint {
   destCity?: string;
 }
 
+interface StoredCalendar extends PriceCalendar {
+  key: string;
+}
+
+interface BaselineInfo {
+  /** calendar: 출발일별 달력 중앙값 / estimate: 달력을 못 만들어 검색 결과로 추정 */
+  source: "calendar" | "estimate";
+  destCode: string;
+  median: number;
+  sampleDates: number;
+  totalDates: number;
+  periodStart: string;
+  periodEnd: string;
+  min: number | null;
+  minDate: string | null;
+  minRetDate: string | null;
+  builtAt: string | null;
+  weekChangePercent: number | null;
+}
+
 interface StoredRoute extends ConfigRoute {
+  baselineInfo?: BaselineInfo;
+  calendars?: Record<string, StoredCalendar>;
+  calendarTrend?: Record<string, { at: string; median: number }[]>;
+  lastAlertedByDest?: Record<string, number>;
   baselinePrice: number;
   currentPrice: number;
   bestDepDate: string;
@@ -84,6 +116,10 @@ interface DealAlert {
   isRead: boolean;
   isSimulated: boolean;
   bookingUrl: string;
+  baselineSource?: "calendar" | "estimate";
+  periodMinPrice?: number | null;
+  periodMinDate?: string | null;
+  reason?: "drop" | "target" | "both";
 }
 
 interface WatchState {
@@ -107,6 +143,39 @@ function todayISO(): string {
 
 function isAnywhere(code: string): boolean {
   return code === "ANYWHERE" || code === "ANYWHERE_ALL";
+}
+
+const WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
+function shortDate(iso: string | null | undefined): string {
+  if (!iso) return "";
+  const d = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(d.getTime())) return iso;
+  return `${d.getUTCMonth() + 1}/${d.getUTCDate()}(${WEEKDAYS[d.getUTCDay()]})`;
+}
+
+function calendarKey(cfg: ConfigRoute): string {
+  return [
+    cfg.originCode,
+    cfg.destCode,
+    cfg.startDate,
+    cfg.endDate,
+    cfg.stayNights,
+    cfg.stayNightsMax ?? cfg.stayNights,
+    cfg.directOnly ? "direct" : "any",
+  ].join("|");
+}
+
+function weekChange(
+  trend: { at: string; median: number }[] | undefined,
+  currentMedian: number
+): number | null {
+  if (!trend || trend.length === 0 || currentMedian <= 0) return null;
+  const target = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const old = trend.filter((t) => new Date(t.at).getTime() <= target + 12 * 60 * 60 * 1000);
+  if (old.length === 0) return null;
+  const ref = old[old.length - 1].median;
+  if (ref <= 0) return null;
+  return Math.round(((currentMedian - ref) / ref) * 100);
 }
 
 function readJson<T>(filePath: string, fallback: T): T {
@@ -197,30 +266,134 @@ async function main() {
         baselinePrice: prev?.baselinePrice,
       });
 
-      const resolvedBaseline =
-        prev && prev.baselinePrice > 0
-          ? prev.baselinePrice
-          : result.usualAveragePrice;
       const newPrice = result.currentPrice;
+      const destKey = result.discoveredDestCode || cfg.destCode;
+
+      // --- 평소 가격 기준: 출발일별 최저가 달력의 중앙값 ---
+      const calendars: Record<string, StoredCalendar> = {};
+      const nowMs = Date.now();
+      for (const [k, c] of Object.entries(prev?.calendars || {})) {
+        // 하루 넘게 안 쓴 달력(다른 도시 등)은 정리
+        if (nowMs - new Date(c.builtAt).getTime() < 24 * 60 * 60 * 1000) {
+          calendars[k] = c;
+        }
+      }
+      const calendarTrend = { ...(prev?.calendarTrend || {}) };
+      const key = calendarKey(cfg);
+      const isFresh = (c: StoredCalendar | undefined) =>
+        !!c && c.key === key && nowMs - new Date(c.builtAt).getTime() <= CALENDAR_TTL_MS;
+      const recordTrend = (c: PriceCalendar) => {
+        calendarTrend[c.destCode] = [
+          ...(calendarTrend[c.destCode] || []),
+          { at: c.builtAt, median: c.median },
+        ].slice(-40);
+      };
+
+      if (cfg.periodMode === "flexible") {
+        try {
+          if (isAnywhere(cfg.destCode)) {
+            // 어디든지: 같은 검색 방식으로 모든 도시 달력을 한꺼번에 (6시간마다)
+            const anyFresh = Object.values(calendars).some(isFresh);
+            if (!anyFresh) {
+              const built = await buildAnywhereCalendars({
+                originCode: cfg.originCode,
+                destCode: cfg.destCode as "ANYWHERE" | "ANYWHERE_ALL",
+                startDate: effectiveStart,
+                endDate: cfg.endDate,
+                stayNightsMin: cfg.stayNights,
+                stayNightsMax: cfg.stayNightsMax ?? cfg.stayNights,
+                directOnly: cfg.directOnly,
+              });
+              for (const k of Object.keys(calendars)) delete calendars[k];
+              for (const c of Object.values(built)) {
+                calendars[c.destCode] = { ...c, key };
+                recordTrend(c);
+              }
+              console.log(
+                `  [달력] 도시 ${Object.keys(built).length}곳: ${Object.values(built)
+                  .sort((a, b) => a.median - b.median)
+                  .slice(0, 6)
+                  .map((c) => `${c.destCode} 평소 ${formatKRW(c.median)}`)
+                  .join(", ")}`
+              );
+            }
+          } else if (!isFresh(calendars[destKey])) {
+            const built = await buildPriceCalendar({
+              originCode: cfg.originCode,
+              destCode: destKey,
+              startDate: effectiveStart,
+              endDate: cfg.endDate,
+              stayNightsMin: cfg.stayNights,
+              stayNightsMax: cfg.stayNightsMax ?? cfg.stayNights,
+              directOnly: cfg.directOnly,
+            });
+            if (built) {
+              calendars[destKey] = { ...built, key };
+              recordTrend(built);
+              console.log(
+                `  [달력] ${destKey} 출발일 ${built.days.length}/${built.totalDates}개 · 평소(중앙값) ${formatKRW(built.median)} · 최저 ${formatKRW(built.min)} (${built.minDate})`
+              );
+            }
+          }
+        } catch (calErr) {
+          console.error(`  [달력] 생성 실패:`, calErr);
+        }
+      }
+      const cand = calendars[destKey];
+      // 설정이 바뀐 옛 달력은 쓰지 않는다 (만든 지 조금 지난 것은 허용)
+      const calendar: StoredCalendar | null = cand && cand.key === key ? cand : null;
+
+      const baselineSource: "calendar" | "estimate" = calendar ? "calendar" : "estimate";
+      const resolvedBaseline = calendar ? calendar.median : result.usualAveragePrice;
       const dropPct = calcDropPercent(resolvedBaseline, newPrice);
+      const baselineInfo: BaselineInfo = {
+        source: baselineSource,
+        destCode: destKey,
+        median: resolvedBaseline,
+        sampleDates: calendar?.days.length ?? 0,
+        totalDates: calendar?.totalDates ?? 0,
+        periodStart: effectiveStart,
+        periodEnd: cfg.endDate,
+        min: calendar?.min ?? null,
+        minDate: calendar?.minDate ?? null,
+        minRetDate: calendar?.minRetDate ?? null,
+        builtAt: calendar?.builtAt ?? null,
+        weekChangePercent: calendar
+          ? weekChange(calendarTrend[destKey], calendar.median)
+          : null,
+      };
 
-      const meetsThreshold =
-        (resolvedBaseline > 0 && dropPct >= cfg.dropThresholdPercent) ||
-        (cfg.targetPrice !== null && newPrice <= cfg.targetPrice);
+      // 달력 기준이 없으면 '평소보다 몇 % 싸다'는 판단을 하지 않는다 (목표가만 사용).
+      const meetsDrop =
+        baselineSource === "calendar" &&
+        resolvedBaseline > 0 &&
+        dropPct >= cfg.dropThresholdPercent;
+      const meetsTarget = cfg.targetPrice !== null && newPrice <= cfg.targetPrice;
+      const meetsThreshold = meetsDrop || meetsTarget;
 
-      const prevLastAlerted = prev?.lastAlertedPrice ?? null;
+      // 같은 특가로 반복 알림 방지: 도착지별로 마지막 알림 가격을 기억
+      const lastAlertedByDest = { ...(prev?.lastAlertedByDest || {}) };
+      if (
+        prev &&
+        !prev.lastAlertedByDest &&
+        prev.lastAlertedPrice !== null &&
+        !isAnywhere(cfg.destCode)
+      ) {
+        lastAlertedByDest[destKey] = prev.lastAlertedPrice; // 예전 형식 이어받기
+      }
+      const prevLastAlerted = lastAlertedByDest[destKey] ?? null;
       const shouldAlert =
         meetsThreshold &&
-        (prevLastAlerted === null || newPrice < prevLastAlerted);
+        (prevLastAlerted === null ||
+          newPrice <= prevLastAlerted * (1 - REALERT_EXTRA_DROP));
 
-      // Reset alert lock if fare rebounds noticeably above previous alerted price
-      const nextLastAlertedPrice = shouldAlert
-        ? newPrice
-        : !meetsThreshold &&
-          prevLastAlerted !== null &&
-          newPrice > prevLastAlerted * 1.05
-        ? null
-        : prevLastAlerted;
+      if (shouldAlert) {
+        lastAlertedByDest[destKey] = newPrice;
+      } else if (!meetsThreshold) {
+        // 특가가 끝나면 잠금 해제 → 다음에 다시 싸지면 새 특가로 알림
+        delete lastAlertedByDest[destKey];
+      }
+      const nextLastAlertedPrice = lastAlertedByDest[destKey] ?? null;
 
       const checkedAt = result.checkedAt || new Date().toISOString();
       const history = [
@@ -253,7 +426,7 @@ async function main() {
         );
 
       console.log(
-        `  -> 최저 ${formatKRW(newPrice)} (평균 ${formatKRW(resolvedBaseline)}, 변동 ${dropPct > 0 ? `-${dropPct}%` : `+${Math.abs(dropPct)}%`}) · ${result.airline}`
+        `  -> 최저 ${formatKRW(newPrice)} ${destKey} (평소 ${formatKRW(resolvedBaseline)} [${baselineSource === "calendar" ? "달력" : "추정"}], ${dropPct > 0 ? `-${dropPct}%` : `+${Math.abs(dropPct)}%`}) · ${result.airline}${shouldAlert ? " → 알림" : meetsThreshold ? " (이미 알린 특가)" : ""}`
       );
 
       if (shouldAlert) {
@@ -274,12 +447,52 @@ async function main() {
           isRead: false,
           isSimulated: false,
           bookingUrl,
+          baselineSource,
+          periodMinPrice: baselineInfo.min,
+          periodMinDate: baselineInfo.minDate,
+          reason: meetsDrop && meetsTarget ? "both" : meetsDrop ? "drop" : "target",
         };
         nextAlerts.unshift(alertItem);
 
         if (ntfyTopic) {
-          const title = `[특가 ${dropPct > 0 ? `-${dropPct}%` : ""}] ${cfg.originCode} → ${effectiveDestCode} ${formatKRW(newPrice)}`;
-          const message = `${effectiveDestCity}\n${result.bestDepDate} ~ ${result.bestRetDate} · ${result.airline}\n평소 ${formatKRW(resolvedBaseline)}`;
+          const tag = meetsDrop ? `특가 -${dropPct}%` : "목표가 이하";
+          const title = `[${tag}] ${cfg.originCode} → ${effectiveDestCode} ${formatKRW(newPrice)}`;
+          const lines = [
+            `${effectiveDestCity} · ${shortDate(result.bestDepDate)}~${shortDate(result.bestRetDate)} · ${result.airline}`,
+          ];
+          if (baselineSource === "calendar") {
+            lines.push(
+              `평소 ${formatKRW(resolvedBaseline)} · ${shortDate(effectiveStart)}~${shortDate(cfg.endDate)} 출발일 ${baselineInfo.sampleDates}개의 중간값`
+            );
+            if (calendar && baselineInfo.min !== null) {
+              if (newPrice <= baselineInfo.min) {
+                const others = calendar.days
+                  .filter((d) => d.date !== result.bestDepDate)
+                  .sort((a, b) => a.price - b.price);
+                const next = others[0];
+                lines.push(
+                  next
+                    ? `이 기간 가장 싼 날 · 다음으로 싼 날 ${formatKRW(next.price)} (${shortDate(next.date)} 출발)`
+                    : `이 기간 가장 싼 날`
+                );
+              } else {
+                lines.push(
+                  `이 기간 가장 싼 날 ${formatKRW(baselineInfo.min)} (${shortDate(baselineInfo.minDate)} 출발)`
+                );
+              }
+            }
+            if (baselineInfo.weekChangePercent !== null && Math.abs(baselineInfo.weekChangePercent) >= 5) {
+              lines.push(
+                `이 기간 평소가가 1주 전보다 ${Math.abs(baselineInfo.weekChangePercent)}% ${baselineInfo.weekChangePercent < 0 ? "내림 (세일 가능성)" : "오름"}`
+              );
+            }
+          } else {
+            lines.push(`목표가 ${formatKRW(cfg.targetPrice ?? 0)} 이하 (평소 가격 기준은 아직 없음)`);
+          }
+          if (cfg.targetPrice !== null && meetsDrop && !meetsTarget) {
+            lines.push(`목표가 ${formatKRW(cfg.targetPrice)}보다는 비쌈`);
+          }
+          const message = lines.join("\n");
 
           try {
             await sendNtfyNotification({
@@ -313,6 +526,10 @@ async function main() {
         anywhereDeals: result.anywhereDeals,
         lastCheckedAt: checkedAt,
         lastAlertedPrice: nextLastAlertedPrice,
+        lastAlertedByDest,
+        baselineInfo,
+        calendars,
+        calendarTrend,
         sources: result.sources,
         history,
         errorMessage: null,

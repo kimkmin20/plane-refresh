@@ -17,6 +17,7 @@ import {
   formatShortDate,
   formatStayLabel,
 } from "../utils/format";
+import { PriceCalendarStrip } from "./PriceCalendarStrip";
 import { PriceChart } from "./PriceChart";
 
 interface RouteInspectorProps {
@@ -64,8 +65,16 @@ export function RouteInspector({
   const isAnywhere = isAnywhereCode(route.destCode);
   const dropPct = calcDropPercent(route.baselinePrice, route.currentPrice);
   const diffAmount = route.baselinePrice - route.currentPrice;
+  const baseline = route.baselineInfo;
+  const hasCalendarBaseline = !baseline || baseline.source === "calendar";
+  const calendar =
+    baseline && baseline.source === "calendar"
+      ? route.calendars?.[baseline.destCode] ?? null
+      : null;
   const isDeal =
-    (dropPct >= route.dropThresholdPercent && route.currentPrice > 0) ||
+    (hasCalendarBaseline &&
+      dropPct >= route.dropThresholdPercent &&
+      route.currentPrice > 0) ||
     (route.targetPrice !== null &&
       route.currentPrice > 0 &&
       route.currentPrice <= route.targetPrice);
@@ -161,13 +170,20 @@ export function RouteInspector({
           )}
         </div>
         <div>
-          <div className="text-[11px] text-neutral-400">평소 평균가</div>
+          <div className="text-[11px] text-neutral-400">평소 가격</div>
           <div className="mt-0.5 text-base font-mono tabular-nums text-neutral-600">
             {route.baselinePrice > 0 ? formatKRW(route.baselinePrice) : "—"}
           </div>
+          {baseline && (
+            <div className="text-[11px] text-neutral-400">
+              {baseline.source === "calendar"
+                ? `출발일 ${baseline.sampleDates}개 중간값`
+                : "추정치 · 목표가 알림만"}
+            </div>
+          )}
         </div>
         <div>
-          <div className="text-[11px] text-neutral-400">평균 대비</div>
+          <div className="text-[11px] text-neutral-400">평소 대비</div>
           <div
             className={`mt-0.5 text-base font-medium font-mono tabular-nums ${
               dropPct > 0
@@ -207,6 +223,22 @@ export function RouteInspector({
             {formatShortDate(route.bestRetDate, true)}
             {route.airline ? ` · ${route.airline}` : ""}
           </div>
+        </div>
+      )}
+
+      {/* 출발일별 최저가 달력 */}
+      {calendar && baseline && (
+        <div className="pt-1">
+          <PriceCalendarStrip
+            calendar={calendar}
+            baseline={baseline}
+            currentDepDate={route.bestDepDate}
+            cityLabel={
+              isAnywhere
+                ? (route.discoveredDestCity || baseline.destCode).replace(/\s*\(어디든지\)/, "")
+                : undefined
+            }
+          />
         </div>
       )}
 
@@ -322,7 +354,7 @@ export function RouteInspector({
         <div className="grid grid-cols-2 gap-2.5">
           <div>
             <label className="block text-[11px] text-neutral-400 mb-1">
-              평균 대비 하락률
+              평소 대비 하락률
             </label>
             <select
               value={route.dropThresholdPercent}

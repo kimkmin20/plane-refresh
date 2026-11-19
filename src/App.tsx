@@ -101,7 +101,9 @@ function isRouteDeal(route: WatchRoute): boolean {
   if (route.currentPrice <= 0) return false;
   const dropPct = calcDropPercent(route.baselinePrice, route.currentPrice);
   const meetsDrop =
-    route.baselinePrice > 0 && dropPct >= route.dropThresholdPercent;
+    route.baselineInfo?.source !== "estimate" &&
+    route.baselinePrice > 0 &&
+    dropPct >= route.dropThresholdPercent;
   const meetsTarget =
     route.targetPrice !== null && route.currentPrice <= route.targetPrice;
   return meetsDrop || meetsTarget;
@@ -341,7 +343,26 @@ export default function App() {
               const incomingMs = incoming.lastCheckedAt
                 ? new Date(incoming.lastCheckedAt).getTime()
                 : 0;
-              return incomingMs > existingMs ? incoming : existing;
+              if (incomingMs <= existingMs) return existing;
+              // 감시 결과만 받아오고, 노선 설정은 이 브라우저 것을 유지
+              // (방금 바꾼 설정이 아직 감시에 반영되기 전이어도 되돌리지 않도록)
+              return {
+                ...incoming,
+                originCode: existing.originCode,
+                originCity: existing.originCity,
+                destCode: existing.destCode,
+                destCity: existing.destCity,
+                periodMode: existing.periodMode,
+                startDate: existing.startDate,
+                endDate: existing.endDate,
+                stayNights: existing.stayNights,
+                stayNightsMax: existing.stayNightsMax,
+                directOnly: existing.directOnly,
+                dropThresholdPercent: existing.dropThresholdPercent,
+                targetPrice: existing.targetPrice,
+                checkIntervalMinutes: existing.checkIntervalMinutes,
+                isActive: existing.isActive,
+              };
             });
 
         if (!hasOnlySeed) {
@@ -718,9 +739,19 @@ export default function App() {
 
   // Periodic background scheduler + relative time refresh
   useEffect(() => {
+    const isStaticHosting = /\.github\.io$/i.test(window.location.hostname);
+    let lastStateSync = Date.now();
     const timer = window.setInterval(() => {
       setTick((t) => t + 1);
       const now = Date.now();
+      if (isStaticHosting) {
+        // GitHub Pages에는 조회 서버가 없다 → GitHub Actions 결과를 5분마다 다시 읽는다
+        if (now - lastStateSync >= 5 * 60_000) {
+          lastStateSync = now;
+          void syncFromGithubState();
+        }
+        return;
+      }
       for (const route of routesRef.current) {
         if (!route.isActive || checkingRef.current[route.id]) continue;
         const lastMs = route.lastCheckedAt
@@ -735,7 +766,7 @@ export default function App() {
     }, 20_000);
 
     return () => window.clearInterval(timer);
-  }, [checkRouteLive]);
+  }, [checkRouteLive, syncFromGithubState]);
 
   const handleAddRoute = (input: NewRouteInput) => {
     const id = `route-${Date.now()}`;
@@ -1396,7 +1427,7 @@ export default function App() {
           <div className="flex items-start justify-between gap-2">
             <div className="space-y-1 min-w-0">
               <div className="text-xs text-emerald-400 font-mono tabular-nums font-medium">
-                특가 감지 · 평균 대비 -{toastAlert.dropPercent}%
+                특가 감지 · 평소 대비 -{toastAlert.dropPercent}%
               </div>
               <div className="text-sm font-semibold font-mono tabular-nums">
                 {toastAlert.originCode} → {toastAlert.destCode}{" "}
