@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T01:54:04.777Z",
+  "updatedAt": "2026-11-19T01:55:37.713Z",
   "routes": [
     {
       "id": "watch-icn-anywhere",
@@ -159,7 +159,7 @@
           "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hw1Wn68T-nKFqXLPG1rv08s4spSPjXMHTu5IARGw20LMdM0yVksEq7MTUe6-CaXWpH80N6Tk_UYCCpxE4M5p8JCem9cIp-EDpFACJJIy-DTx_PRomHibJDt0f41KUCoCHXjXbyZnuRtw1_gu4KG3vsHre16zw-0apGgQvNHCS7WGiYeP11rnXKdxujRONylzYKXt5BBu9DesVuE8imoOjT-8a19YMNlG7pQ10zzFhbG7i_y6i3qGbzRTzqHGQfijTj_Lntz-iDzuHAsc6ZTXcwucuVOXsOSv0WTRPOca_uca3xmTIGA7g7EOReJi6sFyzlupU2vpjE0W_mXAnO0wbYqMm9Py_lFfRVrvsz_JfwWUlUwBaI2uF8qlWCL24ir7ULJ27OLX0ZIWYiQnaVLSdYVPG_HlIXfuFNfSRM9OP6ijdHE2ajncWkvjPqmCVQbeupFdqGp5-yIKp35Tj6fdt5L-41o5v8kzc_RU9zGZL2vWsmsbW2nF0uQRZ_b4HeUOFjvh-T7nGHeKUonazxfe6Mlf8syFmCuMYrgS71x_5u75RwePe6R1-wNs4JnTN30bGSv429fDKIwhSLKK5Ixy1M3lcHvro8CbXRGUrbKX1ATuTTVwKf-8uevsyuw5rD82u4EE3m5agl70SOefqekPD31pjmYIHEZX_6xGW0v22_J8sU7NKLlNq8EntI03y5Vq3okbNqoO_hYeCSFCBzmAhPibpWL2-2ef631f4504zOkqRtR23I57dKGv-c5SAKh3x6gEop92mUhZmmsT6gaHDRdtzdKm-eBWahvry9A8nG70Kah3CX5cha_cnKkAFZqMycKwMF_VmpKxU7M7TOe_-vs4ETDUVkOgusjPLyWh9x-lVVfflhW4wRiMgS8CkpDXJgkwnvc6TCzjs4fs6lL5gmvfmtJEv5dFgcSpD98rbAbfgnBCqO-fO6tXkWlVLCWhq3_a4KP6oCXJehi77dDtC1xttEgi0Y0h4xZt6iy1WOoE_ccyLzZCJNCu7cTwQLD2Q3bO5tNs1u4eY96vxdfBzn9NP7SbI3AnCHpkChfFkaYRMyYg_lOT29RyxKZ1pqW2cDEXAhwBuZr3-cIg2aBVDCP0ZDEqv3eEE-NAluBZwpCS2siuvmjlfeMa07ToRCtgvp6WIyzB-AwybDDk3sb6wCYace0SH5s0DB43wr-at8Py-JsOa6zuLo_zqWQM0te5dpkhntKaskxJwKhHn86p1lA%3D%3D&searchType=return&searchBags=0.0"
         }
       ],
-      "lastCheckedAt": "2026-11-19T01:54:03.768Z",
+      "lastCheckedAt": "2026-11-19T01:55:36.943Z",
       "lastAlertedPrice": 120800,
       "sources": [
         {
@@ -178,6 +178,15 @@
       "history": [
         {
           "timestamp": "2026-11-19T01:54:03.768Z",
+          "price": 120800,
+          "depDate": "2026-12-06",
+          "retDate": "2026-12-10",
+          "airline": "이스타항공 · 에어프레미아",
+          "destCode": "YNT",
+          "destCity": "옌타이"
+        },
+        {
+          "timestamp": "2026-11-19T01:55:36.943Z",
           "price": 120800,
           "depDate": "2026-12-06",
           "retDate": "2026-12-10",
@@ -210,7 +219,7 @@
       "bestRetDate": "2026-12-10",
       "airline": "이스타항공 · 에어서울",
       "duration": "1시간 20분",
-      "lastCheckedAt": "2026-11-19T01:54:04.777Z",
+      "lastCheckedAt": "2026-11-19T01:55:37.713Z",
       "lastAlertedPrice": null,
       "sources": [
         {
@@ -229,6 +238,13 @@
       "history": [
         {
           "timestamp": "2026-11-19T01:54:04.777Z",
+          "price": 262600,
+          "depDate": "2026-12-08",
+          "retDate": "2026-12-10",
+          "airline": "이스타항공 · 에어서울"
+        },
+        {
+          "timestamp": "2026-11-19T01:55:37.713Z",
           "price": 262600,
           "depDate": "2026-12-08",
           "retDate": "2026-12-10",
