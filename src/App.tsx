@@ -39,6 +39,21 @@ import {
   requestBrowserNotificationPermission,
   sendBrowserDealNotification,
 } from "./utils/format";
+import {
+  STORAGE_GITHUB_REPO_KEY,
+  STORAGE_GITHUB_TOKEN_KEY,
+  STORAGE_LAST_PUSHED_KEY,
+  buildWatchConfig,
+  detectRepo,
+  pushWatchConfig,
+} from "./utils/githubSync";
+
+export type GithubSyncStatus =
+  | { state: "off" }
+  | { state: "pending" }
+  | { state: "saving" }
+  | { state: "saved"; at: string }
+  | { state: "error"; message: string };
 
 const STORAGE_ROUTES_KEY = "farewatch_routes_v1";
 const STORAGE_ALERTS_KEY = "farewatch_alerts_v1";
@@ -150,6 +165,23 @@ export default function App() {
       return "";
     }
   });
+  const [githubToken, setGithubToken] = useState<string>(() => {
+    try {
+      return localStorage.getItem(STORAGE_GITHUB_TOKEN_KEY) || "";
+    } catch {
+      return "";
+    }
+  });
+  const [githubRepo, setGithubRepo] = useState<string>(() => {
+    try {
+      return localStorage.getItem(STORAGE_GITHUB_REPO_KEY) || detectRepo();
+    } catch {
+      return detectRepo();
+    }
+  });
+  const [githubSyncStatus, setGithubSyncStatus] = useState<GithubSyncStatus>(
+    { state: "off" }
+  );
   const [lastGithubSyncAt, setLastGithubSyncAt] = useState<string | null>(null);
   const [checkingIds, setCheckingIds] = useState<Record<string, boolean>>({});
   const [notifPermission, setNotifPermission] = useState(() =>
@@ -205,6 +237,72 @@ export default function App() {
       // Ignore
     }
   }, [ntfyTopic]);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_GITHUB_TOKEN_KEY, githubToken.trim());
+      localStorage.setItem(STORAGE_GITHUB_REPO_KEY, githubRepo.trim());
+    } catch {
+      // Ignore
+    }
+  }, [githubToken, githubRepo]);
+
+  // 브라우저에서 바꾼 감시 노선 → GitHub watch-config.json 자동 반영
+  const watchConfigJson = useMemo(() => buildWatchConfig(routes), [routes]);
+  const watchConfigRef = useRef(watchConfigJson);
+  watchConfigRef.current = watchConfigJson;
+  // 앱을 연 순간의 설정은 '이미 반영됨'으로 본다.
+  // (다른 기기에서 열기만 해도 저장소 설정을 덮어쓰지 않도록)
+  const lastPushedRef = useRef<string>(
+    (() => {
+      try {
+        return localStorage.getItem(STORAGE_LAST_PUSHED_KEY) ?? watchConfigJson;
+      } catch {
+        return watchConfigJson;
+      }
+    })()
+  );
+
+  const pushConfigNow = useCallback(async (): Promise<boolean> => {
+    const token = githubToken.trim();
+    const repo = githubRepo.trim();
+    if (!token || !repo) {
+      setGithubSyncStatus({ state: "off" });
+      return false;
+    }
+    const content = watchConfigRef.current;
+    setGithubSyncStatus({ state: "saving" });
+    try {
+      await pushWatchConfig(token, repo, content);
+      lastPushedRef.current = content;
+      try {
+        localStorage.setItem(STORAGE_LAST_PUSHED_KEY, content);
+      } catch {
+        // Ignore
+      }
+      setGithubSyncStatus({ state: "saved", at: new Date().toISOString() });
+      return true;
+    } catch (err: unknown) {
+      setGithubSyncStatus({
+        state: "error",
+        message: err instanceof Error ? err.message : "GitHub 반영 실패",
+      });
+      return false;
+    }
+  }, [githubToken, githubRepo]);
+
+  useEffect(() => {
+    if (!githubToken.trim() || !githubRepo.trim()) {
+      setGithubSyncStatus({ state: "off" });
+      return;
+    }
+    if (watchConfigJson === lastPushedRef.current) return;
+    setGithubSyncStatus({ state: "pending" });
+    const timer = window.setTimeout(() => {
+      void pushConfigNow();
+    }, 2500);
+    return () => window.clearTimeout(timer);
+  }, [watchConfigJson, githubToken, githubRepo, pushConfigNow]);
 
   const syncFromGithubState = useCallback(async (): Promise<boolean> => {
     try {
@@ -970,6 +1068,16 @@ export default function App() {
                     }`}
                   />
                   <span>ntfy</span>
+                  {githubSyncStatus.state === "error" && (
+                    <span
+                      className="w-1.5 h-1.5 rounded-full bg-red-500"
+                      aria-label="GitHub 반영 실패"
+                    />
+                  )}
+                  {(githubSyncStatus.state === "pending" ||
+                    githubSyncStatus.state === "saving") && (
+                    <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
+                  )}
                 </button>
 
                 <button
@@ -1262,6 +1370,12 @@ export default function App() {
         routes={routes}
         lastGithubSyncAt={lastGithubSyncAt}
         onSyncFromGithubState={syncFromGithubState}
+        githubToken={githubToken}
+        onChangeGithubToken={setGithubToken}
+        githubRepo={githubRepo}
+        onChangeGithubRepo={setGithubRepo}
+        githubSyncStatus={githubSyncStatus}
+        onPushConfigNow={pushConfigNow}
       />
 
       {/* Minimal Live Deal Toast */}

@@ -50,6 +50,8 @@ jobs:
           if ! git diff --quiet public/watch-state.json; then
             git add public/watch-state.json
             git commit -m "chore: update watch-state.json [skip ci]"
+            # 감시 도중 브라우저에서 watch-config.json을 바꿨을 수 있으니 먼저 받아온다
+            git pull --rebase origin main
             git push
           fi
 

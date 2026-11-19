@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Check, Copy, Download, RefreshCw, Send, X } from "lucide-react";
+import { Check, Copy, Download, RefreshCw, Send, UploadCloud, X } from "lucide-react";
+import type { GithubSyncStatus } from "../App";
 import type { WatchRoute } from "../types";
 
 interface NtfyModalProps {
@@ -10,6 +11,33 @@ interface NtfyModalProps {
   routes: WatchRoute[];
   lastGithubSyncAt: string | null;
   onSyncFromGithubState: () => Promise<boolean>;
+  githubToken: string;
+  onChangeGithubToken: (token: string) => void;
+  githubRepo: string;
+  onChangeGithubRepo: (repo: string) => void;
+  githubSyncStatus: GithubSyncStatus;
+  onPushConfigNow: () => Promise<boolean>;
+}
+
+function describeSync(status: GithubSyncStatus): {
+  text: string;
+  tone: "muted" | "ok" | "err";
+} {
+  switch (status.state) {
+    case "off":
+      return { text: "토큰을 넣으면 노선을 바꿀 때마다 자동 반영됩니다.", tone: "muted" };
+    case "pending":
+      return { text: "변경 감지 · 곧 반영합니다…", tone: "muted" };
+    case "saving":
+      return { text: "GitHub에 반영하는 중…", tone: "muted" };
+    case "saved":
+      return {
+        text: `감시 노선 반영 완료 · ${new Date(status.at).toLocaleTimeString("ko-KR")}`,
+        tone: "ok",
+      };
+    case "error":
+      return { text: `반영 실패: ${status.message}`, tone: "err" };
+  }
 }
 
 export function NtfyModal({
@@ -20,6 +48,12 @@ export function NtfyModal({
   routes,
   lastGithubSyncAt,
   onSyncFromGithubState,
+  githubToken,
+  onChangeGithubToken,
+  githubRepo,
+  onChangeGithubRepo,
+  githubSyncStatus,
+  onPushConfigNow,
 }: NtfyModalProps) {
   const [testing, setTesting] = useState(false);
   const [syncing, setSyncing] = useState(false);
@@ -201,6 +235,66 @@ export function NtfyModal({
             </div>
             <div className="text-[11px] font-mono text-neutral-400 truncate">
               https://ntfy.sh/{cleanTopic || "..."}
+            </div>
+          </div>
+
+          {/* Auto-sync routes to GitHub */}
+          <div className="pt-4 border-t border-neutral-200 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-medium text-neutral-700">
+                감시 노선 자동 반영 (GitHub)
+              </span>
+              <span className="text-[11px] font-mono tabular-nums text-neutral-400">
+                {routes.length}개 노선
+              </span>
+            </div>
+            <input
+              type="password"
+              value={githubToken}
+              onChange={(e) => onChangeGithubToken(e.target.value)}
+              placeholder="GitHub 토큰 (github_pat_...)"
+              autoComplete="off"
+              className="w-full h-9 px-2.5 text-xs font-mono border border-neutral-200 rounded-md focus:outline-none focus:border-neutral-900"
+            />
+            <div className="flex items-center gap-2">
+              <input
+                type="text"
+                value={githubRepo}
+                onChange={(e) => onChangeGithubRepo(e.target.value)}
+                placeholder="owner/repo"
+                className="flex-1 h-8 px-2.5 text-[11px] font-mono text-neutral-600 border border-neutral-200 rounded-md focus:outline-none focus:border-neutral-900"
+              />
+              <button
+                type="button"
+                disabled={
+                  !githubToken.trim() || githubSyncStatus.state === "saving"
+                }
+                onClick={() => void onPushConfigNow()}
+                className="h-8 px-2.5 flex items-center gap-1.5 text-xs font-medium bg-neutral-900 text-white hover:bg-neutral-800 disabled:opacity-40 rounded-md whitespace-nowrap shrink-0 cursor-pointer"
+              >
+                <UploadCloud className="w-3.5 h-3.5" />
+                <span>지금 반영</span>
+              </button>
+            </div>
+            {(() => {
+              const d = describeSync(githubSyncStatus);
+              return (
+                <div
+                  className={`text-[11px] ${
+                    d.tone === "ok"
+                      ? "text-emerald-600"
+                      : d.tone === "err"
+                        ? "text-red-600"
+                        : "text-neutral-500"
+                  }`}
+                >
+                  {d.text}
+                </div>
+              );
+            })()}
+            <div className="text-[11px] text-neutral-400 leading-relaxed">
+              토큰은 이 브라우저에만 저장됩니다. 노선 추가·수정·삭제·일시정지가
+              저장소의 watch-config.json에 커밋되고, 다음 15분 감시부터 적용됩니다.
             </div>
           </div>
 
