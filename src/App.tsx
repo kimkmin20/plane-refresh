@@ -365,14 +365,8 @@ export default function App() {
               };
             });
 
-        if (!hasOnlySeed) {
-          const existingIds = new Set(merged.map((r) => r.id));
-          for (const incoming of snapshot.routes!) {
-            if (!existingIds.has(incoming.id)) {
-              merged.push(incoming);
-            }
-          }
-        }
+        // 이 브라우저에서 지운 노선은 감시 결과에 남아 있어도 다시 넣지 않는다.
+        // (노선 목록은 브라우저가 기준. 처음 여는 브라우저만 감시 결과로 채움)
         return merged;
       });
 

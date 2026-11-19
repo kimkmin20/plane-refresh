@@ -66,6 +66,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # 방금 감시가 저장한 watch-state.json이 들어간 최신 main으로 사이트를 만든다
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
