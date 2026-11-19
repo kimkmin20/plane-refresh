@@ -1,5 +1,23 @@
 {
   "ntfyServer": "https://ntfy.sh",
   "ntfyTopic": "",
-  "routes": []
+  "routes": [
+    {
+      "id": "route-1795053601481",
+      "originCode": "CJJ",
+      "originCity": "청주",
+      "destCode": "ANYWHERE",
+      "destCity": "해외 어디든지",
+      "periodMode": "flexible",
+      "startDate": "2027-01-15",
+      "endDate": "2027-01-31",
+      "stayNights": 2,
+      "stayNightsMax": 4,
+      "directOnly": true,
+      "dropThresholdPercent": 15,
+      "targetPrice": null,
+      "checkIntervalMinutes": 15,
+      "isActive": true
+    }
+  ]
 }
