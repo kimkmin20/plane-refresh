@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T20:46:45.806Z",
+  "updatedAt": "2026-11-21T01:58:46.419Z",
   "routes": [
     {
       "id": "route-1795053626737",
@@ -18,10 +18,10 @@
       "checkIntervalMinutes": 15,
       "isActive": true,
       "baselinePrice": 254400,
-      "currentPrice": 165900,
+      "currentPrice": 224800,
       "bestDepDate": "2027-01-19",
       "bestRetDate": "2027-01-21",
-      "airline": "이스타항공 · 에어부산",
+      "airline": "이스타항공 · 제주항공",
       "duration": "1시간 30분",
       "discoveredDestCode": "KMJ",
       "discoveredDestCity": "구마모토",
@@ -30,49 +30,49 @@
           "destCode": "KMJ",
           "destCity": "구마모토",
           "destCountry": "일본",
-          "price": 165900,
+          "price": 224800,
           "depDate": "2027-01-19",
           "retDate": "2027-01-21",
-          "airline": "이스타항공 · 에어부산",
+          "airline": "이스타항공 · 제주항공",
           "isDirect": true,
           "duration": "1시간 30분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HpN2i-v_zBBWxDNjn1xmKmbi_utBhz5kwmRHBCVri2fb-00M_uaxLf59GUnoINd4lWyurGElGtVv76m3cpMmeE_tgTkqU17cxATGhEb1ZG0uftUnQAC-n6fp4VoETbIqb8xU7Ji5KPJ8ySVyLJYr3MrgJrKFNJ5MsGLTkCZHx6CycR7NKVdFYduASpqZJ7tc0IHgLi_cCaSVRB2Oq2TIrBIZcwIrPwKQXtJtN8qZhSc3bGwe9TsYlV0xUr-lnRGDjJhFc_KGSxB_HDWMYTv23ptvDg2cvaW4Qpoqm197bh5JQDnkKfc0HO8JUxQ-YzTIBfOP-1OF_ssCeqgXdqYEH92IJqKA8xe226IhD8mBk2xCoOytSG9dMFGBJHfB9qXyMeMAo-9okdYrjtJctdxMuPcpzGcLYFbONOdvoaPlNOKXWwaV7CmegKX4PiDYkStckr8UxraZJ4hk1UYiCkWI-mnryH-XfS6wWbR1DSWtWWlxn2nmDShmvWFYObq3pm4PrDGXvum2Pr1sOmTynJXtYhmgCyCA8cCjHiOtKjYhzuP7QnuzyIA078s0Mg3G69K2RfXiB-AwM9bq9yQZtl02A_LfHJDz0F-POrCTkW5kXSFiqwkic1_K6ItivyrLJ9RTIwcu6p2Qr_Lr2c_h5wtQyiE1L1scvTl-BQavA_cKinQsb_UfnkYwgI96aY1mdqoZn7AZyzTwQW6C8Ijou2aa_lnh1ypF5p6o4ZjZRadL8RbqiNHZkYRSXJw6qVUamR7-N8YK6Y1YxEhteBWHfO3Elmb3a2ijo0fLDq93MacBMYTTxp3Cx0NMPsLhX2bZ16UKcV6RVhhn2ZxfyBm1BukAqmnWzZNXd4t-0FAA986ibGU2kaeVP-4KEvEK7nzE-yQSdkgRMjgaykpJA23VE14yATgp9dqnSR1pgBrj6Y3IB3Crw4ueDLpZQPbFacnpbWYTE-DWEW7YTuIhXL6GAsYhNRuHmxZssfOeJqY6PUtZT_cRnq-Ew_ci8KiZ3L7saia9SBsMzvKm0o3TQZCOMHd7hD1gc67o6-DZLqoCkc-R5g-Jtc4bXwSC_AoVGPEXcl7lgmc9NSAQvc3ZLGHHno63fgKEYsweypJScFzGNk4rJcRjW3wvTkTsfAfRBJatB_KgpcJSl7wtcLeSYAVAszP8DP-HmticpbS8x0hHZFZviUQ0koOUY7Ms_ZuXNvsM_-SHVV4ungfZPyIkSnH1SqvMzzg%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H6pE2Gx4A1GfsCKbswozL7s_cEn2OitP50lf11KUyQEsyVvbxJ7K_0p-BB3kkSS7zEBqBF-raxNBwIBWYTlHjRH8JSfAMO35MXm0zPbE0EIqklxr3819hlOZ2Fs7DNF6BQD7o0cl1NPjaXjhDdEae1SL-MK2X6zQVQlwmUB541z2ZZY68TW2nzUvyaC4fq9ROdDeODpH86KrakgJN05co2l8e5Bb3tTCtkcWAbN9QsO1KvT8a1Rvh2azmlQlPdtRreA-98ZpOTJmfuurwWg__4cXLuu0Y5l8X3ZEbXs5lGvu7n1V3UdRnUCQU6FzmoTY0zSOZTrWZ8wmZOc7wws6GvpAu3DUfRaoqPntoS8nuMr7kzwE4hZ5UjIOB3InU6HfKRF64orQWiC7kfa2vTN-wHZKKfdX1c4dxSFQdf07wM7x8gtfFSLju2QIV7VtHf3JVw1HzP9pt_s0m6jG1HUxC2QMpD9fgw6lK2xpKH-r2p7Tvuouh6snA12xoW4qm8XwfAxtDJyl_OmvXN_62ENloQgtwntMFBeb0BPmB6JIo29c43OtJbszT783e5rZeAA2CFVohtskXKkLStjsAlHzPagudvLNg6_0tipt1knOhT8s8anVWWuwQIphPzcBda4oJsyt7jCvYyrZf9FMnOztWaI0DUlMeMQTyjcuYGtbg3tbjDl5GsUnEK1ysXbe4pftU23cv7cwRJ_tiJiozUXajEjH8wpjCBbXcrrHiOGf6zvB_7lvgATu3ZNN5tR7_q8X9zyBuPG8wYRvXYFHfRkfV75GaTK3yLKkQzQR2jW28cL2S2uQXA8aLO4pqHYxfE82lspQE4OYn-Yp3yTPSpWqQxxybbuQ0YdOhj_6IJOh1LCspgmezUG7DNwxUaQnvzUd7TEHHCOvXcnq6W3X9mtF4qDIvmqEjGfz-nYQVUh_hWXIpBQwrV3pCMurZwtgi8rTvn2PfXuManIE0-pbu5gZ4WMfm5yp27uqPZagQyGltHy5dTkbBKvcStHCbi692lhVSalfS9izQw_6jxYzZf_oBUICbqk9w8WZ_bzdHdUvUsvN3GST6XNvNhv7Hswcj3AzcnK5VvbMQIOYQtCZhCiN-jeSwuhR8LWcADSiEqAOZty9j9trNlscW6Qz8dR5RyJP4orpgswExTrGyRhZB34_4evezQWKAysGv3N9pjroD0IT6MemrDBmE5fQjF8MPby1EcrMZ10jn6YrjNDK7LiXkxg%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "TPE",
           "destCity": "타이베이",
           "destCountry": "대만",
-          "price": 176700,
+          "price": 235700,
           "depDate": "2027-01-17",
-          "retDate": "2027-01-21",
-          "airline": "타이거에어 타이완 · 에어부산",
+          "retDate": "2027-01-19",
+          "airline": "타이거에어 타이완 · 제주항공",
           "isDirect": true,
           "duration": "2시간 40분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H4WG0f1FL3k8LeaZctSmUG9EqLPHK6WKxf-d66CqyGk9v801eYUaBOcrfvCKcE_-e7zq9fX9g2ZtXDKqzzmZeK02MRYBR6pESS5C62BITwFC1KOu3LoQvKy0q_5N3XnlP9nXjXyO9FJkcVb1hHLYoJZLQnpuOsgipD6-LWpwYmeVCx6ZMEh4usgpaHwiKz0XfwlRHPE-Nffc38oB3Xgea20olUbgLcFr3MuDdR0HXLxS0U-9-VK3Fbh9MZyFtRP49DTFJKmqKrrbsSmIsTv0lDKbjFt-C_9rzzCm6nSir8t7eJ1j6xAGooz2ePVoZKXtgivMy9yPag9iu1WRPsy-YKK0hyMdjYFH19hrwEdvuK8tmpk4l9-kiqzXK38Bi1-r3tuxTQg3NFzCjtqSRNp7wQCzID1rKfrA4Rzka8kHPfzc1I6B5iuDrYp_kYISNmYjAHvCwXyqUJqh0y4u8jogWC-Vcv4HJWCYiWWJPITfeYyTsVWQquSNMASdCzU4bE-YOLhaj6cp103EZ2N4Ou8FOfUJF-TsMH-Uyz_758SddS-YRb4O9s32uR55wsK2m50WE0WgpBajEJ3lrWKlwlwDW69-yJQJUOM174_7DcVM0cYiVzhoYjAZz69DtSIlB-W_GLFD7vl6WD4_PMab7YagqYR-Bhu9_go7Uc8Asb6aTOKSvz2p3UZp9QiGyxyyT-pAE30gYKlWvymr-8zQi6ON7iKIfNe3u8Z5_C_HqeDPJ5fJMrjk-ub26PvNZmFJFHvuGDOZsmezkZJ4RG1j9WvCcT9rBc1HyqXYqhltGSR2IxZjx-yfGZh3GJ2siCOyg7BW2_CAD-AcXy7nH1nyGuzpOo56GSyG-dXF2DfDrU4JYAd2xFXYXlBzGUP7OMOVXwX1vVrtNz9mWDWVdaQUzHmrLdtWmGLi2CjAbZBve1KJLjDB3ftSrAz5XDZayy0K0TiXj1_MRr2Nt2_ZX9rE5A5jDf3al0zS1IywTxGuHTBPFN2KzkkncmuF-ZpAfoYkk_lNcZ89Jbrj1fvCeCZEB4WHCG54GVtOOEKDJVy8rEwr3f4rc76vM8oaTg-lFj2sUHYOUcQ9H6JkhmX8Sf00aMj-8l407wDdGW9E6jvAnXP7n95gJx9bpiRwDRYY4Xpjxb9TOeOr1bnp5sYVoROAQEMHf1dHTvfsF0u6VAyxum-_fuM_WPvvJKpAww16ssYVTLxSoYeGLWj3xS5igNZ2E1RzGEA%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HZxOFADH6sZRR292oyI-yBRTi8v6vW72DMZiiqzRRXBEa_OyTadx4bKlPysiZP0mP1LVazPtBtVPkiFQxLojebNrlWhjPVA33Is625mhxhAx4bQDeQ3Xqd50nRGQvLSLgujfSVu_VPdsXENAv3vZWP8VfltDMXDnWdHgdff7pm0tqm46Pcpsqia0UU5eIb2EKerprPmfmnVxTAlwamKxwNVj7B-0yeSkU5O-BR2YUvndctPCx0t6rdBoBjNU0jUO95O6HNbqI9qhg5pvQsvceyJ6w2cSdIxgX4VPbVWztVQwCN3F7baj1fEIAGZTdeUADiDW0iN1UReFJV7OlrOsv-56J5TEDK0SasVlh7eYir8F70HsoEIe_YEqGybTvDcpunFhkkqNQtugf9k2Xj0Qp3fV7JbetjCSQYrt6sZD_9GWjK5sA3bU80WaKiPlf6PP_4sml-6By-8QQlDLOqoKJLUcCADTJqZYvUOPDenz9ltnVc7HfrkTLIJYufILO3rGr-aZ4SpjlIVexlP4gWrDhiVa-v9dLCLW9mw7SmDhcyjG0xBDn0OLgjoF_tfBSg-365QuFTeFrODHhhlrOnGGeQftvvDFiaQayyXV1fidf7BRactKDuZkaSC4apISeoZtCo6Ng1ncA6lKyBo3f76xBErYu2UY48uiKfpUq_UMcWnt7faPlOXEPlDXxnMGnW9jAwbJ3Y6QJwJPszZlc2r0IqloYDGpvkxcUgCOJEyEIlxCczxssmmACrkWHfhvbLGWklnscW28dNDkfIW_QsOsdbAS-Ev777CLLBBmLkhsWkp2LfV3k8Zx9dm4PWi0LCF_WxRbjykgMvRK8ushbEg65Oy1rB1nE1T3XB71fmTkcyKFKd91tJYAYFvB_jXcDwKi8WqBJj8HWwLmzB3xErb0n7pMqVnRkwOmkihq6f1pbRKM1BZ_O-fJUrcIgIUGY0RDkVPr7ePlxIK1FI0sU-NEfv89ysWMAXfCocVh365Vw1kHix2kcNZh0fkdeNufTy7-OG2nLZgr_br27f75CrtuTgm-RZU7sah8j4qe9-6HCatspoFkJ0-lMVdAMPl3dnqP3LcoVNMyQVogDEme8scCSZd8Scx3VLd9Z-J-UMAIFBnFJxSaJFGkJuGf5pWbrZ8pYt82XwAn1AXCJsSYhigS215hQli8DYEtzHNAX_PHXQQ2V2T7BmNU8-MnA7vmPyHmXVHte_iVzTyyFPj6KYab3Ex5bJrff9VgipTUT0F46vvY%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "FUK",
           "destCity": "후쿠오카",
           "destCountry": "일본",
-          "price": 179500,
+          "price": 238400,
           "depDate": "2027-01-19",
-          "retDate": "2027-01-21",
+          "retDate": "2027-01-22",
           "airline": "티웨이항공 · 에어부산",
           "isDirect": true,
           "duration": "1시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H0OHl2Z7gWtwl7CTEEcKvmscYhwTHEPZP7_xku6AHesdjg7lFMLOnIr4WESorek0zhybwxgbDediI6rGeMRFHVUu3GSNs2HjZB2EhyQbOX72ndS02PkxD2xG6jX5r74zP3QMZiMmmZH4yENoB34wnRldjmT_kfb_tFoNuY5G9-5206hSEzNwe5DiLRPoRlbyXRfnmubWLNv-X4xP950BLiRsONMymM4JkaQj8EImzjzQsNkCrw_TWt1_xAuXrI6LSyhfr_LNZxgCtl3GPXoUQaCSlmlskZdmHUDSsxifZtDU5_nYunyo8NJBCPT4S0pQ6qJgoWNv6NARo0kqEOj_lgZbleZ3x5pj1mmp9HwQJHm5UiMn-jXR5zDsrowrOG45DMP3YZsxHTcUrB-3ODctZKPtwFb2B1UmrkeB4t8HBwiD4IsKAGZtXNGX1ncc8_66nQNUuhVIouiEEDO6i5xxZ0dQ9J_hkQA0_gwajMByYHqYElpXSiqMPjOLK7DFQTEDeD31qeW9uG2ZF1zSrZOArkfFjStmgiUtjoXgoireuG08DLdImUIL6Ff2movfEU1ZtdGJbKoPFZ4Ad51T8Pa1DqO3d9OgJebrj1PzcIZX1u8NJYqUXdMEpeFnm0QwGH5Unao6G3yUCXiiacA1FAculyROyu6OPTvYApczb-ElnZdg75FjfwPHhKCRCr4TpUbImnQxoP2ZOMlkn50L1mD1ZxtaUZWU4XugHNyW_Vn_sOSj9A8lylhSK5ZMwiD_F8NtfGT-p4GTrAvueqNSwFnvW6Vdt9O2ZbBE_9uYOCUIJC-SEtfMhR--iO3OT7c0cbSIBsDa0oGDz4N-IxoGyCP5HoVXGfSU1SjSRbzBFfcxaAbm9a8DyASkMIUeryLhUQIIGrFN7prH42xdaEnVnL_4LKXnvO8zhVv_wvtz5RK-tNaqgLFTTCSejHEA-286L4ZyxR7hg_7oxy3Jptf4oPgTInhdewGxcMgr-ox1v_-y3pN82i0wixObMhe65jr8IikpulJvzTv-b3_V1joA3FBk0-wFEzdFZmPzQmZLXL2XrD8MfK57Xcm9Mc0cIJE7n4WfWOvN0Ygu6NMyOqvFVPUhEweQhaHfGoT_i73uBPO-1SgSBQRycY9xzplNb3zQHq66CQ3hlsQSdnnZqpS4DBV0cTKODnHz68BhHl4nu5a89hg22hPArikX6Se5pV21AMi6348_b2CkeGSBYT740LiRNyw%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HuLBD3PA1qn01N636grineZJiMwRmlMjxCVAzrxx47vRP28_mds8QFaRfPHktZdU1g0koMwaYQi2SPBWIq8fd7_tmShPHUq-ovWNxVW2zk_V8wFGcukc5uZOnPD0aj_yTwuH7BwIL7q4AoYp0dfA6snmhZ8AhgDtetlxD5yJhXfcTJlWUs8X_qyNlSKtrUWV0zGw9kXoH192AFFd9K3yMJmFbGDG_7z7-zlsiv5ZIPx9KiNkAtySEj_6tb2tpwONLtcDdQnNDQMYyvVerMt1OO9L7hb3L6PolCKF9V-U1AM0XMCyqL3Xu_eFd3N4yPiV7g0PKsw62Q5C6W7GXDK4M7T3cR2oWGXj0uQQtJ62kkjkplFfyRxSaTvR3IluwYn-hUApPM8R6GQiOmpUYepXWbVwwEFpnG1Jx2WSaZvNUT4bb9vtnxvfdvJ5bacM0dy5RKH4A1kupfF84FUa_KItb0qXvPLykdXyFvxXzF2pbhGwu2_3UP3yI9inCMf_RtBZdfCCibwD5XOgorCyaHbJUlpv3eW2GkLRW6D4O986qGOhNzQbf7ekzAuiXWYm-7aQFUSC704Flfi3jsyoqdfPz_RqQAgSeql1g_0lTgvQeuBIZpVj2kucnOnZSsGj7Tmp2q-dWjhoOACKzqqiPJplrgGdDpBNqGsUhTE8E04BquXUCUq3nhH_JkYlL58j7J1nE1Kz3xHAp0hdqfV-z7pGXBm-hnYro7Rc9OZuwPGXWvEqyNa0FGYfukgdgGbIKhXR3UO_humI2kL0zzHsnZFFvflI-VHG0W7R6qxBIkckdJeMu8U_5TwKxPiUpM-t3aAegzrDL5epDXMDVsyvAY7h6HMBL5whe0rqhOSCvnX2UmXGKdTOvhRPGynfBPOZYyjg5olbEnsIYSzgbitjMskrTEHBzb-exZ8ZG_VIyoCltWYW9ki0q5RP0EQpCbbtkdAg6RUMS_VU9fD9gMVM8iXCMbs3Q2VicD_BGh9fDi-q4row5eFJqN_eR5y1HMrHW2OtYqQyooEY4FoSZ1XOCs78RnwYMqMyBHEYeQIjrgyCTNoZbBFO4O2OH3JxRgo7sdA9BQlGWcZyXYDYjM3yd28TAI9y-iRjJxij7qUDOAmD24Ls5rIxPH7lcWncvglbMT12yJ4BLNmsIl76Yv8bgO-jNp8JRb6Ch0mixM9Vd97FLCu3i9kHKzTxkIRsCGs4-stl-5WPnzCp6ADaVnQCYP08ESg%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CEB",
           "destCity": "세부",
           "destCountry": "필리핀",
-          "price": 284100,
+          "price": 283900,
           "depDate": "2027-01-25",
           "retDate": "2027-01-28",
           "airline": "진에어 · 비엣젯항공",
           "isDirect": true,
           "duration": "4시간 25분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HEWEgnGnmqUjU0rfGeK3UIlASCQGpPICo-eUb3mc39JmcDzITKQUnZNwofPICzBMTcZBiAWt0y7nnwefrBLs0QAPoxumioTJbx1WrBbd47_QiLY_ey96Ufn5GtNpUEZ9tCu69OVBSvI4eN-lYEfi9aox11nyNnNarWHC6prT2CfPbO2cRK4KWzGm0wbd7lalTs2xiUG-KgFDMlQwc67aF3EFPST3FAOovtXBje5OiW6Zonu6eDaUq9s2U4QurgLMoXTW15GKODwZno6gOoEjayv9NlamYPAkrD_PI2ysuFwRbI6h2JhEmJttzcizO-MMI6Bszd4S3iW53XF-OPhfMpCJjmL_ZfgCZJgGYbUmIVWNSMnF2jmvyg_9QYvgDjfVQLxj8OUrmE7TCNLx3RJn7XjXRP1Jb-Wfy84XwodQwoqgqL2nXEXMlqIHHNH09vR18CIjl6QgUyYrP2Fi6H2J_d_p9daninLfxW6rDWZODzEmiEqALNL2R1Vb8LQp_Z5D31kqAOrRsEgTixaw56nuzOA0qZaiHB2obDrSB0m77sCGgOgQ0Q7Ucquz5XMI44XMHmP4WoqeufnbPZ4Z_2pKw30r6gNzhzkalPvqDE4Eoha6PRlPrgySimMD8fVj0uc_3obhbaw7G5t-GMKxYkB_JR7F7alYztB9HQCRmuzD0zYEp5hvO8Q-JUWaW6GoAA4wlsD2k-4GC2Mfy09s0JohDtovPNTRWTXHy_olckeWSakZWTr4qjA4pcVql6-mREiUv1BGLbeACP2ROUPubAoB9_-YU1R7VwtEBd7HOC0XfYhysJpfF3JrtNOZ7oaRvO-bBrNYYKRh5F69q89FiRItT-yjhcyeiIyaNvZPDgA5VTkYPGm1REpHycN-bPniYomfEMbwCnnIbYAb1GdcQeOSmQIUhDt_JU4uqINKP6EYFp1uF-A-ysBM8PGakzYUmEar8Faef98BjcKEvfjBH7XwGwZcm_1Rh9hL91iDq2OXtGdE6cy7zKzArIPo4I9TH50kf5R4E0LlvFADmW1UbAg5rpHiFOU87TEpkIgF1pgAtnYAM72l3XOcFLLMQLmCOv0yBVROuleFsPW5-LRgrec8zyp_L8778uLqyRw4g3kowlUp8RFYMIWbPGLlkRy9NceBHb3rdyKF6jUSSWkY9Jag-CYYh3fxr9LIjHt1psX3yD5eN7NwmAW5y8aKINXAr1pZe&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HCRdgxFHBKpNsX3KY8ATwkvkLAzEfrKQ-HKtxesMym7egQLL8gEorTK1UppmihHAgmePahOCXv4GTcnEEGW29DA6sQK9mmJtoAv0gJoVfbcqVgXiNSZO8PKclh2JKu9sQARm8YIKVKwMNjN98R0nPrHYPQ0HLUwJ3BKGq90HGIhGmbz4mqVvfJuGR6Objj-fpx3VG9COEikCJzX2NBnqa4Y-bmLyHv_v47vH4e3Bx2cNsyCvvLiGs8Pijsy4xxZpIYk4Vn8_W77vyzOmVdypHZfgXeBbErOoXFKFY9ZIU9qZpooLVboCIytrcicsOY7wx2Vzgkh9Zh1x9vsP_qJkip1qCBoUCwPyIXAmPO42ijvzmy6l7VKnUmfp_5p-cbVF-YgoVki5SVlc2fPrKGUP09V_QFK6rYKJKmZu8czzxxX4ndx00bc7H2-vFxf6uDpqd4LTfwrxD1-6PXycXjxArB3BR5u7n3UQnvVTLEhdVrUSEOMzzo2MAd8KYvSTtV5xaFaGs90ztsC5YMXXlC0DrzJJ3F6BKEBbVjzjpdJVTGolTEWJyUJqJIZsr6_ssK37si7Aov3swy6Qy9klnvF0YCvRD5tVT3cDlR_nq09-B5BRXzmMCJbxLNwEpVl6V0w_pOO7Cezs-p5ZnzMn9ELjsgBCrWWzCPxch3ml7uIJQ6X6dNTmVDHygwQcbnl0vqj8K0ozIZZrjytENUsdYPLoyzFDF7c7Ij9GYPnOdLZ65iHpHzehwQwly2isxV8crHxyyXAptJFFtW8pVybyStWD-LP3v9Og4p2xNpYh6XB4_9L_6IF1FLHZvWY2fOPpWF3_LI0y1nOGwID8YAjPKlfsScmupAPc-CPIyaz6WM3J-v3nlDUK2ImqzUt3K1NSrkpVkimKJpLoKKdAg0IXaI7qV2zBc99f-JP9YAekD6YySHx-9HwIi1frRii_q8X3-wmkXOeZdtwjxVfdPo0p5idS1bhYdFqYzXJofC2rLzyiTkMuyp2yUvYY-tjqapdI9MIGNkgmdNzrBZ6HkloPNNKyPG6fh_-EloICdtkiWnqlAWREtFG7kEDb6ppDzCAOriil2N9S9GV267-5oTHClZ5bCsgJShuKUgU4_Fiq30wozGPI6WIm8DhY_m_80HTLLX847wp-krfr1JcijOd6ATbeiy6Rb1nSx-DDKvOp6iF0d5RkxkIbNcOjvCkAbWnE85QEq&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "MNL",
@@ -84,19 +84,19 @@
           "airline": "제주항공 · 진에어",
           "isDirect": true,
           "duration": "4시간 40분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HDdV4lIH4qgAesGLxjW7SSkZK7DthrhWDP0NbSqjkPqz9YpOQsIVdf53cN2F3mXDlRmLPl-RTVL7rtMyVjRIf3KEbRJ6f3EU_Zb8CndAkTkLKVMM8kwcEiDrxljbg7mHCKp_JQ7CQPKquh20FaNYHSDbPJC9DzKzdIwbhXCxZ0GUqA_Fqeg7sxsdikAXi3LqLqhT-NX2o1PIZq4ocNWGAyf2TIu6a0Kp1EsXRL6an7BRgrfbOT5bkVD9FzC_8cB3sM0yvX8ZCSmsgc2-k-mt5fZTcek5Dia1FnocW39wlcjxt7a8F5syOuRUQkeXjkt1uf8Y-zjp-ezKBN03NOj-hCIhETYZTAGhPvVbWkXKtuojG4L9m5IIkrAwMczC0llvSrD9ttBqz1m_E84vbwmN1xeKrTgSSRsca1owLqlG9Roj_qryE8sQUxw59wj74xgRJ1aUmfNpq2Vv-DWnkYzOVsTGQcpvh0YcETMJ43p1n7SxWRP3jzuQr5pW1JNRWF3USXYnCOJv9H8mZ0E-URrftCjMjP5Z1L4P9rBFGO1yFSAQur-DQaq64pKJNfI4DsxR1DDZV1tmd01BhxQepOXPuO0OrlvZXx1TnmnDVoHRGNhatS0cOuxwBGH55sDgyQ-l6x3tNkyys52jlByb4qyNKzlMO5KuU86YLvpXRL0xzU83qgOL2UF9uooeXl-QRsguOb9YPDcAJEZ7Dh1yDoxFu7RuT1HCRDB6qG-mWOBA28TBruI0TKP-Dzx0pURYw_9lkUMFf_ZQJf555MNBWPwF33IoEulha4m_e-GeM0P7Fzw5NfJrhg2yKjg2y5EFODmxzfo0YIds_jHGR7PxAmvGr-gycpEty2Y8QX-U51RWdIvy2HD0T7lH4iuT48Q0GBRTFJvVjS6KR1cPGQhFjToZYNWYz3VeVgSH9NdKyC4aP1xxT7xlixwiCIz7X3fA0w_iiY4xkSmyH53DdMhTQnXTVpouSWNa2hke01omOj_bRQ7Cpp81yOBXbO-kIPetqcjfWiquynK4hI2Uaala_UfsEOFE_4G4AcmRY90Mae3_muKRRE5Ahq-cOIlmD-rtDTpa_nsX76fLFE3ZgGKVeLUGmjam7k3n3jyU2ISXAZqP6GwO4FK2fsXGnpqcAljSWoPn2vSG-z7AZR-H1pb5dWRfPes0dutL0fLWeHGe31_FtILrZ0HEAAeYcwZEXSOR5ildg_IQy8ysQ56Dkul5ZTgs6ZhhlGc1eKnz1SR_SiUFjI4mE47Xm0bPexxjyrCrph28x&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HTPFjol7gO5fE1eRZIwIxs3frJtnTwTZ2iqm2CCnaiOUyuyQHDv5j5NtAYPzLOAD7ANyqfzs3geleM9C8s0MB1LefDU6GIH4VEnGUK21OpkTdpUslBsKkOoFdlH3Yt9H85zX5dn3ILFmwKhYyLsyz4ympnsYT5rkgqRZ_Gn93wS8oTL1gPbHhvWnlhWu430vVF9LHl15CZCXWA9JcRcTk2n8yPiDtq_aBVU-j8kIpCHfWFMl1SnkVsiOFC2tByM-PYqOqOw1zsxgE4ub8xQElePciaG1TvsSWZbBkrZTGtgG6rIiLBkkmPv_OJS4OD7YxyqlzqXUR1RhUeKYuJVA5cJBow8juczw_3qAmVtMIkGkger_Y4Q0onUz-jHEea68-oO7BG3oVWJYQsPEXeTOabW5Ac3OWEvhkA9UGGFE9y9mOXcakgq-JkyE6XeKFzxKh_Bcfi96g0kbupE2rqPnAbCgdf8HMxTcLzNGrKIxENqf-2H7auAMky284DZ6wNLDzC3pGdfAE02-2dW86FX8P9f3dfQuU-gqJz-gaMnDG7lJvHe4SVGKKffd0w0sYIp_8XMH0BDo4rdHSp1yVSWrtS8FsWIM9UOb2de4kY_Slj_2blIoFbvU0yCWr3JtXpWw-0h8SH2IfdOczXqLqDHg8tjpxH9pPmhIrCB72pKwltIAlc2te7BSfuY68mPrqJ-_hfTetPfsob3y3eVj8k4fK0W5UJDyyeSemUGIXiugiP3mEibtg2i3_UqVtjMd-sBG6IvCBFlsQOIbC_RVVMcV1aXwbecd5hlSMxPXQDr3qEIT1oGgXc2QNvWhxkL2Q_Y9weSvP6d3k_LOfp3Xy3H_FXeVYKN1519cwNnbyNZEFRvZrpDB0VhIeYrplXsKhmlizBiwZH5FEgfYkoXL2tprUaHFER8yo4_uJGclrexLTiXcLCo9mCa56EScYDPBgbvSj55e2gRZov2yqKuq2cqC0dyaffi2O3JbMnHTUPvG_QSExnZrJMcmSOWlA7gxLX_xKl1tVL6ZkPYXGhk-B6c2CJrz7NAxpEDiLDuyHV4rRAJ4P5VTv_ZwcmME6HZcxJWpzwSPF6hq8iz-4397wtViGBVaLZPZN-Auo-sCofrb8Sehb22t9Nkf7_5p9jW21T63-Tlttq98eTbCz7PzenpzfB-fH9MZnsqHgaz3xC74IcO7BTHYX27h9_VExPvKrUQhiDZFpojaCw5y-YRws6b_30dG1PwRLQ2UjfvBOQvDHlVpSsN6hf3jYhXYiYNZJqcfn&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CNX",
           "destCity": "치앙마이",
           "destCountry": "태국",
-          "price": 317000,
+          "price": 313300,
           "depDate": "2027-01-29",
           "retDate": "2027-02-02",
           "airline": "이스타항공 · 비엣젯항공",
           "isDirect": true,
           "duration": "5시간 45분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HiQQwPSLfp5BqTcDH3SXFnX6vfkwk7OgGUyJ1EaHwBi1sKcC-I7BHoHKTqr7ZPX0yKgkAlaIPVoHYKaM23KgaEF01kVlmVrL-mNIVyiBK7klR4iyARelp9NkhtNx5mDgQVYe7O01q0fDyY0GU8xdmCOD1S-FqYyOMaVB-Oj7c9K0ggAqrEr_4dM1CaCXOqswEsEQJt8QPIFEq06oIytOf9MIqaYsvqBdRC5cXCbHItPK4tr45bK4RztyEUk57nATYdG6MaBgFWGoVUFofr1lptPt6I307Vl6ZQdVf5RW8ZLjaMK_2j2w8x2tqP_XUDthHYrNe0Nmvcea_Tv-2a8Ln_SyBbUqnxqyv8yhntRgNfnJAZmY9UBxd6XK0SgWvI7JkAFpCrjU4WwDUMyiFz1SDtHlJOtdGxmOqcWyZECUyUb4P_v74ytYbqLOuW-BgUd0MbTZvYVmjZhjt74pYWViuQ2RU8m-uqvSnUVf0XD8kya-2zLuaayFfdvBx9RC3A4LH2ct_G5K-7wTf6bex5b05LUK9cHR_6_uawrieaJjPQmVK5YXs-pKC84znMrifpcZn1YAXbZNJuWFByz_Q59SC5lFr0I7P6SRqRTHdsAW1F1vq629Gs8cnUHVEkHybnE_o6_0JY-2CF6LwagnuxTSVYKgjSGLkBF5aEmzZopiVQXIQytG6e1vIS1t9ZSmDyrzi2hfIsttXaXJn-qyZ3XQPDvjlE3l6Mi9Ym_UXL86VU2ks_q6oWpJvnv6_r6cf2-KQiEag1uudRxfmgU7PpJ1-8gVTPBEqPCIu92jYfeybUSwcFC_kLputdavz_V42ycNXW68Rd2NuZVV4SmApy8o-14N46JDZ-0OKTyHTKG6QF8xtyby2hemRG2mn2v23_47UuG17V-JIkgmRb6vcLJ9Dnotrkd4bc_4EVUL0WYKaXw_wnnAcMvr1XZR9w2nbtAm7jIjMbw6F1HAeI-fJ1PInKH4IdXCTJbnTrrE66jv9XOcuDSfegeJf2TJIDLp8XKEjwSn1U3yb-Q0KrKdTwrf4TwJD4wQOlfmgt4C5BLhUFXUU0D5TAB43lqq7dYVPvgRpY8YtzEB-ylujYdD8W28BxyaQm7SL9YUam_fy74q2f40HmHvOM_7DW0G3G-KuuQC3jYiFZbaf5IiLBogIlD18Yn42hqOUbnSZq2k31Z95Erw90_wlhd9kCHOVcPiVmomMZbyuMwzmobS8-L5NTmzFA9b2UFNxdaL7-1uU2ZpHo2deIYi8mcgnZ6TzBcln9_Dh&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HlPaE8QqcLkaB14eKuXiR8icg1e3PvzgoDqKIHOnV56CGG_JJv1MPVTjjkWc5hlcxb5onVdNFhbGrINje16Hghldrzt5lXhiyz2ofOO1Nvf2zpy0eNJjEe0-hiBnXB9KGP5gjB6PKIJL3bfmP48NqDa4F9RoITnnvW17GzXmc42AHEy-xr0j8988Q-muvobl3mQzgag0kwZPG8Gw_3bSSmMs8LoFd5V9oAqCrjOk1LSuQXYr0t6jtUvr6iLXPxkbdtmrQDofkgxrdRO1adqmcYKacFDlpGYpzvm_fAOBdHc8CwIWXJposalJ_o2fgmDMYiHEMd53F4GdexuB935Nkmj0-kn6QPmA6LCm5RXuNa5N4n5NI1GVDUEeYXAV9a_0OKLMkf3vszfBktm3cARC53hqmIGVg8j5BWcZagW6OR4HuNH82Jfo3QSJF6bx08KRefOSa58hMdXZOrWZRcvvic3Oty_sCji9-jyxxxZrOO3r57i51tVrdo02DB3_WKbIfB9qxfUhH95Xl3YtVNE8ODgkC1lfaM9yyAUzk7XzltWZMb_2sHhy8F0ZwUNlxJ_aDrDqZL95xznpCI6zC0E9bkKUAQ98lEgFNQE3GNJ4afnzvfwsF0Z_0QwiMrLYVRkHovw68d2tir-SGzDHrIoAgOm58EKG8ob72yvav2AQFD4e6JlE5wFS0sF9BuB2nag6qh4e2NBxHMA7oMuLmaMAUgkAf2GKAZvfWyXZzStjdYe3AKvzi_XuB0eDdyVRoiqy3_GPTJKOD4rlYOkgMrowU7-yggE9Eo1r01EScB7mst_v2L9R7p4y-9PfnGqNOeHS5Tppz8cK_qOGus6c5Gm7PtNIVlwOSjRXgvm0lAch768LCtrADaHssfxtwx3Gbkkbzndd1_x4i2vLUhWUTuBWkyvskmBcbS4-eol1ursgYl4P8X06c5vVZFj8JpAO-PD9N8HFmtRY43h-M6Xg6vuv_vgA1f-7fHdpdOrmDmoQZBTYrDPaA0NOKU4fDzXVq4Yr0rtcGHcZP-xa8M9RfE03XqjHze-ROirjOB8F-RtIkQAAEBhH6qRmnStYb8W_7o4nVLsI3pCFG7H3dS7R50B9uuYvUhqe7pxEfsud8fxDfVeCgCtMD4Yy1SPzHvwl8vlHDEhjt3Rat5QVZ7iYKS2EB8hwTYIYAc1b_p24kiboWDLIppXQrcAzAUbfpgNOw3Zy-QUfRf1XDdnm3-Hu8OBf1rzV2Fra6XpILBbOjy2vMQus%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CXR",
@@ -108,7 +108,7 @@
           "airline": "에어부산",
           "isDirect": true,
           "duration": "5시간 10분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HIH4V1DIFAyuM6TOn8y-rngDQlS3zTfJenQLkhtnaPb4SzYQ7q9dcKCugvKy4IQBUtuw_OJru1WSgj3_Ou1i3aAz8VFezqsTnFeoG2m7tCfmdKkhQXjuemwyIejZeqZQTYVD7IdV_MQV5Blsu3OCmin-1regFfm4ebbbHgc_C6MrviwklCf9fOjSJkFzroUi14LS2iPiqRtc3TDckfBX13qwubtA5IWUofpklrIb6zKIXb6Qm14XFsotH9xh4FrClg4H2dpOs8NOr-C13OrDq2R6lStJd_EJObT9HjmcSK5fENyd8peOIEU1ma-M_PLOt7mR5A3YpguFuuuPiLNJ7xutAa3vrE6BeHDRDR6XWuweJbsV33CnGBd6K1ZS6xSBaHDFjdcyPDvHCgozH7dzPs_x7HAN4r8I5xKNh40BPFh7LFC5b5F5pmGusAQeeuM1DZ4JecuwajjXpytXBi4LnRjZwZQVNJnP1rA42pnEv1F6Ut1p-zXcKtt-xAude1tBKQ2asY8scTd2oWUAr6RmacAJ6no6bChZk17IviTWAIK13WjMNsitdaemW0kqqVqPC7XCjE-Qr66nwIZo-1sCllCTw9Ky0jrBJctw7HRb2aTSAmRrZgUzQ-1hCVFgib-Z_9whPQmJAWVf3PuloE90Pex3qzavDALgfkEfYJmdHbDvCJwzM1MgFlx5x5zyfhNW2M2MzKkO9jL9atzI8WTBumIFTLaFVTMSHuB6WuITdu2ico2trenJuPaKIASCIk7GP2XTxPAmbiM8w-4J4de8ANyIHPXJNdPWvKKLBQECcOQCJvA5hYKCr7XXVGHCrxlmFF5uzfLiKumSVLw6X2OfnBhzv6Dk49we_AgjTvMKqrUwBEhqqi5jOqcMjZdcV6iI4pUshKAd6CtrvcnHwD7fvCiadJqtmdpCf9OvkdUrSsnkLy4qwmsEeoeR9Q18J-gzmpyoZClBVzo1sNZBDJLpkHTia1w7yIjnQ24lRkb2u2Xai3SvxMRFs6jTZUR7HZRcmoe0qu32RuRc8CliK4khNfxjzX47pG3TB5tCXvxuJJOOAK-6gVLEUefFwxk6g4cfZ0KLClVvQSQHCSnhGNVJBgfuIzlh-BcEr-TVtj1V4BGygvEfvf9EhSOqEM4DR91IKslUYagfx6qgeZIhcjDl0c4H2WxSn6qAzQxPfkEc5yv0MWoAHRnJvKFXqR96Cser6D9yhedc3dZ3NL-OUZg1xwA%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HxZ2TEjuT1Llm__H185nzJMokURatM1SpFk9UfX6FYawDHFy9jqPOwqjcO02WfIDY3FckWtOzVaBLxL-sdbdKxz2uKJMV9NQ5d9aJevPONfM9-Hwt4921UxWB55c2iI66deMdU-tKzGofpPjQHGpC6IpbbFQ8DUP1mPhJb4gpXWReByrQt6110oK5OLbMzw7R77RXwL8KRhsRP7nv6QZaE0rjJ0dYIdPNKhkuMrw1MP8331u8Qk0F82X2GeVOeOXVthjW-Ft2ohyrw0pjTHPFzqz85A4x7DS4vsFmVQITMyLg-QpzqegXRIa6zVE7sDwt1DReD_zlm3hIUCb7IS0Vl4oAcq4XcrpeQe8vzZcJpIQBZX2r139PLIADb6pjoC4RUw1bjUzzQb1zcQIB-E4fPke8D8R_6rUEuP_lc9lLcWvVP6SPYupBykIz1MQs8gcKdZq08ZTaeejJhy0sxaNvK7_5cvjgtCTIQuD_frKt9V1UuxlaZtM3qDgkQcKxEy0kOLYNJtmvgcQNH0cp2j7mzDMs5a3NIvBCcyj-nrv08XeWbScxQWmyh82PZYKSfnSjLPBHorbVF1KwSm1N1kpON0psOBBNO4gxkUvaivDaxnhsioz-xvNJDzqayq7vVytnzIcE3la9FWTXVP6FT2hwL_kJmSdtZq1x8532RRGjxlPpbXG4AQu3i_GC1Fpc2hEzQfwoecCVLgH9PS_OaFQt2qG3oRIejcwEd7JKODa7YKMmh3EdhpknTxnEhovOt6YmMM0_VG99LUgkKpchxEig3hJBxmL6mJhrHDMLfXKu3Gh_ya8s6DDMGykuMgN3TicvGsOW-eAeqZdEzhkpXU90pO2CsuuqTGFIRmPTWyvIWzWMBLCN4LTHWbSszz2luLp0RPlNWqCSYpqIJnmLzwLse6wXNgvcljjYwziDG7vdNUSz3b1tBs_AyHd4tJ-vg7jkG4eyoIpPRWzUGCazBmrlg5fNPXy0aD68y8fW6G-ekymp0kHTNzcArHGhV8iIcfnS010bPThet20ArENOgCa4zAWcKeqAvVh9u729KK5Rt4yifiZdQVncxiQ9Sr0Sl7P0jrUZ2_kMN7MZTD7UIfsoKaHhwL4E0qWc99claVBSFydV3T3VuwF219iIuilFDZo2aJ5631kX5gydTMe0X3byXw30LONeWlAFHTy9lcUmxJlcf50l1U7pBOosg9DeJbHtXS6Z_NfiY1TouC-_CVj6hA%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "BKI",
@@ -120,10 +120,10 @@
           "airline": "에어부산",
           "isDirect": true,
           "duration": "5시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hz_mexef2JWePdjm6QQL5hzHgNViWOQ1YpqOB8qbmrGoYzHaGcgNn1SUPimIxVPEm_-1oLKijFdoTYC9Z43_KR5Jje02ZY_hhr0DMOdmLN0BayJqxftU-10TB8fHZ4YjYjBEgsXT8DqlKisErrYGqirxzFe78nWglIoDAH6mmnWPzA9Gi3QDzLB67fUXE1CKNaPASJ6dmp4abj0Kh7hIyUYxHdnuTgoJhgC2gLN7h9BvJv5pqEWFXJ9VOofxTeBIyzBYstvxc-n5tWxO0z4xmUN-D9KbSZwmQGU4AHGhX-aQ4HuOzbhXHvPnkR9DL0L1xWN_-zzVfBotHfFAzGpo8Ac1_mX7ESM-MZRmsmJNgr0Q15MpQZvTfSq9m1G8e4m77U9lTy2HoRIO0vCpRGNrr_sv5mvD_qKNPL3eZLXsDvLKDO475ehxFVW09qNeyBLoJh6WG866caSrl1K06ttWk8NScvXR-8YeiuvsTd9wL1qFphbz9CVnEohndPnXYVvyVALYf8zLypJPuYrToxOQdgfkZQ4hGFgYTQEaSGcA5yvl_OucZMazlpOhSZN7elFsccJoxo5eOUrwlXAjJFhPv8H544_urcmNmXbEJwCAIXdQn4BkFihHmOciCut7QkUF2CstYxFF3i7iQotEEmKgVy_PgqP-MHFhW6dpRHdqF7Q04WT6fHqsaHl65yI4rhXbaT-WYsAo4VdoFlFtG4HAaJJoWh3ojpHdjYW-BNvxq5RoFikBDaRx_orPFj_tZSGfkWLlSFCPYXNEWNQ72AJCvdrX9FRW-wBIN6FpuO8KozNuqHJU2WDHqrYoBM3i_px1utuosPfKmsSLqBIYc1kxbDXf1gHOPOgBloXt_ZJK4nRGHfbtlrNkWuULPPStt0Vwv0onbGVPaBz8nXGKyKTNGEoyaLQScx7ge3YWI48oFcgDCUDqu7SumZh6fRZkxZIDvYD32iQiOj81QDbMV8DH5a8FTRvGwVYekBoE4aMel8q-T7zw78n_ozmSEEI759C5gN9E-oPkzRgSlvzC6su4VQZHQ2mjKEPfQmkLvn2RLfGTXrnyYGJHl7PUSClgFUNhQCP87-PC99JQyoH7G_BEJWmeI3RIRD3z_LoCRqvTdzZaxWZZFxXt5yIHFQMGfhfwPnZzzoHFh8zOR2sbFGqzwmA_xQEcNcaCGY90lRwkDk4Y0pCYMCI8HT_5z8wKQoNbOPHVpKtouBYnaVcROqoGjt80svwlG_QZ-KzE3Kp_5SY5JgQ9rKXlwMgoycpPb1hQd&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H7J8r-um9S5la7ZHTOGkXBcRb4niee83UKV1SXtpAroFz8Sgjv-c-pU5cbbNrrdEhYUyU1z2jN_DfjSL-T7Ap16Ssl08YRd0vRv5dpcaBWWAAHVn4Cgy-4ToTzOWbDcwMjw2gwVWc4bQb9W98riJemp1gue1RtBcDwVpO0Vue2FqkkAYg09Ww4OwnpCk3urEGDCoaMyYjhxFRXCNIMEmvjDRoDaMzGMKyNu329fEr2cMzbr_nZgHpIHmMm0Qet-1pIg6G1CSieAH1_7r2cnwqrr1OFQy_wYp7sCC8LzkpzoYwVM07UF7mThZf82DLs5wZjTbGFZSxWq_mNu5h03vrqzrZ8mtLinVWrQLvTev-VFliEIOMocKvwOrQtkEZx8SXXBBjKraT3kNtUbp28BQc5CKXWqMs3tEFKG9pgJO-LcZe74tYUkfghORbF_QQE9tCd33ef1gfCrK-TtPfWwmQK19jDOosABGP52oHAXP1Nu77BwvVHdBMZb2_dc0DcOc4B6XpTPj2jsmMyGzXLg42XLb4XwFmeF3USVSZy3fJmBBE7Ovkh5yMf6S4THm5XW_4Zs0Vo5aR5oeJ6-5VOPDh-Vfzl9QYVqke0BeBvZlfVLiSSa0zWZ5ebbDR0TuRYln6nkj0Dhc1LvZMehOJdilJEgG1zEBMk_dXbYKSplno_wm0c7W7rO4nAb-3MnzOrAFiV8dFC39xvwrepcWZEPuQ5Fif68IyRvwSkZ_n-NkhN_4-VBgo83S63kuk5a_YzAZGPjhqWfYYK2-dauqDYQZiYxMKBvuEH9ye_ySNZZF1Uj7FNPKwwquU_ME2hV4uMlwp4L4qEZYgNcVFHEwlvUD41Ht9KDGHm0j0SKvHi_58NVAwGsD1uksgDcmDtQDaE0guGRI-UNbc8sP3khRgh0ukQTMm-rUdDN3fBL8ahGhCYYhZUDc_imcu3ipv1XqwKCAAAiZEIMgsSPqTP41DAKOqrfsCERMXo_hL8ADRo3woxyolu98vL25CqsRhTXMefBYX1TWB79VA0nXrObxd6rmPESP8SE2M0sjg7__30Goei0jpoU1AWrattB4w8GJ2XhavYv0U3KwIkEHBfCnFtslR2SPT7pE097X3BrWFJiAmXjwpFWVQBCgWodKXzqXnoUPmFLDdX8dFaEpQa3kGAeUuv-ymwfi5XulmS2_13r3cSVl0HtDk1BboLerdQOS2NoQNxkvqEwqsLHOi5RtCVZcfao-zv3ExVmkjNk1qweBWwD8%3D&searchType=return&searchBags=0.0"
         }
       ],
-      "lastCheckedAt": "2026-11-20T20:46:15.334Z",
+      "lastCheckedAt": "2026-11-21T01:58:44.808Z",
       "lastAlertedPrice": 165900,
       "lastAlertedByDest": {
         "KMJ": 165900,
@@ -1281,7 +1281,7 @@
       "sources": [
         {
           "title": "구마모토 최저가 예약 (실시간)",
-          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HpN2i-v_zBBWxDNjn1xmKmbi_utBhz5kwmRHBCVri2fb-00M_uaxLf59GUnoINd4lWyurGElGtVv76m3cpMmeE_tgTkqU17cxATGhEb1ZG0uftUnQAC-n6fp4VoETbIqb8xU7Ji5KPJ8ySVyLJYr3MrgJrKFNJ5MsGLTkCZHx6CycR7NKVdFYduASpqZJ7tc0IHgLi_cCaSVRB2Oq2TIrBIZcwIrPwKQXtJtN8qZhSc3bGwe9TsYlV0xUr-lnRGDjJhFc_KGSxB_HDWMYTv23ptvDg2cvaW4Qpoqm197bh5JQDnkKfc0HO8JUxQ-YzTIBfOP-1OF_ssCeqgXdqYEH92IJqKA8xe226IhD8mBk2xCoOytSG9dMFGBJHfB9qXyMeMAo-9okdYrjtJctdxMuPcpzGcLYFbONOdvoaPlNOKXWwaV7CmegKX4PiDYkStckr8UxraZJ4hk1UYiCkWI-mnryH-XfS6wWbR1DSWtWWlxn2nmDShmvWFYObq3pm4PrDGXvum2Pr1sOmTynJXtYhmgCyCA8cCjHiOtKjYhzuP7QnuzyIA078s0Mg3G69K2RfXiB-AwM9bq9yQZtl02A_LfHJDz0F-POrCTkW5kXSFiqwkic1_K6ItivyrLJ9RTIwcu6p2Qr_Lr2c_h5wtQyiE1L1scvTl-BQavA_cKinQsb_UfnkYwgI96aY1mdqoZn7AZyzTwQW6C8Ijou2aa_lnh1ypF5p6o4ZjZRadL8RbqiNHZkYRSXJw6qVUamR7-N8YK6Y1YxEhteBWHfO3Elmb3a2ijo0fLDq93MacBMYTTxp3Cx0NMPsLhX2bZ16UKcV6RVhhn2ZxfyBm1BukAqmnWzZNXd4t-0FAA986ibGU2kaeVP-4KEvEK7nzE-yQSdkgRMjgaykpJA23VE14yATgp9dqnSR1pgBrj6Y3IB3Crw4ueDLpZQPbFacnpbWYTE-DWEW7YTuIhXL6GAsYhNRuHmxZssfOeJqY6PUtZT_cRnq-Ew_ci8KiZ3L7saia9SBsMzvKm0o3TQZCOMHd7hD1gc67o6-DZLqoCkc-R5g-Jtc4bXwSC_AoVGPEXcl7lgmc9NSAQvc3ZLGHHno63fgKEYsweypJScFzGNk4rJcRjW3wvTkTsfAfRBJatB_KgpcJSl7wtcLeSYAVAszP8DP-HmticpbS8x0hHZFZviUQ0koOUY7Ms_ZuXNvsM_-SHVV4ungfZPyIkSnH1SqvMzzg%3D%3D&searchType=return&searchBags=0.0"
+          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H6pE2Gx4A1GfsCKbswozL7s_cEn2OitP50lf11KUyQEsyVvbxJ7K_0p-BB3kkSS7zEBqBF-raxNBwIBWYTlHjRH8JSfAMO35MXm0zPbE0EIqklxr3819hlOZ2Fs7DNF6BQD7o0cl1NPjaXjhDdEae1SL-MK2X6zQVQlwmUB541z2ZZY68TW2nzUvyaC4fq9ROdDeODpH86KrakgJN05co2l8e5Bb3tTCtkcWAbN9QsO1KvT8a1Rvh2azmlQlPdtRreA-98ZpOTJmfuurwWg__4cXLuu0Y5l8X3ZEbXs5lGvu7n1V3UdRnUCQU6FzmoTY0zSOZTrWZ8wmZOc7wws6GvpAu3DUfRaoqPntoS8nuMr7kzwE4hZ5UjIOB3InU6HfKRF64orQWiC7kfa2vTN-wHZKKfdX1c4dxSFQdf07wM7x8gtfFSLju2QIV7VtHf3JVw1HzP9pt_s0m6jG1HUxC2QMpD9fgw6lK2xpKH-r2p7Tvuouh6snA12xoW4qm8XwfAxtDJyl_OmvXN_62ENloQgtwntMFBeb0BPmB6JIo29c43OtJbszT783e5rZeAA2CFVohtskXKkLStjsAlHzPagudvLNg6_0tipt1knOhT8s8anVWWuwQIphPzcBda4oJsyt7jCvYyrZf9FMnOztWaI0DUlMeMQTyjcuYGtbg3tbjDl5GsUnEK1ysXbe4pftU23cv7cwRJ_tiJiozUXajEjH8wpjCBbXcrrHiOGf6zvB_7lvgATu3ZNN5tR7_q8X9zyBuPG8wYRvXYFHfRkfV75GaTK3yLKkQzQR2jW28cL2S2uQXA8aLO4pqHYxfE82lspQE4OYn-Yp3yTPSpWqQxxybbuQ0YdOhj_6IJOh1LCspgmezUG7DNwxUaQnvzUd7TEHHCOvXcnq6W3X9mtF4qDIvmqEjGfz-nYQVUh_hWXIpBQwrV3pCMurZwtgi8rTvn2PfXuManIE0-pbu5gZ4WMfm5yp27uqPZagQyGltHy5dTkbBKvcStHCbi692lhVSalfS9izQw_6jxYzZf_oBUICbqk9w8WZ_bzdHdUvUsvN3GST6XNvNhv7Hswcj3AzcnK5VvbMQIOYQtCZhCiN-jeSwuhR8LWcADSiEqAOZty9j9trNlscW6Qz8dR5RyJP4orpgswExTrGyRhZB34_4evezQWKAysGv3N9pjroD0IT6MemrDBmE5fQjF8MPby1EcrMZ10jn6YrjNDK7LiXkxg%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "title": "Skyscanner 어디든지 검색",
@@ -1355,6 +1355,15 @@
           "airline": "이스타항공 · 에어부산",
           "destCode": "KMJ",
           "destCity": "구마모토"
+        },
+        {
+          "timestamp": "2026-11-21T01:58:44.808Z",
+          "price": 224800,
+          "depDate": "2027-01-19",
+          "retDate": "2027-01-21",
+          "airline": "이스타항공 · 제주항공",
+          "destCode": "KMJ",
+          "destCity": "구마모토"
         }
       ],
       "errorMessage": null
@@ -1376,7 +1385,7 @@
       "checkIntervalMinutes": 15,
       "isActive": true,
       "baselinePrice": 268000,
-      "currentPrice": 243700,
+      "currentPrice": 243600,
       "bestDepDate": "2027-01-31",
       "bestRetDate": "2027-02-03",
       "airline": "Hong Kong Express Airways · 칭다오항공",
@@ -1388,49 +1397,49 @@
           "destCode": "HKG",
           "destCity": "홍콩",
           "destCountry": "홍콩",
-          "price": 243700,
+          "price": 243600,
           "depDate": "2027-01-31",
           "retDate": "2027-02-03",
           "airline": "Hong Kong Express Airways · 칭다오항공",
           "isDirect": true,
           "duration": "4시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H4d3iYfjXJS_FN7b15r_yMybt5lvJaat073nFhs2bXcf49EEJbn491AwUiec8KoVCALs-Iyt43HD7yfYjsq-glgULT8zq6lOG7GNlPaIVg0-OU1-8x3S2Tr76uNFecwFOMpr2aCJYcoROSTxhJwpZ-6MSb_u0wjNcguvk06rkGDMaKgHY9IC0lTfJ35gPStnVNeEVlNHStdF-QGlhXMRBtYUeMqr2_F12qd-6Hnq_o2PillKEcbbNhKmgfL4MRFWLZkY_qGpZEDO90VyEzRN3fSjvTV871F7I5dcteIFEeRs-jVoOJEwO2f4N4AkTfUvpxYLS066ye80RuU3aViKijYbK2tK_-tSSEMQGqDWrh-fDtdA4GbYzUFRPXez_rOy8o9c43H8p-q0r0pak5HyD4CXPVwaSOp1NflIQIkS8Q_oYMc2X9dsD3kInJcEnTyJ87ya6brgwJMSsCtDc9gBZXXK39FtZIemithiAVP770HNGRWyA-bujoQnQ4GIjFcgj-3PXjM8oTYiH-XglRoLWieXUNrGl_foMwiWBPV9cvVhaeMHiDJ0CjGGZEP1NMyxzAwE3pGNQZHZlplM_NxCq82G7BjfIOVJfyUgj9ssIhGekIe9dzX8P4jhML9ibvNfZZ0lVbqoDtzg6snP-IFHJmZJCJJyQVp8qB1h7UzWlLC24p43E2VfxGQJyZX7_1qHStQw2beGiwjZpJ2qcCKsg1x1vuQyaI5kx9DjInij21TbMHbRtAhfnBYQSEqcJYJna82QGtolyzjqMiVgYu2eFgluYkBLYR_obRTDfGreB5inDy_i1mIj8ZqvMeaOKKc7AK0Ld06cOmCKuWZCocTp2UH1lAqZCb1McL3MV0_OvwLLg9lEZrgp95gtcT4dXYKF7sRmyvyB_RWigoj34m5O6lSGpPGGjurmLfLO8ptkcL7gMk8D8G03N3VZZjgsqUw0WY__HYwmvHPiaYDKhZQg3L_UxbPpCt3cq_ZVPWIUr_kOFuy9LkFjj3OA24TsXZvQMubQ07j4fdSgZ_tJNI993-72G-MC7yvshR8gmeS4gScBO8NzcSn07Z0m22yI5CXka6QBajj0jmtzVn8mPHIPJSzwPWl-O2-9VKbb7Nnv6-mcqjCEdS8fbPIfOYWzP8m53df9OqDacOo9kBfsk9wBctZMt6gA4DxtNpMBWgqwHK8TBSW8FLxehE8XpKuvAICIwGOAojzi5uE3acefH2JiVRA%3D%3D&searchType=return&searchBags=0.0"
-        },
-        {
-          "destCode": "TAO",
-          "destCity": "칭다오",
-          "destCountry": "중국",
-          "price": 273900,
-          "depDate": "2027-01-24",
-          "retDate": "2027-01-27",
-          "airline": "칭다오항공",
-          "isDirect": true,
-          "duration": "2시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HUlcO_CAJkH2IxuZOHxEZiSkWfBD0f3si-M1Nc_1C_TfX70eupTAGerPtH5av5hq89XNpTbNWX6KxWl8FlleL0RXF493djxHQAX-YID5ho32akOCRRu82oJAkL472TfrfDqG_2ScTqBKSq7qG6sjE4rmeEkkuwmTZ1HaIa9bZnSSp9CBnHS04QYEt2f263YsO-rxydSl0VRrrOgIglhpNLWiGDiUEf9aBIe1_v4aYKl83IjJqrLBNBenwEdUx8TH_kRryqh0rjama4-a46fO4WWxB7XT0Tx0wtgERnPjFDYF2wV71VAMekNdXB5b_Ss1a0Ud_eFxWTfIDyjAIavN38OlNP7Q9j2X2ZPT535P_WslTRort81BEiQ8JOUlO-EE7Mutm2yKr7_dNisJXa6e92sqs8b9dijm-gDYsE2ox_Qqrv1qX7Bnaok8Lc0zuJs7rRCM5qgF3gYR9l-YwlK4H-f4pRK0Bcv0_lw1bpuYoP9aNbQvN8_BhaCR6pYiOKaQOyO1eh8GX9HrMm20MOVOf1iF0Vm6KOFI5QexG2cI1veDkm-fJ8T8_N2axFqOqRD5_kGrMzSePqAKccJbWsydida0-F2NLhCdJY0uk6qCSXvC0OL8fQaJ81uRrcoh1_1UW2fldNHcJXGuCvFHMeOygVlfoXlvogybRizrQGMdM1pclhfVWIiXQGv_uQnLZ3j5WufgyJ9-kIqyzqVQkW1pHDmD8hRKTI3yw_SpkyIikk29rQ276r4Lm8SDX2wBdp-5g-lFx5UJPFCB65WYSM56uY9iaSdQ3wcJHelK3R83QzT3oR55rmwBPVzehWuQ-WNOL3je2U-tFnWuugg1z1yr3uJvd5ULptCHnjt0oKW1BRQQ7bytvbeSNNLwjxGI_NqUGAd6zxyypBS4xI-Az58Zq6eNeez-3VrUlXPgfsyWWXtENE_aTt1U3Q5jPULPCxrw7S98WxXUiHNCJXue7W84m_qET0nxjP2SfBgsik6CHpQ-P7UPvsbVQJIrgEIQ8UaEUwcOK4_r_rU8yyPIzQCxK4ycBz9tUb7_zQDL7VWm_ihzwKFhQ7OKc8IvjrcH5BU6mUzBlhB9HrmXXhOaNUGvob1lsIWNEC4Oy2FiZZDvd1wYFBNIiWChuI3yr5K7APQhP3SWyOs7lqKNT2qkhdga9hG1rH4O_cNZo2rxw2K5TSzitZcO8C3yNHaz4YoRt-R6z37c-h0HXlCMjlb8Ij8gWQw%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hw8IdAu7Gq-tMPaTvVlX1w9TubYBN6lCEo_wdsLcZHMzJqYmGTxk85TymPox0tek8iVageoA-AS2cwbF7psstozPcxrMUfYDaKYPam-oi_bzadf4jPyKysopd-1sMEWh0m7ilYjsq_CwpPFhxdXHUMXqHmQuFU6OuQomOKV41-DOlNtT6Zov0E4p5Jv2LCZ-YA4DugL9AGCT9aaKsvu4YmY8Dd06cMO3kImAcrUlfIDDslCNVgoLqx88lHSjOB1xhJSqr99LWF_FkwrJxAz7Mize3F7NAvzh4mbK2S8bsQTZOZ1AjY47GHnez2_kVQ7FuPFbNVdYdEa1fDm3TJBmWfhUrhRF_gXzqCLooZjTChY3VUOJfp9HJbmPtNLSvv1ogUbtvjf9hdt6O7G3kD-BEM9reDYt_ReccjTnDrHnA6E7YEqYbDIfZqHqSJMZRrQ1v_STOfyFuEdWdGeQMRBZW-NHAYH3QKafO8PlWHKRaUXKDqbxYMpKkemWhqrTIp3y8QzI50ku0v1maWhdEcUvT0mjLzBOM3-6oaLtKQ5oAIiSTgBnBrPfqW_T_7_wlXPqOd0yTsKBIIM62-DEkSExlrH7QCV9kMUFJqCjaQpzg-bOTOGw0151bEuQvzdr3ghPXmxg05woA9KfqjVz8AuuQD3ngAQ-b-Q7fXYWAq9GL824mbV9Du8DFTrb7Vn3y7zFON4sSqaLTFpax0Ix9qx-SzT7tGw4xNSit2X8fXgz5xI4IqyYEaZJfxPq6J1w3tKO2Ck7hmIAi8f1HAPwbfFq0MX2Z-c79yVmpxx9XgkXiIWh_okULxoUsvxzZ9JRYOmJJT-GD6TU07-3QlwTIRvhwV3UaE301kOisGpvTUTUyuaYwyYt6SOXS8sMxZohsL8OP7-wB2kjCiwZfDvc0h4vaSd26xrXqehQ5NmQxk__L4Oxp4mmgM6xDZUBJU94HQk282c8t8NTlxriPE1v8_bbNb1Ugv-LTY6qiidJAQTneAz-XW4sU-rmRkvO2f6DD4TTF6hyJ5b_fc91XP8FEiOqUgHoOPCXGxaTAAwqQPUdrsw3ezSp4_jKoQNf_Cd60brmX2dMX20Bx6GEVOb2RyvoI_4obIDO5C3tC_nHLQq9h2snvkaT57yR4ME6SlQ1FUnp_r5ARqFNKLeoZUvATDcmaZylPUKU7XaQvDwYj2O-P2F1k3hm7IpvbnRD9KahM44LIRMLPpCLB-TlnMWk3UmcDFw%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "FUK",
           "destCity": "후쿠오카",
           "destCountry": "일본",
-          "price": 279000,
+          "price": 279600,
           "depDate": "2027-01-27",
           "retDate": "2027-01-31",
           "airline": "티웨이항공 · 칭다오항공",
           "isDirect": true,
           "duration": "1시간 10분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HID8_fSg79-R1T-GvRET3A-k2Fi85r7i-4C3NSU6XAJQPLJwWK7wUcNfcZFgkTmps9jAs6E2MJqLmWoVBF5_dEIoHt0jUy4s3ceo0ZhGxybPVPQ-RSRD7y14SOTT8ySAK4pLHPFq0s2nhR0w5bYEqeInA45viXCjy3sii5tDrAJs6KhuGvKnPmOIGQjTmhE7iKwT_EL76yCPsI2q4kt0ptDgTl2aoCtmhb6Vd7mFmTTEAakGsgHNDnWC0WewBPdSzUvTdSrL18p-Uj59z3hoKnd7znWmqX0zm-lNvK4BtWHsGq8CvzMINa0js4thFz0lkituOBJMgysQAvOHg_1CK8TUXyFhhcTqMLNEKfGYPk1jjgMNTTOf3e3LdbiJ_Nvm_C6GE6RtJ10pLVm7q0Wl2_4b1QGpeP2_BM2xJqS_Qb-nF_DsPJ6-laEKbhw8tzMVJNTnYj6o5s3nJB2M5CIrEr20-9SYkbWR7dJ-Kk73Btnl6sjyiR7kSmet0hRnhBicDni6fmHYVXT8ZyCSuYuL7ARTpwkX43i1hQxVq_34Xd9z24iQMaspJcQstHGLYDQfRdkZ3bzLFyQPW6X5uWgHnzYKXyaEpXdRQDfj7GcCUPugCQu258vlV5fcmGAHM4KK1-brBpyQTREmhnAgJeYGSfgXduDxiMmVo6-2DBudKjNDkLn5TAdC64teizQjuJ4i0RLHyyl2nBzi-HMlXvxY2lgixtIKn10cKY41lp21I78srAg-4ii1ZL3sLmOKaazSCvop-mYxOc5zrNOi6tvn_dLAc3twLfokU0296EnF0cFsrEX2pcnytmeZDtWbFuFbU7g9hLsQfMbGC2iMkAAWVlIvh4DBeopEduPPp5AOgf-AL-1j20bCjFrBNobzG-2LOLGodFC2X8KCfjhMs-906IfMtufVJ253GSgGyIe0ID310BbrQYQQTv-LK0E66LjvsgzMBjijfcWWKJYnKW7oHaHx_gi8In-YvTPtcAiWowPF8YSuYPFQ3AADfSAzWYUYdm24BL5Ci3sWGI7LWHy92xViF4tXey9HvCZubLGfQ4fudqEBqsJfiHpTX_xQ8F1tmSWcN2tzuEsY-w-yxfC8rpVmcEUaZTgJ7tJa5P60fIsfE4eGOyRv3T8r21YRw7doGDrvibuFsyXMc7ATRMYFXQmqN0MHWSnaCghHAy0T2CQcZqPFBo3xFCHYKAzsbfTI1uxpjhrjgKQGR9-xYdt2Wpgjbo2m4KZKL2QqIAI2csoY%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HjHkmgRNkuOktIehqiRxMG1USpEe6tpuxUvCfJxTapIHGsOk8frAUPdd6X-RPDGviOIWhZJ1sSlZEqVbrVtpG8x2LkdAtsY2KZtuJ9hBjqDyvg8p1DiwC3aXCOeFvr7bCRuNx1esjvQXb1R-19DXF9FSQjrah2yynHFWBwRgNkAnS2ocs1RzEwdGPRSYHqXQlDY50ArVWnUm8_a9bP1ekyJ3cSU3OOsyY-AuLqm08aXNg_wKqvGEnPnbJV0mqwq_lFO2PP0VuxdKxHfDpVNUtN14Q47dp1L8f8kXz_QZkpAAHGsqOd2m7hmMVDmIdUYFAscDnDAoeWnTN5l3cmwemoxepHJWIET5ooscroG2GMx_ALqOgcadEYMuBMN91BQdhM5wEZSd1yRsB2No28ohf6-KLBgaaquXB7LIei64D6rF-qZVs8XLFOFMaaiFOlFPXfeEb4lVhdbyY5c49c9bDGN47okaPljI-Ceei2uqXnhSvqR1VYsyNLJFR9Z1XpMCvFHeaTfQP13Aaqi855ho9B0VPegjaLqGQXV1xhCS_N0X6Hfso2f1bB7QQmkC4-XzNHyehITQgfAINCSgvAOugs9KLZ5iVeaiVbVrZMEFPEHU5IDnu8kKb5fEE_Sd00g4jMR0-nBmZwBylk30Ddt9yBVY0UlHEzoAw-RyetNfZvvxNWVXfZysAESwMsmIgc6P6TgE28WaN9azmKiA_QGayDkiDEXpDD2Cv7Bbt1Ox6IeXh8USU9occGWnhtp06fnUr4OeqWTBXzMtfdEPihrwu_FPFIuykvCSN0WjHzO2Nhxb40z7qDyXWLtERwsJ5AsvhLslpEGXmCJQnslnm_G92O6p89DCssxR61K4TM0AHpmZRoMDV3dWq_N4P7dfAGrlKK-FI9TleTJ4kXFmXgu6AeMnhFFq72PWGHsuB9lfPqtQIPU9UVbdQQ8nilIFZhQA7Hvm1Asqy3_s59YNQx1OlMDjiEZKgFqci8zw-Gm8Tt8dI-8TsUDe1d8Hnge48fySas3hlU9iW-xdBkGxxwxXpSJWk6kBohp7hc_dXaJZrEGaMTTJ86rmj40K-FVVAN5z8Lta4X3g09WDlFGerkT0NAGnNoO50tJEKlhInac-DFHBAaZPWvXlR9DdQwnxyLh4m7nhP8G17u4_ZtwLAVK2C7CW_pz2CLYgFn_VVpMpGZa5Pt7CPOUt6Iymjf6Hl-W7ldhMMf21EoRx45PPBejXYL8tvxKa8Qz_kdAx-Q13G_sU%3D&searchType=return&searchBags=0.0"
+        },
+        {
+          "destCode": "TAO",
+          "destCity": "칭다오",
+          "destCountry": "중국",
+          "price": 284600,
+          "depDate": "2027-01-27",
+          "retDate": "2027-01-31",
+          "airline": "칭다오항공",
+          "isDirect": true,
+          "duration": "2시간",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HlzY8k19byF-HKxfmj0UV8-8AHMhTiZu-u8XFyLj-E6XDudJ-sUBwZU41KsaA4LruopkGhhzsa_Zpjt5ap3-36a1ggrjyuFqTV14ghtThJ2Nbu94jfD3jm76u-pbayJje1Mbu35_TpZo2TSDIUj2U-tqo7tFRqDNpegHsyNhjHRuN_YTLmBSlVYzJcONEhmp0p7V2cOv-urFNAgcx1Krne5013UXhWxY7EDLQFFHhe6g5tRDG_x5DTGKuIHwWBkNvhsNCldbRrfNy86lrimRzpgeYUB527acs-hbudak79R8wYvP7BEFFS0Z59uUce8MhMQEvw0iEMH61wz0SavYMRzzGm0QpbA9FzCL6jDysPl32UefjFUx01w-NmFfCNldVFiGgPfBbh4BQnTbrG8tgYpjoSwkrTxVVba0lbf9ZmACxU_-UJkyBoQmPBul6Y4Cz4Tcn3-pWNm0ZZ1BAaJwCbIGbeUgBtNc7ppxFedt_yH5zIejp1CwnrVXVzDyiyjrMW5ttaFAgcnQ5-hkuNY9atLt4wms5ku_DOWml5tOyC0peP6qwrIOCM_NIz1dvHtv5C3XUL1s_fG-PFC7u0O7qYr_guvbHpvJUuMTznmEWMzPqDrGkJd9yPbOw6t5SqDrYIJc2RnlBw5h4XY69C3msNBkZ8brZlt1Pnf8dpdve3HZtWZXKNYH9tkscheOUJHMTx_Cu94DI_qNZonimiSIVyoTNMp3NrDId35is7xFsfnavlAB-TRiZ0Ons-eEFXoLWL-mXaRcH8KBrAsHNCg0GLYbj56ajuk1jh999_yJo2Xw1nw1HVD4MmHduabx_wPG8RBBZX7cLcsLME4Vtgzs0fBuTF2ODLjnhrlN6a42DznznPhRBzhTjM5UGzCPhAakriQizgxpypSfmxbQ_hGZkj2rn1-V6q804mExSwwZnGVLRjZWkbuwurGiYVyQ__fEKP8c1WPzG_hnK0ZLPUmI7jAJHrQQvvKlG9ROSD03SETu-s_i49Zw_BLQxYaP_MFgCbOdXyMyYYEDeXJNCaMbzkMYQ6VpkzQem_ZG9Zy7NUIrPZkE6gIYCt86MzF3FCG0PfxhWgItXjJVlcAAzW4sWPVmdXljPOqOTEyuFgkHpjxTvE9YVEMmSLgw9_EhRoz6zfa40C7SDmng6f5ahrw9Eto16h_bYN3nVbPEe3aXaKOI4PZlaJr0wUj6rnxUjvTjWzFPfc8AC9uJnWujgwplaSnxbCOyZQmIYdZFz_jNoOcY%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "TPE",
           "destCity": "타이베이",
           "destCountry": "대만",
-          "price": 294000,
+          "price": 294900,
           "depDate": "2027-01-20",
           "retDate": "2027-01-25",
           "airline": "티웨이항공 · Hong Kong Express Airways",
           "isDirect": true,
           "duration": "2시간 50분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HSqWbhwQnHnWz0g0RtyTPzjzblkpiEJwI-CPnKm2wK-KlLnD9SiyUxmgVECW9fadEBdHCf3rLAm8OQaiH5yIqm_3oCY9EIydBuU0JKjHKykT6GTa47Qw4nEe1E-wOW9truuBslPecnEHc9NXKxd-Rgru5G9eAc1abAXjchV79YNUO7HJYVpaR_3Vmyvy7cUx2YwkIEWfSelgyd8At-TAPjr0B369sb7eEyhUzySPxp4LsMw11xM_FEWbEamAwkRwPHWJCxVuWGL6nZH-mdhgDH0dMcUdtqNIBGVX2ktJF4WHxy8DsgNzeruJ715b20jUf1fc2z8bU65DZ-U6cBy1ZTEVe07cksdAV6RfdwXdGpjDgZgAPouc2YNkQcKdrAT0ZqLmiEfxlYLLzpHqfq0kjuEJSV4RgwyYxNg6io0TfQOqlJwn7CJ_iPe5B50JbIc4IK4p_I6kSeTsM1_MvNI-siV9wekoPGWxNsVUtIOgHUe7qsj44pkSQWsCcwcitMQmS7_bvD_j4ZP86vhVgfiWMvw1RW-hiZJnna3xzr4QtHMo7_HI6wKeJHnxoW-oSZjfDT2FJDmg8mhyeswvjfXM1EIh4rWKLhDhOA9lzrnRCGQgg91naqMAmTk9xk59nYhr0Ehp4Y-cULhCpd6bIjyZRtUShlnkn0LzZG-DCPy1fUFFfB-0eCouyu2Ts4G8nvBA-PbiwHxNb9IYF1C84oH9Fx-JpLNYpuMkDcpAd3vijxLDy5da9D2vyOsPkLX0FtB0k09Q9-1M8oIb7P4yBBujLPc61qnRZQqJHrM8RaMg-3rfxNb1hQ3WS_UMP6ZWYrVpZ1e54zwdkI6y-YF637TSOWuzxfdMLqAGL433S4TktVt7YikqG_nRGa5slXcZMwXs3c_u_FOXWPvHY3mc7bscmF2WHWLzmFeTektEjOsdZgJ7nMuk4Wjc_ZGZBi8xHNVI-I4LUcI_rxrJIq56KR09X0iHkqXpqRK-esc6XmMPjke27VokiqZw1UWQJQSH4Mu4A7OI34WQDPSQ4snwAnco-Ph9FsMNfBdTyFwX8d8P6HZtlXR0IAV2EAq_QE7nzTk6oS_jM0SpdXQg6LwAm4JAmY8_M_ivQRHylZGm_wgo5CEoLZDEELZOWbbhYn0h0uNXeg3N0aDu_ZlAOFn5I6VstC8KKaDqraoahjMxJMKEm05Kzm8g-FvWDlPG9bLnEX8dgXUhGLp7DHe6gFa9zCSW2dtG_m7YB0341wj-Y-nJ98I7DPLf8CZfhWwLo8TjhvZpc&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HTq23pz1AKiPt9GsU8MGF4VWUhpfs-dtYM9n98Q3oKttua8pxwxaim1QkV2atl6if0SBStHg_GM5Uq2gXnHz9TNcwBGkETjlqtiX9cqnzupYQrfwZdAsDJHw1FzMuxaxiW4VEDAJIAG9RJ6e5iREpxcWqwwWEaED_Op9WeonmSc2Zph3TeE7kQG1IAHkC_d-bO5F7JZnntZUkX726kQikVgyq3CdvSOKLbXx3jX9sK-ydmsVTuno0wWs_m05CQZ_3bns66w8DkJ7fDgCOGw4IT4bEAvojwW3R1IzrGuL81jLr5CXHBnx3WD0ozCwPHiQ_HN45-IGEkqb6DXoFfI1YhkdY1VF0xbfWSZDjdKtxflujDQY3FujgFCjCQHvL98QjCnwpd8LSv96WC0vEdQHkDah-RJE9fwfi-zxVG5OYpFheq3dV7aqLAZy_VoqTltZpwjtGO8bn80ZxfxJj86GVTlJ_TFaMtpxm6E7-H5Bw2WSBI6Uo2rqvFkqKzywsON9Q_iKy_PTHqFZIWjGNSAsCEQeQSn6ihLA2FROiKI_mGqUZmtirTR31sF69mrA_gZNBeZfppiR2Za24I5UpjC7lO0bvGX8tRY5D8EYN8r36Nu62-wHRZU9LPAY-UgAiWrA2Imlz3ahi-8_w7_C9pyQrWCfjSs-tMxhkv1GEGvZnOrOnW5j3D6ksZKWhSWE5I3RlP2-HNmCpM3jRwVLr-BjylgD0qBGmxVE0XEnaMIrGJ7wngDo5QlzromygtSav553fdXmysQZ0CZVLyCrRcPwm16GTdgcxt4gceUs_Xzf2IFRIKdQLbBBMiecSH13KlsSWFzJ6rJ0YL3m0AGiqcuWK2C_bIckeq_nMioisevZtTSC0ZMQcZEzZNFWN5vgIq_mHuxvKap0hzSV-5l2-RXJd6DIaY8HM04vsmSS62REZngrJgp_gzAqj2MrKtoSRhdmTzM307RnzM_tX54hG26dLDot9a94rgh372Fmpkib-_fj9mbkIB4FfpvLYf4i8L2y06ovTqTJ6KJocaA-uJMmk-aK9J7Abt1OJZqnwtsF9GiMq7FWHeRepemv42ZoRJBx4Z0dG3l8QUz_LwdTvl8zuFReCmVcG5jX1q4FpGJ9p_0SUwTcUr-kg-7pMk_nvkEJZhnxelLKpUoysJYKjGuJB4hbnUelLcD190V3uM9lOtduTL1VTu3MP_3ww6kVgGJLrvW2JBv7G-mxsGyY-xGK9Ym5sHlHDCLF0nTnYZOxmGL6gMDPzx8VbpClblGo0AQXp&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "KIX",
@@ -1442,7 +1451,7 @@
           "airline": "티웨이항공 · 칭다오항공",
           "isDirect": true,
           "duration": "1시간 20분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H-gs5_lfjoKo42skKWZzCB3bjz7P4axNhzV59iGnTRsHg_8-dC6EFqA_c2qpXpu-oChgVc4JCdfqbPs8kp2xqEDTEmxz_NxxKELv1BT74_t0mNwrfxzJNE70Uv4hsQ3ZjRFeIJmTfNr16Gg_15LK2CeEf9h79auWiVoZeQ5i1MWUxXwUzbssrLBgN6j2Y-rKGDeFCAmSl-_maDXXzfB4NvCXA6PemIhIaXyPO_7qF1-D4eBeSfj-TyEp6DVyvYHY5CiSLpIc4DZgYdVizLtX1Cn8W8MGqpRs2Hf2nUNJcDoLCVsTl8p652ZSE4OwAHtJjwB9yxqND0I0eVi1hdGD_Syh3APnAr4TAOxjZrufVGlQP2MAnmEdj3kZkYshTukQUvqLWobSHl06gBCVAR7_fXWTfavl9VHapfaymnT2hkHXN0yHAy-h3G1-txLw-8MMDuonXWrvYgjzC7K-2L4t1TR9UuNuPAiqN8gnf2e25wWFk49C3H_ccSfGkHlpc7Xz-p0vI-_yPWWi8tscIp68EgruGQowYdOFNEs2kc6CvSVQXnTP8gM8d1cpwfuVbCvuCkC0F69f0RZsscCKLMnVU_vyvxMW694R7u-mLeRRW3mDagaAVJN1z7Lkg1bZBH6zveg0cBDJbFeG81HffSZlYSj7ejVnHhH3u6cdgMt8ELfreFkeGl9ycFIKn_BQ4ejXrTplifrlZ1VMhWUyfDGlPvsLQsUDA_sd_zBxt6g_nWeiQZ48G8yqDL78zWF5bq1DQADCB5QI6fTiG9Itx3nOpnX9iR8f6Aq8KGS3PUYj3YJVFZq6w26UNFR8v0saZGKXdbR1V45HKh-IKOsT9heSdfgOFKnUuVLgsFj1chpjAp_gWb5Dt31Tj3REvWLyRbNXmhjmnn26GEXEsentUlaTt9PkOZIX4kt2Mp9-FWwVgHaSBdsnNkfPwevs8R9eFa--hIY8TlPc2wwLHwKSj9ZtAvpiz9dcrMkEVmbL5EB9-No3R2IW3Phax6bENmwQzO5VAFrpiPsMyt214OIlSK9zVADeh1Sd40CLK3YA7I8BfxBMqr3wYkC33jZPqJMPHiYNdhFmvxBc8xY8hxcthhn7ID_goMQ3cBRgsDFwuGPa3q8ZABYuZJoLz7ztpSYv6XIOyXaY1v11_bpaaK3ZwOIFKhJwR2_8Zfzwtl56uPS2_9GeBgwVhm7XkFR-eDc5vuK8xrWu1G27Ptg40o-Djlq-LNw%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H8V1jZ7tm9ml9d4cMYzY7u9HKQLzoKTN69TE0xW5YB_tsIqhiGIr8t0eFTE6UJDGpdR_8yDRSmtL8WmAsGRE-o_IUWlB3i5C2mmMSJ2TRaUDqZkH6D4GwyazaQ-sbdjhbLot50Ga5YKED8RUhIiGeHuvOpY5RnO09GNFnXTW6TLKRkwmAls5fGMhbveaMhSZ-YUOia3PQ5ZKAmrEQ5O4Zc188yKGfsfyvLUWWPICQeYfTuoLVyzHdxwsQgLLgFTO3jdzz69J2WBvjEtiEHjFv5CNbRkfVhi7JA1C8I5ivusCnrrrGIbLwA7su9NpqTKTaYSKpdQi6RJ4Zjtvgw8H5lUjNYgJn3__VrUCSvhsWx9NnmsYL2mwzUeM_YkyqKtB2u1pUS7UBjN-maCdPZdnx_feSWH76CekRPzi3CtBT43wFysjt_7MPqkfx2q6sxV513s-RpaWznPgYIk-jd636dCllT41KvOgsyNUZZ-AeDihpChJC0IFhFxRmbGgTCbeCnLk0MPcPzIXArbO3FcpOTQSWzkt-NudmzetX9SFwrlDlUUPh5wjP2sj7UQfP4nTA0e-hiMPEame3xrA9VDkd7OAVef-rVqiL-_2WNXzSdQYksiFj8cteGgyIRRFhMkBRKitsXXxXGsJxj8PiIT5k19R1a_CEMcqVnH7kXKoTHBgH0DpvghEslZwt8L_Rtit0PcDgRGkhd58nJcafUtBQCuYSEVc3m1C_BZZPo90WdCbbhecY8kzH039D-llNf_7JhENnHXgMPPzYhQUhKIiFBunVbKfr9YedHVFC7xYLBv4jRKXRu8gixp02Its62ueBodTceFfZG7Kei3M2snnxrNPlkSbiypyK7ixiTjnOXr004e5LTsaZdsDDYIGYBKMiAAiLtaBUPDfom_tM4ye7W-xw7ucBzsx6bTWAJqsFUk9XDtWu5KB-AR3ASO-xRGQ8aMLWktbJRffXAybbsoJPImL11HmUGALRXLZl-_bcDxFbHhI1vU_qa5WWOy4bJN0ostoWG4fTK-EOY8gGOIkFWEyY_aGfQnHr9TD2brPctrQS-Rq3T5Zm0hNw2d2pluvbzqI8wJHiq7ykhN3qhhcFl9qdNm6famiqwAEK6CVU73llZKGc1a6mHj5kHx7jIm-YDIyCjLqpWnVA70g5ij_RESBNrqPePzvyDLtg8LCzjvxOMXEKCHF6L5BAXXhBSAdP67BoIXlp0ah3c2EoKDTq02Vvq3f67s-NyNDzNedlk0k%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "PVG",
@@ -1454,7 +1463,7 @@
           "airline": "중국동방항공 · 칭다오항공",
           "isDirect": true,
           "duration": "2시간 10분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HiMee-Zu9_uGrQbvLeEkmErTcG3zTD1p6JPIQkt6xN6YAooeRW_gpZ0us7pkwqqJQyZl0s0ui0Ntn0mAolyBqjpZsUr-smpvd9FQLWNUHvOl7b9jeWH_b8UOvCP_ZvUSjCmP5aAeJZbYlxcnrFZQqx8r6IObG4oY9ILx7tf_5FOef221JkmxFVWywpuvvuwlykNXk8-2GiFifNi8Xz5ZEY3h7w7TvbzqsCPYRcy2GziWnotDnIiDD400U_n2aoUrVGCwK4BiANPgt1kw4UwmmhnxuJj9OqH4BwgPqrHRr53IIxDlibAD0asyxR0OyC-ts-son8IgESDWiFZqGwsHUsmyxSSyNMJrsxpeWkHkNWgJuAMUha6iF1v5b45W7wWvSvYkavLnfWTDAKTS0xItn7h_g9NniQnmH0E7yigKux3uQs_PMOPebHRIqWIQH0vxv6mV-4doiZQSytIVfmDiJPWT_8HfViWJ6_BvKE9O-rKBJuduItahkghDF6hgad9-VddQLrzsE7mNc8gphlZNHYSc_p4JuX37t1q9vuEx1ma4O_ug8TfsjT7XIGSXqVnZD8AWjKuxSMUExVpcazRfcUZwYaBscfAUKNrOM2JUP-k2lktYPXb4NQ4SoY263kSVbPA0fLFq0gkwl_E9XnAomy98f0q-_j5Uh1s8X-AQYGlGNDTW0fvfDO3RN3Q_sy3Vgj5-hUvAGqEVM38fIkafzkCJg_WVugmL7YNV11ZbB-d7v6ksLgZn2NvkwsF1a1Rx56Fv8oYP2OHx8nWWQpFAbQS9aMXYIRuq79lkOWyCaqNr-ypuINFobJc-qDUWCOPi6wDmPOb_hMpVCgdq2mwK6ELBf9qIs5-Qyy_LcPl-GwX-gCSnG06w7snLRzlNcriv0dog5JByloVFxhRnwKO4aQq58gV0a0WJU5hn5XwiTJJNi3roXOZ6yvGUgsADoPPiwCu78T40txj54Q38nKLLEx_dsDsMriIk7P8xhe693tE1ZnkgvcwKceX0Zgzc0R-UaamtjDTWfYEcAnapOz2EZsr2w-19kyWi9lxOU7mkR594lP6mQATr6GdZAfSlIVIPrbqrYhSBYrDAEGiAKB8ZiVRvwLjLC1zxLz09BRtOpLZ8R0GBvKJRnSNGtuKHJgmoKCwOrMu39iZh1doV-3Z41I5-rCzrYOd_XFvYkFQua3Ia8mBjjEENvPJqi7oDPT5FM7sfMgi-TsveKwVRxMnruy2O4c2R7VFvQY2vsaGMCvW4%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hg0ZaFiIPZiuSTHAqU59vNRKxT0vodtyUeYpoilv4ANpMKQOTrDmArEleOqZHOJmU6nfQvvyq_Rx7TRBy7PuoK8VY3yKGMP-csCv489aQFlF1G-Mn70FbhyGL_4AdOnfgRe5xcRl1dXPzMaZaemHvSEis_z4Xxytb5TpzgpEKr6NboGgG-e0HqVwkEbLwmaXyhZY10m3MeS4t35kjTcHGYpV6g3pilqnHLBKn2-A6Idea_ad4iLHyCtZjo7zyJ5LHIyw6z44QecxrmT4Dv84-WL2d0SGFvGwUii-M2sy_S6_UIOLZqbBgxY_vaG3ZCYmQrtzvVPzhNuQ6l6ywiEls2fjL4P3cJ-G6PLRnteNHf4UryVYMKdC_J1R98qzkis7j2_HAGmHa-jCCbLJ6UletjPaF2wrh4_LM-skqiAtRkS3qW9tmRmvlZ4E_wqzIdPJkEhy_EORWTF-znVqP4n25KcNSwOQ4IM2C-crjpThchqh8KwJVK9JnnjaGdwEVl-cw0yIkq6hQqGr7r1EY_Ap76ilgBK5BlkfXyd4f-QPq1I3j1hnneNkzKnTSoy-N9gBUdndurkq8KJpZ8IlUVAsxIWUp0HTCeNbSJA3EmUCrXo1g2r0Z2MTHlf69mKXmOnzuYoRcT_5B_9PpTTXEFHyT3YGPyarNhFVFl6Ry_NHzyX9mUCJQBbUVNToWzfLqXpCNTvozqkcEOTtv-EA3SbjBSqgF2eRSZt4lNqY0jOwJ1i7lB75XADKeLiDwHQ3bOVOGAdN4f8cYqKJdrZH7GkfwT9rDec89qct09134crag20HwxUNvA5xJaKihxysysl6hFwNIcKulSxJQHfpu3TP1b5auYUx_ltoF0ggezCYNehbEndq5Uf4w4TBw7Sjpl_oDFLYhcmLM4_CyIxIwXhvvqs-nxbJodZ1j_aPBNQ1h69XOtLXJMp-gvoOKURs4FsFqbvlHlPHwnsstQnHVt3pNwelh2y_hyMamLOXIwwHbCNcpIwKVZNXZZUwVO_Z9Y3PydFsUP461xuBw6OwRBVEszCi-M_3_K6fU0VarV-kLRSUILacveZUObD1x2utnV-AUkoXOhz9xlMrqE32pr4FS_y6wj474iuS6mCm8z4vR625AirDxxZ_kCq04J3ehsQdLxbMAKBzu322exUP-DqYd3O2LoSlqyUZI9yyAw1ADoJOQwY-zwSo5yZ2vxIZB729OcWFfIDEFHngYUGSXafAAecH7wYXQusmfjzakkbLXeyI%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "DAD",
@@ -1466,19 +1475,19 @@
           "airline": "티웨이항공",
           "isDirect": true,
           "duration": "5시간 5분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H9hQ5FRKUlgMnzEVnGrPxwW367-2qFgFKiF6QAiPAUCgPOhSxr1xgTHB-tZoHdpt5_KlalGD8mXUJxtmSjMn1yPeOqAQ5hBR0QtBuCCd3fgGjrkoovPPkOYEOYBDmXSNBqDAuHTq5yI9iR3k1Dl_DusH_2PKOCKgcnP0gwarP_2xvijNxzDcht0H4E__tJXl7h-5HRNYCS_gvsCSumt7M-rR8grivs6isD7UIg5cCMPdYGDjH6mp_lw3o7sBfjv_WM3p-Z-9kCrJfMmcqF78XDhPFs7UbGyUI99ndzI0UaJWA3S6gVtCB5Ppt_AB0sYY9QMmsC-2XxJH27m-w1GVU_sKmyCpP3N73GrlmdPeVWO1WGXI30B46kG9B6AUS6KLkCW90KW_bdRfSB6YYLsk3zbyZcf79yuWtxiSNC5ezHYV7YSuS_xLti6V5R4DbUHNhA9Ud7tcxImQGjkFDJ3OsH4cCjcbn6w1PfgIPXvfvHFlX5_byT2kLdSjC59egmQwVTh7pEClrT9wvmhB_aOdepbavq2k1jcXbHil88GpD-ARoaHKEqRyUP-agLLnup1X4pYxjGi-egUnlEFdbGZrYqhRv3qurZsCil9yUj9-3QPoWV732SEasbwomR7N7ZOSUXOEIiSZWeBL11uQRWd8i1FT3QQcRo_YCz3H2f9Z1uTBE6Nh4Zf_04MCbXQyyMeqVPBVElY0ghvqKFzezt2xR2koc2Fg72w2EAorfC9xY3-XdJG3I8_puOGPZSyXmbnCHZyBKmWXjq3DTtph7NwZiiZmaUNZbLyNh-DH5wE9cDMrZjxe3OMEyAqxhRhDIP9G1VBum9t1ofb8wWUHGjT_Ijc58Q2msy6hWoFlB8lMowckBSlHxNo1RypsW-ZnprfpwmwS4PH10vDanHmKtq-kas1RfcqNjGABHtbxco9QkeUfRofDFTpSZAGwvJ8vxWiklj3OKc4sWQYdG8orEOQQXgQzM9TCKDbDlyEYIcQY5EdnbTVautl08A2FkiNsqM2jI2yTUkMKhF8-8sXbRSTuK3x5uoGpN6dN5XuEqnrWH7lzAYj3M3R2zG6A-Gktzh2JPH1Nccgs5XzpVFW6ecQf5WpTXKVt0rqn5DHdw11pDHbfb-3S_PGlgL6R_0L-75_bR80gUdwqDDpq0ORdWeRmDSgyOE251auSncHEStBqX7gJz8Ca19FkfzHEXMeLmjkjM9_MGs1Bamu8QsKWHZwwPn6Z98bTBO2cicBFzed1NzLC_JFih7OROWGiC_Dyogmio&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HeTsHfnMu7YMZ1oohy0X0gNa1kVLXnAb1bR_Mu2VrfLzsXguXGN_LOGyj2CDGb7A_5oLZGcjmR5hFv5xeXCI1KECXODSNabuDELtllN6p-zwEYVwxRl3Njf3l-_kxcoNS8FI9C7vWLgzbPVWq5q6A8Uskbdhz0hYjgmGwSyteiRcwXwlxi9NfTHXT53xB5cS-h6FRwh2jOudzCdG3iyyXuu0uP1dvwj56JNN7Zjoy0JIPc39VvHd6KHGJiJw81GlbFK0aytoCav1DvZ8m3dBXn2VQS0Wo7zLMxHOQq88efdacHuBa5bqpmv8M-57tOXwBmHan86q61vmYmMuJwGsY1OeGa2A46Aqt5deXjHuhMhkbjyB6bGNd6QGbe-A38jHmbk4gOc_i__RdQpZ4tgmcSKNJQrMm5ZJb4Sv8WzArrA_JcHxUB9uE2fS6Yq69Xn8sKQsvVDUtMlxJaXkPiLLej03o2sGC3n7g1SydpUlIocbjZjUbJpiuWCgdTNcPxXQSgMIqEH4XLxr6B2FpLXLi25Sq90ChjtrLHkz4hv8jo0Oi4nbgKHWccq9KhJgRzdWx634wukFXFPfEXJSTCJGI_r-FCjgRApT9vgpIxYyRcfOVnUYTDgUkpiGCntKChsoJdcU4XW2_0B-GDIePOaKzrRSBiE-McDohugL3IdyoG1W7G2qYzWvi2b3FMNWhenHSRtJZ2p-jy-xuzmS4jbXaktN2eR7ri1crX6yRVYVwy5Jc29wqUef8FpbKtxI22Eo4pHB7femUNqJt_302P2UkO6qpdJZTVSyQg4kQ_pcELP4kb9G3Za0aAY3UtFu5JdGEmt_Aljc4j_-VmGlEeWhZFqdgeeYG5GNgntR5HrIIo1VsxIH2us4Utrx6hdcaMFk1S9OI2InB3wHcJjWmqAsEEhQr-FjKOMmqvf1zxKZCY5tbsz5nGrrHNJ73Itg-nU4AS-SjUWm2_YHs8nhQWSjkMtlWoJByXVov0Tx7Es-kylDyBu8vurRzD4Wfe9pC1mymcob2W_0Cgl8VEA9FuEyPzIqMwp9QGxj3GZ3ctNnC_opuoL9wGhdKvRSZuzMocVWo2a9hasqJPKKWWGEICZAHL29F0Huyp5Ds9_b1GuvSLf6FNzmWt1_-dfpIxJe7j9Cu5FgA5lTqRsoFbM14MDcgpc1idhEmUYyh_0y78Dzjf2l3LcQgub9hcBoDlOkISOCLgGpa-sZXZOVFujAVhwGnXMVuXd3JOwo9vPhxCRSFnL8%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CXR",
           "destCity": "나트랑",
           "destCountry": "베트남",
           "price": 520600,
-          "depDate": "2027-01-19",
-          "retDate": "2027-01-23",
+          "depDate": "2027-01-26",
+          "retDate": "2027-01-30",
           "airline": "티웨이항공",
           "isDirect": true,
           "duration": "5시간 10분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hn-EQTcwyhzz7kznmpPPdyGh0JX7T2IHyG8gEkh1tuC21De3Aj3bR0sKkjgcu9FEKeYr0VjH-ZdDdNYvmShLYYg29ZUqPOBVsyD3E4WOjMLhBV4sfWr4ITD2rIAkqNRVy0b23rMIitJ4WokdaKSKAy6Eljp-cEEfl0k-ASV05M_iKk57UsjCVijiQKb5otuq-uAUPXrV86wEa7Zzyq8sDFscrDf0SyU5rKlHxyqUnOjWiiWdXKwgyAaDg5bwKS4DjAJxGb5v1d5ily9d81PTL63tbgq4SomNRELp9H12CelVe-CsgbP9bYQ6LjYrp8HGKJOExdN75U4_ItzxPkpQFbgE98saJr_6y4pU6BF3S9zOTLgtGqM73ZstNl3dPcTRv4TztsFtuAa21OL0gxx0sU594Oszh8FG5yWamgWWOsOGWZLRHtanqXTWCegZxpFbwm8GgGYZaXHzvU_6cGH9466H6ronQ4CGeCj9X8Te9JC3xGuiZwYF6aJThVf94iIF-iEkIeegm_59ULzWAuT_Fu__Xa7QSous8-YVEK0yKmoaGQIB_gplv5sAwzYwYyTzdegIoHCJflaJFCvH1KddcdJQOREw8vzhy7ZonSBbj701DHa37HrUfDGB2SDeZT8Ipq5bP76gXEvPlTFDuIvjKAMDIJU7rb3Rr0_HSZ7v9cVeCssf83Vwu3TIoKsjyIzpZ-Arhe1-oZBEg6gibM8EZ_hgvRNxEc5bupBfutGK4NU-mMQfiVwdOMxbRw23xzXyGWBGRyP5Iis3WMkMeGJJAlNPEFDH8ngewPac1whM8KsVbaHDwZBfaTnit7A8dmDcLuTDAXlaKARM7qUH-ga7SaUbpc7QhmqZmtyuYHZM01K8Nk9h1nclS5NDwY03fUcvkSALXMDSMzq6Hn8_YSGQK9MYMkL3g4oSMXLBlUvLRP9-l_Qxc89D08bRtIBj8JvMyRMGTPZS5avXMdQNg2qFRLRq_uaRAXhsa8zcp36mTmfqp9gws79w0SRInLvb6j2aSOBBBF497w8AomjfJe8X2UijOb5XZFZI8Tr-7QI_aSGSTfqqjamzOWnNegu1W3EhCPtRF8PN_nA91-y9aoswtW19feF6q1OdIms4WK9I7cVAl6N-88eyYne1IuYOxnyz3_cGq3rsd-TCVjQ3Ix270etA469aTlWVwOnLJW62fsd0wYH3HiaWXivWe4KnTn7qZ9A8CBE_7D8UMY_jv_BIVfPt-g2tY-tEfOUdLtxeZYIdWJfRLvnYW2AIGWAGRZZp5&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H-ivHRhz0zJLdcLV6fveDj_fU_FXDfDUJhY81Wd-18tLTf7ysONCdeq4hgtY7wFlG9tnvMBj7q8TOnGaL1wJFvOgbbsGZJm62cF9xLdzH5G-ajYs3eTRsXF_ntmHa9GrpQf0M5m_CLirUKXOavaWL6ajOBLxPTGLSPslnJeOZYxtxsrDiIIens_aczi1Wo0XuNAGGh9LZFp-JVD5te9_vhHpE5dfifc0HNh5yci-GXob7jY75raX-0aGnYlBbQ3T-VdO98P1ckitI4RI4i2yVNZZOnBPwBZnmZZ90jvPgrDT1-H4J23HxabS17C2vKF5lOez850dus8HhOkg_2rKzuZzPdL3_y-oKppi3hNrjw9HDb-csjT0RAVprTdSRA0q_LZtsFAedk_bSEBOBGOe83NzA4lTnqatrRKasqyAlH2CPtTGuZ0VS9gVLMDDXNXMyd43-NYkP0lrcX6OxncbTHmRYs_58HuIz7l5IVbkAaosZDQJzMllsK8JBTvNUnzuzOVdFb2d_zerUsbuoF05FOYMh1ErR9VfWuHK_TFYURhslJXpt1hgJ-cJuo2ymrvzq9RAi7aJWZS4_kk0HmdPaaTGTQG81CRuMvPGKGPprNOzuQlqf6tG89Rs6OPSw3lNXJmHonZgiPhPjTQsg45y1qkdzi5uBY1zZ3mP0lz5WMs3Raf3w4MdjdepJVyGS_ie1FhCn_OTNg4vW2zM4UcD4FCwvoztKubSCyKS-4Hs419KNZuVj7LnqX1LshZDvHjkavHU8q7cgd9LamZPol1W3bQZQeKmVaGIu4maKr95m8R2aQlUVA_UXWGipyi8aT7iMa5zQBRhsM2aT70kB5Wlc1lX-Yy9BY7nDtKEYbYBdkNY8RMuc2EYDs0KJjjGbmiftywEN09l-KcRFdiMviDoJcmTzj3iy4EvjkUtWDGP0bNKQaWxX2HWii6GYhxTEBfmME9qBbdLsawmRk-N86MuiaFg1LDKX78BCPFRdERc6L-AmNiZ69-ZwtQeNQ6qZV1U5f5oLlrx9zSjkqCXfxwBuj6qp17cI6tD-yPddy0R6YJlU1d91twLsTC7U091YjM_aN7uAEpg4vsRvEZ8l3mTPK8yj-6NWybFC4nWhiF1zr1RCJ_CEAi8kmESjXgg2LOUtYxsTF40LHDosGFgvxef2jGSheQtAzN2ujcT5v5AfcRPmofNiSoqyPN7ctaPWvxKVPM5Ea3T027Jp3jUXcyeAXiRwN0gAQU4l3eIB1A45TBE%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "BKK",
@@ -1490,10 +1499,10 @@
           "airline": "티웨이항공",
           "isDirect": true,
           "duration": "6시간 5분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HFvXt8K42ulcsYadrE9qOVlfjullI0EizpDbIyE7kYQcY8YOi3QL21hYRDY3H6N23q_3nJ3TK7HNvUuTR_gXAaatGM5svRwghyKik60VQL5OtlkGYX4VCRhzrrqMGgU3Ud1KXamXrmrPg2lDvOTQQ875slcmIP4OKMOrvYAxK-PMnoLmYw0ThTQy5mE6kcSAZfy1jymV4eSavVP5JeT0NeHWTkmdVw2ogwctEd3ifxt3eikeRnxlBTt82EdE2cbCN_IlL3BplrNuPXeAGXj4zDYtkyz5B4rQk_5rpwjmPYnbI9x_Goolr9o9bM9eheuIIZOUYjHWdLn8E5sQW_OOEbW1ast9HeJpxEjN25lJf0G2J2s6GiEd3xMNo9zYLlryNcfmBm3TMUtI_bYLciwJwPGrrgN5zxCzGWdaVnUqzhu0XUm-DiHOX8x-wWwhvdh_NTRquQ3ScOxTxVxgvTR45YdSNdxW3T4LxBZLHf9lBXEpz7idhjClZEu6Ti1XcaHSLUnGC9yYX0XetBCXwUIki_Zp1xlVVKiVnqO4e9GlIXCacXd7IIYtJij8V8y4Pf38fYk2eMg3VMtDLWDDotxLSMNt8l4E4vNtYAFPLKmN8ef0zHyxqqvU9GcFgcpZzN5IvHuFEIrW5gcNtoJuQUdOLKiEGgkXoqkveq8iCQpydsbF6YnDGh1l7H3MuqpnTIKReYQieyXE-dwinMhWSBl_kVTXpA2q2nFI5iaGkdiqCa8KujDHJ54q7shM-dD6HS5BCPS8XVcUdG7-XAePjmcJmKpd4etcnRqbReTVU2zXC1IXwz6M3K8D_yyi1YoU8NgAdrfH8OCPylRjKe2rxC_V-f35U0wBAV8yDynfdONc1tOkL252hWhqL2FD6cDfzxvFBxsGWcDwC6q7keazBWlgM5bzXFAdAhuhOcP_J3QhBjex9oGIgA1O6tVN26OHZmauq-QyxKrjxYAV2f94OpkatXqZnzum9ezEeDV9A0RRw9HLPUwNbSswyWWgX68dPtAomnHdsdcMZcbm1NbjUhIpc_ank6ZaDivWJPlBrl-6q2GON9VpoPquFcROqaqtTuq9F_lu99P2lMRxhL6vII1ZCmZvOzr45ArVBDaAFR7GcF2-yCJ0yAQByDAibsNnpg64wot-VFfecJVbet7WZIBzXpmGpq1IBv_ImOleRgKhK2JLZYn4eamRxWek98_i2sFl_JhnVBJDeVqnQvpxXAPYco3QUvYwXOQy04xt6l_iytKxtoJENiw-f6T6t2L1JJvAf&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HeiUVFQell5XuHxMAHofr-5Frli_fMofXMcMBHyFtBzF3uPV-L8jol9lmevZlPEH43cF04qNobefuXZHwWScnXpq_oabNarQoqHSIeChiUVpw753f-4WrKve7PDiqEwVmh50YHGYepqooV8adgqc3B44y8ZYctVp3cWztnEt3X55fPNBrK0y2JIr_TZu7Ui5zKUSQVNqPO6e4pr92r7GqWQyOT-waePWKcxF_Sh675xmcHKbylNlx_STA-zNEM7ohAAohZSl8TeJiW-k7fxwOi45k5LuSkJlrsnarMtRJWffY9xvvduJFHeY24WrPavfIk3nGnc0z_Aca9u_j7S-hOaQLNXltFkleAj7Q36l8-xV8HXvV9m4-inCk028UUFyKCpkdXbMBYVLqLYebW6gQL7jr_9Q4O9PDKLHacGobyOvQg55wpKeewEOCb1hxVX-5trO1yHAfj6_Ol3KP6VIbuRk8NupI6OC8eHWBWSeivAKTCbjz53wYwb56HW3DGYgccrm6MXuxmck1H9FqU-ZzkJbF0E1fJlnDnduw8X9Yi4-hmuUlH5UwJrmckYhUvx414EjuP9qkKzFDU5ivv-GRlehLheV4qszj7NXyE_BUdmf2t6G2q5StmA1AROB7SKK17W57YNFXsq2hzKBj3i_WeZz4M6up_JzzXT9ifGiM59WHMzvDiTe14g65ybiETm2ABElZASFxdDh74mwqQ6nSRmsjeLBoyfP74p09cZtpmIFjhQfxItOIQWz4gW7Dz-GSwS1tMdGZMrmpfDEznwDUhW1D56scrkl-Qlyu1k3gxBsRAm7uKFYXbbQTJF1YZIRIPDzSYOsIY40FVf1zU1rnRPutXuk2Z4zrvwkr52yUmW7qOBvOuIgU7G0imKv45uKG8ZsD9j2EYr8339amMVaXwMaNLvTtWifmY-7aXicrQldakDXmiKDvHvoziieYoCVyggIZ8lBkjldpFDVPWtrYLtIOa1qObROhflPVPGFavtdDA5DFFZYoEm5MNSf6PzFK1pMBJr6PlOC4SxPGBtrDWbAn8aTI7T7b_QA5s4dVt_zyZ4qGdPWMicFeh4iNOCmnuQFpQyyfRhwpiOGbiq9QYJL2Kx1iuGmq_PLIB94S7W1VykYxOKfRVzD_Ib8gnvcnGWDuW7ucvQZ6RIYA7wADqpSKmavUBTdf22A635exyqu3eOv7O3HdJ61rMgLeRdsnX7FoTxMP5iIFiFTbYeVM5XLpsXjEbPto5d8xud_oFrk0zebiUIDOPLIJKK9VbizY&searchType=return&searchBags=0.0"
         }
       ],
-      "lastCheckedAt": "2026-11-20T20:46:26.841Z",
+      "lastCheckedAt": "2026-11-21T01:58:45.775Z",
       "lastAlertedPrice": null,
       "lastAlertedByDest": {},
       "baselineInfo": {
@@ -2560,7 +2569,7 @@
       "sources": [
         {
           "title": "홍콩 최저가 예약 (실시간)",
-          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H4d3iYfjXJS_FN7b15r_yMybt5lvJaat073nFhs2bXcf49EEJbn491AwUiec8KoVCALs-Iyt43HD7yfYjsq-glgULT8zq6lOG7GNlPaIVg0-OU1-8x3S2Tr76uNFecwFOMpr2aCJYcoROSTxhJwpZ-6MSb_u0wjNcguvk06rkGDMaKgHY9IC0lTfJ35gPStnVNeEVlNHStdF-QGlhXMRBtYUeMqr2_F12qd-6Hnq_o2PillKEcbbNhKmgfL4MRFWLZkY_qGpZEDO90VyEzRN3fSjvTV871F7I5dcteIFEeRs-jVoOJEwO2f4N4AkTfUvpxYLS066ye80RuU3aViKijYbK2tK_-tSSEMQGqDWrh-fDtdA4GbYzUFRPXez_rOy8o9c43H8p-q0r0pak5HyD4CXPVwaSOp1NflIQIkS8Q_oYMc2X9dsD3kInJcEnTyJ87ya6brgwJMSsCtDc9gBZXXK39FtZIemithiAVP770HNGRWyA-bujoQnQ4GIjFcgj-3PXjM8oTYiH-XglRoLWieXUNrGl_foMwiWBPV9cvVhaeMHiDJ0CjGGZEP1NMyxzAwE3pGNQZHZlplM_NxCq82G7BjfIOVJfyUgj9ssIhGekIe9dzX8P4jhML9ibvNfZZ0lVbqoDtzg6snP-IFHJmZJCJJyQVp8qB1h7UzWlLC24p43E2VfxGQJyZX7_1qHStQw2beGiwjZpJ2qcCKsg1x1vuQyaI5kx9DjInij21TbMHbRtAhfnBYQSEqcJYJna82QGtolyzjqMiVgYu2eFgluYkBLYR_obRTDfGreB5inDy_i1mIj8ZqvMeaOKKc7AK0Ld06cOmCKuWZCocTp2UH1lAqZCb1McL3MV0_OvwLLg9lEZrgp95gtcT4dXYKF7sRmyvyB_RWigoj34m5O6lSGpPGGjurmLfLO8ptkcL7gMk8D8G03N3VZZjgsqUw0WY__HYwmvHPiaYDKhZQg3L_UxbPpCt3cq_ZVPWIUr_kOFuy9LkFjj3OA24TsXZvQMubQ07j4fdSgZ_tJNI993-72G-MC7yvshR8gmeS4gScBO8NzcSn07Z0m22yI5CXka6QBajj0jmtzVn8mPHIPJSzwPWl-O2-9VKbb7Nnv6-mcqjCEdS8fbPIfOYWzP8m53df9OqDacOo9kBfsk9wBctZMt6gA4DxtNpMBWgqwHK8TBSW8FLxehE8XpKuvAICIwGOAojzi5uE3acefH2JiVRA%3D%3D&searchType=return&searchBags=0.0"
+          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hw8IdAu7Gq-tMPaTvVlX1w9TubYBN6lCEo_wdsLcZHMzJqYmGTxk85TymPox0tek8iVageoA-AS2cwbF7psstozPcxrMUfYDaKYPam-oi_bzadf4jPyKysopd-1sMEWh0m7ilYjsq_CwpPFhxdXHUMXqHmQuFU6OuQomOKV41-DOlNtT6Zov0E4p5Jv2LCZ-YA4DugL9AGCT9aaKsvu4YmY8Dd06cMO3kImAcrUlfIDDslCNVgoLqx88lHSjOB1xhJSqr99LWF_FkwrJxAz7Mize3F7NAvzh4mbK2S8bsQTZOZ1AjY47GHnez2_kVQ7FuPFbNVdYdEa1fDm3TJBmWfhUrhRF_gXzqCLooZjTChY3VUOJfp9HJbmPtNLSvv1ogUbtvjf9hdt6O7G3kD-BEM9reDYt_ReccjTnDrHnA6E7YEqYbDIfZqHqSJMZRrQ1v_STOfyFuEdWdGeQMRBZW-NHAYH3QKafO8PlWHKRaUXKDqbxYMpKkemWhqrTIp3y8QzI50ku0v1maWhdEcUvT0mjLzBOM3-6oaLtKQ5oAIiSTgBnBrPfqW_T_7_wlXPqOd0yTsKBIIM62-DEkSExlrH7QCV9kMUFJqCjaQpzg-bOTOGw0151bEuQvzdr3ghPXmxg05woA9KfqjVz8AuuQD3ngAQ-b-Q7fXYWAq9GL824mbV9Du8DFTrb7Vn3y7zFON4sSqaLTFpax0Ix9qx-SzT7tGw4xNSit2X8fXgz5xI4IqyYEaZJfxPq6J1w3tKO2Ck7hmIAi8f1HAPwbfFq0MX2Z-c79yVmpxx9XgkXiIWh_okULxoUsvxzZ9JRYOmJJT-GD6TU07-3QlwTIRvhwV3UaE301kOisGpvTUTUyuaYwyYt6SOXS8sMxZohsL8OP7-wB2kjCiwZfDvc0h4vaSd26xrXqehQ5NmQxk__L4Oxp4mmgM6xDZUBJU94HQk282c8t8NTlxriPE1v8_bbNb1Ugv-LTY6qiidJAQTneAz-XW4sU-rmRkvO2f6DD4TTF6hyJ5b_fc91XP8FEiOqUgHoOPCXGxaTAAwqQPUdrsw3ezSp4_jKoQNf_Cd60brmX2dMX20Bx6GEVOb2RyvoI_4obIDO5C3tC_nHLQq9h2snvkaT57yR4ME6SlQ1FUnp_r5ARqFNKLeoZUvATDcmaZylPUKU7XaQvDwYj2O-P2F1k3hm7IpvbnRD9KahM44LIRMLPpCLB-TlnMWk3UmcDFw%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "title": "Skyscanner 어디든지 검색",
@@ -2634,6 +2643,15 @@
           "airline": "Hong Kong Express Airways · 칭다오항공",
           "destCode": "HKG",
           "destCity": "홍콩"
+        },
+        {
+          "timestamp": "2026-11-21T01:58:45.775Z",
+          "price": 243600,
+          "depDate": "2027-01-31",
+          "retDate": "2027-02-03",
+          "airline": "Hong Kong Express Airways · 칭다오항공",
+          "destCode": "HKG",
+          "destCity": "홍콩"
         }
       ],
       "errorMessage": null
@@ -2655,7 +2673,7 @@
       "checkIntervalMinutes": 15,
       "isActive": true,
       "baselinePrice": 315700,
-      "currentPrice": 278400,
+      "currentPrice": 277400,
       "bestDepDate": "2027-01-27",
       "bestRetDate": "2027-02-01",
       "airline": "이스타항공",
@@ -2667,37 +2685,49 @@
           "destCode": "PVG",
           "destCity": "상하이",
           "destCountry": "중국",
-          "price": 278400,
+          "price": 277400,
           "depDate": "2027-01-27",
           "retDate": "2027-02-01",
           "airline": "이스타항공",
           "isDirect": true,
           "duration": "2시간 40분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HsLeq25rdRN_1MmnPEl0u6za_jhll8ILN6nNZlCnVCLOUWa8XBQ1qWNCS0tKLPN7rAInLemtzGKoZsrHkMxFXpmBv3qUaK-VR4iUHfEtIipkjkYZ938J-8LZGaPPx6XiuMi1pUPtQZ9pygSTNp57ShWKeZGN7vpADEvVqOZ90I6uqSbA_IbqmwE7KRhsp2bnqGntqtSxKiEUrIEDsL9s5lRUGm_try12wtqwoMhFgpA51BbCvaUQuqH_eBGR3cER-ezHat-CNjx2bhEUxf_88IYIID9oVWDd189yp3xQjU5S56Ws58xW7qD_5_bjCvjjG6HGj4tfD3jx1cXLZB_M-oARSWZTk8k3_MHDU-KxHW9nBEreY1LYDyrHZGQ7isastBoTNHlxurFsUflXSpHLxoqwOrC_XFkXMhH6-Sf3hPsPIAB7XNSt2VLoUsSaGvenul2KrGl4i5B6CdWJIavD7VvRRlK7AZI4SX2O7EGcfCMTxP1yYbmhRwteofVl-0VFvkM16HLDA32SeUX54t-lKyfh08KNKKdKx6mKYrQZRKw1PInhBGV3KqqpGuRFtqx0Wwn5S9edQvmweOQNU92_Js3XnPBQUstjzob-HAGGg8JeZG1JEb2pIPdHDgWVHmX9MmyqyUWDGbRfVr8Tmgv98LEhD_zi-FeSUPQ5gQhAK_hiccBX4y6mKZX1pV6qkUgCenXjJEIfgqzITD8l9GqOQjaPTxqB0MUFNF0e4wdzPjxgI7WNKcz6KkiBhM2Za3gpiY0UtSXWo-wNX_jsBlincXzA5uTNRjdQXk9PBmF7HmxYMukqNCIlt0UhxffvFEUdyPxniodZUY92EICUygph4RUIEryCVdL131IE-ntgH10M_lUlCNt5cJDfEMH67Wx8QEW_RglUsPxgQR9wRImBFU2WsTSgBW3BwDNRFIvIlEVyRMxHxbOPxtUyhKIHJnZ1LSPnxFPTSBV2ur0mxjO9XocGKn_qgrJvhcfmIn_ZOj2c7KpyuHPHxTat5UoQpBWQEBz_Yr9Z5kItqdv5zVg_cmOKvvNPZg5As6SFUR3A-ZZviNZMk4v7FvgEJaL38kGZb98DDN6OxWs4otBpVD8CBHhHhlcTP1fG26lwR6fT9z8Ia1LLpq4VuB-rfHT_VOamtNUH6RrLz04zRpKlWioTqVa02eg8KmvUbuS8TsV4E_seJy9nR0YtRh0wOEhcQHlTo44pCaPB7m2ZxVmRBHs61UoMmQ_JyIQheM_l6-t1evx8%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HJO2jlCQuTsuAFzLTxVrBiiRYimiXg6iJjDouVtDFMaHnlu7HOYQiPbb73xuG_twSHQ0ub7dbZxivkMbt9QX_8k9b3C9CncA2MWSEuE1Vd5iqK5n5oJxXyN2V3uqAzEa8H1ov1wV_XdjIRpVHQLoUEr8fMJjBnC_lt4fEiEAz_igmBnIRihiJjVsPLbD9tLGbuJBy8JUOT2puKSTp6BCPLyU4dK6kmcz__tinbsSc0ndWsD6I8frLSgiGHL1oYr4ADcr1qLHVmmw8d9ubUMKEqzs4fMLqMS0Ft6XjbgcqYbyEmNtztfuLOE8OVX5sQoY9KhRFJDDNht4UBdNRfQhTiT-pnWzN7iklG2LqOc37F05TO8aLDM3wbdg4xS_ov01x7ikosabKY9R7i2-pqiuSD-8fBykrl8x2FRB3QclP9IyFHf-Z5Yz9Ed76EhgX0tBnGbZwC43i7knj1a7JGJLH1pbHDTomNf7Xay_tMZJyuWKRxriZBBQOVYoYq3a3TTtixyiT3hly1LrKyEFaTrobYryD9S3ZfI44gY9X12qc-53GorStBX5vezhBzf5-do032ISGX01mYaMnAAdEGcjsv6kJpDR6AOa_iYOX8X39nOuLrWFoPxkhHh-DX1JfifysTKszCZXwKHWZsyoy7MKUiZDwpMCmM64cdR5ELR_qAom_YKXXrLYm48Nva_7zvr_0wljtk2iq2lI-OcM7wKbERwLX3Y3ggvwqd0yIoGuNgWaPc_Nh8Awi8P4Z6472jZqEPGTP4D5tHOxTqCXyf1TSsNw-O9nsXYXz_pDyuWSfFf2Uhu676TQEEiZ9YRb9X7SfKnuJACt13l20AOzc-uQvnfguMkQ1PDYibJR3iGqTS2zZp03mCGobovNAz5pAEMF-Mn9iwcCrm7jVNdWFHv-UJfRjGzXep7qzcL4BFniyzvvGmqRrk5l5WE7p6l1lPOXEQnkCFpyF8kTPNAg6I9RBKHDvQqaHa5oan4_B9nYpWZ4Pn1e8A_gIFbyUuxXbbt3nvWZScD8fJQa32tEYeqLUx3Oyq0lLDNx31UdjzZhJ7QJxfskypEUqdD69bnzvoGGswPiD-JyA-AzrtHtsKGzWDikg1JZte39Bl8J6HXU8k16KOlg23mZzNsCrX-ECUHyL_WmAuC536PkjbhYbZNgZ27q04x6xbNv6dzknk03kFOXI4n1uLnY-2LSgcfloFb_5a2w-bUyRXEWewaR4U1TiDyEKVThTSt7mONj9C_gtW5o%3D&searchType=return&searchBags=0.0"
+        },
+        {
+          "destCode": "UKB",
+          "destCity": "고베",
+          "destCountry": "일본",
+          "price": 284900,
+          "depDate": "2027-01-31",
+          "retDate": "2027-02-02",
+          "airline": "에어로케이 · 춘추항공",
+          "isDirect": true,
+          "duration": "1시간 30분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H4Z4dEK1oBWWg70tSo8P97MNAVcyh5cjlIPSULxsKuF8gG7-ACM15jZ9HAL8K_0nFMW4gw29MZ8IOL6t9_z2fbJUbUb57g1pvO47HjY4uRzMBtKE63JQrXUafg8-cdXQ1mCtKqHrimjfp3iM0bpKyZ55gvo98He3c3O5LTRSnyQtkFDGn4_dqz3Ipax8LkRoK3bkUhSkpNm283q4G-vKwgtjbM6miC4L3oX-ZWhnMIE-hZXnp8MiofjmQxdQH6G6xjbnD95UeOT1c8POzzFxfMNO-EFB1rGAz6oiH8WcLPo8HO10gQW1gk0SRMhQnngol-xC9gkH6WL-isiCmgnoTbA1H0lElRWWqFJwzbh86gGOzIxYW4T8l4auZYQkcrhH6WLTZotRJ9s0f8FbNx0NyEYkItw2_AK3iIruKrJQr8atDBnHXq8kdiHk4CkoNHavFmuFujQVWfFoa7K0uvVhTGG0XZQJfCAv0we_oolLak2LwduH8ruWXhQpAoBBOrNax3URQUJJGIUHmslvyr5kEC541o4XKlJUxo_M7hB8WcoaFcmS_IAUskPE27xPQXSTXdyQxUAVnaIaf4F-_tAduhEixJ65UiHtEc67rzZDmLXTr7FOcQEf_E5K_Z1b1t9WM7I7_puicBFSXK7R4tQgFjgCmweB35X7pdqq5sqOoSCjEDBlXIX8U0RNM3BB-5Cth7z1y2SXiQxuieMScAVPo3MLMly356ae06TCq7cO45eOFfPiVOBbrr9FpI67ML8KAOpXTlXPBv7I-qEMYPa3pktiVLMWaZUZcxik1PgsgGRBI-R6qV3y5wQQ2qYp9LVC0KR6jYDTUCQPFcC72MJZoUZipNn8dVBwvnZFr9Nd9kdGGUsy40RxqZGCyPj9kRcbpJ_5gJYdRVnjKaF_hElVTIgcUexkKp7VHbPVIB2kA2p6ZKwyaL7FzuOwdepbNLfX4FEp-bTdcgVpjoEgulvG5a2dYxTl3gGeOVjurZAZVO51SU_ZiDfwKSbOt88DDGOW8DJJ93Hsmg59ozoBnBabszL3hs0s359ciEvTymUizNrB0rh7e9lZ4mCWtFCRSkuCuXyR55f0-oO9qq54NKpPGIupSaOaKprqYfoZ0Jznnfl_a_Y6O6jxDbbbozpRegnbBU0_VHqEHypR5SeFGZ3e-9bKrbIy6cvb5Dr0JI1Mw4bVhePBf97j6cSoJQwmMpdXOCCKM7lS5y40HZNJUqBAV5NTzLyEyFGAncZHJZnO_NL_InVH_9w8wQbtVnsgt4eJo&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "HIJ",
           "destCity": "히로시마",
           "destCountry": "일본",
-          "price": 295000,
+          "price": 294900,
           "depDate": "2027-01-19",
           "retDate": "2027-01-23",
           "airline": "에어로케이 · 춘추항공",
           "isDirect": true,
           "duration": "1시간 20분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HggVmhc0CtTXzAc1IEVBZQY4h2dcjfJhdwOMlCk3TWQ80de3GJeHCGkOCkhrHFGlmAg0wfmMSV_VZH5iWbl4PRIJbHPYppNp-ufZDUDh_x6U-9NODUMbXITnmzO8LYCFZ367zunh-R4PVxXzjBNV-aH7ms_kjUV7PVhf5SXExfYOXv1_2e4_L7ek0p7_qtE0AlniKRoxJ2kpbMYXkzkqOlz22h_1mjCgOkC5U8JZzXKga_7d9HgisyaaMBy1porzFkisIJ0FKLCbcU4y3PJyR4Y6ecS0k987V9G2L5a6UDTOuiWLktUrEvDRt38l_IR7QF1GdPPGFRpJvVGB7XgHpjYF-R394aUh5pnsa7WYChxU8X_4gToJImCTrMGgvthp8vV9hDqmNTmO9-W5t2T_UllpPClS4IvK-xgStHvdhtWMMAd23qw0uNBVbeRfjbHRSpFpnpykd-GDMcQfXXYXW4CwfDxiunU_Xqdo1TAqUiYK0kQ7QPEftVYSbuQerPWsIKsmca-XFM1tiUv6sTifSHKj6TNno_wXa1mPFliAg0TaINt7pSkibi31DYzszZh2Xk9sWbX0q8vpgsc2LKbHrTrEzS9UolovKskldTa5N1tpsP2j2UkVprx6b6Ih2ZC7RdYJiNdl1mjtQnPrY_e1CSb_XTzpyjgF-6lus3Sd6d28TcmIvCjIuVmO7QT5BhZ1p-zjuBn4jzN9ctx5seGj-xl9ojHVP7n-UKCnFUKS3UOw1wrFG2URWiTJZ1FGYCNEs7od12Q_9PAg2Yt8n5J2lUR3_k8WkngHsCRwvKY090zneNNwhvDNnb2v-DC4Xg1MZnkLgZbs1QRpF5kgQ2qLEAtRQqZBoLg_ujboV6bZgTQj1wZZrpBtwAYjCmvoeQ70Mkkqgl374LsVzwL18Q6irQyvDiLgLabxOeUUXqLIqZiaIXzv-W1IB5Sd5EVCf1iICKAClRPDtPZJyxgIUt4o6SOgw07PDNrsVkxza-d0DmqqmIgWvysbDsIhywv12eQ9MPoRq4vDWrja5U4qsjc3o_IumePjagOr0sk3YUSyBP2_8DeeSN8MkDUdv8Pr4TZnhqjXHOEWH6CRdqgVVHtoVocuhoJB-teSPO6Uk2rffLomNMwWUHdKItOq-uRQNETCZlmgzlnQcaYzgLXexBEaU9BSfeLq3xmDdHyP0Mz9GhrcmMmAzV0y-o9C53kgf063gtTjxkvDCJv4-aEZF_Gc9Ow%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HQJET4-Yxf5ED61VOCGE600zajgt-LpeDJwiufXEdkJmSzJLATS4r1L3GJQE-oXWsXXdDWhLY2wDFZn6ikz2gj8AaqgGELeEjY9m2o1_4U1Jy0uBhCQvtqD8a5NZUuyaQfNTMIwnsAyAGgyFmkrMTeRxm0DIHX50_aan6ALxnvacPT3J5dj_RNvOBz5hukYXatzP04MMoqh0K-iS6dNmaMbRvcf9XmN-bW-0zIocT_hfVBXSqX7i8tvjXdnzBAvf9TXgMaqpnqDiDS3NWm7QQBMsYfD3N-UqI93QXAF4TAHPQdYiIaGkt5zYOJXVrPQrBs0pAg6HdLd89UoUcVXeIHB4itbMhrTM1g4EHSdtmhMbNoOrCl6n3Tg8r8Sfqm-4fZdF8aV7eiV9aTaW3V4bnzyPU6NDm_8T3JtYLGV2B_LVxFQJSSefw5cbmYAbI1ciqeMxkSvW5JZf5eH-t7IrQv45bcdMl08Wb21KfyxwAAJM-PZX1GETZWZGtrLtK0UtdQ6L_7plqJMU8uTXreJMb6HAmK1C7QDGG9FTdAvOwEF11HJgglnG7YMGqI3iZwPbOaP7ie8RiXwQ-aTR8-bkrFKWZRON-R1KgD24Am-lxtBBtwl89IoxPpFxLynpr3uj9ccZ5JJHDqVf0PD3z62nJCMqD3zvZFnAnUpP65ZNHWcKo3a3y0QsCzTW8XXUSAshYAEjG54o57e9RL9r619zyVDb1Pr2m-KCdTD_KxWpgoik53QMZDwEWGldTW0wTjAX1-_urJJVYX-ZD4PLBXHTh6xrLo-G70quQog3QZyv9CzvILO5h5Ib9STkYszPapa3qdAh_27zwyNLslyzHalThxLzfbWwuU_Vtxq_zTYSVMOmkA-tRugpkgCflnas3ogJhHttHBImJ0NXnx1Xpz-tpP1KI3mLO1fxHaCB_SA8Jb229BGAWyib7wb4hdtCG-vusXh3WqzxEeQBaIOyk_KcYA0OFbHp6AJclgBndcerTWYSMWqAaoG2wvyoog0El2ZMFM8u3UJfuEmLkdY6BNZEx1x-NuYnjEzCjU9K6q-3huI52e9HW5htF5HgJlmnSQJh-paqQlv-SppOjMsC44tmxMdNfZ4J7uY0rknErrF-D4YcaKVLRgE8dtvZAtZCa0QICeDgCIa3zQrD9DOeBaNgSJNNOQvC-B0Q_SrsxCLaqJfUMx8f6solmymXS6L8qOAlSzV9afJYmQgARIJ8y0Hl33Q%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "YNJ",
           "destCity": "옌지",
           "destCountry": "중국",
-          "price": 300100,
+          "price": 298900,
           "depDate": "2027-01-29",
           "retDate": "2027-02-01",
           "airline": "티웨이항공 · 이스타항공",
           "isDirect": true,
           "duration": "2시간 30분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HzhyNbAYD1vm3vQvc3xeCy87I3vNQ3VkbP7FrVQj6I0jPRcqJM8W0hxZFAcGGm_9c6v9XxvwJc6fty5wGl7Tkdt3B5-Q7GA818XhWCesefz5cbG8IcjMotCG6-rit9z_YngYFsCKCf8R09uWLimrQpc2Jyywt5vi2TvFsP1k1CYAYDhiFfSwiP6ARRBJV0RqZDVzDal8MJsmGc5ll5kDAUZAllqMoMr-ljiShvAUoljfGC1yRilg1_5cUcvtHNkoa7R-jmEJ8bVla8puabwYIq7wnYReeoW1L8ezfxSoAu53sEoLYfC6dF0UD1HMPaUiqICmnrIEgL9-NrF8teDzPMIgPCC4zPjJmCB0HLmiBOwxTE4F1fbGMbZ6kzWxzYrDrhTN-CPzAGvBVNjiivFVpxasw-zcMhaRa0AmScOoDn2QcNrzigDh-iDdI54i165UAiMAu6SUTtc2NIoOG21ZX346erFIw3n8XxM0RL6jMr4KMDDaXYCCOS7_3nyWGQPgLBm9SeRY7P6mQQbJz6AdTMVNkSInxmEtJ9AMfoopocgxQdVUgSGxNNLaL_s7NnINl64J4vtdp49n9xUku5Zq7Ba09dFXfrwfodyqChuO6bjAY8huYAxAQwpZOJZZiZQX5tNWIEgXzlpMyjnC1LjZH9HYsLU4gtYMs6k8rVt_vRpF0ZFwM32iDmsFUVdrb2CIRFRK7a-ExYeKGdE_fkdgEoHNcVyuzm1zWOoAXa5JDPqSoP_TcTE-XxgzsFgZ-KzLG_UtD08VTlhOxmYoYSxV_j250H1JlV4sxTZFogtmJsoO-PiT9uZh1rt4gBv4Q8wC36YvCG1iZ-9rcCzdzmCMO15AqPj40yuVTL3Krhnxtg-BhGjFtzJrpOw9Yjb7rtgbk6TzzmurSN3CB_4Dwt8c41UXO2KpFmFxz_LCx_wffAvm9X_4U-20VRZ0stF76wntejP9XUw8a-uGa6YunJ9Pwpn7iwJn-_G6N0i-6RMvAcd2RJi7WDcV3w6znK8d4Dv4h6tpArwumYiMZ4Ho3Td77GmY9_DvssCNH0EQTvehCXlhxklRu3_q8LI1ZieJK4dKFUfuqju4lUWuDVbOQhUvw34qS7ddgMFPyrhRRWZW-WMz5VonrD2IWPiYd7u47P0AvcN1WKVY-_kF5i93oDLuC_8JKUk6WIV_ygTsIRFPJ_lPe1SiS5QAOJFxNGLRoWXihdFlPN-IW-0moW5T8XW1LMRpNlsn7ryQ43Zije1rnJk2iQMckv0esCz4ZUM7ofWTp&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H85-OHgZdiTjiEftx_W0pRklZbA0-3kwEU3kkBnVUGIHhcD290jaAZB71lKvTF3meTSusxRML3z_vHnD-AfEcv5QAGdIT8PhifIdofuI966VN_04BPiqYumMaRMFrr-qfmxTG1N2cQ-oiV8D6RLxaVh-yY0d_hlyo94bPEdDEBMGFvswonPcld-OytJ8zZsNhgaYTGDMp6WIky8CdHOqNpnBgsxko5D-7PJSRypyfIDYnnphOUT6ZWA4u1Sl57dwvL085w61vuADzJ4NmnW4Ntu_x4QpAjUc58t5DcPbSSJzE0_cDYiwbg8zJLyHdHp6fOYutQHGYla8vQI-hI5ygRj88Z8fMoMaOf-YZWTtYZS-Z2eI9zsd7KLbPyD7Dd0ydDCnEmcBNRSjsSzULIj3GINPc2E_4C8eRu5x1LY31QjuXoBtM5rQPieF7prsBBBXnpb-ZbbC8R4klvHjWbtxtO6TVj7jMjtCQJzzd_U4AB_D7Cyug2wIW3N1Xfe3Hg_R1E8lc9fbMl_7Mc0IhyqPCyLKM8YSrjQDUckMOAgszKZ2emt_HtcYRTyKcU0SrWNqjkbBVH-FLsD4JrWReRQq7Bghs0xMH9CQxTZrvFeEmTA4cgg4jPP5s03CjtLt85t7uWfD-7DWEHwvU3uxvs85dT_bpptvK0nu840OegBiV7XvjRNTdVb1yawVUkZcvZFAuqWU3aJyeDI-3_hYFFkAWBXWugxhdMLekoQd7G-Q3oqOZhTi8rQ4oeLmiky_EgXrQRamWFY0wD8Kxw0HPf0F2Z-WsObTKgrn9Y_1iTweUUmsdMI_lENNSpjhBPBJ4cXmIJda7iN5JBpuNu0O6_UOaxkGzO6GB7PRRiDWT_9LmQ-qDwaYQp5g0-1JzCWPRx9Ee4PDkeOgCN223aT34GpUPVGKDUtj5f0cmU0kWSSvn6haIut2CZNlwPvsD4D645Jfo9kERGHTgwFiItT6EU0FtBxI_9Z1_HzkVEiaebxwGyKqU7hUemxY6Y7HWfl98cMI7KHM9PcQ8jGj1R3i9-L1j3sObbF7MDQbtN80rHUpIfGby6WU0IjW9O5h2JXcAwrE55KbeU3jswUubVfKCmjDesrGJOP58GoMpnuU0SIdjykdnPcGN7PdYeO2trpT2JyFOGLgpcS6IQAr4lSsKtVeam_9TiT3plbNypKIEjKcwWcdg_-golQ2V3a6TAVrZbcGzDC2_IsYnN5PWWdVVim9Tuozj5b2iHnyxPRj4kGLYSufjod5mAX0fuE27LHo1Is_k&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "TPE",
@@ -2709,7 +2739,7 @@
           "airline": "이스타항공 · 춘추항공",
           "isDirect": true,
           "duration": "2시간 30분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HUCIv-HGeXg1__s8Pruftv1_GJnl2tvQMp4bWnk8sgWpplx_BgLr0Fv3NmWy2DJSZ3vFs7i2MXZkNHzuPj7lTK4GSYvXIkLodjShrKUsKCP937JxTPvvnSYtly53O2ThJPpcv4QsWjn7bIT9cOYtGDZxQiXOF31Fd8BOYOjbmvUxl5X6FiUcEImovjsGf9Naq70jMOYhUs_JoLyAPmrM1NAPHkg7KGsvQEgjsDaKjTO0BS68RdGY93fFjTYTGs11mELzt_sbXBt0eKxL1W8yJEzFlLpGXtDaZiOZenb3s_c9-kIunZVRj6-lgv7XdNTubu8uNR6C2xQwXAuIROMHK_MXfRE-LX6RM9i8e1lz2xI782hH-XJ6qK9nzEnhl0LJTCD7i-QFGMNYkxTpt2kUopSvMt-Vuf_9dNbAsg_HEcR464DLvwZcxOkuY5-oc1V1QZzxz9zYu36jeiV4WnhaZ6uRNZSbdE7armHaw8FbLj7OCO2S1am4HifCD4P14DUiKOdO0ySo_37tViMXrHRPvlPwmZQOt2z85hKKSfYo-tBgqQLKw8j9bRshUGDZMEd7XouZGDCbNCAKMVNy1pwikBjgNG5NHmbgsj6U2ZQtWegFTtxZkqXEBJ7nM1Wk8jLI68KEwh5hHspM98KOSgGO7WwQPhs3NTXzN0cIVH_oF1hN_wYM9d2AvN1Xc5VTCdQTg9-kn6G5G16i3SY8vJ--uJkh60i7QoevBkOFTj8HL9HgD75zHNWWUoFKgJ0-bihnOJk3nG-rzSZwSaL7-FhaYX9Td6C7JTqDvzZEn4qkxC6o7k6MZJG6z9ZVAL0f74QHK52Mb_D_8Ih9hIzqGIcPc-VI1LtYb_yWO_vjSBOeclT5n-hB1ThtBn1TJ1r3mrbG45Fx7XkgwY9K1_PqOgjFMmhaWCfSMm-rxo8rP5M2Teu4TV5UQLzEn7x1lYxPv0JotEzkh6B_0YGuuixgSeyaNy-paK1Qc2aYUwPG6UpRnuTPRKOgPuw2goGG1e4af0uRP95aekxi3nwIZnfxGAJxDafTJ_GZURiMqXTrUx4xDhahuNx3j_vn9GIdXmJrNIcEx_JBYdBTXuugRb_47exGSutYpxFdbBbQdDiXobOs5ejQ4O7ulMOo6OSbPT-GFnzxb7C94nHWBQlBSntB8StegwAOq6xCaAzb7YiKaOy8tK3xa9axu5ncu1B5VmYC7AQqRPssNPjVdSKX-hadK85feVA%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HT1cRh4yMH2quR5PWbexMXtP5gx4689S5IABBSEJJkgHEQehXF7jc4OyHu6sbPHRPhqvUdLja7V64jJyNG2kUFZSxbxCnphFm0NcYoJhKsyud3YgPw9OXnN3mkq_sKn_kPgE5oCqgztHXJpgroiBHUzWG9vFRhrY9ArXBLTTwgWC9A8smwrPAM7JuRsVnbYMcU-yn9E3PrlJeIc6q0K2ghKj7Ia10SoC8PewbRQhxB1ZDGrIzimkhYnWTkPK80NLwqKJBAVd_xz4IYtcIkFeIysJXvN3r9xjReP53IZRZzU1EuYrTYqSQ7CEUAJe1niag6_txsE9o0uBn9AtRDtlw2R7BYgcwdxclwReHX0ySUVCTlyL5i4k7J3CUmq2mVxWSDOaQVIRRw1liulEvJHHFKYfOKF3lc5Cci_LC8JyuQnSeDj2UWH8UBLDWePka_Rv8NZEtmsE7sORUKL7_Tkt3iXADHmVtwPgXYCPy_uiOkvbxAkiK-VwQhRZVo7-_BzmYyDNOFqtEeKQQuYbmL2F5zxt7iNhF4gWC6Q9erMGL_0NoakHEHXfSTHo53jXHvNPF1-S7c6kfngxWD8Ij3aeG_AyGDEw1-1pt3eH-mcp02owqiSbNsJPM7qS53OeeYHiyYUePeoVT-bCs9l87DkSN2HXOMy6XEevLy0sDR0AkhiUc5GPfrFDVEqPkbm4Kiy0Hfj7-oepvhht4az2aiRuZbQnMpO4c2BIXNun_sM685fT5Lb0BspWhMrsErDiGKkEkXSosAivkrwAKOS1xZwXXnZe6u3vcdX3liWDrlmj1qRYsTPUCwlRbaVbJ5DwRck8XpmB8NQAIApi4Xe-rJxiKVEYd8bYcjgQplZUyTtU3hIconzPRaR7mIy9QGqa4GGL4xComYAhiaC0ZsSKC4TNbsp97NtL38QMB41CjYxEF5G22ZXwip4SQ4BYOzXwdcBx_8sAD-Jh8DqZ_tB-0IYhf9cffMYK8L3-Y2GMKn_aUgohbSLYQ2d04DFLG3kDTDFBLmmeiv_vP6izSxQ9a-o7LSzenLBAmfxS7HJ6b7QZHVLkFI-2FS406DJmwtx3T-tywQ8eSpAB4hh196sc-AKymIkfglC9P5meWCGQrokW31KYhAQ-u6fSH6MgVme-H-JxAWPqmPw_YSSmQTjaxHATciXk1CvIl6YDmWGDer_acJNrOwoTxN6kzImPOwQUJN6GzTAWtqRY1WQav1_k7R6OMqAGl26PszEQjksurVYKKxUM%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CTS",
@@ -2721,46 +2751,46 @@
           "airline": "에어로케이 · 춘추항공",
           "isDirect": true,
           "duration": "2시간 25분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HkOPqDTCIOSCqOB6zJfyyiAE3f9tBHp3Wn0C8iZOHNH1aGneUpW6M6_lYM--0bwvHhIKasLgWDUSGt903IoadS32EmodMgMtYoeIleOOmZcBQIOY8ju-ZCmEBS9U1Le1Scwpow1FTiJKwRRU3QkVIbUlN8E1eopLSVwHI-z8hc7iFwaqTHIspY_zY_PyiackHswfXYhvhoGS1_oCvIKclmKFQy90nyDJEHYK1u65bdB9vSRGot7F50af9DtMk_zwpb5Ft4YAXOQEeieUOY0IlWOZhMr5PtonzDwleuCPoeyrHxIG_tba0AylZZQmd3Jd6Eq4tbXWkgMjQuzMnsA5BXtWDMfGqh5CDI2n1NL1ozJLn2uS-h7Qm3AMnFNW_EATYtfaZu7Xcej3uJWLM1bSYxgiUDEt2o1OvzoTwQulhiuhyoJ756VAgfcMCenK7Qq7DDD4TxNncYBDR6g5DYZqbw8wh8w5SePPM9bESlmBQI2Xa_fJtSH3lQy1S9AVjGCrlxfmzUBLah_D2uRoSXai787bh4ZjjOrQ7VnS6bxyM3zKPeU0LnT1YNrBtu0j7tPuIWfjXPxlHXBHR3-7wNZo8pUAWhGmCVO1gPXr_wPQb-HkOPohShwTtsYqz9IoNh9F6UZuCK2sr6-awWvT8j6PCVRvG0rQoKUmHEJaTcusxQWcbtXvrbAVOwdJWz3XQHL8RqyA4StWXggeFDse-CpmOYH4o_ca_B4C6FzTiESTPznU-Lgl6uQYhvxyDuUbtNkOd91338sx1qtUFOncyWvF34QqNVNUM1P3FiXkaaZfEVd_Ctxp4sKR404RCDYD4-X7rOUSDx2503v1G7-XEVscrg6JPIkhGzmfeu0aTTULjMvg5akNLH_JTbBxOzOhJjaDouvsl8JJbziBJxyBHEu0-p88MK2-GOcgahooYPW5MPwWyjL33_fGczzsSRisFqUKjqQvNyrXei-CY0zigZV8NFYhaM7dTQcOJQT17ScOZO5a9f1_U0CxuEIqKQcGnLEAe0Z4uSr-5tKVE2XEp9kyguaJ1Y4xqMvjB37yCK8lF12MP4iQTPI7dsV1F3skJKhzZOyH6_2fH1lW6jy-sqJkiWVE49YWXSE5_gnM86tHUw-EnfFFeMpIaZSLh6ch4JORiXZJw8VQhTZhct9mBqYbtMAaNO8Op_JK5dnaHTQ_pCOsE0xu2D3cmO6hCSmnHb22k8VLpZgE-6iaOJRluJFCTcg%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HMbUIwuz_vj1gDnC0QnKb0HqanwhMy6n0HNftdbHWLLFH7NSnGlsGsRE4zJCj-Q3DUeTYHpVAhQ3l-140BVriF-BOfSgFh7STFBFBzK5nfvbu1bdIGTovRpX7AXZ0HzziWi6fOBbOdMy-LZJCAw_wkiB0bHuaRDHZeUMHZoJqvIBjpdhlFRkJjADJ8KqN2sA-qm-jwMmooOQy_42Hh92Nsdy2Gg0yWxkJ8OA-V3upGZfOJaXqFnbK_4aMGXI9TETM4o64SFZpmXwNxEfk1aCxtPX38ppiy8GGyYpOxJcuhIDfAj-NzmlbZwPt7DOuSeimtPW-lG6YNOr5oFyBuxI-5vffOiqeeqZ_Dxoa_w7sv6q-yV5esDDT6LrGPe2PI07ap2zoLSGahjDxvJ8K3C-_XA-tohNDRQ1vWzQ3F18wADJcf3nz_1aWlTQ6HxJBMExXizXdlErI32g3p9BRUeqPLaI9WbWTUrGY_sLtUT8nmfcWdPQGo9Z4yXaC5jtYvhQ-ZFwiZsH_3mA4qorHmdKYzbcuQjc66R_MnP20EvpY9NFElAIl1gZIIxW1pDcOT0akmtUwRRApE0UNxFeIguCRDY5hrDLpypElZSDqihFp8xZNyqToNToeNL67k1qds_2NiyrnIG_aIix6fjSWZ4hzF448jA6CY1hbF5zyDOU41VO4uKrK0KWdSF1JCjzThoNtleD5DZWs5JzVDYQhyGquxxcPTrfOVZd6Q8TKOQBqp2tCzffKsH6FAT3g7KtFX2wOd-f6ezQZtP2V0oPOG2Xp1tEzAd5CqfoIgAq183WbfyCg3-rtzEBoL4DTYmycKuG5jCDBUQHUVNKOAL-SbJee7cYpZZf4_dnmoJYCo8x5QvqEtDeU7uYpTAIvNmbc55Q7-TfHlPPeqtF66Hwtk7PUOjPterkMQG0-brEJlghPk1TCMcHRTZz4YiHkrqkA9vKlKsWoAD2dM5CrVmbjSINaAM4E138Ysg_MV8VS_lLdFYku2n67R_h7ocLf3aZKzOnQlw4XPibgLIRCHwKY3Z_6KSrhqmKc3V4CTt0mziE_KOYOskqAeavduH6QUIPfBz6ykPCTcM7OzHFXQDBN3Zd7gubIBdDZh6gxo_jAA5mGyDAtZro96ekDkaE4cX0S56SxF824DB4EnVe1-j_5TcRV2Xr9bEu-F9VxJCr9ygOTma8L8bPxcjXlDi38Yfm_y6tFZfnRKu74pCCjJVpNBdf85dSGJ7S9MzCCWfsCEUDx9sU%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CRK",
           "destCity": "앙헬레스",
           "destCountry": "필리핀",
-          "price": 441800,
-          "depDate": "2027-01-26",
-          "retDate": "2027-01-30",
+          "price": 325400,
+          "depDate": "2027-01-30",
+          "retDate": "2027-02-03",
           "airline": "에어로케이",
           "isDirect": true,
           "duration": "3시간 45분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HQ9Hk5WUg_ud7bE6skftkbI5ivfd6zPVjasSOyJtTzHDXQi4y6p_rEdf0HkmxR1Sm7AhgFA_jfCa8Qo9fSob8wK9y4kS3AvQ5f03Rr2Lr4bfl_B04SIR-vJE0q0zQRr7DGl6MUKM4hPPGdy0BxJ8X6kWNguBVtW0eQkpNw2icLBjL6o7BUcQIyK0BHE6Xa4enZ0v5DPRxdElEKTfEK6a8rEem5ghll-IDBv0Pqono3Jg7EPTahAI1R4tLzmCxZFpSs6GQEa_vGlmUnJsitUJksqrJtLHZ7JNnr3ysKK_d9mow5sLcXeSSg9HNq_TzOxDi0sx_-qUHKb--TgkF4Z6YsVIYr_l9tsvdd8sw-Pxa4AvmYmUDBnvuOJDuEksWCH15EIvOyE_5fSlno8i_A5lJeeB0XqrVyzNWYNIanT-K73F8G9YcadsOOT7NMm0Qgl-RcKjlbUFWbjmNIJUVNKS1sz7NXKh8I-IL1AdJJ6ymzImKvkDdnW1Bus7l4tZqzdyJei4itbu4pR-BoNYA2J2Nd0zDRnlN98WWxewcUIt1awk-yn1tZLUjJ6AxwyPJsw-6TQuE4Iv2Oaf4z1-R3feOFZbXAmQSZeFjeVDEGU6xDhj2NYgIq3b0GO6hymkWVGb2WCr_lea1qpDslsD8y1v21iDLXY8MGkzqe4tmx9JlR8DtJf5_B1_N6kAmclxEAR8wADN1GxHPVD8KxcwLIZVat3uFAP90XPLhLAmrJFzbxvBhYs0NYxJAs6w-Ug2N50d6BcW1NGJYud0gUEzbFoq7UWzj7M9-85lqhrrcAFXxc7TObu5tOc9jmhlqbAgeU-06zXSeLdYLk7gHffCTS93vaupcWuzvp2_SoHxHwV1ENMOC5fCUIpG1fnNsIGG4AW9xsQn6R266mxTFDRQYxHnBcn5bTlrun-xZEv3FmCRiMn_vjboaEBqh9Cnx6vsSi_O4zXfb5vmaKGT7J6O3PZNFBI8359Qxynze2O5iouiP-XKRCSeU3oDZ3JcrZPmUlZx4lXMPVn5wzS6r0hhpXNLLRO6z7Ui1f8L-Z2fNulNWOS8gnaNcme8AvC7pm_V8LqUYiiVOSoclhWwQeh4mcM8Ptile7FsopcPUQ7mo9zRa7HiXIxNlmKc0be5qfT3OeFDZ6zF2dcHJLCjv-zS5EDz1GaSrakp6_hlipHPTt-HkRDddnIgy_0bUQdWAQrdRyhVxe4Ww0HJ-y9mOlsBGleeFHqUqVFBfzZEn5IyZtsF_qAw%3D&searchType=return&searchBags=0.0"
-        },
-        {
-          "destCode": "DAD",
-          "destCity": "다낭",
-          "destCountry": "베트남",
-          "price": 479600,
-          "depDate": "2027-01-17",
-          "retDate": "2027-01-22",
-          "airline": "티웨이항공",
-          "isDirect": true,
-          "duration": "5시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HgK0q-xmcrmdZR-tex0WKsFmJyW3vuGZ2FFXLZ1yrqsSltuYa7e6ENwepnKWRZy_z03ltv8lR83VCprX8Axj7gPWLwaVOSPpuLjjzw_lyWJBnJ-RdJ_PJYlU2WMrfKHpSk__HxP4t6d20hX4RAM5nar48BanidCrIf0SwOii4d2uxrDIs1TQFMvpiafzCEDcXlmcFWWNeKA8X0jEfIGepf7yEMFv7KQ2iQ6fda8TFCq4ZVaCQx70xYgSe8cgOyljBPjrqb94DFzKPSJwam0Raeb_jgOFBfNl-xq0i9xLlLcw2OSyDGRu5NRVXxuFax0iBfqEI1kJieJ3qPvzNV8Hx2AycpgysX4hbmDeICj2SQZYQhlGRxN-M7kSlvXWdXOpDpTVIsV0CMRRn7CZHbKHZClpRTwLV5RB5JrbqKNl0OR2l-9XZk6gfhoxLeWpnvPkRUCn0L2SoOFBugcO9u-iTh4AsF_w4H3dde-OAVxBrFXEn7-XpQK2n1dSVhSpDiNVkt24SHxPvHmPoFec9emaikPErJpzwJ2EKvLYaRRDGxjO8W8ydreYSbWyW4VZ4oLMI_TkvfcFQ3YJlrucZbdXyVwegVCyH8lvZyf1YrId14zjdvF8fuB19z6AlvIc1lRl__n_dCCFfhxGj5oT7UTZhskPbWZux06rmTAhhB97c05I1AO65mf9TwuTVjLSa2pamxVaghfFtXFTK3l6AjmUtHYX73YPnbh4ECPU-puUncNdGsyfkj6ZetuUE9q7oPl-1_lRk0cppS24AgipKKFGyxpwKFA_BDbYKUwgmTQ1Qo2FUauShubIPf4PlsGH9pDRlxUnpH0Hz_IUAF-_HZeU_nIelinNjFYg9HToglg0Vp_pIcXRUl9jAahZMRQ1A-iD7DjPfbJWab3BwDrmMOcqQit2OyYOuCststbpjX3MaAUjFO775RW_do3iPTVB-XR2zO7XpzOGgo4gYH3WDXhCExPkuwtdThMeVvPLQ2ElvweTF4pQvKenfSgrAmfpkRDQKO4Tbe5C14lSsS6T78XA5CTsm3sA5Izxbo_dJ4FsyEDj2JmqVT7ZdY3zJHWAX4sAxiIykGg-5fVh9rUfz7N7JDrFK1GaWXSZgGHQ1on4rUdtGz1Q8dkSC-FWACeS5uUnIjvoA4trK-nTMwz30MOBBSDik3mEkqNpz82La97QREccwgkbNYPsRy4_-IOOgUKj_5dQMAP4FvCMdKFGGmsgqHODNiERubIaV2-EedhmDhEg%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HkuWcgTXpCGt8vz-x1YSGZ4CwO38PKR6xxS6eb3d3DYh6iIQbyjq2pnsT59OA6Swh2rzO-lmfYCfbYk78BYY5hz1nAja8gcnroOTc27BNGNeYa4Bh_hX8hq9QbUAnfWg7FRxOkSFLJhkXwe93kK-QZX7uqhCACvaSTLLISWBzxCSfRneDY3t3ybaHpKq27DiZyyOFJF17FsLew_wV0zAaLktdJHJoioH_Rkbh-7GDNeGbrE0br0a-X5lunSUo8zKWvDi_FCO3eqE4EoqAdR1l0jHbCpTWeO2gVSeEMYRSTmvvzH0NKecL-wfZRTkZXG6MDsNjD1SJnJemE-NJTA5UPF9XyEjx22nfD6IsgHJ3ofTrYcTJ4jhvOJCH0eeJud6gBiih7KVxosb-IQ4fadcf414iZDEJr2IevjEQQymi8It8gEVCKXVi10CBykruVWrBgTjVeZoHbK9lFdBeANpS4_OguVdD2jRow0OpfTMuUMk2YnXCEURHiU421fg9qj3DuTbVezsc9wJ2kypIz1PcPCyotYWoPJY87BC4Ig2F3ux5uGlMOprcCRK1QosNsbtMAil3rhGGn1aQPVP0UeJGbSOz8aYOJjGLIo-5KHwzD1flDemxcuGaPoi6r3KhKiOKIsoAAEp3alrCZXhlRS2usJtiZJZxqKZeTv5-MSfw5CwIu5ax1yDHkXNZv1NBIDv-vwp6b8vm9XyPFa1VGUvqY42cAIo3V6YKajc1BlDDJcEGX64deXixhurShqx9Mx6yUFVGsoVXcl5a2TDS_whYBsgfPfHkKfIQq3SeJ90FCJjhO5oi8A2YIHvzL6YyNEgIzuGwHdKhLaQWLk13kVIB-GaVTBp_L1HQ-rNc-9NhuHmYA6vOKwIVRajAWd28eDsfF5S3bK0sXywOGeUlYi3_TX1Wbc1nIV_Hx_bgJvaz_eicB1WC102I0eoZ1olzAW8HxTHlOV0A1d_poBO9TffJZIQImOnc6x3CsoL3EJBkD6B0l-NHAb4PccFS6iQy-fe0qaM6zOn2k93p-Ics8lQd_-K-crvy-3SNy9HXFy2Dw3X_Kvp-LbhKgrdy-b_aJ1jXqi3oSixmVvO1EoMG10Hoe4iXthczrK1cqwpcGUrQOWGeljVq-fTo-axH1slGtpombDSEbWBUAa8--_nxFDA7PG7E_OgJoArXFR19VA3uDkCn7b9DZE1pRE_AaiQy5J85&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CXR",
           "destCity": "나트랑",
           "destCountry": "베트남",
-          "price": 504000,
-          "depDate": "2027-01-18",
+          "price": 474400,
+          "depDate": "2027-01-17",
+          "retDate": "2027-01-21",
+          "airline": "에어로케이 · 티웨이항공",
+          "isDirect": true,
+          "duration": "5시간 5분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HANJM0pA6ZCKZ6sxq4Ic5-FMbFHJg1OWq8pSYLo_C9kGZvfZkQnDGu08q47aFcHzlt-6MtAbswhYqfza-U5517k3Y1uwh3yhsVRQpAvxHdqEJ1A7ExPju4XrSmgqijPFBTRWI4DvsyVGiF8wMI5jDX6d33Z26xUOPm7SzdkF8neOq0-QR311dNhjvb1Cn2XR3o2etY-R3hABdDTO6H-A1tcnFCH0u_AN2zoRLvN6VAOAJM-eqW2RYXkOv7Sj1k_Sz-Aw0UMOj_XrKQAcN7jAuf4SW7YaKckonADVzEStwK4ADVNa5U4IQpULxZ7Fv2GtOLPGlHIUiqN0QF_qNXVDyA4RUOPD1waZZCqtaqaKAc7SrOucDpPWFTxpoz4bqT1fgFeCz1aYvcr6zsBZz9uStlFe0XqvhD2qnJ7geOy86FBmNy_cjxtAssZ0NcZL4yFBgk36RFTA-QY7o735HgGFf8ovx1dccACBwjEyLj4jV9uBYcwFX1jgqKNpKpJYfAnDVafO8Yg8UkKVGuOo3CuoGMGVWMra2bF4ZwQi6sCErmMuqkumgVjPUWuW-UoMYTgTmcJTbLpwhjEYRTw2-WO1MBV4FYCKpvNP5rfGenamOLBkWxPWzsYM1-nIHLM224N_9j94iNzxPGeMaZPfn_lyWvuen5XewfTI3ZBcIq-D86k53YfIpiDwQace-EE7nRbxxqned7pbr3TV0C4RWGEKbTCOfeddecQOzZ9kA5CTMgCvEYmZ712St47LffYvahsoVqqMH8EE3Q_O12Uqg_wK-Y1opMJUz2SdAQS4ROeBblKpbUvvF5Un_RVlWxw1tVfUFrroWIO4AwXPXIFpy7JizwOwqARCJ-k8Yt0mRx8UljtewhcURnrpTv1w0cz_b_kN3vc3bZFuy1-o6B71I95R1gTI29SdJhglxQvlCgPB51bBlDmGE9bgu65WyuhoCkLA1WcL5QQmP_OCjBaJFapk68bzotDnSyX8NYX416J2UGNwwKbb2zKOp6mdBJ5waC0GWvr6OuBsjW5OLScU8554OI8RlHQQEYq2IZhb-7Yf1N4Ql0TpZEQUtEThkiO9DVqjY3HeYnp5s2uqyrXVk5GmxY9weMRYkW2ja1jrfrkxklu47vIWPMWBwKEpKesZaWfUUN8u9eeAumQBn1xSY3PqFI1Sdgat-vc1gYwmMc43lybn0CHQ40-VjriRRBrMtykUOlRC26eSfjC6iCDuvVp5vOpL0lWHXxzQPsbUps7X3Rbs%3D&searchType=return&searchBags=0.0"
+        },
+        {
+          "destCode": "DAD",
+          "destCity": "다낭",
+          "destCountry": "베트남",
+          "price": 490000,
+          "depDate": "2027-01-17",
           "retDate": "2027-01-22",
           "airline": "티웨이항공",
           "isDirect": true,
-          "duration": "5시간 20분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H-_7eFyzexs81D5L8ePsJRGhyM6vw3x85sMoQzLH_9CI79nllLLozeRJ9GO0wTGdDvAcy2Gzm1YNHxSK0tSdYW-WTmI6PF1kC93WBSc6WB1FS7r6jp6QX0RHu1JrJnNynjaDOF7MlleY-AkJGu5vvGvoKVVHa4a2PX22PRCzTMSuIkXx5UsP1uyW99aHrs7mzqpNPC5Mpg_4azlGSRczNdQaiWjE9S6E-vA_eNVqdlmwNHjrl-iJo7njEAlMgGy2CHaLIbB_O3YtLMSOf4JSlwr8nSO0sElksucLi2Z08SSlNW4WOaGXnY0vgB_K-6C7YcL09anvQfi2BpVHPsZtL8ZS58xtM9GrstZy39ZCNU4cyQabX682gieu7VvgXl-bcpcrneEFAIsH8q4N24uhNZt-Hf7_RYQlr_Ri_lSNQItm2PZIfMmQEYrVad_Y-jvHKZG68n-1u4dwMZHTDsNx2n9M45jHmxoyPhJX4H0fLeXBbIIOTtXmmG2YJ-KRGSWyreqiqlM9VOW3EXzZtzowxZto2v9PUQxyEatif7Jo7R68qGuc1ofkt93tyFhWvJL7wGQWB5cyA8w2LFACmUVeWDbwXhdhWNdHo4vbImVXF4m7FmPWupGQsRJuSbh5Y76_5KvK0FgE3rldn1QUu1n8tPVcLcRnVsLe9zsfCMyzX3OYd0KXq4gDi7fz3yEOVftemU1i3HrNLNi6VUsDA2ncQJaDqbKzmQLq9zVCYPKU7WQ7v_TOXBjmOV9Ut9BHZp8SAxWlrhARjcBtB0Q34QysOtf_bulyLuyhzafBdaqUCIpLW-itloPz9dQSo1ZUmKEIyAmjuiydNfWiyjC8SgonbNN2gokUOXnG-ksna_aggrz9qiASjvfmLFLRbLvL0KaozC_cbkf5VNn-G2YbUnZAPMcxDBFWGxhjRdI7M4jWoXYMovKEu0y4J2BZyYsQuSYB18u9s8RfhIaLKmTsJRwrTNDVUH7gPYGGZz8wPzd-olnLWGfSF3LHNKM71P5Aa8bNLxPH5vyGk-85anCfgiUIiIIaZ_8HisGAWzL0GHPdgRfI8Ginf1TOUSUGFYfsZaYuMB9m4LVUFtHX_GU7qF6anJxWWVpZ2cV8XjykhujrG2FHCvcx042Q7iUUn95iY_fXUdq3QE7TKmatCCe_88NOfo5colUJULKjFjKFNRFj1p9eMoIvHpflUcVx7XlRdnkxd8nEMFk46jyM5z0xrXo8kJEU5hBAF6k5inLos7FhRwJg%3D&searchType=return&searchBags=0.0"
+          "duration": "5시간",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hwkz5jxOXnobacTzP3hszFFCVat31Ov4l789oOD8BY30g9pwYZgNWgb0y5IdqXe3aQkko2AZcKv1urgWsMDAspiRBTNVpwALFAMDM3AimyLQ0LgwXLuV7Ov8AfLdvm8kXIGmNgTh3yQbbv0Fqt4b0YDI9b4Cg-ZwJZX3eAd7C6OG1vRvxng0ZxeBO4J-e6dyKwO-I8L03ETRkoesjfjJ24swHphHfpyzU7dvfrTnFVjbvSLb2C-Sa1jRuaXyhrO_tNW_jGACs1uoPi8Ue5zVAsWdS4lkj8L-DiDrHo5KS5TTNfcBX7m_TuzQK0i9GSu45Qk5q8tLV9V8UlX98h7XHcVxzCZ3M69MSS4TzyVYZ1jlFmg6Ke12Pntgznldf6099MRIbgGjSpbLuMM4KO2bg5dQlREoDcxe92teJuZCSIlE3cN1xY8szZk5mqtSkQHOisyMzL4h6Rm7NDVHjFjDJefxIA5eJwbNSrzeow1QIXPav7QgpA8AJMTTqaNn_muGsVabJv47sUEzagPd5H-WBjMB73cPHka5sGEdQ9igPIKd0FSUdAg5eO7n5nxuSZX79Q4P5Vks5IpngGPLHEEWMgLHN3xLjKX6S9Bxa4g_uTwKMketG1jvkwicRku3DTqOPqu2kw_1hka_g-ETIzgRkelCvSfEUoTTTL0aYTbfRSgiTGuGvXovLMpS_U4E6HiIffdGp-Rdl__j69dBjNQmkh7gAocTsoZ1SlOg8l8KUQ_yGfMWi50MecTtDOYszT-xLK96ZhUM-C4nTxTrnQE9RVPX6ycWgXFNnmW1x-nHww9Z8_9ESmwAqUgRVLv5BKxLwrPCBdH1zYs0BBxnw3fDcqelJcx3De8235j3HtYgW-X0bDPAQhqJdbHwgPs2HAe1vUBXJZADqaK1nCMYrLYTfs9nLAEiejKX2bHwFuSdkXRRVSXF7USDWALMz_kcXXdqUITcS46Yzu6FKro1Q4NYpKgX-A_r2XRpuAxOVhyEaAw1MREVAmr9CfinTkyJWf2xG3sEC9rm3WcNVaAY-mRLSqARiYqoHMsCLYCILmdvSqs1Trw9lo_jUjt8y9zPj75C_6FIyeMIu9DNwT0gLo1ov_NvqRyYsxgufl7X0-WT8sSQpUyRd0JkrTbCYx6_jJ0MfJZNqo9qD0z5lzyxee5kSdibJzsFae_Kjc1l2AN9CRjsokzWyVbMVhBuQYfleV37v5c8RljELe0PdF6AbOv2iXuEquFJsqceACrKr4h6rnxM%3D&searchType=return&searchBags=0.0"
         }
       ],
-      "lastCheckedAt": "2026-11-20T20:46:37.703Z",
+      "lastCheckedAt": "2026-11-21T01:58:46.419Z",
       "lastAlertedPrice": 273800,
       "lastAlertedByDest": {
         "HIJ": 228300,
@@ -3670,7 +3700,7 @@
       "sources": [
         {
           "title": "상하이 최저가 예약 (실시간)",
-          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HsLeq25rdRN_1MmnPEl0u6za_jhll8ILN6nNZlCnVCLOUWa8XBQ1qWNCS0tKLPN7rAInLemtzGKoZsrHkMxFXpmBv3qUaK-VR4iUHfEtIipkjkYZ938J-8LZGaPPx6XiuMi1pUPtQZ9pygSTNp57ShWKeZGN7vpADEvVqOZ90I6uqSbA_IbqmwE7KRhsp2bnqGntqtSxKiEUrIEDsL9s5lRUGm_try12wtqwoMhFgpA51BbCvaUQuqH_eBGR3cER-ezHat-CNjx2bhEUxf_88IYIID9oVWDd189yp3xQjU5S56Ws58xW7qD_5_bjCvjjG6HGj4tfD3jx1cXLZB_M-oARSWZTk8k3_MHDU-KxHW9nBEreY1LYDyrHZGQ7isastBoTNHlxurFsUflXSpHLxoqwOrC_XFkXMhH6-Sf3hPsPIAB7XNSt2VLoUsSaGvenul2KrGl4i5B6CdWJIavD7VvRRlK7AZI4SX2O7EGcfCMTxP1yYbmhRwteofVl-0VFvkM16HLDA32SeUX54t-lKyfh08KNKKdKx6mKYrQZRKw1PInhBGV3KqqpGuRFtqx0Wwn5S9edQvmweOQNU92_Js3XnPBQUstjzob-HAGGg8JeZG1JEb2pIPdHDgWVHmX9MmyqyUWDGbRfVr8Tmgv98LEhD_zi-FeSUPQ5gQhAK_hiccBX4y6mKZX1pV6qkUgCenXjJEIfgqzITD8l9GqOQjaPTxqB0MUFNF0e4wdzPjxgI7WNKcz6KkiBhM2Za3gpiY0UtSXWo-wNX_jsBlincXzA5uTNRjdQXk9PBmF7HmxYMukqNCIlt0UhxffvFEUdyPxniodZUY92EICUygph4RUIEryCVdL131IE-ntgH10M_lUlCNt5cJDfEMH67Wx8QEW_RglUsPxgQR9wRImBFU2WsTSgBW3BwDNRFIvIlEVyRMxHxbOPxtUyhKIHJnZ1LSPnxFPTSBV2ur0mxjO9XocGKn_qgrJvhcfmIn_ZOj2c7KpyuHPHxTat5UoQpBWQEBz_Yr9Z5kItqdv5zVg_cmOKvvNPZg5As6SFUR3A-ZZviNZMk4v7FvgEJaL38kGZb98DDN6OxWs4otBpVD8CBHhHhlcTP1fG26lwR6fT9z8Ia1LLpq4VuB-rfHT_VOamtNUH6RrLz04zRpKlWioTqVa02eg8KmvUbuS8TsV4E_seJy9nR0YtRh0wOEhcQHlTo44pCaPB7m2ZxVmRBHs61UoMmQ_JyIQheM_l6-t1evx8%3D&searchType=return&searchBags=0.0"
+          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HJO2jlCQuTsuAFzLTxVrBiiRYimiXg6iJjDouVtDFMaHnlu7HOYQiPbb73xuG_twSHQ0ub7dbZxivkMbt9QX_8k9b3C9CncA2MWSEuE1Vd5iqK5n5oJxXyN2V3uqAzEa8H1ov1wV_XdjIRpVHQLoUEr8fMJjBnC_lt4fEiEAz_igmBnIRihiJjVsPLbD9tLGbuJBy8JUOT2puKSTp6BCPLyU4dK6kmcz__tinbsSc0ndWsD6I8frLSgiGHL1oYr4ADcr1qLHVmmw8d9ubUMKEqzs4fMLqMS0Ft6XjbgcqYbyEmNtztfuLOE8OVX5sQoY9KhRFJDDNht4UBdNRfQhTiT-pnWzN7iklG2LqOc37F05TO8aLDM3wbdg4xS_ov01x7ikosabKY9R7i2-pqiuSD-8fBykrl8x2FRB3QclP9IyFHf-Z5Yz9Ed76EhgX0tBnGbZwC43i7knj1a7JGJLH1pbHDTomNf7Xay_tMZJyuWKRxriZBBQOVYoYq3a3TTtixyiT3hly1LrKyEFaTrobYryD9S3ZfI44gY9X12qc-53GorStBX5vezhBzf5-do032ISGX01mYaMnAAdEGcjsv6kJpDR6AOa_iYOX8X39nOuLrWFoPxkhHh-DX1JfifysTKszCZXwKHWZsyoy7MKUiZDwpMCmM64cdR5ELR_qAom_YKXXrLYm48Nva_7zvr_0wljtk2iq2lI-OcM7wKbERwLX3Y3ggvwqd0yIoGuNgWaPc_Nh8Awi8P4Z6472jZqEPGTP4D5tHOxTqCXyf1TSsNw-O9nsXYXz_pDyuWSfFf2Uhu676TQEEiZ9YRb9X7SfKnuJACt13l20AOzc-uQvnfguMkQ1PDYibJR3iGqTS2zZp03mCGobovNAz5pAEMF-Mn9iwcCrm7jVNdWFHv-UJfRjGzXep7qzcL4BFniyzvvGmqRrk5l5WE7p6l1lPOXEQnkCFpyF8kTPNAg6I9RBKHDvQqaHa5oan4_B9nYpWZ4Pn1e8A_gIFbyUuxXbbt3nvWZScD8fJQa32tEYeqLUx3Oyq0lLDNx31UdjzZhJ7QJxfskypEUqdD69bnzvoGGswPiD-JyA-AzrtHtsKGzWDikg1JZte39Bl8J6HXU8k16KOlg23mZzNsCrX-ECUHyL_WmAuC536PkjbhYbZNgZ27q04x6xbNv6dzknk03kFOXI4n1uLnY-2LSgcfloFb_5a2w-bUyRXEWewaR4U1TiDyEKVThTSt7mONj9C_gtW5o%3D&searchType=return&searchBags=0.0"
         },
         {
           "title": "Skyscanner 어디든지 검색",
@@ -3739,6 +3769,15 @@
         {
           "timestamp": "2026-11-20T20:46:37.703Z",
           "price": 278400,
+          "depDate": "2027-01-27",
+          "retDate": "2027-02-01",
+          "airline": "이스타항공",
+          "destCode": "PVG",
+          "destCity": "상하이"
+        },
+        {
+          "timestamp": "2026-11-21T01:58:46.419Z",
+          "price": 277400,
           "depDate": "2027-01-27",
           "retDate": "2027-02-01",
           "airline": "이스타항공",
