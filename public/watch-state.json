@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T04:13:49.928Z",
+  "updatedAt": "2026-11-25T14:30:11.659Z",
   "routes": [
     {
       "id": "route-1795053626737",
@@ -17,8 +17,8 @@
       "targetPrice": null,
       "checkIntervalMinutes": 15,
       "isActive": true,
-      "baselinePrice": 254300,
-      "currentPrice": 237500,
+      "baselinePrice": 257500,
+      "currentPrice": 236900,
       "bestDepDate": "2027-01-26",
       "bestRetDate": "2027-01-29",
       "airline": "이스타항공 · 제주항공",
@@ -30,100 +30,124 @@
           "destCode": "KMJ",
           "destCity": "구마모토",
           "destCountry": "일본",
-          "price": 237500,
+          "price": 236900,
           "depDate": "2027-01-26",
           "retDate": "2027-01-29",
           "airline": "이스타항공 · 제주항공",
           "isDirect": true,
           "duration": "1시간 30분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HRMOaHjSHta7y_H-twSVT4F6PV2MUcEQKJEw_ld_8Xxkw0r8m3gCsSkoM-v5CCGmNr4gN85DwxQchKD2XeJXrHM-MbiUZGwkqNclXEaebfIMpB6si0gJ95YwtK_3lYbOKweg3-DcXeaDHqulazkO4Ix9srOWRCFuJcGzJoMNz0WVjau5iqPUg1zJuFtG9Wm6vOU0__Lighb0FP53vmAuiEVO_AujN0G1wosHWkqwoOugEJe4drXV1iXzjLDV-h1d2NLA1GeCtEmTb5KT9WRzSNlQqiai5s9zwFuxckWuJqxqJgD0nbGEUHYQ1kq4aKPfi_Evh73vnzYfhgsBUi2kkl1WFnhIZVIzP9qAkWtSK6scEOyJswrNhmKDgmFHwNEFN2xXRYpXqUGMLvjH27Tqf16PZHKHkDXYKSSPzSZJV0iwZLqqqwODX7Dq4zu5KxshDq0H5g-cPCQEvz3A2TuU2xXNcA6M42dowJFw6GE4iDSouRYQbsRMQFUGQR8XM_Q1AEPI2uI2sow_jQa8n0xleyyvdz6pTM6JVRaN9tm8aroRXJ8exMbQWgVHjuE5Qnj3RxhI98lTvfMZTzA-6jMp-vRu6x6cIK8QmIygNkFEFFDKUY-SgzyNCmIQeCSSwzJSG2MBAj9ctd07uqh9i-mbomKCwOwwFgNNuFmg4KdlOv438Dhx88_zue4x_BgZGGIk2RooYrBDvwh6bOK6YGGJZ3pjqoFn0f3wbLlHlvKyyDNHuxe0xXMxEu7UFDX6Hjkq7LgGS-KvWwl4DUvhrdJ29SrKx85WDoRByHKQhKP7tShDrDvpLrnAUg65VILB1ApzVyLCL1A7GZoqyNno2rsNILaluPzEmJB9geQ0OPP61x8gtKej3UgI1SrkWzr3QxQUChVPpBM1ElQPyrPVBiVAwtWUa8M0ZsviLUH3BswVcNvexVT0VeDijozRMqP1e9c-8Nmd6R4hSnAecK8FqqfKNk0K8qX7m9PKGURS4C58603TZ7Zmu08WIcTiD_cNEN68lNLlsj3VVII1YLPijPBRARXOXGHTRPnfDt6HsUrhyNDU3cXHVfHsE1b8VA2-v3JO3AaVlN7Yqa0gaCrewWPujiq5ccn6881vvG6cIHbiGUUGvawurTQ0PhSRRi564W7F-NwAZM-hgZD5nKsZ0yNeN0t2CM3dqUiy-9YHwZ7SVj5VrCS8QOxprKBQiEuWLMV42lWM-bUcWtFp3SmS8pdXXwTg5-BrGAOF_BkKpIsB-kDA%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HMS8Da9xcHfOx4uAzKhX355ZygoAK2AT36dNExAfy-5zA6S8KZGiEp2KoSY726E6JCCR1nG-Y5OtwjEhfHoAebR3CsNGz6uJCqBgMigW01xZ5ORjlwu1vaQLxJYPEl_74jc5ph4dlh9mJewOPK-pNSqBbOgx7WwIsDAJCa2B3COddm7RMWoqpfyiGlm2NnffAo0wQWdkg9kuRUgR4gw8K58G2SceMq5ZPSIWN_a7w479DUieuMwEIrED6XoZgZveNpuRrQqKi8KPX5Qj1eBrfsM3chK1xbcykPRdlWvrEqiVxnMT2i_9zyt22Shu5_T4Bmvcf9-au0Ja_rO4MuhMsWOOWb4OxIdYgEvfZIqIdUBInpq5xSf4GxtG2y3jU2GoC3hCKo8zgwinJvk2XTrqQjOmTP6f9HX2FXjajErvZtfYFrwquCKyVUaRRl6dISRc-dYTJpJnjidHLqKiBntTOClRAHDTUeGN-drPpYyc3v3085V_Czd4BWdbNx9379v-6q2_OtG2p42WGPwYzP5ASqwHPF6D1V6zVkUMX_nL22OM8P0edN0mE95t6djOv_bVs3b6KrnNFGrZ6AKeN57IqX9nr1Dpy1ql-T5DwzbdXnJ4iEdA6B5tlmwW8mYx-xY_657vTLnXLq1JXEnf0Sw0K_1NlmD9tfiEuMdJpzGGmOX4-ySZQzJ6Dg8cJjIipWE_BygZZY8zRZ3Os46cAk891_boyA2stPPr9A7aqm98UoNr097u5O2wgxj1JPMuuH3-RKEcDzWR730la9iLonNHii3fFhhAxEhBd0lVPm5NDmcoQUXTW6G8LArUVI8cFmuyGG1DksAUGvfaWTOSP8hqFj4oFNsRxqxl_ahDCpw9XdvIhDXC63lQ1gN6rBF27DGdoCLx8KMuOgKvS99uKVzsYz10VsTA3Uujh3YEdB4ViQiHtj1S7xL-rByopY2mPiy8Om7rES5I931vH26dFKCtaC3ZJQytvupV9HkboEHtpJ_TZr15h9nD6JzaQtsgG_kV97jw-sgEf7xMhwuuSLAJqJHxhw_mjb8tFiEzXxoZMvE_CgVFBQDik7raiXdQilosDLqbwZ-XPoVDeg3vJcvqYAWjKyrk255gPS_QxeF9lBKFcvngreTFTIdzuA4jtDo-xbcNAiS_-hadVHvayG7CqAacyR8YPnWVexTiS41NRT19uaeMOq6ceja16uxL7IG9D5Web1CQThJhOMHufj2F_iQ%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "TAK",
           "destCity": "다카마쓰",
           "destCountry": "일본",
-          "price": 239600,
+          "price": 238900,
           "depDate": "2027-01-28",
           "retDate": "2027-02-01",
           "airline": "에어부산",
           "isDirect": true,
           "duration": "1시간 25분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hs7dztHZoqqdQLqy13vGK1AaR-Fx2rXXRu9dnxPNYmVLjI5h_htiwWS9WtSJsdTMW2_dY9Ko6X0oE6bXi4DJHdZnJUlKw3KdHjJn_wolCjgPoRNhd9ZJo_ktHUHnPHhGeGGeLu4Q4liDvzklnh-GVmCSH82_U0LI8HGLADGQv7rVIuKwybuiczdQZ-7GM1Hi8KSlZa9YwBjTKcY1WIFsREbs-lLbKYRdSx5I4c36EnHBGQuhfgUXzONY-ExVp2zxc2KLl_J78ENQ5KpABDtNqWsi_15AhkVPRuoB2sBPfM25RtP-gBBxXVKCnwHkboRf00fGtY4wPUXUgJFFNh7Ym5XgWKbD0dmb1Rw2AXbz1PkctPMzfo7LAN5DmmiR6jYr4zJc3afC32plqqS2DhJuoKsIV7L6iPQJ3H52dvtElxlqd_D62Mzc9Q947r70OeOm94Gxgt9bgDfkw5-L1E-PPPnU8MQYGjoq6ppRymasZUV4kHar44DvLsRRs-UbOeibolIoRzU-Im-zplzz1AHfBg2C6BuckPZpm2hXsYeD2RPHXgJ63vhg1x4DAvSYvaYs0Kxg3yWixReggl5RuCgtkPJd-r9wTEdb8raPO2LJGnGGmFMdwP0_SferkcZvhrFSGW3F6mghxKjUvlKiR20F26Xn9jDGbgUkaFE7tNF830FNDomwoD0NRSHWWl-TR53WKseKbBklkks2IvZbxbbj52P9-XpuG8VDe9-zZVbjJlVizi1hcyP-n1Bkz5S3LVlvfM7FZfud0ETbcXGujKkmrl7Tk7G6FxduXD6EYy2hK4pA7Z39632xHcL8e6iHRjCfdRs5SozZekroya0Wyh0jQTP8PE1Sw-zylZPgUf-0quRHTyy2T9MnDIcWek3Yhg-vtCYDq_Me7QgKacI2hRfRwCL_jPzJJhtV1-ZnLNKctZYpHk3cEXcH13OxQCaoH_OMn5AVwGXKmEHDURI47_HYBw5ENVr9mRJlBfoszg9eC1YsPL8hLURpfrzEIdOAG9KMUE4ycbteq7iCW-UqoY71i0a0B3ubQrzQZhzMf2pA6afIXQU0tn_enyw_WjIgOgHS766adj33zSSYsby_fKV_Tg5O3SCA8gO0WLMhUSE1L8ms1ByzYaveY7XC3DOoth8NrERA38Fx4aYiFyDYD7AERA5YZDbPa1II8UxrZiwzMsi5u6DfLSWThPluFLU68t8dZ&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H8-Cocjfv4QkWdBH1cQB9OaEWn17HNsei-kf5pqyHrpKObyqpkzzWq67-CAMWdqrr3kdgsbclXkZmzYC5EBI0h6-Nph7a2PErM3tFCxYKZummtSjVTvr2z-tLsw1dRO0BQAxuzSZERSiiXxU021QFH61I2UmGmb5uQvrYWrOxTA6-mjyZkLNZDlIBOGPn_59jp2GHOKOlOgFDHEvy7iOimYf9MzEoqumdc-fiRPV2Sp2k-phORifCEXhpKSWdymnvrxuiEMiGscQWQlbz2oJn6tVq3M-8rfAzIVUjzW2zXl9gYEs8TNSe7TOSX6IzbtOM74RmKyRWSpqll9Dk2EzMWkVhQDNXgoMuK95IYbuzT-aMWMxo6Wrkg7igrr3l2c_PZz2KPww-SaTcavFJBR0Ei18MvkUe1B08eKmTM9L_9WG4x3MljwvUgx9lx6mR1SYIex9_kgE8HrsX1ADrhT-NcsqxSISFvPfogAuzl5uN_d25e0qigqXZDhhnyLStQDMrXbI5RmO5OOi5mLuw3SV_JhRZBh_9s4Zg9lkWcPx1hDWh9ssV46hObujiEO3eAORz6SSsHYe491uMw8cf63VNRWkss-DjmnskDq4LpDAI21MkxUm4hkZRQ7Fu5fm-XRTdLE81Pvt58FG_kL2tSxQXBlZNtMQSVMJXkXxFs_Q2s7ThEGEmcrhaAxgaBkYaSoQJZjbLUKGeiHrB6Q8ljVqHUt1Zd-RZu0ypDApCpHcM-s_eStDApwo1XivOEO2ns1LoH3UDU5EDkBnj48qVl8-olK50Frb2Q1ymkECYcZcbtTrHzlVNkcYZ6gVAgUGDwmczxpUAzrY1FNVHd5ry_pPN2OtzDEr4nenmzlPVQBrWFDoY1YoQvqiKD8QHDPRz-g0hyTtuPttLK1UiTSAsPgK3H1bNBmG6LqUzN_MY01EzRSTuU15FWYoJSwW2MDz6D-tic42iKWMrleSuDm5eD2yPiRl6kGEq56AkLmqsombVTbdCEWRvbGsCFvRK49tjNsz8qe41vK2zRC0Teo8X1ER68Sl8daGYhBXKqjf3rd_oUmL8oyEBMZzWqaig8dHpFafX9Zg6D9M14996MuBEJ2mdgaYhWn3M60DQtTy0WPGXQLtXvOeIHGF3oikqpbp8IXGg_rPRRi24JWVMM3Zyakatt35c3-nkEX99afS4Ys5dMNyf2wZVIPUFJ2zJRNLSoEkr&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "TPE",
           "destCity": "타이베이",
           "destCountry": "대만",
-          "price": 243400,
+          "price": 243000,
           "depDate": "2027-01-17",
-          "retDate": "2027-01-21",
+          "retDate": "2027-01-20",
           "airline": "타이거에어 타이완 · 제주항공",
           "isDirect": true,
           "duration": "2시간 40분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HjS1DfM8RT3A8HgkLTI2i0gAFrD8izP2kz1mmLIDslOlS8bET-604h4JQYq6E6OIwDdagmCmgMlit7fOBeFy_ttktpR1ImPTwjVdrmCvCx6clg1GCQ_YShrdqqpCq7XZdh4NY12aLFSCMP4Sum50Zi5OdcExykdAUhj3ZfOna0K1BoWRLYBWbPwDLZY9Fw4vx1zTuqlBzp-XC2FGrBCksEVXZh0_8w5kRxZ28Ysh87kDcF-9MXaKha70ZSllfM2FpVnPuB0ye9gcbz7UUNvXIlP7Th15nr3Xegsd28p0sgG-AhoFAW-LcWGxFd1rdQBCGpGTDE9vcVjrFpOmvX1NwwaPfkONHpQZJRTJck9i1kq7upeCvN8wGM04qxN1A2cB7ikOnbNZmOGdVaVsnV5kSRa1l_hXqrxcO8m--hQWG3t--OMPPrmBh6ay3XSRkvdhDAl2Oq11Fdu88XiprMhzQRSSBPYX9XK8Jb-LwNfN9fV5Aa0KpVYyj-htTYtwTVG7QWeSfCR1T2mDeGG9ucqFH5OHR74xYku3xylGK690L4RPu8-IX8QywaxYaoBbmMUy_LazAwzglKg4XcKaf7uehatpZH6BFM1w27eDyJxYOaYJJ7Aq5h0O7NW1H5WDyZriIAlkW8O9FFsIEBzVYCX0hRiMTGEAYbCfVwcvnn7Fec8R8jhEj4MeM2orM01YKtHcFwHk84K9Fh5ToD_nf5UZrP8P-uFIHzCTNnJaDRY-qayXBaji32VkLRNS7Rc7Gm-wCxZhAqlBSf97YdJkmWofs_O3oaT9wgbR_kqFE-MfaDEk2ZmqLFSVZYI1kEEYi-MtOlJiRykUs1RGlDBwdd2Donet4qKOnIejJmVIHWh70RlMbgGd2e1PMHCdO-eGQ-0YtyVIj86ldmqQlKB9QJrNZ4RzVja1KrU2TYrc9T-5nt3hn75JNrGfldC3uVcxLlbrqHeVNyGr3hTSAfWTY2y4xVrQweyMzEdtYUgZuKDrBIDQD6uRcf2K0PnnXjHgcrSbd98PdKYXDbjkbwXg3380Z8yer5dMBAgkgtU-49ys__o7t1RM2mDd-1G289yrPVflP-wQyEP5zH6HIHiFpzTiuBL3cr3vmWaq1OzzYBzElSelBHIBZiRmclRvlyfjL9EnnyE2CrF62zbrZY4KB77NBWgmJV3WzQgf4X1xEvrSJPWGNCBPh5XdqqUp4oqG7CwkEcqhI0NCpMH4xjBDb3JyXrBIfyV8T2FI3-LdsD71tEM0%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HBkSMEde3UD9FcYy9jVnyTvJa0TqzjY3fPBCrkxtsrcobRzo8GOunA2b1Wc7uIJU-XVpwvHAWkA1YOhWqPnYxGNjPQD0TuA7hzk4e0NcQunPMlR7c3FCAQsK8s8LKfEAavao0aCSoJTczhs5X9GI11bP0c2ueidSPwOGufSAcSGmnWvtHsP3BYf6Vtqa4CijPsqojZEqLC9o_Nvlklox9lPzhagWhnLgTQiHKq2B3nzlEBaAiUUeYBAVNLRhI-40Qs941i31xaqy1IJGlJ8xObn6VcIrft1ye_p4rOA8Kdvm1Laqvvpfmit2XtpSgxZPpv7eE8DZUEpgJyj09Zbjm53nq6MfxxGh3reonDc2kEMMx79ztgb0T1JyHgwwZsPzXJiYUvakGLpSgFTEgj2HsDmrrHKCbXdcSGOok9D4C1G7UwknoFg45tYjdisyz6aYnz93mFFvklTPGP4mUsU3cicJkewX4IbgOrMpKlmj8SZFi7_xFdOagfzrLJokRNAqo1mdbwxEnDkPKgLG46KjrTaAancjz7z8cpL8nwqnh7n4REwO6nUgp0_T6rCywIyPqJ-vx157bW7Yy_NozoTxUKXDS-LpRyLLTIUHQcuUdd4VyQEdztmXqxaWS2bA-OQzrg5TfUfFYFEv3uhr81SAKKUlgcXs5UHmOufhmPpdH7i5wNU1stSftDZJbQe6xUevFMTBGAraxoBnSbNleHOJEtdPv8g64S8kc7_--5OMi4H0kM0wQOaHjoUQ8wF2329w9fEw2KRc5aNfiTE2MQNCK0Po6cIwhoSvR8txbNAwjfTqtJrU91evX3LOokDuAK0Dd3x7o9howIy7uTg7lu23R9ScTinp0CDPh_EizFYfmQ75geBb-p4SjRgfoevJ1jnmqukApzBa0U30Gjp9Gk03QRZawJzJcfaggbciAWCZMJDYmweR3DSqqVHNjZqWyAuwln5qgFmwez-Z2wDTNkA6vuRPIf8bHlJC0GeliZLyNOV_d4FqJ1iyoZjvJx0SQBg2-Kjs0soHzgPZz-mI0_IghNe0cr52xFWrIiIOySUGXVxwpL7uu5yHegBXLfXg3AIXbovCv_ZC6d-dqyWEargciY0bnzNXzM8ELqTGdVbKDrUB3FGYN46TIUB64P9On9M08OpLBpT948hNd8xyWi4XR8dsHn1cjG8o2xqdePMWmhbt7i_hqpVxt1CuTl2_r5nAGbEkjlJkOwdfnv72HrI8CFA%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "FUK",
           "destCity": "후쿠오카",
           "destCountry": "일본",
-          "price": 249800,
+          "price": 249500,
           "depDate": "2027-01-20",
           "retDate": "2027-01-23",
           "airline": "티웨이항공 · 에어부산",
           "isDirect": true,
           "duration": "1시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hytxzjgaecas0u04Muf9Zco1Fy-uLrPV57T5nUwJyVuj8ojbhaEJn0iZxknA7VDOo3-3alOhIvzSKe7VU9Ez3KJXbEy-LSW_AMBRoshidYDv8giUDw80i_GjamY52LY4R6lKz2nScovF4zU7TBgbAuvOowj7jSGvEOGqoSSWwfSlEWFbxSDBTmlnsfnLYU1vgLffiCG3-UUCIvm0Ft7MfscNe87MrP5JkaLZEIfi4EtmWwTx1x4S5nhkEW4etvLcWN48XExamHC-YwiyMCrAWVhpOkvtqmbwNBNi3QLCdDIHUFJWZecOLOsqHHb-Ukk7MCfbhrTMeV21FhxnYuLNIyDVqX4MuJmnjMcZOfLoVRscbUa-ezz2dWxvEtxwragvOQ4HUwyU1wQ9Z4JsqAP8bb_nM5w1guHGQ9E5oFuhLq4PrzPnyKbcYRkvJMAHs5Q-8qEBaPMtqEF3MAHsmLz_W7mM7dh31_RpbYWgC7PX62VhJ0hgDtENlN2SX5a4y2qOPN_5CNseK194M5dOBlmRmSdtmDW7P5zSqQR4P7RLz1wAAI81mPaS3FEKYedXjqSRTd8oIZCr3vX5as0S9VOlCoAI2k1BOy2a8koSV2YfD7UO3S1H9wDrued8kfZNaOeuCRXYnhlibDnz5qcvChquMOWd-5a4m-Aq1-bv8isu3ZoF3FiAxbsTLrDzZvxygDBhbaR-xYqRm7ynnRUCCUGCAEeUtI3nkYPvL9NB3mKi6W28LsC6-MONbgiCp6veg_-d2VrJI0JXi9yULf9GWd4bAKiIwJ6A3upU1pzQsZl2dVe10Jcf5h1n7NTn3FTAYsQ39QCN25f-4YHpuqFVtwW86CdkybDBV-Nm59Cauwv775E9te7XP6z2lMJ8bApe-tTT0dyzmkoCYouLtJo4_-gj1fswYhyDCsAVLPhnWY1_6NAzcp7HwnZ--g6Vdmu3cUdS-ci57fg8846w-s2ASaFuEpiau_He_D0X4xrPxBGB_rzOiHa3OYPTnzoEQfUeCRSplLiOLSYyx4l4oUosWZz1r4a5fk8mn-q8P6KQnpXMEJKhOR7lTq8SODXYRBKXzEDWzQ7rCIqOEFMJbojnNqO4SbtEr51ZOTrFDQOEPxsJ-E4SR_3lizCqxPky0WkyY7oGSuOzuIqQPrlNEgvKMK0hLWxMub2kju8E0xTHsjNWbA1K_BybWdKveaVF1W2dFtpZr7iuD5D04_QerC8vt8XRDiA%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HD5NeKcFll0qSh0mGr2hluLWv5t1WccwkHBShtMx1Fq--jYBR_DQIhKdIr60yY4G4uUCAT0OafMgxRAtV4MeheBT-ujKWO8GwChVXF_IETz6ZChNIxRqPBVqDtUjhr_QhpKHj8dI44SySEoTiDuRat8mTwFG5O4jE7c4viVWEM5QOlJHYHu4D0b3h9sXwh-_3XifKhlZ2U9twvR_8PutETkmPsGfhrAe8CeS61uB1xH0JzU50b1_LSFR6HvjTd-N-AmlRbj0Pyukl3IAowZhtRWtXvnWSO2ZYehhwi0QUBxkHsLdWyrDObOuMbGfiI_msye8Oixgdy9XICr9XXxT6w8jVAfJoluBHsRBLAGGQ4wPF0pshw7yhgw1d7GNT4NZRYu6IJF6a7wo5UBSEowNrHqlnDfB8GzgG77gJspexbRcX8CPTe8KPRWPy9FFI8r4Ro8I6OQqj01iJSyxRcsPQmHXafAdFcLHuWenqkTlB58yM_t-bycgP4Ib5kiTFTCs-kIHDRgoaOmmj21KJw-b5PmHbFVS1UxO-AlIC-bNQ2zTi7d0fm5HrxfgP6lYTUlBg3lsjkykXKmdxulm_vNxEhq-4Q06Mdb4t0cQ4Mc3BQvw9r2ub-YrPzAr5ElPvLLtE5vx2jMnTAY-Yv_W4fTgUwMnuichhwLG_3sGV1NpgI_OG4ipoRWVL-9CMOm2LjWaGUrucRcvOTmBekxC0HwiPdpGP8o1Ma1Ser-FBwX53vuD8PmisAj6kebqGYNQ1iFny0s6sZ8oQNQbH-I4cC_lt0wyomw3zdLXaEJVXXmzsaqnNxf_4xzf96DkIRhmf9Yb4jpg7xvM18dqVDZAbu7vV1gUDdxFrD5u2TK3vV4H1H6IUQW8nsesqVYAJcOgrgwlbpBtFUVsLyjtGKxE8YdM5XpHi3HXJsTqFsJ0DozukOMunsqCfCIjsVfDdch2dzipPRZJu8-9jCAWBNtVZi30wwmR_2GRRqo0QFtwNYtTz7Qj3NQv4zlsAYxozeXIPofJHncQWxoNQ9NHbrueA9uWe6sYH8hiZq0OJFSlQm7pz-LgIb0Z9Q6FTai5soy6tE4zEmU6IqBeNPSedOBTHqluZgIWKZ4nn4k-KU7ejsswVaEbeSgKGSZtzVRZhQRZZ2ADSD6sF2TC_6AtGz_OWSc2dq4JbXXXCGOYpEIpeibCKeB2w84Zv0GYRZx6iTKIvC4gnygCzxDwBCxCctu-K4UB8oA%3D%3D&searchType=return&searchBags=0.0"
+        },
+        {
+          "destCode": "FSZ",
+          "destCity": "시즈오카",
+          "destCountry": "일본",
+          "price": 250300,
+          "depDate": "2027-01-20",
+          "retDate": "2027-01-23",
+          "airline": "에어부산",
+          "isDirect": true,
+          "duration": "1시간 40분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HTSDin6zT2zYKlvwqFpFHkoYGLyTjiyzottgyxxflpZhE_fglfMuooGrbCOUlS7c-Y_S7m8q-BP8JY_sJa8d5ZP8IUnEN3BvtImwdIYb7LjYeIHg7Txl8Fg6eCaSsKdomZleLxBm1zvSEWRAd5KA5wmKpcYF7qy_bSGLplrgHYhISVgY3GGMPJhExhmmTgBTLheWLAriZKx9OvOc5ksIBG5teE1YOGuUclZr_tJ8y_evWC3nGBcoxaivvMo7h5UOV2bcYuYo3QclrHdyqCiiJpyrgcIyNdlDIkFwe0dq8KUH5NfDpGgFfto_w7FL2_d54xf5C3WvzeNP7UKBn5W8gpP5W-G1huy8AGp9XQYgFX512K_BvLJ4wI9rRHjyB4FROfrF4A11dMmE6NsTCj_1Fb2OP0dRz7j8ff4ZG-n_DvI0dL83_mKhSvPXoludzgGaswlklYkWFKhpDN3zd0pK_DQzrmKiPVesQSYDhoudO2TTdUgIdSXx78jvzi9rVQpX0uxH1Rfeen9DzbmcEUA2x3I9XbFbemlo-vqkalwcOUsTatEznSbsBqjyFVLd8AFTmMW3VqAdh2L0FOGIAEaPJh2Bx6F_r-vndKIA0WkxwsTO0veHaxd8VjHDNrdR8jt9uydikkjKQizkGN1r7gF8iVE0dKnx121tRaoxsdZbLPxzF4o0chTC2M-umRi47Lymak5HmCdH8X794imjoEGlJeE9K9p65YCteSNy9HxBqXs0Q1gde95SHhfetVQDsBNSoXYopik1JrJXD-7wzgm0GM9kQmKO5kSH1AqFqr9rq6KsbR7rKAiKIQ3gO8Q0SIoXJgMjw1StGj5kybDjKh0nhBgbdCdjtuxx24ngGJA0F1aGEqOb6tujpK3ueWm8a5Scy9GxRKhW7WGLXfqYe831HIus5GRe-KBaJYqtKKo8UCfMPfnCNhH-jKzG-GmkkIDynudqeVOA1hgZB3qzd0tgrpEOz3zsVmq33QQt7dKMzJF7MmU9uKpJ_9dK0OtOSSfhiuXPmXyjt-o61BUrSDQYB6qwqItiEUb4EKcsG9lKKZIobxAxvOkAPvUs8jwtLDI9RvOmkNHrKPz6sq1jZwGp9QUkKwsrLb3qgo8CvbfgOIuzYoelLsN2xRs-1SBGG61Fkd5Ui21XrEOyHmHvlVsHNmsv5vt7aH2MtqPRc0H5sjz42cEbLhWmq6pZbwlT-AP4s&searchType=return&searchBags=0.0"
+        },
+        {
+          "destCode": "KIX",
+          "destCity": "오사카",
+          "destCountry": "일본",
+          "price": 258900,
+          "depDate": "2027-01-30",
+          "retDate": "2027-02-03",
+          "airline": "진에어 · 제주항공",
+          "isDirect": true,
+          "duration": "1시간 20분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HDdjj2w4HhW99gI5WG7kBrD2Ol9HiPe28Vi7n6Ia8EBxB-ZlqCogc1lYNy9RUNBh5XzVEvDj15UuaBKnkbIwvHwmi0smjSGfFi99xUNe6I1SBZMbrqgwUrcaDzfNd8O8QziQ4hWrdsGT4jKOR9w8DguYBIatR6EeVmuB7SHcm5UZS7ZaRCNRjc0iVlRdWVRF0cMrOkvQyYEr8A1z73xozgd4BYNRmvXBgxQUHPitHXnEdEAOIaV5WDOmpw493sjwfmmAXnlYsbH41w9W9KSKbGw8Ep2fKCxE_79SzR9ghvuUOdWCSWqZZH393cvgNOKEiFNfOlTNLoh1f9_-U71TYYW9hFuIiCoOY0oSANdDP-juIFWrSXlE0SrbTpQR6yQviS_NKnSGxxyh0CICq0X29QFKEKYjgKXgoUDE-B2Ibbr9u5aNtaKiHXOynplaVDkD41_1aN1WQHxm27piyrIUm6O6q9jTBhnmBcLKmAZ4VPkUy-krlse7R0nHIgBFVgXGHUMRud6y3qSc_4dC5DauTJGyhHoQIN5KEWm0mYOu8wnH79KDE76F-MY4dwlKJWkgyx-NlaG40EScBdxFaH0IJ9RDATrJWSOhnnCGUrUpo5rmVQzv1BW1E2JfI6R9Ig7f82rZFOvGgE4mq-d-vBxr4DvbumTzlNhrmp9N0tcF9YGtlkLGa0tFEui5tlqqMNfkZBPeD73V-2JuPII0Ok6eMhEcJ9rlDIt8K_ctunRHRVfdRjQKq8gF5C4Gg7qlQhXOegAHGeHbD3W_MyjCSY1WZNKuL9aJrUQk3FCDjwDMYma2GUtj6qCNM3RBASqFhQn_dBYR9N-umqFe6L47MDF-4LkMvJjPDvMiViM4YJVc9-bSMH_cf9dLGZtlL7dx7lG4kq8OcYRfN3tW59acTUXmRCqmZebWCTpajsn92HEbYeZ9s6pQzPCmAAFs1Q-TAJF5C87vruW3j7lghob4AWAq2oq58mDM8LRcVlx9_TBbukgrlwYJXcaCASE4Au4d8lF3-WUDFN2G6mLMDak_mp--eV5aEvIiW0BDnydzYN1M7J9i7fLrBcorTTJTl79qv1gClT05mWPtvKXbTm8eOxqt0Pa-ncOQ2EBGIcqgTVC36MHXRAp3qaKhuID5ASvFJZNwjhtq6upU6v2yluAJMbhk3MMyt9F0BUm_ruj-iKZICw-9eVe56cqp0MBQ5gb80YocB&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CEB",
           "destCity": "세부",
           "destCountry": "필리핀",
-          "price": 284700,
-          "depDate": "2027-01-26",
-          "retDate": "2027-01-29",
+          "price": 293100,
+          "depDate": "2027-01-25",
+          "retDate": "2027-01-28",
           "airline": "진에어 · 비엣젯항공",
           "isDirect": true,
           "duration": "4시간 25분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HrIX9ZpomZ6g8ee5hWe5_LbG6-bQ4Fx_YyH_GtnPqrzzk7bhJvpepiHvyGdZ7qgFasSt8ljDAb2PZZG-pZamSifXB5J0JgFzossHGX7CfcH-AbboYB7z86s_86UQW7Ryc_3bEBrkJYs1hH5bdSg04gISSUOmSuArno-p6QUQaLtbh-iZkUCT1ITgw0XQ4_ngQWIbdSAuZt1b1CRaJzLXGLdQAUXyen6Nf634qjumlBV4BDM7sFSxGBSvs6kiC7ocszY_xrP5iFPmR9fSzlWD9gmagh7IZAcowfaFhGTIT2NuJK0BKYepL9t0XZjqPry3dN81cnqpoBnSLIwrcHp7PhrSRDJE5eG2rJxO8xPDhL1iaeH6v3x0VnFnluBLSwIZDDEIoi3qekJicusoNETHJ44E01Rk52fzDiUW_bQFOvK74i_cXcRaW-PfIsE_x0Z9M7pjra3GcR-pkMUpHz-xNbNNoUoLnyeaggod2HixJfky9HxIWPZyER6BLAwGt8OlwmzEUt_3275VcP5zZfViQ_E_YOiMnBCCRvgpw9p7-cBhV-NSAgqCMalwtZMVqdSDJi_mXmTjp_WXzX58UJVVH9nCWET3HY7WpVpUsEm81HBmM8Crwm_hm-dZL2OuOgQcDr957HhIqlInGOEoa4GKqMEyx0KEu4L0xeHVZOmVzGpxGolp6KgXkkpOlQUo0uwZf_hHYU5Gw4tD6wMvs6mlorO6pHwhiRTLxOTPD4UiYfeHwo9DDzut6frkS5GzEEcO_YFeh6Ra31_AcnjZL6LhhfnKfbZADbBAuE23dMnZ-IXY2kmdUFH7RFPSz62J22ww01pETqecnuXgCYclg76Bh-XTIvKSsmfPIv2GKv0TvTEX5SzYIR6leOWxz32BszvJ4hFDo8lreLbsExgijb5a-wzXlIC8X4CIUqcBSKPJqNFh1r14gqIK8BI2f4bdmHOgCTPKhZeaYb7lZlnK0ZnyLvoS9h9imi6-7io-YhtTaXvU-rydVzg0RBjS5rA8oKc9zNj39dtWZEsPFExGh70agXZg6IxPwpBnGmVvMDdt1D1Szt94hOcSHowNDh2urCVFerRRcEzBqKhHoASt75nnEvZTBk7P670OHrJlTHEVGVfMIgXmW9dbHUgKU9ZBIG7t152n69qR14viiROhpoxFPs7yYZW6k7fnWmm2LjHBIAx_dG5HIg8Qz0D1O1jBp1lyW&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HeNv4AspwduMXgdbZqQrT5lhk6y7lfoIj3zau1548WdUjvp8v8lSxKyB2_yOy9Zr-qMQgPDEWDvnaWD273E0UYPX0AmHQec7lEm-oC92E0JdkspCz2ZqsppWG-dDC96erdzjbYVlaPVuXxHf4vslELLAb5TexGLQsyoZjtsWn7dOeCGPFP0AGvBQnDpTPzaZ2EpdUA9dWNG_x-IFkA2QLmXUYoCW8Vk_zjGJQI4UuMZP9Ytm5PKpSd3yJKWvgzhPHaiSBQ_KV5EuqLnqTEXLCSvLDiGBgchEJT-Cv3lwJ3ReXnjbw868MOyHDKlI46pwdCg4GS08RHEfZaWwKAz5obBwQyb8WpOgK1NQPPRrJMww6kgNA4sC5IVs-_KpuE83wkaCbNmUFsVs1sS5tMkhVp0bGb55u9TRc8Y1u3q6WmwDS_375hnewDIelKX8fkdKyO2hxFf7IlNUwqqQozm3G1FEXIa7Rfbj_IyYTPWYZqGKI7x6OFmAvGAy2DhGNkpotd8zVptncOyGStxbRkqH33xNUmMYWJgGytf_WxZAJ0-4DiCiKwcSXp7v619a3c7cK6EU3SfqJfJ1ASydHEL2lFeBy0Ae0T9yIH-LsS4Q6coAFHut8FmOxzfw1byLu6_XCkAlRr4-aRL7I8EO4qDzZU0CRkkqD0hBfLxFk9YDRpr0hER18SBQayv7D556SNJFDH9c0twbkMnXSkcdjO3L3MqhV0_G-GA8xAjAwD4zHTTfbL8gcwJi6jJshTXQ_hWC6aJ-kPEX7mIcodxgXHyXaSFNvxBGC0LMjokLo0AU6asnjaXefFRVKLgn1udVnq-UV33OCxV0NKfVpFg7Fv60soEDq1dnUaffUkOjGWvBVxy-2uj8z7T6t7BdUGVg3TWaBQy7ZgHOGJUVdEKq0T2cY0_laO1k2bUgPGz_fJT4ijRiNFoVMBJLvK9d-UUiNtEqPnVYtx3TjhAToWUu444UW6g4kAP44qYJwOATtJBdjJsh0B2dRVv6wcsh8CyHJbU9X2QcLFgOUbIezZaPfEuIkUjNGJPPT8gEb0GJCcntZ-RW3CEcA_i9f71LMmLgPpuRdyMbOdceeC68cx_RBPuX2miY6eaH1TrlanwkZNNeB6TKgVW_4s9qmpvRPVHQreHaGw36rjvZgUHBvzFKxn7U1kM9-QSrAgTAdBIkCZLyWRqE%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CNX",
           "destCity": "치앙마이",
           "destCountry": "태국",
-          "price": 301900,
+          "price": 298900,
           "depDate": "2027-01-31",
           "retDate": "2027-02-04",
           "airline": "이스타항공 · 진에어",
           "isDirect": true,
-          "duration": "5시간 45분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HyfrUAhi3zTnmZcQVwwj0wC_rT5bzAEdde7Q0scqCC4Ufkdg7xreFceJl7dxOlgF1v_SiqZI0Dh6ZwWkaJRHo41coyfUSOUzlJIgrIAKHk2p_tqGaL9fPRQpo85nmBpM0ojRJMRkoKbEE-HVwwIAKpDAEqX-lrv2GBWXBtM6FLRbXbPCgD-9E3_WrkUYzIS0pHiAHpfZlPmudIRPycFRFxhR2rDuuh0hgxwKRIRTQEfGS-8PW90mJljwCnCKqIpx4HKumN-dxxUnCK1BkECFDsCseSjau33Kthy__0NGhGDfvWDdTIqU_tBjQF6iFzcgJvq3NTTyPCPs8kS5F6q5Sgpe6yJvOBZR670sv0qxjTfM7nn5427EstyL1Kyg5mEifB05LhIFbCqqmolaEFB_jRdGUpotG5b6VjvEM33leHH8xEwFRNfrJB3bie9KDvMLrQwtwoT-RiZLQTPXcAJdE2JzriorycP6uCQgplQ-1sJiCV9KPPya8thIiWbLOhzwGUKMBKiEdWqk0T9rXHLad3Bu-4kfrZojxykKuSzjHQQMx0JeuYp5U15xUYbDkMaERg90vJROXfaPPsyc3M5q8drrL6Hx_OrY3X4_fTLQwg1Rvi276Nji8uHUlspMxZph13NJuGfbZRnr8--sM8ezyf4CETtdnzu_ppW2HVocsjXQ1T1EWF9-Z5xJ8DgzyJYMt8FvklZ1s4hQTrsFHYfFzeX9q1K_OLsGW__4XxXv0sucovKT594l49HBONxHXN6wpUn0NSaRBgPW4tLWAS-ndIlXBhusAg6AJUutys-vF68YmT9k8jN9f83i70U4KFZo8HoEJ1eEMYTZOWvSeVt5z9lq5Q5AkIjhG4qVW8z8KdNFjVSJRnweWtEpwUc3NA-_vkcCJ-VSftkcFtteQm89zkzPkqRrgnhHyA9tWGgHRhLFnx8BDFzn2gjAcJ5zQxijBV2QGvIOT-Rw9xc7TIY6hP52ixilQStM-RPSx8sjn58iKsYvt2aR5aYGUzs0jvU2dhPKQ7p1aRrCxDHAP9MGOtb1knwZtT98cW9LVlafUcURPoEobvI24HlEdoJfoSxlykOEtSgaylp4WA-s2Y5pGPSX6TBa7UOVas1vYfXuQy65Ic4WgsOmYPCP-B5Ziha524eNf0T3b9R1lW5wLfPPgYUfHXN01nNMS7I0pTQzLUCRCgs2cXwQFiqGVFoSLfTdo&searchType=return&searchBags=0.0"
+          "duration": "6시간 5분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HZAy3ZU_hHdad27H4UtYYbuvX6Xq46KrxknVlG5_v6Hb4XbEoOeft1K4yEsEl5vDH-H8RHxiGB4Zy3ZPQ7errUUZveiujcCOraPjFpAQNL1DlM1IXr8-CWlQuU9liCimhBC3wwFObbrnE7W78qwUWyWgN7a8-NlG9rX7yp8BdcW_jaxT-qvayw-yGObUapRPi_mYRORHik15_ksBACoUOihU-mIInj45lu3K50HPn1JRn_yAzCeQ16KSdYm5T9aqZhUodB4BSiFHLrruMpihpxGRGwlFCklFFBbwPAcSUQDnC8d4AMrjdqkVvHovzL40fj5m-XD0F4KC1a5oVwNVSBaIzICcQGTcS1qViLhB1wAUiTZHT-cSqYimRVYK1lq-HAJdfXaLrMcTfZZz7rqI43rMegy4ihQJcYR4ZdHBCZ5sqzuBaq_d9NSBDs56h2-__EwNnA4_pYdTJuKs1nGUnAaroZAo7-2SqRwNRnu54Bf6ke4oimx_cygr3JHkPqUSMy95QwAU0cl5c5O4gz8JJzAbgQ3Kv2WTsRW4T3SS0UK-gCAYzpGIfeQBjmr46P1uBsF0UmY1AS-vbNw7b1Avbr1gVco70pJE3Ym4HKSOBsl0W3hBEl7FM6L4vw-igbQzxZj9g0FN3KT6HWIyBTiOPU9i8K-X4ZJZJe6FTZScuNZMIxS2wlq1WJk90_WW2_00p7J4s_9MVXkfHOPSolIqFCzkmITMRZZPRMJYEYVi0IO5tAe1WU_YdNQqvsh7OESE88sK9SdBPiUT6URtStBBfQH636wIWq0EB7JmRrm0DLTDutB7b4eVCnSxaFweO_qNKJCUlXL6brGuz9xgt2F3ZKcyaOdzOg3Re-pYdgDUb-Htv_u3HjSG1PIQM2s_xIVhtXGrL9tRudcPdU3Q_zUwzaOkcadCxW-c7gcfPXfFFmq3VnODSjfShCy6_7qN4Jqs0K0HnRf2ZzTHo53j8mYbrQ-Dw4lsb7aytXB91rfa7iUThcvJHygq3z68y8j1yv47-wbdwnonJ9PRNXxC6h-xSXPKP7EXmkdSKxpgWLwN8YOqhoUR90LzFU4P6nhaEPeSZCvBa5ESEYXvq124H2h_kXJK9BKJwuimXJYWofLslx4bae-HZGApdj9p9DaAfppV-w-IFjRe7yfEZwpWKEu8wme0njhh2BEda1U3JLvKyfvEJnb93c00__lU4ZK-Ezg9B&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "MNL",
           "destCity": "마닐라",
           "destCountry": "필리핀",
-          "price": 309100,
+          "price": 309300,
           "depDate": "2027-01-30",
           "retDate": "2027-02-04",
           "airline": "제주항공 · 진에어",
           "isDirect": true,
           "duration": "4시간 40분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HxOwDaQjFl2rbSpFgNtwtJuxTn16sg-XSwdasykxvVu77lz2VZeGJaojh7sqKhgKgzvapPOln8lPLmUXATBsV07GASyyQYGaMe0hQQAtTYhJWAGIUvxcpur1pLB6Cl-Ap4ZJ3zXeZTQ9AvHHx71bOri9T5XOWd6A5znJeYLBkZYYzH8bZXYr1M6Ojq4DVvvXePCWsHQVAVhUtN4142Cwatvrl9CGkVMbPmlhiGpdmMO4JNgs2pfBaxiqCWvmVBaUt65GzJk2C-TrMCvPOzQz4xjYjKSuv-I8_fPc49PVtsKEp29YyHjrTGnQREjnqnNNyhv2MDyNwG3cFS7JVmim33zFzgdEaC0lML0wvtVMhP9B6Z2pM6VgNHHCFtseKnmf-JmbqdXxvn0LMHQIJkHiSPUPsEuFbEsrQEoGhpxVt-Vp6KR-lHkkk-SzFAZNuG54QtmLHKameiRPG12znK1UH8vVCbf-ccMkVO2d24CkHty3zMnYUP_jyQXUbPKoAqTBWXhIV6hustxhApyWc1GXLnSHcc-jhFMKklRkIvOy1ETRVd07jAsCTvoPHPvnWX8ZqNKS7o2KZY99bL-asWtzegktShXk3TaqpM8ss_VTkZH2KjNb0AJxfQyk5Tw-mkovFcZ75SHlQiJ__Kn3Nyq_oDcqmLcJon6zONsyxGkqbt3w8XsCFpaG2xsQnSusiOdcfxbtEVG7P-FksoKQeU3KDF3goQ-LHRmOuhfjgciS8AnOqGB9eSpgkv8xkg04XDOM5wa5en5eVGypNRMhIQrM1XvtOxhu5En3LSd6EotRWSKUTH1cP64vu6NKNTDZ9c49UshqU0kN5l8kSjMfJE2kieyr2V-eE0DpqkJ5x84EL7Z2GiX9oM0ne7KcAYRl46DDDmWGJI9umURxpyco5UbHoSc_jCYum5G6rxWTRvYG0ug58xyRWg5hxHHiz3QQ_xQwk2xigmHCunahVVifcQv6UIQaWBytnx4KZeohpbNwC5x-gYKDvFTU-XP5yyxXNKmfwAdOCTbeRkqUd2a0GDNSfm4NjYTLSU8PX98MQkaXeXYe8k8pCw1q_q71xJUxO1MXOguYMf2GFVLk-dRKpkDn1tkMwCXPsBxPINZH7ZYoEbZ3ZEFRtZqCc20t6ZXWkcwUIxa6uai5qRYuaUSeb_a8JZynv_BeTKIcDVFFob31cTONatLUc0vtmfAx3JpYkgCTENTwq2ITVMS-pjghMSHds4UDSV9zShSK-YvOZMbtlF4E%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HiBMT5GljsCTfZcQrNe0IIG1c-AO3yDi6NiLgX3X_JMfKNxAvBc5rtRsrP4wxS3NBRRnaIntR0Z35AJB_EFx7OVBtX0rKxYFa8O4bBIchYrM7QT0k7lq9PHlh0HqE7J_jtFvdicr4PLuCcYOLLXpm_msq96QRt4CTsd2K959c3-eCtEk57rKcCmasy5ZF0a60xwG7_cXE8wTXSrohzwn-_7Z0DJmSTWwDGxPTd6EjXvKPxmg3EPl4Ct9YhcICvcP39NSDsMlPYoQrZnEwS7M1vQ0RpG3pUr32vOrvmvRikkU-6I098VAM_HpIbnPKcrnG4Qceb1UY7963YPy93e4gMciBLihbtq79BZkD9E2u8gO0h0V1DnXQk37BDInFylULobE3gE0XrLKZwnCfq4VG-_ld2lNrnIZjfYbLWnlhBNlKv4Rs1SeetTD0RhnnIZ07L3JtzjLf0puKQGZRFBeZhignYUG4hnESEBnR4hrubRXs4wbGkpi6SuljrJ-U9NMiMpV1HbDyyZfdCsPOtbnPfK9hb-CBT-Zlh7fp0QLAW6LF1X8CHJYKG1oDW1s7kVRHku8Dtrgivvx638MqPqeF3d8ruIjYyqYmGjNqwPnGsnth_45DlO65QUyMjYEINIHEg9t4nQu6tFc4r5nuj1YjrX0rHdKwj07Jl08ltaURaDjL0dyFitrSdU2CkvNK7r5NznrJ6TYHdOdWlRfLj-A9tODggu4ECcjoUVy_m3rrRCr2nnPBbZqZTRB-S0xyB-BEnNLXhRdaGYAQ2TopeuqGHpgUcCyE3Y6MYMAVVCjDdvITIkWdqvYE5-e1IS13reHxi7Cb6SVfkLci2Wa0OVnbMSHZMMjHa0QABM4mCS6sO2-F9KhafBZS3KdVXfdI5IqjP2zaahi98k4FdCDzMxMJ38mpIkUGTS7HT_uUOaGvHzRZk1zY4kDAiDxkSPomOEwMUIqfuXex7pwKwdqVvphpvBJ9W_i70-HeyNuHq-3OuGV10B8iAUawzXyoUe3qhHSvVd6D504Ubi4ZKFMZOXSw0u2oCYULBZmQ1jGTD8DF02OoaXp7dafRSqC57y5Tgexzq1asK0-0EqyNJqeKw9HuVBY6wTzSENak2eYfShpig90PkJnoG6xPFj2JgNjlNy6592kfhOlAzbWppigt5dN2cmFiUqK6v-kwRf_C_-OG7xKOagYf1BKq9Qt9XAloRtY7foUSedVlXq8akytgMPyamg%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CXR",
           "destCity": "나트랑",
           "destCountry": "베트남",
-          "price": 327400,
+          "price": 325700,
           "depDate": "2027-01-31",
           "retDate": "2027-02-04",
-          "airline": "비엣젯항공 · 진에어",
+          "airline": "비엣젯항공",
           "isDirect": true,
           "duration": "5시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hys9RJFJlcrWODIMbSJaKVOCLIv4Pl2bs4OBen3USMlkCwxODC0szxYJwspM_QlaAxXWwdfU7Fi3DrNj_ledPKQ1zeWbCLI5qPC2u9wzwq-GJ1l6GYGuQo4ZcpD3y0wHklovY6DgD2Ef68bPmHIJj8suiXmBcjhLEBPbnlEwsGJ9I--XynP3tagstq-AjpjuhfQWWAGXmzTszQc8UKGQKrHhdGLqVBrELfZzBh6IqJPHl8bPzBGjQM7t3e7YA4mp_r4jTANPScbOKcFhr769D3AcCRjAAp6R5c-1u8KbQ13lQuAjgNp0XYibaKDBzSj9OHRB1HNKK3G3ie5C14RTMIrdMyCPQFhVwRCD31N7jmqHxVIxvOl2Xl-RRi8wBWRVOhxMrVDw7koAMxZwDrA3o4wslnX92DBKNWAiCHXPg6u-v5i7OnhScN5cQ9Fd8u2EptoRm5elDWtUxsx713B1SWMWZfrWt7lIxdcaI9slflqv18kYK5Ugtio_XCKq6FXw0fslWiW3Vygl7NqgO8q6upZDQf4Na8HsHdMbwRXn5_RRoZlTE5B_Al0DrdTlHcfOv2pct2pmucqotX_NQaH6DkI97EsleIrqA-pXuFBKi6KTNBHHHu0cSAJv7iP9zTZodbmypO-KKG4Wey8tgaGcWjeJqHobGk87vlypqQTMhvR96w1V0WQledqPkvzYcGIrRgACBFMxB55mvXrv40BsffHxM_O6qYrtgKTUtGFTJfXbLwmYFruVJHDCFmoQHu1N93fUGS_lQVH6417yJeKmjfKnDoxTb61rFGEbyU8H25lgRGtHYFg6WRSgZJL-w8yiTc-oqa_I4FgoRyaWSU-PRowoSe9tQ5P67EGFTQ6iBV5vJ_4qiAGWtYm3TY0XmH2pabrGO4e42LkB9yUZLlq_Fs-v1PsLfOdMK5Ae7lsEgwjKEov2SP2BRMC-GjYnSBmsBoGNVg1LPDbsr3iLVct-QrD-c4mlygBeCVp2oyctcChmpjPfQspptB0U_2SA001I_32GHeGooN7UJ3BmkHBBfO7Yazii4Ft0qfC7ciUQvi23D_EQNN00HCNV_GWMgDyJjfayd0gMLh4Ro9PYYraEm7MH9VwcA2EjLhve7W2c4RALl_sogcpuj7QMJFLLcbnVRTJpmQaSXz2Lmdzcv32DY7WS-vrQwoNXeUGfMNrKYIGrNnY6AbaL3B4W3y8mITU5w&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hi64iA1TTZynjVASE1QD_SwkJRVeLjyc8THVMPTuQzhn-F5lDwL-mnsv5t3zs8zplLS7mA0T2TNxaopsRfWvlhEBmFVj0yUrkJVzlR4BF3gnseRp7BdUoEo4cLt68iZrns0kpE1u-lK_hrWZMqAMCkK1dxcgxbQ3OIwh2_vmXyVZNI80Pa5Fiuezr-kBHWZiqAfPdvl7PiwTxip_prloRYKgbZdCHXNu1INQr_Du4z7OMSrOMEWd-M1utEODd9JVZLlCv1-ugtTOX9AbIQdpm9BkDjzUxON4tKwbZf1Rlo-XTR6tUKXvJrejgt9ZGTQnQAsPBImr-eaJRw05vjsuatxmfdcUrcLUb8975pnlfefFLbs_qd7RM_QlCE-fz0fQ7tu41yUPmiw_ufaxKQLnyqeWELphKBCjaILg1CVqjQZ8AD7CnbMPYQyTwrhy26vTXDcETgHTX6ADWaHyF8PJLSdNsKUXQKKoo-b4tD9xE7rdD7Q5IOwXez8EXPKe5RWzZKBkCeI3zhNorT96GrP38Wa3YFnsGyMhcd2auqGWU9Z7LiKHcl6slXuCnLbaM-AR_6vMQZuCoYM4QKGusgAoNqQoI5BMHcELW0pWdu5H7Lh6ksI5xjcJLsw2IpobAHYRDJuVuYLBta3QJQ78SWGZfAb1bSDxMg6zFny-cIlST1PCE0I9iHypbP4sUSnQPE12L-_aUrziugJhpECHFJhca3oKgorn7qIJ2Gf-IQ_AD0jFwUkS61UQFWCuMDQiDYQ7KUxJ1WOsgIuk7FX30QA3aSw3HLxJP6KtkCvtBWk2Jw7EHY_uNw1Xm5Y7ilCIW0Pa4ITpm_vbnXRdAUvYjp6zuX0GFM5E2UVAqunCAlV-hPRB6Rn3gNC2J7qEqM6dX4bycMg4iK4uFJ8Dz_tftTCbooTs5frE2nxFLA6FJ0HgW-gooEtfKZ0Zh5W1vb4I20jPsjFdeZo_qapisfl7ZLGGUYFkaESW-j5SM_-L8OFUDfZz3ZBlEkJ9CvjsBsZQBI5PJqJE5GlRqLdVU0xs_N4-GwyWxGwN2oQaqhPepAs7StChjY7gGbVa6xZGoMdsEJPHE8PPKXKtZyWQ_WCNKCzo37APoGjOOYwttNle0B0cuz7r6qaQiyU3d2tizrplRDK3stn1HxDZm-bNIGEqmv0ejUica2Z5ZXPKyPjWhcaj3WoEB8ng3XSz8Oc-e54rvSOfJv3DM_Vxc84T21d7hUv0ALD7KDv4O4kmjYgVliyGtssw%3D&searchType=return&searchBags=0.0"
         }
       ],
-      "lastCheckedAt": "2026-11-25T04:13:27.247Z",
+      "lastCheckedAt": "2026-11-25T14:29:38.531Z",
       "lastAlertedPrice": null,
       "lastAlertedByDest": {
         "FUK": 181500,
@@ -132,251 +156,261 @@
       "baselineInfo": {
         "source": "calendar",
         "destCode": "KMJ",
-        "median": 254300,
+        "median": 257500,
         "sampleDates": 13,
         "totalDates": 17,
         "periodStart": "2027-01-15",
         "periodEnd": "2027-01-31",
-        "min": 237500,
+        "min": 236900,
         "minDate": "2027-01-26",
         "minRetDate": "2027-01-29",
-        "builtAt": "2026-11-25T04:13:34.358Z",
-        "weekChangePercent": null
+        "builtAt": "2026-11-25T14:29:53.158Z",
+        "weekChangePercent": 0
       },
       "calendars": {
         "FUK": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "FUK",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 269100,
+              "price": 267600,
               "retDate": "2027-01-18"
             },
             {
               "date": "2027-01-16",
-              "price": 270000,
-              "retDate": "2027-01-19"
+              "price": 267600,
+              "retDate": "2027-01-18"
             },
             {
               "date": "2027-01-17",
-              "price": 280700,
-              "retDate": "2027-01-19"
+              "price": 279400,
+              "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 277600,
+              "price": 277100,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-19",
-              "price": 252000,
+              "price": 257300,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-20",
-              "price": 249800,
+              "price": 249500,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 259800,
+              "price": 260300,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-22",
-              "price": 283100,
-              "retDate": "2027-01-26"
+              "price": 280300,
+              "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-23",
-              "price": 260000,
+              "price": 259200,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-24",
-              "price": 282400,
-              "retDate": "2027-01-26"
+              "price": 286800,
+              "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-25",
-              "price": 281000,
+              "price": 276800,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 251900,
+              "price": 257400,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-27",
-              "price": 257300,
+              "price": 253100,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 270900,
-              "retDate": "2027-01-30"
+              "price": 268500,
+              "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 283300,
-              "retDate": "2027-02-02"
+              "price": 280200,
+              "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-30",
-              "price": 270900,
+              "price": 267600,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-31",
-              "price": 266700,
+              "price": 266100,
               "retDate": "2027-02-04"
             }
           ],
           "totalDates": 17,
-          "median": 270000,
-          "min": 249800,
+          "median": 267600,
+          "min": 249500,
           "minDate": "2027-01-20",
           "minRetDate": "2027-01-23",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "TPE": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "TPE",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 269800,
+              "price": 268200,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-16",
-              "price": 243500,
+              "price": 237100,
               "retDate": "2027-01-18"
             },
             {
               "date": "2027-01-17",
-              "price": 243400,
-              "retDate": "2027-01-21"
+              "price": 243000,
+              "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 259700,
-              "retDate": "2027-01-22"
+              "price": 265400,
+              "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 238200,
+              "price": 237700,
+              "retDate": "2027-01-23"
+            },
+            {
+              "date": "2027-01-20",
+              "price": 266500,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 268200,
+              "price": 263500,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-22",
-              "price": 260900,
+              "price": 261500,
               "retDate": "2027-01-26"
             }
           ],
           "totalDates": 17,
-          "median": 259700,
-          "min": 238200,
-          "minDate": "2027-01-19",
-          "minRetDate": "2027-01-23",
+          "median": 262500,
+          "min": 237100,
+          "minDate": "2027-01-16",
+          "minRetDate": "2027-01-18",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "TAO": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "TAO",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 281400,
+              "price": 282900,
               "retDate": "2027-01-19"
             },
             {
+              "date": "2027-01-16",
+              "price": 276500,
+              "retDate": "2027-01-20"
+            },
+            {
               "date": "2027-01-17",
-              "price": 272000,
+              "price": 272200,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-18",
-              "price": 279700,
-              "retDate": "2027-01-20"
-            },
-            {
-              "date": "2027-01-19",
-              "price": 268000,
+              "price": 277900,
               "retDate": "2027-01-21"
             },
             {
+              "date": "2027-01-19",
+              "price": 265700,
+              "retDate": "2027-01-23"
+            },
+            {
               "date": "2027-01-20",
-              "price": 278500,
+              "price": 277700,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 280500,
-              "retDate": "2027-01-23"
+              "price": 276700,
+              "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-22",
-              "price": 277000,
+              "price": 278100,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-24",
-              "price": 272300,
+              "price": 272500,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-25",
-              "price": 273700,
+              "price": 273400,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-26",
-              "price": 263400,
+              "price": 269200,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 280500,
-              "retDate": "2027-01-30"
+              "price": 280100,
+              "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-29",
-              "price": 279200,
+              "price": 278800,
               "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 277800,
-          "min": 263400,
-          "minDate": "2027-01-26",
-          "minRetDate": "2027-01-29",
+          "median": 276700,
+          "min": 265700,
+          "minDate": "2027-01-19",
+          "minRetDate": "2027-01-23",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "KMJ": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "KMJ",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 290600,
-              "retDate": "2027-01-19"
+              "price": 297700,
+              "retDate": "2027-01-18"
             },
             {
               "date": "2027-01-18",
-              "price": 285600,
+              "price": 285000,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-19",
-              "price": 254300,
+              "price": 258400,
               "retDate": "2027-01-21"
             },
             {
@@ -386,79 +420,79 @@
             },
             {
               "date": "2027-01-21",
-              "price": 253700,
+              "price": 253900,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-22",
-              "price": 257800,
+              "price": 257500,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-25",
-              "price": 251200,
+              "price": 258300,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 237500,
+              "price": 236900,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 244500,
+              "price": 244000,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 249800,
-              "retDate": "2027-01-30"
+              "price": 249200,
+              "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 270600,
+              "price": 269400,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-30",
-              "price": 250700,
+              "price": 250100,
               "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-31",
-              "price": 260100,
+              "price": 257400,
               "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 254300,
-          "min": 237500,
+          "median": 257500,
+          "min": 236900,
           "minDate": "2027-01-26",
           "minRetDate": "2027-01-29",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "CNX": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "CNX",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 378100,
+              "price": 375500,
               "retDate": "2027-01-18"
             },
             {
               "date": "2027-01-19",
-              "price": 363200,
-              "retDate": "2027-01-22"
+              "price": 384900,
+              "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-22",
-              "price": 375300,
+              "price": 373000,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-23",
-              "price": 394700,
+              "price": 391800,
               "retDate": "2027-01-26"
             },
             {
@@ -468,69 +502,79 @@
             },
             {
               "date": "2027-01-27",
-              "price": 379100,
+              "price": 371000,
               "retDate": "2027-01-29"
             },
             {
+              "date": "2027-01-28",
+              "price": 400100,
+              "retDate": "2027-01-30"
+            },
+            {
               "date": "2027-01-29",
-              "price": 339400,
+              "price": 339700,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-30",
-              "price": 346100,
-              "retDate": "2027-02-02"
+              "price": 339900,
+              "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-31",
-              "price": 301900,
+              "price": 298900,
               "retDate": "2027-02-04"
             }
           ],
           "totalDates": 17,
-          "median": 375300,
-          "min": 301900,
+          "median": 374300,
+          "min": 298900,
           "minDate": "2027-01-31",
           "minRetDate": "2027-02-04",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "MNL": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "MNL",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 394500,
-              "retDate": "2027-01-18"
+              "price": 390000,
+              "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-16",
-              "price": 354400,
+              "price": 350500,
               "retDate": "2027-01-21"
             },
             {
+              "date": "2027-01-18",
+              "price": 375400,
+              "retDate": "2027-01-23"
+            },
+            {
               "date": "2027-01-19",
-              "price": 341100,
-              "retDate": "2027-01-22"
+              "price": 360400,
+              "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-22",
-              "price": 391500,
+              "price": 389300,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-23",
-              "price": 393800,
+              "price": 399900,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-25",
-              "price": 353900,
+              "price": 354300,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-26",
-              "price": 328800,
+              "price": 329400,
               "retDate": "2027-01-29"
             },
             {
@@ -540,142 +584,167 @@
             },
             {
               "date": "2027-01-29",
-              "price": 316100,
-              "retDate": "2027-02-02"
+              "price": 312900,
+              "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-30",
-              "price": 309100,
+              "price": 309300,
               "retDate": "2027-02-04"
             }
           ],
           "totalDates": 17,
-          "median": 354200,
-          "min": 309100,
+          "median": 360400,
+          "min": 309300,
           "minDate": "2027-01-30",
           "minRetDate": "2027-02-04",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "PQC": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "PQC",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 404500,
-              "retDate": "2027-01-18"
+              "price": 401000,
+              "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-16",
-              "price": 405800,
+              "price": 390900,
               "retDate": "2027-01-20"
             },
             {
-              "date": "2027-01-19",
-              "price": 382200,
-              "retDate": "2027-01-22"
+              "date": "2027-01-17",
+              "price": 401300,
+              "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-20",
-              "price": 387500,
-              "retDate": "2027-01-22"
+              "price": 401700,
+              "retDate": "2027-01-23"
             },
             {
-              "date": "2027-01-23",
-              "price": 409300,
+              "date": "2027-01-22",
+              "price": 398500,
               "retDate": "2027-01-26"
             },
             {
+              "date": "2027-01-23",
+              "price": 401000,
+              "retDate": "2027-01-27"
+            },
+            {
+              "date": "2027-01-24",
+              "price": 378500,
+              "retDate": "2027-01-28"
+            },
+            {
+              "date": "2027-01-27",
+              "price": 387900,
+              "retDate": "2027-01-29"
+            },
+            {
+              "date": "2027-01-28",
+              "price": 396700,
+              "retDate": "2027-01-30"
+            },
+            {
               "date": "2027-01-29",
-              "price": 363000,
+              "price": 362900,
               "retDate": "2027-02-02"
             },
             {
+              "date": "2027-01-30",
+              "price": 356400,
+              "retDate": "2027-02-03"
+            },
+            {
               "date": "2027-01-31",
-              "price": 353400,
+              "price": 353500,
               "retDate": "2027-02-04"
             }
           ],
           "totalDates": 17,
-          "median": 387500,
-          "min": 353400,
+          "median": 393800,
+          "min": 353500,
           "minDate": "2027-01-31",
           "minRetDate": "2027-02-04",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "CXR": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "CXR",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 414100,
+              "price": 411400,
               "retDate": "2027-01-18"
             },
             {
               "date": "2027-01-16",
-              "price": 397700,
-              "retDate": "2027-01-20"
+              "price": 359400,
+              "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-17",
-              "price": 335100,
-              "retDate": "2027-01-22"
+              "price": 359300,
+              "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-18",
-              "price": 335400,
-              "retDate": "2027-01-22"
+              "price": 350700,
+              "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 337400,
-              "retDate": "2027-01-22"
+              "price": 353900,
+              "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 356400,
-              "retDate": "2027-01-22"
+              "price": 370100,
+              "retDate": "2027-01-24"
             },
             {
               "date": "2027-01-21",
-              "price": 432000,
+              "price": 424900,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-22",
-              "price": 395600,
+              "price": 395100,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-23",
-              "price": 375200,
+              "price": 375800,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-24",
-              "price": 347200,
+              "price": 348600,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-25",
-              "price": 347200,
+              "price": 347600,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-26",
-              "price": 348100,
+              "price": 347600,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-27",
-              "price": 348500,
+              "price": 349000,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 368100,
-              "retDate": "2027-02-02"
+              "price": 363300,
+              "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-29",
@@ -684,246 +753,221 @@
             },
             {
               "date": "2027-01-30",
-              "price": 358000,
-              "retDate": "2027-02-02"
+              "price": 353100,
+              "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-31",
-              "price": 327400,
-              "retDate": "2027-02-04"
+              "price": 325700,
+              "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 348500,
-          "min": 327400,
+          "median": 353900,
+          "min": 325700,
           "minDate": "2027-01-31",
-          "minRetDate": "2027-02-04",
-          "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "DAD": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
-          "destCode": "DAD",
-          "days": [
-            {
-              "date": "2027-01-15",
-              "price": 437700,
-              "retDate": "2027-01-18"
-            },
-            {
-              "date": "2027-01-16",
-              "price": 415900,
-              "retDate": "2027-01-19"
-            },
-            {
-              "date": "2027-01-17",
-              "price": 390600,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-18",
-              "price": 400400,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-19",
-              "price": 370900,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-20",
-              "price": 440000,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-21",
-              "price": 437700,
-              "retDate": "2027-01-26"
-            }
-          ],
-          "totalDates": 17,
-          "median": 415900,
-          "min": 370900,
-          "minDate": "2027-01-19",
-          "minRetDate": "2027-01-22",
+          "minRetDate": "2027-02-03",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "TAK": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "TAK",
           "days": [
             {
               "date": "2027-01-16",
-              "price": 250500,
+              "price": 257400,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 257800,
-              "retDate": "2027-01-21"
+              "price": 257600,
+              "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-21",
-              "price": 257500,
+              "price": 257600,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-23",
-              "price": 257700,
-              "retDate": "2027-01-26"
+              "price": 257400,
+              "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 272000,
-              "retDate": "2027-01-29"
+              "price": 271000,
+              "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-28",
-              "price": 239600,
+              "price": 238900,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-30",
-              "price": 261000,
+              "price": 259500,
               "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 257700,
-          "min": 239600,
+          "median": 257600,
+          "min": 238900,
           "minDate": "2027-01-28",
           "minRetDate": "2027-02-01",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "KIX": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "KIX",
           "days": [
             {
               "date": "2027-01-16",
-              "price": 277700,
+              "price": 277200,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-23",
-              "price": 271200,
+              "price": 272000,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 297500,
+              "price": 296900,
               "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-26",
-              "price": 274300,
+              "price": 275800,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 286500,
+              "price": 285800,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 271000,
-              "retDate": "2027-01-30"
+              "price": 268900,
+              "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 276500,
+              "price": 267700,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-30",
-              "price": 261500,
+              "price": 258900,
               "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-31",
-              "price": 264200,
+              "price": 261000,
               "retDate": "2027-02-04"
             }
           ],
           "totalDates": 17,
-          "median": 274300,
-          "min": 261500,
+          "median": 272000,
+          "min": 258900,
           "minDate": "2027-01-30",
           "minRetDate": "2027-02-03",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
-        "CEB": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
-          "destCode": "CEB",
+        "MYJ": {
+          "builtAt": "2026-11-25T14:29:53.158Z",
+          "destCode": "MYJ",
           "days": [
             {
-              "date": "2027-01-16",
-              "price": 419900,
+              "date": "2027-01-19",
+              "price": 268600,
               "retDate": "2027-01-21"
             },
             {
-              "date": "2027-01-17",
-              "price": 392900,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-18",
-              "price": 372000,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-19",
-              "price": 351700,
-              "retDate": "2027-01-22"
-            },
-            {
               "date": "2027-01-20",
-              "price": 423300,
+              "price": 283000,
               "retDate": "2027-01-23"
             },
             {
-              "date": "2027-01-21",
-              "price": 441700,
-              "retDate": "2027-01-26"
-            },
-            {
-              "date": "2027-01-22",
-              "price": 412700,
-              "retDate": "2027-01-26"
-            },
-            {
-              "date": "2027-01-23",
-              "price": 395300,
-              "retDate": "2027-01-28"
-            },
-            {
-              "date": "2027-01-24",
-              "price": 351900,
-              "retDate": "2027-01-29"
-            },
-            {
-              "date": "2027-01-25",
-              "price": 285800,
-              "retDate": "2027-01-28"
-            },
-            {
               "date": "2027-01-26",
-              "price": 284700,
+              "price": 277900,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 341000,
-              "retDate": "2027-02-01"
+              "price": 278000,
+              "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 323900,
+              "price": 279000,
+              "retDate": "2027-02-01"
+            }
+          ],
+          "totalDates": 17,
+          "median": 278000,
+          "min": 268600,
+          "minDate": "2027-01-19",
+          "minRetDate": "2027-01-21",
+          "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
+        },
+        "CEB": {
+          "builtAt": "2026-11-25T14:29:53.158Z",
+          "destCode": "CEB",
+          "days": [
+            {
+              "date": "2027-01-19",
+              "price": 388900,
+              "retDate": "2027-01-24"
+            },
+            {
+              "date": "2027-01-20",
+              "price": 421700,
+              "retDate": "2027-01-25"
+            },
+            {
+              "date": "2027-01-21",
+              "price": 419100,
+              "retDate": "2027-01-26"
+            },
+            {
+              "date": "2027-01-22",
+              "price": 408900,
+              "retDate": "2027-01-26"
+            },
+            {
+              "date": "2027-01-23",
+              "price": 389600,
+              "retDate": "2027-01-28"
+            },
+            {
+              "date": "2027-01-24",
+              "price": 335100,
+              "retDate": "2027-01-29"
+            },
+            {
+              "date": "2027-01-25",
+              "price": 293100,
+              "retDate": "2027-01-28"
+            },
+            {
+              "date": "2027-01-26",
+              "price": 304500,
+              "retDate": "2027-01-29"
+            },
+            {
+              "date": "2027-01-27",
+              "price": 348600,
+              "retDate": "2027-01-30"
+            },
+            {
+              "date": "2027-01-28",
+              "price": 329800,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-29",
-              "price": 321100,
-              "retDate": "2027-02-02"
+              "price": 319400,
+              "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-30",
@@ -932,146 +976,57 @@
             },
             {
               "date": "2027-01-31",
-              "price": 298600,
-              "retDate": "2027-02-05"
-            }
-          ],
-          "totalDates": 17,
-          "median": 351800,
-          "min": 284700,
-          "minDate": "2027-01-26",
-          "minRetDate": "2027-01-29",
-          "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "BKI": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
-          "destCode": "BKI",
-          "days": [
-            {
-              "date": "2027-01-16",
-              "price": 426700,
-              "retDate": "2027-01-19"
-            },
-            {
-              "date": "2027-01-17",
-              "price": 365700,
-              "retDate": "2027-01-21"
-            },
-            {
-              "date": "2027-01-21",
-              "price": 450100,
-              "retDate": "2027-01-24"
-            },
-            {
-              "date": "2027-01-23",
-              "price": 403800,
-              "retDate": "2027-01-26"
-            },
-            {
-              "date": "2027-01-24",
-              "price": 346400,
-              "retDate": "2027-01-28"
-            },
-            {
-              "date": "2027-01-27",
-              "price": 390600,
-              "retDate": "2027-01-29"
-            },
-            {
-              "date": "2027-01-28",
-              "price": 369100,
-              "retDate": "2027-02-01"
-            },
-            {
-              "date": "2027-01-30",
-              "price": 348600,
-              "retDate": "2027-02-02"
-            },
-            {
-              "date": "2027-01-31",
-              "price": 344500,
+              "price": 297700,
               "retDate": "2027-02-04"
             }
           ],
           "totalDates": 17,
-          "median": 369100,
-          "min": 344500,
-          "minDate": "2027-01-31",
-          "minRetDate": "2027-02-04",
-          "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "MYJ": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
-          "destCode": "MYJ",
-          "days": [
-            {
-              "date": "2027-01-19",
-              "price": 268400,
-              "retDate": "2027-01-21"
-            },
-            {
-              "date": "2027-01-20",
-              "price": 284100,
-              "retDate": "2027-01-23"
-            },
-            {
-              "date": "2027-01-26",
-              "price": 278200,
-              "retDate": "2027-01-29"
-            },
-            {
-              "date": "2027-01-27",
-              "price": 278200,
-              "retDate": "2027-01-29"
-            },
-            {
-              "date": "2027-01-28",
-              "price": 279800,
-              "retDate": "2027-02-01"
-            }
-          ],
-          "totalDates": 17,
-          "median": 278200,
-          "min": 268400,
-          "minDate": "2027-01-19",
-          "minRetDate": "2027-01-21",
+          "median": 335100,
+          "min": 293100,
+          "minDate": "2027-01-25",
+          "minRetDate": "2027-01-28",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "SIN": {
-          "builtAt": "2026-11-25T04:13:34.358Z",
+          "builtAt": "2026-11-25T14:29:53.158Z",
           "destCode": "SIN",
           "days": [
             {
               "date": "2027-01-20",
-              "price": 383000,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-21",
-              "price": 375000,
+              "price": 396500,
               "retDate": "2027-01-23"
             },
             {
-              "date": "2027-01-26",
-              "price": 348200,
-              "retDate": "2027-01-28"
+              "date": "2027-01-21",
+              "price": 368300,
+              "retDate": "2027-01-25"
+            },
+            {
+              "date": "2027-01-22",
+              "price": 393700,
+              "retDate": "2027-01-26"
+            },
+            {
+              "date": "2027-01-28",
+              "price": 363100,
+              "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-29",
-              "price": 330700,
+              "price": 331200,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-30",
-              "price": 334800,
-              "retDate": "2027-02-02"
+              "price": 324600,
+              "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 348200,
-          "min": 330700,
-          "minDate": "2027-01-29",
-          "minRetDate": "2027-02-02",
+          "median": 365700,
+          "min": 324600,
+          "minDate": "2027-01-30",
+          "minRetDate": "2027-02-03",
           "key": "PUS|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         }
       },
@@ -1140,6 +1095,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 270000
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 267600
           }
         ],
         "KMJ": [
@@ -1206,6 +1165,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 254300
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 257500
           }
         ],
         "TPE": [
@@ -1272,6 +1235,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 259700
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 262500
           }
         ],
         "KIX": [
@@ -1330,6 +1297,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 274300
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 272000
           }
         ],
         "MNL": [
@@ -1396,6 +1367,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 354200
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 360400
           }
         ],
         "CNX": [
@@ -1462,6 +1437,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 375300
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 374300
           }
         ],
         "CEB": [
@@ -1528,6 +1507,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 351800
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 335100
           }
         ],
         "CXR": [
@@ -1594,6 +1577,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 348500
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 353900
           }
         ],
         "TAK": [
@@ -1656,6 +1643,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 257700
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 257600
           }
         ],
         "BKI": [
@@ -1784,6 +1775,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 278200
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 278000
           }
         ],
         "DAD": [
@@ -1884,6 +1879,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 387500
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 393800
           }
         ],
         "FSZ": [
@@ -1916,6 +1915,10 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 277800
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 276700
           }
         ],
         "SIN": [
@@ -1926,13 +1929,17 @@
           {
             "at": "2026-11-25T04:13:34.358Z",
             "median": 348200
+          },
+          {
+            "at": "2026-11-25T14:29:53.158Z",
+            "median": 365700
           }
         ]
       },
       "sources": [
         {
           "title": "구마모토 최저가 예약 (실시간)",
-          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HRMOaHjSHta7y_H-twSVT4F6PV2MUcEQKJEw_ld_8Xxkw0r8m3gCsSkoM-v5CCGmNr4gN85DwxQchKD2XeJXrHM-MbiUZGwkqNclXEaebfIMpB6si0gJ95YwtK_3lYbOKweg3-DcXeaDHqulazkO4Ix9srOWRCFuJcGzJoMNz0WVjau5iqPUg1zJuFtG9Wm6vOU0__Lighb0FP53vmAuiEVO_AujN0G1wosHWkqwoOugEJe4drXV1iXzjLDV-h1d2NLA1GeCtEmTb5KT9WRzSNlQqiai5s9zwFuxckWuJqxqJgD0nbGEUHYQ1kq4aKPfi_Evh73vnzYfhgsBUi2kkl1WFnhIZVIzP9qAkWtSK6scEOyJswrNhmKDgmFHwNEFN2xXRYpXqUGMLvjH27Tqf16PZHKHkDXYKSSPzSZJV0iwZLqqqwODX7Dq4zu5KxshDq0H5g-cPCQEvz3A2TuU2xXNcA6M42dowJFw6GE4iDSouRYQbsRMQFUGQR8XM_Q1AEPI2uI2sow_jQa8n0xleyyvdz6pTM6JVRaN9tm8aroRXJ8exMbQWgVHjuE5Qnj3RxhI98lTvfMZTzA-6jMp-vRu6x6cIK8QmIygNkFEFFDKUY-SgzyNCmIQeCSSwzJSG2MBAj9ctd07uqh9i-mbomKCwOwwFgNNuFmg4KdlOv438Dhx88_zue4x_BgZGGIk2RooYrBDvwh6bOK6YGGJZ3pjqoFn0f3wbLlHlvKyyDNHuxe0xXMxEu7UFDX6Hjkq7LgGS-KvWwl4DUvhrdJ29SrKx85WDoRByHKQhKP7tShDrDvpLrnAUg65VILB1ApzVyLCL1A7GZoqyNno2rsNILaluPzEmJB9geQ0OPP61x8gtKej3UgI1SrkWzr3QxQUChVPpBM1ElQPyrPVBiVAwtWUa8M0ZsviLUH3BswVcNvexVT0VeDijozRMqP1e9c-8Nmd6R4hSnAecK8FqqfKNk0K8qX7m9PKGURS4C58603TZ7Zmu08WIcTiD_cNEN68lNLlsj3VVII1YLPijPBRARXOXGHTRPnfDt6HsUrhyNDU3cXHVfHsE1b8VA2-v3JO3AaVlN7Yqa0gaCrewWPujiq5ccn6881vvG6cIHbiGUUGvawurTQ0PhSRRi564W7F-NwAZM-hgZD5nKsZ0yNeN0t2CM3dqUiy-9YHwZ7SVj5VrCS8QOxprKBQiEuWLMV42lWM-bUcWtFp3SmS8pdXXwTg5-BrGAOF_BkKpIsB-kDA%3D&searchType=return&searchBags=0.0"
+          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HMS8Da9xcHfOx4uAzKhX355ZygoAK2AT36dNExAfy-5zA6S8KZGiEp2KoSY726E6JCCR1nG-Y5OtwjEhfHoAebR3CsNGz6uJCqBgMigW01xZ5ORjlwu1vaQLxJYPEl_74jc5ph4dlh9mJewOPK-pNSqBbOgx7WwIsDAJCa2B3COddm7RMWoqpfyiGlm2NnffAo0wQWdkg9kuRUgR4gw8K58G2SceMq5ZPSIWN_a7w479DUieuMwEIrED6XoZgZveNpuRrQqKi8KPX5Qj1eBrfsM3chK1xbcykPRdlWvrEqiVxnMT2i_9zyt22Shu5_T4Bmvcf9-au0Ja_rO4MuhMsWOOWb4OxIdYgEvfZIqIdUBInpq5xSf4GxtG2y3jU2GoC3hCKo8zgwinJvk2XTrqQjOmTP6f9HX2FXjajErvZtfYFrwquCKyVUaRRl6dISRc-dYTJpJnjidHLqKiBntTOClRAHDTUeGN-drPpYyc3v3085V_Czd4BWdbNx9379v-6q2_OtG2p42WGPwYzP5ASqwHPF6D1V6zVkUMX_nL22OM8P0edN0mE95t6djOv_bVs3b6KrnNFGrZ6AKeN57IqX9nr1Dpy1ql-T5DwzbdXnJ4iEdA6B5tlmwW8mYx-xY_657vTLnXLq1JXEnf0Sw0K_1NlmD9tfiEuMdJpzGGmOX4-ySZQzJ6Dg8cJjIipWE_BygZZY8zRZ3Os46cAk891_boyA2stPPr9A7aqm98UoNr097u5O2wgxj1JPMuuH3-RKEcDzWR730la9iLonNHii3fFhhAxEhBd0lVPm5NDmcoQUXTW6G8LArUVI8cFmuyGG1DksAUGvfaWTOSP8hqFj4oFNsRxqxl_ahDCpw9XdvIhDXC63lQ1gN6rBF27DGdoCLx8KMuOgKvS99uKVzsYz10VsTA3Uujh3YEdB4ViQiHtj1S7xL-rByopY2mPiy8Om7rES5I931vH26dFKCtaC3ZJQytvupV9HkboEHtpJ_TZr15h9nD6JzaQtsgG_kV97jw-sgEf7xMhwuuSLAJqJHxhw_mjb8tFiEzXxoZMvE_CgVFBQDik7raiXdQilosDLqbwZ-XPoVDeg3vJcvqYAWjKyrk255gPS_QxeF9lBKFcvngreTFTIdzuA4jtDo-xbcNAiS_-hadVHvayG7CqAacyR8YPnWVexTiS41NRT19uaeMOq6ceja16uxL7IG9D5Web1CQThJhOMHufj2F_iQ%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "title": "Skyscanner 어디든지 검색",
@@ -2132,6 +2139,15 @@
           "airline": "이스타항공 · 제주항공",
           "destCode": "KMJ",
           "destCity": "구마모토"
+        },
+        {
+          "timestamp": "2026-11-25T14:29:38.531Z",
+          "price": 236900,
+          "depDate": "2027-01-26",
+          "retDate": "2027-01-29",
+          "airline": "이스타항공 · 제주항공",
+          "destCode": "KMJ",
+          "destCity": "구마모토"
         }
       ],
       "errorMessage": null
@@ -2152,10 +2168,10 @@
       "targetPrice": null,
       "checkIntervalMinutes": 15,
       "isActive": true,
-      "baselinePrice": 285100,
-      "currentPrice": 265200,
-      "bestDepDate": "2027-01-18",
-      "bestRetDate": "2027-01-20",
+      "baselinePrice": 284400,
+      "currentPrice": 266100,
+      "bestDepDate": "2027-01-29",
+      "bestRetDate": "2027-02-01",
       "airline": "Hong Kong Express Airways",
       "duration": "4시간",
       "discoveredDestCode": "HKG",
@@ -2165,246 +2181,258 @@
           "destCode": "HKG",
           "destCity": "홍콩",
           "destCountry": "홍콩",
-          "price": 265200,
-          "depDate": "2027-01-18",
-          "retDate": "2027-01-20",
+          "price": 266100,
+          "depDate": "2027-01-29",
+          "retDate": "2027-02-01",
           "airline": "Hong Kong Express Airways",
           "isDirect": true,
           "duration": "4시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HvbTyx12n2m_23pv8HsadKvCz4tyZtJFZMSx-_FKLK0oWKByq3pBMXmpTAiChNA02WbamTj77NVkHUkWvf4B-Pb8-TgkhDUmoxcLqMAU3Ezreep5SIIebLiqkK1Ts7iKJZ-fna3pSmfkqPFpeq3N_zTDvv04IqcbJ3Q2--yBCpgDxWIRF67PWwGtUvipnEQiHNwh_EnIsE4milvwaMYDklCZGCbMISlOlCCOmITnPWXOMbM6EmQjfgA3FyfAEcoISh_1sLjPfRt1JBAq3XKxENbVKNj-NAlFAeUr1I74PPX2VuXfdsS2VcDVKjehkN5Yopd0-8-8TQimUFpnOMAz5OegXP0IpnzJqk-7rlKBjddirWxsRoymeMFYR_I4KTsE_gwlBiik8WHvCZGFdbMpaHrqVCeazbW8l3izJ_tPGyNe9KEnAmzhnc25z5TqvBC-dyHmAOTEYVS2E82EhM9ygAW9jrtSdW0fYJCvLY5V7cMjHbUQCEMOIZY_alp1EDAxhpQsDmsm3-NP67f2OFYIKfHIGetXwB13K_outkw0VtTb6sbn0Uj03CsjsNqIherkdo-q9i4Hydl-H1o0HPqcqBeIH14eI7TbzcVy0OG3-Je5iXEh47XZzmA0Ut4Uxi06y7HYxQeNaaVCM72kY9cJTvnCiT2jmh9eCxDbLyX0WW9-XKd6fXrTIyVYXJXNmWVXylipuj-OH0umOeKWW-1SYyAo0z5JU6RO8WOc0U1F7VvpWkpwRzUqBtCUBGiE6XRxnCsOEyOTNsAoyUBMbCD3GN1ouBpconDwKXo1HmZqy0kggLIMjUrh06tI9vTORgwMXx6dQHLf2ucqkqvNIUYTtLCRtRNz3A4TFbw-hLmHVA3oDEcLGU4IDxf60OHTJU6igT63inEH6bCN27uQs9K2lwwlQuYwBGgE1P3OQMqIt6ztVMkvpElx8Kesclt7xTFLfjOR43n_h3WXui_WrYGcsN5WKXjl01gGsRxQfcZsUFfTW4Y1R-EYA2SulgXVfuzJe3hBR5dk-W6FslrZ0NtYQv4IQaIoJ48bNvGcp-4ZCKz4lv1J6_lx4LZJVU6i2PPWMo3fHJnIub0PrcXUwt2H7Rkl6aAfNqwjTH7qjmZEVjsLuf-iDRoe3cKU6Zh_cNuER7VHxppiZTkFu6IgyvyD0Urll1eUKYPfPAnfFSHDQi-zMVZqBHyiCz28VQ-pgHYiAG1U-ohZjhXrfNinyO_VbEY_TrG4de0fRu3SsKELzkduaM8szMSEv1zqD4a06giE0&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HJve0eSNApNjpq4w3CmaM2KQDGscAHdU7-KQdspidJfVGesqrYpJ6meBpru35ngH9C8cv6tEq_sxRGeA7WXujPYBdEuzhZC5Lc_AvP8KAcxiuPEt6MeFuOvJHdTNzY4gUTtxQkfoInXxh_GfxElckTu07JxQRMuIstQF9xNFGYILjmdlLQU7GPAd5mlss-CdRef5b48rZCDZGzt6zKCnhWdQa7vVz4CFPT2zjzTKDfvyjWAMBkKQRgs7TTxAcHZ531VV1H0v942tzbkgDIrf8bm257-BCcOXkbX83hA0b9ckO578Nsv3yBSNxxQl257rq5ZVRdBFOUpXw5w9uCyEAcCoEVZjvdiDGg4ooZhWdA9ZV_mKp81bD7fkc8GxCkh4jZM9CWbUC6nt3j3MgVLRP2u1t90a3gdxiFSVlaEHxdU68FJY-BJiuk97dNwmNrzrMV4PLo8GU9mKnlO1Vpp703mYp8N_KANH3gSV6hxCfvUKlgENa7oW92rs9UYxcVFsLA7s7CxUy4JRax2n6jTCZlWVvL4ivVNzmJ7c0qlkUHxGBc12TvLgTSzgrHXKjyaDYT8WWKSOulivgRdeJt3O9kl7pzyiiH3NMhecl5RPv-jmxjS0UauF4MOZ-dgflsWc6ZnZtNXglvjruDUL5jdbbEzvhH18shi0aNUa2c9xhrP9mmXpUaoNmJv9dKasKb2Sn9iWD_bykreumuttQ5beQxwn2gBqyK8W-4a7axC8o23coP5CwOMTyLSPT4AmclDGyyOn8fiSflzXxvnSezlY-mF0DXEtfXcKcHMflVTDV1kxibkxChQwbITtp2aZtt8Utd2jZ6ub7O0ULD3zXj-WENYu0U5zfx5V33SbsZpTa-tKUYOMTOi9eifMNBgKX5qkTA4DtuBprqB5D2frDGVSn0CJMmptlHTRl3VSqO0XP-lUwnQwiuq5Ers2nvhmhoNdxHqKYmk4XdmoHDSnpiTlge9x0KSHj_MmnkVlUIWHtu7ZGaTnIq-fbWIFbz5neH4crUYKqGNXwG1aPuJsIZohrFoHGcI2adM-jVc_xccEZ0uTWqLjpoSIc48gt1S6NDis3izfpRF_eyA63CaQZTplH8Jen93nx-wKx3HTZGknqIXnQQPulzQDIcJxsjZXPZ9ItNCvyp1AEp9i0-HAyJFZk_xVZtWymMUnnS98mLengunh4WV0eRh0SU7h4CkdotHQGgrNjDxqKJRtGW04pdUwy_8z93I0wlEGLkM1Mr8FuOyy-QCDYghVQnZe797X0WRKa&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "TPE",
           "destCity": "타이베이",
           "destCountry": "대만",
-          "price": 293000,
+          "price": 293900,
           "depDate": "2027-01-20",
           "retDate": "2027-01-25",
           "airline": "티웨이항공 · Hong Kong Express Airways",
           "isDirect": true,
           "duration": "2시간 50분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HMrvg-LFmP0jO3E_xa4gGyB4B2zRjLrl9p1cU7NzKEuIjKaIPA-60pKNwq2pDXsJYruRgji4KMVw1fZzEcaGRbDCLnB5DbA_AUZvb0y2vsbz1ifG_SdDLWFCCCH8WZJI1ubIRf7TF7f8rfjxfSidv6Holtik24PqwgIKswv8_BqJ_rzlrogtEct94YK0Q2e_RNop7kEMHwhaI1T7tC6EliKHX5lDwWs6uRvk4jatI1LfmGr-n9_AyIbYXekgD5F_1aWDYi-q92n6ixn64XazpjbVelTRHf3WE0DKzeIHQlSCk1TfXzi4DMncjH2BO3UVkyjJLtGg-o8DfB82qp8l5vA61_a-z4xkjH_eV72V_3nrQLZsijfTjs9GMuO--Qrnl5Ta7jKEbKuEYuhQwDdC1TDdM6mQ2k8DLMnrT0Ve7CRwaHU17Fnrp7UYSUWvYnwxIgSCTzwpcGm-8EXbb8axJBPeET-QfJI7IPCzURc6n7tglSoKH_lU52fQ8zhIrcKiiC5FoumRaYh2R56UiObastd7hLyIoZPK8rKakyYqbbGFc14aqKnjpeZ9DRc70WRWZKpVCLGgjh0lunh5ycwY1wtAGH1-IhV0ojcSFcjvSNjHte5yrv6J8KPcbUTcabmyGN_v2zqhMkh79aOGzh4I5XdLt4WmQczqGNe3l5do5Py_W0jDg-3W8aZ4raHpGJ3_Ly1yZq5S4rg7qk-NFhnLPPAiq3TfhOmOFTEsrtuMCRQ0FPmsauiwwA2tNhNh0XZ9EHVdAMj_9YLh51VFmVWgZr0X3DoJ55p5Rw3ALk8dY3Kmg1q8tfnHvhMzxMo8WGaEOkguH-6W7Vr6ngLjkCnq_MLVz2s8Qs9zQvcWjl0dTVJQHIfBl4eZt5Uc1UbTa5VhimIip_pI0bTnQexnVuwQDU2xInjmJRi3xjS0DdPEAjVroKaaTCWicpba2l10FK60OOunZZvl9CnO4DcY6zFNQsLMR2yW7yxBmEXJsFF7fM9nMDzUUpPwoPOjwZVwqpYcIU_HwIiyLZk3OIlHGmPtyTtKm0f1obJd6Aaq_0q7NY_s5F318wB6TQ6PrnPLd1MhUBkGDnBQXSBzvyCuyuMNYoy49S_mcPekZwtTTK52QK0hso-wfHQjCdtMwaGFwE8wN4CS-G15tBubno1kZhu2HqILBD7MgUiuBJUj4rK6nb7DfOEk-oTcZqHtZ_ayEhTrEs9pAxRm2nhUfwosWnIiR4rtFnAtaBrG_d1cLS65hpKE%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HeIIE2jxevmRQAerG_kY7Jd-sbaWvH2JGGqaNPk2ybbCZCCW1SM42H0QOb37iZ-lkLz4540H35owN-0dTtnwE8aavL0OsD5qwabOoM484eoZNHSLKcf_fFkZM1ewimF-BMSZle1xW5tnX6m_EcSVaQUkCxmvbVllQLYEZqbiqzhCpCm0htIV7efWbmvg1q8O4_1T5OdqpOIhu1znR4BE8aDBt8tjL3oZl4ulT_3nrn-hNspCXxzGNrvHxuu8Q7VityTeJbWn3Np-nm9kFS4kKUk_ASpaS98aLiZFNxpZnYK7NYgB7p2vK8RGm6sfHjejc5vAm59SR9TJlt7QcB1zcJ_KOlHBO4Lamc-TrJydeohLxiUO93pxWct7qUgnk9Cwekhi7I6uSd-drxy2QK5wROZ9BElP8SgM9cQKocpSml5L8at1iRYRgg52-BQR5NyNQMdKTTuAWvZ8vro8_p0LkPz5KH0HVgtwUJO0sBzaTB5fqZW4nD3jbiIEK-cFcg99C5He__g9XJDj_DU1IToL40kVVZ3Xsm5kOSp-RuADy6F8RVXGkZvbiyRy91_7iiEjGcYhrp3SBQVkNH2vtoMcZUyEXjBdj9wSeht7Wcr4SXtR3kwpUanQSFPxEEFhZ1CCKnP81OK4KZxKR1tJOqaM4H0QSstpkE1Lm8Ee-loLECdaSLE8wR82lJtjrwB2IXvSaDrjO6LSRHDaCZ2qVNXSMDDsBB0JZdCU8Lqdkrxpo9BzmY8MV8v7jCIeYowLqczfVGOwdyprvaETVNlOpjzk_BnQG-ahJOjkba6H2U5soTqOqM1lI7ehxjBzCw2d8_8FJsp2OfgFcqY8ObWxvyKpd6-gdzeHe9WaNcKtRqPpSP-KxXVm7D7xKwck1ibAS-8sfOuRbOCl2KcM3etCk7uEADUFn0LiKLUfjMS4Y7THE1ndAyIduCF23rOhoyuk_m34UYP5KcxkS-e3PvFOqlsv_FUTlE5SZ6wFGmPSK9GMjS-CWATYO36D-JpCvindwlGzc1IU2s400E5VC9TdXXi80XW0kYwAMz2zfm8hRTUrA82wv4m5nsycN1GAJfOFiWZQxOVgPoP5Amgm0nN7fe3HavHJ7AY0viqJ15zbioRoFgoCk8IDg9q8WF1n-HaMs_GpNUX4wwqkrs1sGIdP9C6vOAAEskodMO3nVKuww3uZ67qLx0yuwU8H9A03Pkp7Ub1v7DhwBlqOj46eLyO6QcoGt5A%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "TAO",
           "destCity": "칭다오",
           "destCountry": "중국",
-          "price": 300200,
+          "price": 299300,
           "depDate": "2027-01-24",
           "retDate": "2027-01-27",
           "airline": "칭다오항공 · Hong Kong Express Airways",
           "isDirect": true,
           "duration": "2시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HrdHuy4i3b8eL0uorh8X-vBIkuaEiHRyULZaJq3oC0KybhmVSnthBy9ZrPyD9TCemFZJurWOTXDWVVFS3u5p5I-oEzQB64hb_Tjdr99kmqtYhtzKSKK9Y3rZNjipE4me3Td2PsPOlAlfE1v68QyQueYABGFaNphZhAECQy7C3GOWGauv5zEq6kHWais9Du-7eIH7IhhLPosGhsiCxOERF-4S1WMRandQupFQw7FSlE0pPtCVOY_4SUPdRAI2xbUX0YHSluwpVh4Jgr_6k2B_at_rovhjgVD45DgblivTtP9GBVsuky2QQ_QQhYcic89kanoEmLUqvbPDEijdzc4UqLZBG4q9a10nO5dB_MigALP9CT79Y-HeUCWdJvIYIunEuFSroQR9Dr5xZRQbM2USNgiWEK4siq0bzxpGPJOl3wu6TVUiswUxn60sDA_ACpGJQRO0qOAgue-G27pzPI_MEnEe1PPmIK4BxQdBkbTxi_IOiQbT7lamBU24l-uXNlEnTwO4PJhs6y57TIKN04yo7Kpkdwh2Z0WKdZpHPxBMYQMwyjPL03LoBkNelhJ9-Rhh_iFxFW91zsOOJdjPCYDfQt7QxPHjAuETV6Atci8DdgZEY2Ut8KPLdkcRl-A8V7E-079tGgE1zFbCpIvmHxctatCIwbF07pN9RnDUxS3bGT1VGESlv67e-wlU94dKuS_E4im3Vs0fNG6nK3rw6JevW5-3TLwfkLFjlZ0AmEXix4jilXnRJ0TeZhlh4bOTv4F8dry6DSM648sekV5y7huKJ7-O5V2UlfYhcm6Q5b_iK7hUNRQ30cBy_7wNg-6-HclLcuKeua6gwDqSvZ3lNqhqmp1zEd-ViYDaF-KQASHRFFdrgIrRqiCvb_xQxikU6WQLZDVOYNOtiLMDdMZ6SGXmU-rPU9wybky4GzMEFw-3RooqTt0Q7ZCsoOu6nBiuValExTB0ms2He1_2JlgVCZelDoo5HjxmK5JHtPuSNNSEm39oMghuMEsOIeZLn5cEwq1iBDctnjhngm4_GWfIpN2b63vec-n0cUgcOIBkjLJI8rgFbTfl57Dj-J9mfJTlEbqa7Jr_U6AZYmm1eLxyficTQNZBj7drYi6e9xRQ37ZBD1QCTHOxx8Vpy0Vl3OHM7d8tptWPBXjne0HlN16bWYhQ-m9KKJ-vixz2YEIrGdvB8XctBIQgekSJ0Fpz03dwMzTnGt-P-2ijjLDIL8iCTjTLTgF19ynQOMFWSHLlGlXGWt_0%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HLcbgDVOHI7DjcCl9mibdJiSrFpj6VUD28UEl8IGKz2k-79pt9vq_CkjT4p6Igcde9eEIuMWrocfRYS8JH3b2yF7nu1vnT1cV5u9c0C4npc7Xt7eqO5RyJVnwwU681ML8lcofHTAHKRoD2nHElc5-Bgw6HywhE_iNZy6tJt0FOGQ0Sw9SYmZlsbaNZuiryXY9gvNI5QnreE9ia22xSUImcm_TJTIMgYbDrdIm-oCIgYJrK6xqrcJx-TMJYsC5NxUdoEbeV4zPiNw9ugYor3EHQlx-2qo4DI_myvx449ZSwtuDFot3I5txzP0SLmNwFLH0bSj8w2UW1XGFCR9Vfe7cuNNQJzAOzh8CsjAekFNzCHolVC21tUf_6bOvuHNQDegvKXcbW0JrFMi5yrq4bSMi09XupEIqa7bDof51iA-pvVZCaQMdYCDFk6YhKYkelbtmT1YARcxVLpVIY8G06GF26yOj818WrTOTBXNJkmtSXs_rNt29DCISrvC2coel6sYT2ejQDwszKkz4gZ-12dRmWWJlQlPXGGarSVep9Ao0SrWlDr508_CRuIxtJE03CCN84e_GETwx5iKqy369C5PgnpsSnEuQcFxlw4Y9T4guLeR1dYWcWlsAmqnkkZkgk4Jmhoww3qAoljw-LsAO1UZ8nHIruhpdSpY_BgEk7gKZllkju46rJXgzGXd_KsHkk_PsZbjc7P17_JHJ7ltuAzo28wwFT0Feu7pXF506ujjGEz113coYSsgW4TsKkp-HeFmbYu_vIw-FRf_P0Za7EmH4IE5AjAReT9tM_tiSvQ82d4JNnHiJIK7W1FRMASY4zaPT0xQPLwm9E8NqYTB2HqG3VjZKRm8a9fSIrwNnb_3fsAvwxsP-B7UO1D8ho2658rWfZotsQd-o1MdPyZRArfOiSYiwzeVo4CV85kxBctM_377yo5BV3tBxfVqFKRv2VZ7N-Rvw4UGWcfBTo-VzdWc6Zne10yiirAMrvZWY3p2ImRrIkyfKarirDc5OEu9bba3eqORMlpqT1U32khYB8qwkhv2vfqpIi577gep53MbmiE0kkNkVu6kmeavci-mqlOT2yhf-do2sueQ3m6LYMWZmLpChU4xUsSkzDR1zGE9I23TzaIyaJaUBJQ5Vt62Pzz6o1XnFcmGBdDnnSfTft015yL6Zeuf_I9foN9bQRO_wIc8ESO5Rs0ge-EI5gqBMujpiITwiwxj9b68RVAUVdtwVQRofO4MSyp_ZlgidKPw8R55SBRKcKfhVZKDe3_SM0ymW&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "FUK",
           "destCity": "후쿠오카",
           "destCountry": "일본",
-          "price": 322000,
-          "depDate": "2027-01-30",
-          "retDate": "2027-02-01",
+          "price": 321500,
+          "depDate": "2027-01-21",
+          "retDate": "2027-01-25",
           "airline": "티웨이항공 · Hong Kong Express Airways",
           "isDirect": true,
           "duration": "1시간 10분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HzHPlgws_hXWwkPJJcqbdtBeafKrW6mkHD7fBLWTDphP-2rihlL-zA8qXwpb8Gd4rNeCmSZLD5ZVvJH-GBura2gxZozPptHfJ72jyqCo8tv3rVO80gQTjmjRIOmJ5OPCiHufrtv4H-MPIhuixAzfGIJ95bDEuTydfOZwhu-n0TsmJLKKKCDvGQlgS2N_Qh1ZgM-QwvK_wmXQsiWMMQRXdx9ktHcuGJkVMTM1aMouXN2WwCOvu2OR48acEnLPHscLiUlziOVv14dAawl5aHAcO2Qyv4ISLsbe9bQF0GqlqzLjZNA0qXWLMfrQpwmO-H_vSZrtbxGJ0tFzycKdA07Q3HAITDeI0OytJC1BjlsT5SzyQgb4VkGALlyfncCjBV-gki_TiYxYO3ElROYwzYs_CHmPhXT34jbZ818-0kpiDX28u89WgtPDb_ooZYk-MZMpYCwGbRBhD2-ZPNHUYbbyjqleZpEmwCwABl6VIXkyo20MXnOUMF8B5gcFF-YsxUi04OuInBSK7v_sAmJ4U2Re4R9uE9xnd4SoEayOvzDvT0Les1j1VkBKsLNpGoEjMDguEjZ9hTorA4GiSG4BG1gFvk6CU9yKMOvtcB-labH8kDkY8zB0HaIq5hESbz-bp_ApKc_HuJMq6cOJA8-xZR4MQOxUAwJDg3WTlhtM30Jq3yXbl7FbVFuRLnwdd4Fq5ro0q3OasSJIvbohf1maINr6Ta86CnaKxGXGWTLmPGYhclLjEdCnp1A2uIvH2vKMl6sDsFVmB3EHhDCXhQTlF7hX5l6EEX8EMEZLHw1RTSHaChFbBcVGjhE4LcG57p9Mx6havwC8vHBxRYe8OAN3FdyUCUaA0D9BKk7G_xa0nY9o6NCKuWSXPxIyqHBqpQH-VjY5iPLvxrojluEmh9oaBkFJveOKzXt9NQlvKQ5h4kzLJxM435JOdDJBXjYio-hopyarmD1w9sUMfsq3nFQCdWuhSXtKjC4KmlrUL2BCFok-QhHq7lCyqW606EpZFmZa3NZvgAcemxUEM4k-0GC0aA__sSmTakEj-Uecg4yt8d1nDho5FvUsA_hifVUBW72lEob7Beo03C6k9nDX0jmr5tVLCqdzoWME9KvOMXBqsvALohqsRZ-O-U45QIL2JF047tsZoOKlN1b4vXlPjk0L6Q-lyQotQVu8yhs9fb3xPSZGq61CJWLQnIrYno5FNOp9OCmhMXlStFY-rzh_f2EkoqkhJv-6Ih-RcCGfiZmT_SoKRNaWpEUqUq_n9z1Mlp5uwpG34&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HSR447TyavSWXjItIx14fkhS3Q7c7sFnZEl-NletqDjFk2wES7f53KlGv0TWxqXSzUSfUjjunMtMlE7AbEDk7AKAQaoZdbru8UvThU8zv1DG0ABH52vpxs_S3XMz0Bek7B8sR322LwN6EALfM7tcFHn_nS30477jp-2ajVc4xN9SNQEAnr8E4ZeRS6Gi6lJXiqN0IIJY_kLp8c_p3Y5pvHIxdlQqmlOiBPbIk3zdKsBhKoXu4BzQzB2YNgUPac0jqf3oqFiSSn9Cc1nBUr_4IwzHeRF6CnrZ6NCIK4phdkfeo7I4NxYihuq4wEspCFkA1WjVSSl4ZB_I2mgSnPifjYbmQeBTfCfdJ3BdYxkzuV3EXaJU9R0zblRtH0_KG78nFMHcp1AvfGSVL2ck5SXJ0rvaf96RZZYeFgJ2IMd7hBGuHi_aS7mfFPnmtvhk1qP9cKjn9BTTbO0Vzzt8-C93auSUdh57PCoR583B14ICMni6DZ8Glt77U5DJLZb-AkoPjVeOcCroNj6MC97zQaXpvVRCcp2Dt1XAFMNK7XmL8VgiujX2dfJsKX1JKcmScbCECmLSjYlp5h4xMsuebBPdu4elIu7pQ-PjDqo52DwtDsPYae9girrAQrG6uaL25kSNp3GlJmNQq8Qv_iV7ygayky7459-hAEmxSv1_a2rlBi41Wq_HASLBdOelcvvLX2UrykspezoMphbSpG0kJAzdN8cdXAi_v1V4CXuoC9KdJMLChJ_Ac6ifXMHbZRsgJK_lSBirIpBTlpi9AItx5VsInda5I5tw8_DolBRuXnxiN9Vrr7bXmoI8geYVI-25zrAT7OKEbbUyTspFNTZOslSLmFb0sDnLrXnTxQiRRYFZSV2vgUxVF513YtG-FDvKu523eCHWbOTXfVBG0023BpaaPq5osLINhx709uatLrwPw-D7TTwq5wtcgei3X54ExiRsGGW2DvaAcfABw64G98c0DMsIPHFTWXEu6Foyg9AY5UizO2XY63zeidGcAqjeG-On4qLcW6UVF1vlgTM3fEREqtFw7nvrNoh4Qwm6p3FhBQ_Zr-6fzeA7-WYFiEOlrbvVTxWL-alR2En19hfckViCLZ1BbdKeT6d4DLFpqlNCvxtfuJL4FUTK5qghwHfaBdwe1-lskUmCvMldolAFfQRDhzawIi6As-mbESgCcfdcc1f5gNAajNzZ2Ct1raHm1Y7UpLx8u2oTiBBADA3ux57QmeqhZ_Mk_KpVZ4DGTERZsYec%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "KIX",
           "destCity": "오사카",
           "destCountry": "일본",
-          "price": 330800,
+          "price": 331100,
           "depDate": "2027-01-21",
           "retDate": "2027-01-25",
           "airline": "티웨이항공 · Hong Kong Express Airways",
           "isDirect": true,
           "duration": "1시간 20분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H6OOBYxs88LdBUZG8eb5l-T5z4ZcM-UUfPLOF8QC32eHAxeR27JKT_MLlJF1qNM1oTTL47ypqgVV5btNYsWW98QEGhMrOaJBKZ8GG6GBTVAbtmP2nWV_qqOLAekTx1pSA5SIwv_AH3PhAuTDN5tNG-BMwHUQmiY0_g2ZFgS_z9lGtgQKuN3NiVYGkdfchL9zNc0caVHDCbqpiSbs2qxdh_cnPqeMpX9TRLGh211_Gjbiw9dotAsN4WzcWyuQce0Yf-Ib_kwaUCzDU_a2x_VlygsPkcJ6OiKX8vy0gtNv289RJaf_Nw1cARxJzYhBBOrOeBcX5hTue_UmEV6WEMVMtX_U0DHSM-jkiS93GNxBiOTa6R0FOww6p4Lj3oGgbcWpKZbpao6Ii7BbpWWUNuy3OYmDL4Y4lfTTr6AxY3TJmujPxORptZzmDZru0UTxBADnzkCkl5n4Zmp0l6RI3da6dWro5JilKbh2-HBNZ0Y-bZD3rPjd-BUtR31KB5xXTC2rqTT_c7sz8y7KkfmLeb7ZCW49dAbK3tjP3SzMttE4l8ODI9lJAebzkiFqXTSrxhLZRVeiqmP_9TtrZKlgoMKydpLC5q0mvzb3nxHe2vo7EePhTPXqvPDjOKIDv3qY65Du0vvmDxXWlwqJ0-p0n3a9OFrXv75lzOsy3_ivojvWsAKdI95osXsL5fdjHx8-Y3PK4AHXuU-ksdsqXfKVQhVW3amqp9eMV9s0_Ci9YHg3YYLoa1YCox8yawHhrxCLlVl_XP8OJ9e3-H8xmrrBVp-2dUdsyXdfIuZxxovb1SQj5HfZWOMHVAyU6K0hkmWSj_Wgwra0z9X10mn5bACEI2CYKuMRjD-zgdkgn4kGOrqZhw4-NdFRpeEOUsYe-DfZZsSy5FmR7MxVnYzn9WgRQ0A3IVhy_WxUYvwUdFbogty36vKs_OGHoEeDxj0kOmMjminL3B7KE5pQvtg8uaVAyxCnueY0NBPtyV82ZAW8aG42MWMASxZNWzLw4kUnXcl7Ilo7XbEHDRecVpRVZVH6Qv-ckvT2-psZxQTyerNg9KtpawHVLD3iFa1gWwfZ0QH5QGTs0De7tkjQ76XWmjzBAam4QksfDaMesY8fGX0U75ccxjuFsHtBFFPQOgYk01CL1tyx5VGxvFt-80GKojmnaJ7aGhLdccTCGdk2wBZlROzetNeQDI6oXEcrI0JfdCEd5hiJc9rVBuh8ARhkhoRLoua8IatA1izBpNeJA22d9PNXy3P52LLD6KU_IJhnAo3CNrVA9&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=Hbdf2BfPwn-mneJ_2HU1mxmwK6GHZVnpfdcs9x6uOHH-zWL1uEQJoRfaq_W-MeNhacDPY4AFkpDhdoXCn7rzaFrsQfcJz9XaTI4mDw6KTVjaB_qbHcrQdDjBr2mVYsLE6kC5c1wBDYQVsSrb34UxAid5NfAJ4XMCfexaGcocBWSamCMB7lGVfq8UIdJ6qIihYdtV5tjwC3ic5Sexzn3_Kb4kZQ8DcNnq2E_vitI4_IsAqxl8U_hJ3N9OkyBtGKXD7kitQUxrfj6rA93iQfmlzaeDMW3dzP8BOM7tXu3n-gVcHr4FNrK7APi-0tUgg6bA1_oeSPCxd7cdAa9pTehP4bNKEhQrBlVg4P68rKcXIdT0I4Saj2uymMUlqcllpB-kBgqFaYJnSoCggvkYZMCic5tj5UpasbnnnmLEv5kYI_CzARvGJMZePdvd_UoDdkMRcf1oDfGQJ75BsMaNaiwJKCPRH_PWnBkHYMNFlFGwvXCw3q1zBzUOAiJZiKopimJV4TB9wO9sBnkx_tiVhqHeEV9hFYnh-ahLMsRvLokJn9myqXWddo2CQgbMIhmXzBUa47uBmHL3Wp9nMFwDsYuelgwJg_46OBoUfJuPRSu4LPkQx2l44pZGTbTZSvTz4eOWed3pubFsAgV-e9ubbqfc7Obt2PWEiDs-yjT758pYWUQsE0Nl6Bcc4b6zGH6CEm_3uq-zwat9cIwYBJLvgak__2nQQtxKgQn9DXjesP9v6E55Zre7qvSc2LEJX1BC1OWtymb6GE1cndHIGFJn6oU7Khkdj54QJx8vzhJQsGB_M-jxa3Eg_Dtllh8cgMyAj1P2SCpOzoTl50qblh1wXrEXp6Ki29QGp1oCxENMtGwbm0o7y6FKKBShSP30CNhkSap7aViuk6hoerJCbKe-HLMDKfeyjGtdsVtMuHG7f8j2CwSQw5AHm81vCiiPztJVzfuBP3qPJ6NrEMNnRO24e0K4HoNN_NY-EfqfxvDuhU91Aygg_59RUW-N-H0IGBllILGoCU_z7kGfokP6JOkWIAAycAF8pTMK_apydN7U8M07doqT94KLJ6b59W0YESTR6IRPwvKPWJUU77tvuFgXpLPeJrxAqpPDPWxnUM-JjoeGvGqw-b6TGKhNlM3e4jz_EHyqaRBWTmoEVtBUcRW4b60T8-8pGJl4rTVACSS9setoYneL5Xin0UARpqE4jKoKgki32xyQcaY9gY6qMxydeJNOXVDW24zxw4_yynN_vwwoSIIljmpT2EO7gkUnjgE8SO4J3&searchType=return&searchBags=0.0"
         },
         {
-          "destCode": "DAD",
-          "destCity": "다낭",
-          "destCountry": "베트남",
-          "price": 479800,
-          "depDate": "2027-01-31",
-          "retDate": "2027-02-04",
-          "airline": "티웨이항공",
+          "destCode": "PVG",
+          "destCity": "상하이",
+          "destCountry": "중국",
+          "price": 334600,
+          "depDate": "2027-01-29",
+          "retDate": "2027-02-01",
+          "airline": "중국동방항공 · Hong Kong Express Airways",
           "isDirect": true,
-          "duration": "5시간 5분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HbcbTw0e_uplPSKVTXNkuzr4JBe7-kS0i52YeE3RrGcWFkWuPG2mtpeQSXy4VGBAf4i_cGhJh1bIkH1JDaoJIEUJeFV8g4msFHtW0uq86qU5azy596lS4yqE-sN8F7tTfKeBxmtPNmdsXSSo1Ki-IuIQ5PYP8mAME4XGLCda5DP19sGXoDVd1Gv6I2Oi9BjYJl2S25McDea5Rf2lzD5U7xc2xLFhyTUENOEk5_S-GFLfB6jp57GvjMLaCGZWUkbkxa277903e7hjPhkOoZTFbH09nMrc91tO-sdavL4-yxjWZVCYOcRQ_s08I0XVPwJ7iCxACJl-tAs0kw9yeywvgVEHPJYQ0h4cSnte5N9OawrLdCxZj-VsETCNjsm-f7SGDvllbLh7yFGaPj0vGj7K8_MG18b238fJw2lt-uzQ8RU-nu4Tiahxki3-qRd_2l48KaG9ZOMKZMQiKLx7O0wLgWmy-3Ejh3B8XGB8U7xvOT5_aZW9GUgAtQRoZakI4h4MbdRIm9OZw5DwkFNMsdn71hhfFDXhdXc0ST52b2CmxCx-DepHCwNe1CsXWhECQQz9pR9SkHJi3yt6Oqaqau_DpFIIuqVE260U3GeT2od3SiQNq1soVX7y5SpCXAGo1kquuZtR0J5O1yV6twArjZam_xMe8eFlOoLLLvRGP5i73-ALgmE5v0riz5wEr_80TbwiYe_t92V86dRa30VP_Ut-vDiRu0awyiZ_kEP3kziHoBL3UoI-h6wyOytAcanFvYyESBgYGFKmqhLx20ONzWHKg1RiuwdIF7MSpgcmhVEvkXjEfyYJfHIToQwY6FguL1neJ87QeFeg4zoFJSyBYuFsjvnguii1Y1W4arbK6O5CxQScvuybDRW4XjpxZvZAJuadmv6aqR6OzISMy097KtzDvICkjLD-aRMM1_I3PhzTgYwwifA5kIZMQLiDIkUvC5MWtE_r89ZG_yAu6LLg3G1J3WSW6XzanjwUNS41hRH_Msw3XXkLcm3byqZ2AwljDndH2pj_53nLyKrqh-T6EVukELyl9iNEzhNzzo9WOc2c1GUdC7ULVfRzrJFaRvk1yEIoaHtsWiBWF0i2l2ajHOVdMr8qynKlOS7myshPb8QCeXcH9uwmarU-3iJLFAZU-y5nggjE9iqdxN4aRa1FAtBO8s-pDtALZxKrIyMZLD5pVnKWU4M5DOYAhVu2Wu-aPauGkXfdM5BEy4zFb6JL3GPW9EomAA9bT0842dXOsjT-ffzE%3D&searchType=return&searchBags=0.0"
+          "duration": "2시간 10분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HT2kYa9IyZE1DyVviOVa2jjrJTsVOmJtITPf8zrhHRBp_3agEmcTst-pZXTMQ54CQKCzLRhFWkfBqu_Lh_448ZRMjUxJNiyVrmJqICsI8-72QcP0wMIeUZUfiuzBgcZZK6BlvTinNjcZNahEADIp3p_lP2w_bit9HsdUQrr6UQ8sr4MDsvSOAEDSVRHKoAzUoIySv3Tfg_yWeYf5rQ4YyJdze7Y_XBR8ZC4ik-CPqS7jcjmSQ3qvtdwbDklQFqq1ZQBmWPZxZ_-QDFjvP69Qhip_bv5vR2NjiNauF-ACSbBB0_5v76eOXVSqNaOhCtl7bSwbFsXOJlhSfrfwJjLxeaQZatxnMi_iBgKyBAi9pSJ71oER8QIh785YPgCTV4rUc3wUMPrTUEdKHK3ugEuWfNlY3sII1ZoRlGwVA3-Sc04luNwL4IMdWw321K3HTlGOWVeC8vxN7PoxtLuwWB4YtwSE8USPfaJlfDQ00y0bHBrOtmQNoDCio3DT1o9n08JKSLRA5fGJj96NbZhmXltyYCOfyLXVijWejOWS_PQD2giPfGhptjUqAvkQXBKwCukD1KMrcrIVwfDmc2nnTPSHXEHefnQg626qVtqbv_Ve0s_17cLqilIVv1Shh_PYVCoZDi2_p7H8ItGUBrrIUiqn_pYoAE0v8jDVTE6pn7L24KOGUxpXiHPinTyuVQpFPAb9K0R7hPtF571EQr4OasZIkMf46qlLKSuSfcfVaMG_UGPVA8Y15rS8HfRua7Z7eZYDDMT1_1iXDgoB1LyDGQpBEnxFwT_bAzud-qUSUBBgXr-WKrerMR2o9ARWXmL5e_9AutTIPX6nTnPIGJ41XrG2lBc2d3rXTOAVeKK4NHJEJxABIwkyRyPsZUoqASyd7-iJJ6fUWzKkv52vs9-nFtAwpJPHcA6pVkCmkSjcx0GCAajHMLAY631Pk61uYToFXBseyUnyv4u_VWDpFMF9dzuCmdDA5df7vP5e_ggrfik2GCL1YgYG-eHt8uiQvyj4QS5BwTLw9kq7XyPANtiaJemgkPAEeLncRwMlqHiSEHKWJTS2mfHSCso2ssfkHWx67JaiIjjsYkqYMnYS2jSH-eInYtqQWOXVqUdgtjsw5NR9YlYK_Fe8PthqhL9jTG3Xup4q0MSOK__i_zfT4tzNkbMS-HPUdsVPim5EQC0-smHXUd821wQjp_WP7xKSOW5c86SExosNb8fGzHXh1PxU3wiSHr94Bj_9NTYmSWA5Pkk-RYre_nd4laIYASyQ-KrQT2ScS9_SRrQdklh-rkGBkBheRzQ%3D%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CXR",
           "destCity": "나트랑",
           "destCountry": "베트남",
-          "price": 482000,
-          "depDate": "2027-01-26",
-          "retDate": "2027-01-30",
+          "price": 448800,
+          "depDate": "2027-01-25",
+          "retDate": "2027-01-27",
           "airline": "티웨이항공",
           "isDirect": true,
           "duration": "5시간 10분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H44F8JCTFe7n9zIPKDpMJ7e3yagRJ5wfc0Ew59WKyeWz3lJnCZUMtLiJR1t6iBcX-UG8J3gphf1mxa0becMgcY2SgjoMAQNevfFAjoOELPtr46MyC61Dd5tWTTOW5e58TGoLysYtMRHTmeAHeHTKO-7_5mBaxFvdpwYepSC74PYPulAK9t5avckUBmoKnh6sqwMSt1HerviVoFuk_HDENXO3MMfliXxBqv77rmvrAHTUn-3gQXL294nB-uovX2HTKzMAgXbR4UZx0l_zGpMyX1FqDfRy__UW0pakA__FjJdXO4dt0QuxDnyiQIub2HyElSpCtI69A31WjPNvSdF81emjdfHpvtg3c9ISwRdXmqQkq6d3JG41T5_5Z4kkZsW-f5jeux0UARTEgVUrkm8v691Xtc-CtqeEi1ilm10n9E_7qXZXN2_YE6TJZB2xzFWeyRt6FZZQFaOppCEj7mIPx6sDUXfgisJ0fVfs0j1gI8XxsgxBqNwcGTTMghR_tpRFlhlqTTLEj5guqLWVS4o_8j1VCqo3nzTUfuDV79OfRcroDDM72vE8DCHl4Klly8IffcYMFJ7QGPn2DpNbLxarLuYEekqSm2h0xBBmu9Xzz7mtLfY6AZz1rytxzgF8y5FlU-WL3EpFtW6SPSMvi0DM-g6KcwKwcKCCPNuZj7vKxsKpcqjsyU_ZfbN5eia15oMHUJL3Q2l7-brzvYDqN7OYg-M_iBlCzkP6mUdMwUy-vpYgkjmesc_F9Ie2x09L9IEqFClVZijaIFoyvp_1C77TALclpJoCeAa434P6CiY86C3-0th7_1GgV351i3fgMz6j1ZsJSpyn63BjfBh2hzL4W8TmGGkOwJmHJq2D1PboS-DI3NrjDjZC0p-N-cPLDbmdlD3u-RY1unU5AsgY2Tw0JnljaP-WpbYZ0ZoW4Pj_d18GNgVQDTsZcCuo1WwxIaFV2kpplqMdiF1FY-dMyaXx97JpShlx75UIizMzIMkgpNZecm0t5ccGJVzlSo7oy5sLO5cdvt-E-YAxBEygHkRBTRSftfGDrXib-YRQI1j-ywBMpLI2A0wIYWFoQSu_vqhgcGiwmS9tsoRO-if-nA7nrtSIzt0qjdE73frG44wCEeIYIbJ0-auMwKKzJnxPKfQnTMFghvds1CZw0m_q3Aiz3TdFjMKEz5akwKWaj3zQH53hl9_T7qoRy-O4aR5fQgwkKirBE9CtkDyn1bADueJrP-bvKBLF7DWIcsQf1silyeuw%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H4XcjQwxwcgSsbH9Z0T-OQ8Xv5uLwYr8aONCBrlWmwuNUPSM4IM5oaPQTLyVo6V5V2pJPi0Ni2wbntC3tLSTa-hZsAJJzWBtMbM_5bwiIldZA5eufL7fY8bIwmoWK3gqFroY4pxOsikgjztyXmWLox-3FyV-IjB8m9K12dU_gMLsaAuhqxJ696Vlf8cl6PtxknZzrKAsxQ3xwsmEQ9uN3En2yQUcPM9zBZG3HAE-QciSm5PoTA-XAZQ0pHSkk5OPBTLOHkQ4X_6GPrZmtCMRyTdfEzhjU5_hHYdnCIfTdGb5zOLZnkYkDUWXgjcrpvPCDufp3jF0Fq29XIxyswctQEZM7_bb_mZ_oKxNxRkSQlJpRhOPZPza7T9GZSviV2IhiuzNwRHEcR2m8F-gWEbVbDPbyQMt8hyxKW7UOgtSZBcTte_S5nn1fq5SP6XtE9-62EyqhaKi-f6tuVVCnrkn_JjIGKvAN8K42lYj8O27NWz7ZdgrxWEGHKwy2lNi7TO5Zwau4jMYVXUkTZjDyimZvLIEoYYMH-3Rae5lpsuAIArJRgdUMg8KtY6pVMshNEvaoBvsQ4ED2uPQ-fgSmkyFiGYGH8Aj8yuJkqWhhHrPxlD3Dt8T8R4pjpaI1bfHIo15JTMEJc_UoYzKQuvviOlfQBCaSKL6JgsQQ7l9W72PxWj-aTUyktURmgn1z71b-kChLEbM3N7i3DY2qAf-4KT-hTb6Qol3IXrDrs-Y-NaDKVCeeBwfJPd-Jx8jqCA9U4EAy2fSMRrHmlJ7AjHo_8gu2P7OAXgsV76fwMQTFG-g08gwnq4CT7DQHLuKquN9UHMRy6idfQtUYEOeOOlafkkj4pt_EFNmXapK9UPurwCtg2D7-9sj0ApCJi4lqEID-gonPSaTx3-IJ1qozv0kJAaokFWVrMw0SCAYf_VIRHTHBiZrSeoTwLP1JM9bwIm1FAccbbovvAXvYhdGc3kqJa1icY599sF2miPnLN9RL8LhxXxyvX5l752uq1Gr1POqKOzl3_PWlYyhJNKzupnASI2Pu28aLUm3n8F2DEZPIqEdqpNk6Rx7YWkOtmR1Nta3YnLJAIx01ZEKGg2p3EWQYmoYEChQFNi3JosYfm96s28Ud-qIyvkoE-bhMv5s4HvHO27zLDXUI6-l0WdWDi2_USlOEGedwUHvh07cN6auRQHSmdcBR_92XllBRnNrRD0Mi8ZcwN7VOF0OqpO28Ez-b-niEbDKdWA-5A8_rAY4Si-I-73s%3D&searchType=return&searchBags=0.0"
+        },
+        {
+          "destCode": "DAD",
+          "destCity": "다낭",
+          "destCountry": "베트남",
+          "price": 477700,
+          "depDate": "2027-01-31",
+          "retDate": "2027-02-04",
+          "airline": "티웨이항공",
+          "isDirect": true,
+          "duration": "5시간 5분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H8DmvFRcyh0uEgRSC3DaHMXXn4EXCEoRIfMCOuIolsxIet6OPt3TfBU94FOlm8pw3wU63Z8jE20J6PwmvUJf9lqMg1IiTokS5ag5g8fv1YMas0leC6nJ67aWhEazZkojICP_ErbSOT7V-4a-kEYhBOOe1XhtAQHvpIB-0Z1Xh7AYrTsdoZ1Att7ShG6J5m2QvT8j9km7S6IUa6LsA6qW6ubqFRT-Dtb_D51cn_50YkWZY3tQGavESF-HFMAp9iwRoC5waimP7nknkh5sCULNQ-LbIoeULRtoPLwnG5l4Id8iiTHEYPNLUw-anh5gUeWNPQcMKNB5pK4VpPPnHLUpVHBmbGnbW-AGQ1KcLvjQbIShsUWd5oN9umIsNrmlAc4_nEpWQ8WnKdREdAsiWIL1-seROPB-TZS4R0mZ62Yq0Zwb-4QoOjsEJk-4s0p-CpRU3wLTGUntQQofJ6iqBizcdtR29ccQDtJ0jdoAZtO44uc6_ahN3GqKrQS2d624WAqPem91oyxScm7M2DHMAsMCzgvGEfJW91sAS5D11T_xJ6W9JXN3R5JB2OyVcuSGgnYUq4cK4d3GyGNgKz_cMdckc46RP8wu7bxI9kzNeL1sY2NToV_Ow1RJcprmrzbqaMunIN8u7kVqY2pT3ffwEEyj_nWVua0_o-yi98wrKsiMQYhCQ35a68bo1Yr7H0ZlQHC6RXnCiUmDE3eQawDWyoMP8np1P3K2nXfqq3snWMyRhPiI6LSfAHKAExfzRf_WHXmhraBvDCobGEYgNwuxGjWjROP2JgjtOQpMoHMzV8NcvDdwaMLFfyzfljyRu-59hNCcVUDTFYt3SydQ_nfTm3GyRtG_oTSCKUEjMCF0kpLCAHUUoF2XbFnVNrHNHOC5cTLFA9Bp-tssqD1S490PUxgKov_2weC_R1J8tuJSmazPvddIDn_EElOmI-sWXQbz3xnFV-EgQHtT_AJiIKd2Dojv3cIeTbTQahdkoi0jq48JP7X6VGgGWR4Ci--jDfRUgcVscReG7ukMH3tbub_evXQviAW-QbfE-Cfje5NW4xIs_FuSpv_w1baQCUIbu9DLAgFhRB11Q0h7rMJWagt8kQY6CBnV9V_P3nwYnqcZ7kOS1M4uGXOnBb949yD7-1II1jIRXDSW-9fKr8LvKVg5zAuM8BpWGgMgCNHwdI5DDQXSdet4hkXoz6SJYtem2keapmmIbFCaydMFV_DxAqr5551__4t3WqAOg-WD5mxGZJl-PTAw%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "BKK",
           "destCity": "방콕",
           "destCountry": "태국",
-          "price": 498600,
-          "depDate": "2027-01-25",
+          "price": 487700,
+          "depDate": "2027-01-26",
           "retDate": "2027-01-30",
           "airline": "티웨이항공",
           "isDirect": true,
           "duration": "6시간 5분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HiFo2wEwKkfQUuxvwxtzHdvzCH26d5UnYanMbjpqMxUHQuEftMID23Nwttuwq6A4IhMsX7x7b2DDRpB4PYnlJVthmh6UeEWMJiIn6aZJO-sH0_svmolRfxt-IAV-8wRDiQbE8-HNjRSTSzbMYoOoA0jN0-UFRpeG1QQGLRxJYgLEj6m4REpjgh2gQ__2LSrpN7w2xCsSWj3yW6ZzpwrtG3lLK3_VIk3_I0h-POmqgUwMfdRInJ9rvMHxrsgIkrR7J5XcRgSzo8S_4AhWC8MIBe6bGPkhTEN9QXwC02AbjHHpxLjjvA7dEyV1lgx2C7GufFHyRbt6tD9nf7qJKte--ahUoVmcx1RGQ9zAarN6JEp5wZ71tKz19x4dmBuyGb9_I4-NYPQSmuzm_v90-UHLqnRJgQg9_EnodTcXPGZH8ZlgE8yyoB6q6OEqA_8CzaVHcBJmfNVl1IjJOI-TP-fIAFUepPT2VoAxqnU610G6-zuUgYcGzPko1agEzjfCbiiizcHc3RRuJN1QQb6DSRjHGYIRYn7pz1JYFT4jYReksEMeRrPP7YiSqMjubt_aEeNVke_ustL0lSIar3G01kRfTxoeyaIiHMoBQi9-x2U9BrKVUOsakJIdZYLdNnRZQfxDtKLqe-xc_DRg8oFl3J16zpN7_DzeuUZtNBYo9GX85C4hR_r9QJtfANTNLm4q5cou6djVgu515ZLFgwz2nr7DdEJKhhg0CYPmH1SIrzq6GVOIAUA9lZUSZOa7rzV0Jz5UYllOGQqhHUSHo2tycMp77l_nCXhMjV0mDhakD-EpD715O2EugC0xWqh-dY0SAJJkK0krDZWiK5PK0NRjS0J-BaUumKPU_Cd71PiAE7RZEKGvs7w0DV_e4liKVPgQdPXLWQ9cwfVY2zc_-i_1Bcmls-QXUElv5SP79-6z0voYkNWmIVp4SJqqf6OeiLjM4OCZgCFO_RIK1QBy-m5egYb5sMf6cdQGLqmGKTLG2vJniAN9EQN72hMBeV_AwRggCFLwiOMosuYQgJ1XsCUUSsGl7L9fyoryidtCwPVvaiKOIi6wCNaAYAm6NvL2y-_cvsUw7OCNmkfpzQDlymCXxj82MYPEvDJZnEacl0coXnUiZm-hVCKfwb5hflrZzVkL3C4dFeL1Tyh-v3sXM18H9RenQD917CXUUc_HKRdhSKvasZLeIPsJS33MBpBUPCw7uulJUnyIwtqqLxytqYaGGEB8AaDdG5P8tvBZbn1bgIpMsOUCQA5PANtE8DEQXf7mKsDfh&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H9TiPyftCDLiUHTVRp9Rzy7favL0MTmo-5Pw7egnqIW04IE6BWVXGcneXhJfs1DkTTZkmESzkmpAccnwnqzp4CsPjEyq2dxquyicCY0q9_aL5kIcBRhyB7ogyuDs1MKzyU5xkwnCbLwZCafrW2gnUO-fpdwasqbK_HPYLOtU2cmQLS1b5Q0DXn6LdETlLi5vIftn-raVaP27HnU-9hszRCLc1mOm2rw6C1CAGsZzPGg_Ah2rmrdsSkYrVFRYCrQEzCS5EtL1eSRAq7bQSOGvujRmbkWTaS5W0oWpwp3CxM69AfiU0kN3PXMgbg428-U85QCrpMfVi6_tNKf7VgQDRHlSBowHRFqlMHgI_qCr9Ykrnw0v2cBn13AyjW3sGYrlxzl0mJRUgaP-OckpqEaUEz3R-ckCBi8p5xwrOlrST2M5WlgDsWwrbT5QelfcQj0HpcHkZ3HR9pWB5TUCWgck7K0_cu3g-ZFqcRgRZr2qUMe_CExaz8v6F7T_YYhgKvAyYJCy6G598IQiYOl3jU4CtnQP-rj8cGG6MMc-apk_gpUZPNBV4xrFH6IembAqdZ6h29AatfL0jGVQaC_Py23L6l1nrunF1CpWVVm6---fC3c4L-oTPRADF_cYP85SNdN3VK2PtYw0O4yFcFcCPp3gLLllPTFCf33UVauqAJ7lGTaf3pxqVu7cRGrxnC_EqPzm4FVQoM6_Q3cAuev1CLHGCuWC0zuWTnh2GKyl97WuT_h8UrhFHIWikxRES-vNUIA1LWZFIo-zYnrYbKe6F88FYRSeWvnBZLmLCY9okkfFe0OwoVauSp9PFN1hm46AYrp40qL84OsFPFdAOwDR3Q4YZlceEVApVbWa0fLC0ZAVzHt-JPewIYk0BlHHb9bZd9anS9AD5-XzDDNKvlV6xb9W4WjbWtZubk0ZzV6S7uqljViEt9hMLi_CWl7NavDZKBWimyCBvW4NoiiMaC8Thqpk-tpQgv-bf2Gy_oAJ-dAac0TTRZMt06DBfJO5FFrM23VCXfmSR89a9P5zHbyWFwsbIjo0df6Db4HUMJlpSaIFkFcpa9pGBR7PxnxlaYr-QnqmLdUuVrdwrc1OEE3HWCBYaOaReWOAIiQL37M93bFYkElK1K98Z0Bkk1rNIcMW2b6kes1Icd9gsFMcXXrdIf4omv8RVeyi3Yfsf_lx_oG3QRHpxEJ0wr3XXasK-yK-h4ti-IQzhReB0ab7SO34AA6m_DZam5a0X8YRpzv5zWZtPmJ4%3D&searchType=return&searchBags=0.0"
         }
       ],
-      "lastCheckedAt": "2026-11-25T04:13:34.877Z",
+      "lastCheckedAt": "2026-11-25T14:29:55.053Z",
       "lastAlertedPrice": null,
       "lastAlertedByDest": {},
       "baselineInfo": {
         "source": "calendar",
         "destCode": "HKG",
-        "median": 285100,
+        "median": 284400,
         "sampleDates": 10,
         "totalDates": 17,
         "periodStart": "2027-01-15",
         "periodEnd": "2027-01-31",
-        "min": 265200,
-        "minDate": "2027-01-17",
-        "minRetDate": "2027-01-20",
-        "builtAt": "2026-11-25T04:13:42.848Z",
-        "weekChangePercent": null
+        "min": 266100,
+        "minDate": "2027-01-29",
+        "minRetDate": "2027-02-01",
+        "builtAt": "2026-11-25T14:30:03.369Z",
+        "weekChangePercent": -5
       },
       "calendars": {
         "TPE": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "TPE",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 329200,
+              "price": 344500,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-16",
-              "price": 370100,
+              "price": 385600,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-17",
-              "price": 370100,
+              "price": 385900,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 395600,
-              "retDate": "2027-01-22"
+              "price": 396100,
+              "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 335900,
+              "price": 336300,
               "retDate": "2027-01-24"
             },
             {
               "date": "2027-01-20",
-              "price": 293000,
+              "price": 293900,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-21",
-              "price": 371900,
+              "price": 371500,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-22",
-              "price": 349400,
+              "price": 348000,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-23",
-              "price": 371800,
+              "price": 370700,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 371700,
+              "price": 370600,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 388000,
+              "price": 387000,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 349000,
+              "price": 348500,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-28",
-              "price": 349200,
+              "price": 348600,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 349000,
+              "price": 348600,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-30",
-              "price": 347500,
+              "price": 346100,
               "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-31",
-              "price": 388200,
+              "price": 387000,
               "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 359800,
-          "min": 293000,
+          "median": 359600,
+          "min": 293900,
           "minDate": "2027-01-20",
           "minRetDate": "2027-01-25",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "HKG": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "HKG",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 329900,
+              "price": 347000,
               "retDate": "2027-01-17"
             },
             {
               "date": "2027-01-17",
-              "price": 265200,
+              "price": 300800,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 265200,
+              "price": 280300,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-20",
-              "price": 287000,
+              "price": 281400,
               "retDate": "2027-01-24"
             },
             {
               "date": "2027-01-22",
-              "price": 287600,
+              "price": 313500,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-24",
-              "price": 267100,
+              "price": 266900,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 287500,
+              "price": 286200,
               "retDate": "2027-01-27"
             },
             {
@@ -2414,679 +2442,679 @@
             },
             {
               "date": "2027-01-29",
-              "price": 267600,
+              "price": 266100,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-31",
-              "price": 283100,
+              "price": 282500,
               "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 285100,
-          "min": 265200,
-          "minDate": "2027-01-17",
-          "minRetDate": "2027-01-20",
+          "median": 284400,
+          "min": 266100,
+          "minDate": "2027-01-29",
+          "minRetDate": "2027-02-01",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "PVG": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "PVG",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 371900,
+              "price": 371000,
               "retDate": "2027-01-17"
             },
             {
               "date": "2027-01-16",
-              "price": 374600,
+              "price": 390600,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-17",
-              "price": 374600,
+              "price": 390800,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 400300,
+              "price": 399800,
               "retDate": "2027-01-22"
             },
             {
               "date": "2027-01-19",
-              "price": 400600,
+              "price": 399800,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 391500,
-              "retDate": "2027-01-24"
+              "price": 374800,
+              "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 377100,
+              "price": 376500,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-22",
-              "price": 356100,
+              "price": 355600,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-23",
-              "price": 375000,
+              "price": 374800,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-24",
-              "price": 376400,
+              "price": 375700,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 376800,
-              "retDate": "2027-01-27"
+              "price": 374800,
+              "retDate": "2027-01-28"
             },
             {
               "date": "2027-01-26",
-              "price": 426200,
+              "price": 425200,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 392500,
+              "price": 391500,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 376300,
+              "price": 375900,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 335000,
+              "price": 334600,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-30",
-              "price": 376300,
+              "price": 376200,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-31",
               "price": 392600,
-              "retDate": "2027-02-02"
+              "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 376400,
-          "min": 335000,
+          "median": 376200,
+          "min": 334600,
           "minDate": "2027-01-29",
           "minRetDate": "2027-02-01",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "FUK": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "FUK",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 386500,
+              "price": 385600,
               "retDate": "2027-01-17"
             },
             {
               "date": "2027-01-16",
-              "price": 348100,
+              "price": 363800,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-17",
-              "price": 326300,
+              "price": 342300,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 326300,
+              "price": 342300,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-19",
-              "price": 385400,
+              "price": 386300,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 322400,
+              "price": 323700,
               "retDate": "2027-01-24"
             },
             {
               "date": "2027-01-21",
-              "price": 322600,
+              "price": 321500,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-22",
-              "price": 370500,
+              "price": 369800,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-23",
-              "price": 327700,
+              "price": 326800,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 328100,
+              "price": 327200,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 328100,
+              "price": 326700,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 324000,
+              "price": 323700,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 324000,
+              "price": 323700,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 322600,
+              "price": 321800,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 370400,
+              "price": 370000,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-30",
-              "price": 322000,
+              "price": 321800,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-31",
-              "price": 335800,
+              "price": 335400,
               "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 327700,
-          "min": 322000,
-          "minDate": "2027-01-30",
-          "minRetDate": "2027-02-01",
+          "median": 327200,
+          "min": 321500,
+          "minDate": "2027-01-21",
+          "minRetDate": "2027-01-25",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "KIX": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "KIX",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 391600,
+              "price": 389400,
               "retDate": "2027-01-17"
             },
             {
               "date": "2027-01-16",
-              "price": 344300,
+              "price": 357400,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-17",
-              "price": 374100,
+              "price": 388400,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-18",
-              "price": 378500,
+              "price": 390200,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-19",
-              "price": 421700,
-              "retDate": "2027-01-22"
+              "price": 409800,
+              "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 344400,
+              "price": 347200,
               "retDate": "2027-01-24"
             },
             {
               "date": "2027-01-21",
-              "price": 330800,
+              "price": 331100,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-22",
-              "price": 357700,
+              "price": 345600,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-23",
-              "price": 345100,
+              "price": 345200,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 345100,
+              "price": 342300,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 346000,
+              "price": 342300,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 346000,
+              "price": 343500,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 346000,
+              "price": 343500,
               "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-28",
-              "price": 346100,
+              "price": 343000,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 341600,
+              "price": 335400,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-30",
-              "price": 346100,
+              "price": 342100,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-31",
-              "price": 346400,
+              "price": 345000,
               "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 346000,
-          "min": 330800,
+          "median": 345000,
+          "min": 331100,
           "minDate": "2027-01-21",
           "minRetDate": "2027-01-25",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "CXR": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "CXR",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 580600,
-              "retDate": "2027-01-18"
-            },
-            {
-              "date": "2027-01-16",
-              "price": 578000,
-              "retDate": "2027-01-18"
-            },
-            {
-              "date": "2027-01-17",
-              "price": 582300,
-              "retDate": "2027-01-21"
-            },
-            {
-              "date": "2027-01-18",
-              "price": 540900,
-              "retDate": "2027-01-21"
-            },
-            {
-              "date": "2027-01-19",
-              "price": 520200,
-              "retDate": "2027-01-23"
-            },
-            {
-              "date": "2027-01-20",
-              "price": 537900,
-              "retDate": "2027-01-23"
-            },
-            {
-              "date": "2027-01-21",
-              "price": 573900,
-              "retDate": "2027-01-23"
-            },
-            {
-              "date": "2027-01-22",
-              "price": 542500,
-              "retDate": "2027-01-26"
-            },
-            {
-              "date": "2027-01-23",
-              "price": 520200,
-              "retDate": "2027-01-27"
-            },
-            {
-              "date": "2027-01-24",
-              "price": 520200,
-              "retDate": "2027-01-27"
-            },
-            {
-              "date": "2027-01-25",
-              "price": 483500,
-              "retDate": "2027-01-29"
-            },
-            {
-              "date": "2027-01-26",
-              "price": 482000,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-27",
-              "price": 518000,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-28",
               "price": 562000,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-29",
-              "price": 564500,
-              "retDate": "2027-02-01"
-            },
-            {
-              "date": "2027-01-30",
-              "price": 520100,
-              "retDate": "2027-02-03"
-            },
-            {
-              "date": "2027-01-31",
-              "price": 482300,
-              "retDate": "2027-02-04"
-            }
-          ],
-          "totalDates": 17,
-          "median": 537900,
-          "min": 482000,
-          "minDate": "2027-01-26",
-          "minRetDate": "2027-01-30",
-          "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "DAD": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
-          "destCode": "DAD",
-          "days": [
-            {
-              "date": "2027-01-15",
-              "price": 584600,
               "retDate": "2027-01-18"
             },
             {
               "date": "2027-01-16",
-              "price": 554600,
-              "retDate": "2027-01-18"
+              "price": 562100,
+              "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-17",
-              "price": 532700,
+              "price": 592200,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-18",
-              "price": 536100,
+              "price": 555200,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 479900,
+              "price": 481400,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 549400,
+              "price": 576000,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 576600,
+              "price": 572500,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-22",
-              "price": 534200,
+              "price": 540000,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-23",
-              "price": 548300,
+              "price": 500100,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 550100,
+              "price": 500100,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 495400,
-              "retDate": "2027-01-29"
+              "price": 448800,
+              "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 494700,
+              "price": 481100,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-27",
-              "price": 495300,
-              "retDate": "2027-01-29"
+              "price": 517500,
+              "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-28",
-              "price": 545200,
+              "price": 560500,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-29",
-              "price": 524200,
+              "price": 517800,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-30",
-              "price": 495300,
-              "retDate": "2027-02-03"
+              "price": 500100,
+              "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-31",
-              "price": 479800,
+              "price": 481400,
               "retDate": "2027-02-04"
             }
           ],
           "totalDates": 17,
-          "median": 534200,
-          "min": 479800,
+          "median": 517800,
+          "min": 448800,
+          "minDate": "2027-01-25",
+          "minRetDate": "2027-01-27",
+          "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
+        },
+        "DAD": {
+          "builtAt": "2026-11-25T14:30:03.369Z",
+          "destCode": "DAD",
+          "days": [
+            {
+              "date": "2027-01-15",
+              "price": 587300,
+              "retDate": "2027-01-18"
+            },
+            {
+              "date": "2027-01-16",
+              "price": 553800,
+              "retDate": "2027-01-18"
+            },
+            {
+              "date": "2027-01-17",
+              "price": 550600,
+              "retDate": "2027-01-21"
+            },
+            {
+              "date": "2027-01-18",
+              "price": 550300,
+              "retDate": "2027-01-21"
+            },
+            {
+              "date": "2027-01-19",
+              "price": 477800,
+              "retDate": "2027-01-23"
+            },
+            {
+              "date": "2027-01-20",
+              "price": 547200,
+              "retDate": "2027-01-23"
+            },
+            {
+              "date": "2027-01-21",
+              "price": 576800,
+              "retDate": "2027-01-23"
+            },
+            {
+              "date": "2027-01-22",
+              "price": 531900,
+              "retDate": "2027-01-26"
+            },
+            {
+              "date": "2027-01-23",
+              "price": 546800,
+              "retDate": "2027-01-27"
+            },
+            {
+              "date": "2027-01-24",
+              "price": 546800,
+              "retDate": "2027-01-27"
+            },
+            {
+              "date": "2027-01-25",
+              "price": 492700,
+              "retDate": "2027-01-27"
+            },
+            {
+              "date": "2027-01-26",
+              "price": 492900,
+              "retDate": "2027-01-30"
+            },
+            {
+              "date": "2027-01-27",
+              "price": 495800,
+              "retDate": "2027-01-30"
+            },
+            {
+              "date": "2027-01-28",
+              "price": 543100,
+              "retDate": "2027-01-30"
+            },
+            {
+              "date": "2027-01-29",
+              "price": 492800,
+              "retDate": "2027-02-02"
+            },
+            {
+              "date": "2027-01-30",
+              "price": 492900,
+              "retDate": "2027-02-03"
+            },
+            {
+              "date": "2027-01-31",
+              "price": 477700,
+              "retDate": "2027-02-04"
+            }
+          ],
+          "totalDates": 17,
+          "median": 543100,
+          "min": 477700,
           "minDate": "2027-01-31",
           "minRetDate": "2027-02-04",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "BKK": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "BKK",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 650500,
-              "retDate": "2027-01-18"
+              "price": 615400,
+              "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-16",
-              "price": 549200,
+              "price": 544000,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-17",
-              "price": 628400,
+              "price": 642900,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-18",
-              "price": 550700,
+              "price": 548500,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-19",
-              "price": 527000,
+              "price": 524500,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 555000,
+              "price": 528100,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 573300,
+              "price": 570500,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-22",
-              "price": 527700,
+              "price": 525400,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-23",
-              "price": 527700,
+              "price": 496900,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 551200,
-              "retDate": "2027-01-29"
+              "price": 528300,
+              "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 498600,
+              "price": 498200,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-26",
-              "price": 498600,
+              "price": 487700,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-27",
-              "price": 529900,
+              "price": 528100,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-28",
-              "price": 574700,
-              "retDate": "2027-02-01"
+              "price": 524800,
+              "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-29",
-              "price": 551100,
+              "price": 548500,
               "retDate": "2027-02-03"
             },
             {
               "date": "2027-01-30",
-              "price": 499200,
+              "price": 496800,
               "retDate": "2027-02-04"
             },
             {
               "date": "2027-01-31",
-              "price": 499200,
-              "retDate": "2027-02-04"
+              "price": 489300,
+              "retDate": "2027-02-05"
             }
           ],
           "totalDates": 17,
-          "median": 549200,
-          "min": 498600,
-          "minDate": "2027-01-25",
+          "median": 528100,
+          "min": 487700,
+          "minDate": "2027-01-26",
           "minRetDate": "2027-01-30",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "NRT": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "NRT",
           "days": [
             {
               "date": "2027-01-16",
-              "price": 423700,
+              "price": 438700,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-21",
-              "price": 425900,
+              "price": 424500,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-23",
-              "price": 425500,
+              "price": 424000,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-28",
-              "price": 425300,
+              "price": 424600,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-29",
-              "price": 410500,
+              "price": 409400,
               "retDate": "2027-02-01"
             },
             {
               "date": "2027-01-30",
-              "price": 429200,
+              "price": 428300,
               "retDate": "2027-02-01"
             }
           ],
           "totalDates": 17,
-          "median": 425400,
-          "min": 410500,
+          "median": 424600,
+          "min": 409400,
           "minDate": "2027-01-29",
           "minRetDate": "2027-02-01",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "TAO": {
-          "builtAt": "2026-11-25T04:13:42.848Z",
+          "builtAt": "2026-11-25T14:30:03.369Z",
           "destCode": "TAO",
           "days": [
             {
               "date": "2027-01-17",
-              "price": 309200,
+              "price": 322000,
               "retDate": "2027-01-20"
             },
             {
               "date": "2027-01-20",
-              "price": 319400,
+              "price": 320100,
               "retDate": "2027-01-24"
             },
             {
               "date": "2027-01-24",
-              "price": 300200,
+              "price": 299300,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-27",
-              "price": 324000,
-              "retDate": "2027-01-29"
+              "price": 320900,
+              "retDate": "2027-01-31"
             },
             {
               "date": "2027-01-31",
-              "price": 334900,
+              "price": 334500,
               "retDate": "2027-02-03"
             }
           ],
           "totalDates": 17,
-          "median": 319400,
-          "min": 300200,
+          "median": 320900,
+          "min": 299300,
           "minDate": "2027-01-24",
           "minRetDate": "2027-01-27",
           "key": "TAE|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
@@ -3157,6 +3185,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 285100
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 284400
           }
         ],
         "PVG": [
@@ -3223,6 +3255,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 376400
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 376200
           }
         ],
         "FUK": [
@@ -3289,6 +3325,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 327700
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 327200
           }
         ],
         "KIX": [
@@ -3355,6 +3395,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 346000
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 345000
           }
         ],
         "NRT": [
@@ -3421,6 +3465,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 425400
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 424600
           }
         ],
         "CXR": [
@@ -3487,6 +3535,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 537900
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 517800
           }
         ],
         "DAD": [
@@ -3553,6 +3605,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 534200
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 543100
           }
         ],
         "BKK": [
@@ -3619,6 +3675,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 549200
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 528100
           }
         ],
         "TPE": [
@@ -3685,6 +3745,10 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 359800
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 359600
           }
         ],
         "TAO": [
@@ -3735,13 +3799,17 @@
           {
             "at": "2026-11-25T04:13:42.848Z",
             "median": 319400
+          },
+          {
+            "at": "2026-11-25T14:30:03.369Z",
+            "median": 320900
           }
         ]
       },
       "sources": [
         {
           "title": "홍콩 최저가 예약 (실시간)",
-          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HvbTyx12n2m_23pv8HsadKvCz4tyZtJFZMSx-_FKLK0oWKByq3pBMXmpTAiChNA02WbamTj77NVkHUkWvf4B-Pb8-TgkhDUmoxcLqMAU3Ezreep5SIIebLiqkK1Ts7iKJZ-fna3pSmfkqPFpeq3N_zTDvv04IqcbJ3Q2--yBCpgDxWIRF67PWwGtUvipnEQiHNwh_EnIsE4milvwaMYDklCZGCbMISlOlCCOmITnPWXOMbM6EmQjfgA3FyfAEcoISh_1sLjPfRt1JBAq3XKxENbVKNj-NAlFAeUr1I74PPX2VuXfdsS2VcDVKjehkN5Yopd0-8-8TQimUFpnOMAz5OegXP0IpnzJqk-7rlKBjddirWxsRoymeMFYR_I4KTsE_gwlBiik8WHvCZGFdbMpaHrqVCeazbW8l3izJ_tPGyNe9KEnAmzhnc25z5TqvBC-dyHmAOTEYVS2E82EhM9ygAW9jrtSdW0fYJCvLY5V7cMjHbUQCEMOIZY_alp1EDAxhpQsDmsm3-NP67f2OFYIKfHIGetXwB13K_outkw0VtTb6sbn0Uj03CsjsNqIherkdo-q9i4Hydl-H1o0HPqcqBeIH14eI7TbzcVy0OG3-Je5iXEh47XZzmA0Ut4Uxi06y7HYxQeNaaVCM72kY9cJTvnCiT2jmh9eCxDbLyX0WW9-XKd6fXrTIyVYXJXNmWVXylipuj-OH0umOeKWW-1SYyAo0z5JU6RO8WOc0U1F7VvpWkpwRzUqBtCUBGiE6XRxnCsOEyOTNsAoyUBMbCD3GN1ouBpconDwKXo1HmZqy0kggLIMjUrh06tI9vTORgwMXx6dQHLf2ucqkqvNIUYTtLCRtRNz3A4TFbw-hLmHVA3oDEcLGU4IDxf60OHTJU6igT63inEH6bCN27uQs9K2lwwlQuYwBGgE1P3OQMqIt6ztVMkvpElx8Kesclt7xTFLfjOR43n_h3WXui_WrYGcsN5WKXjl01gGsRxQfcZsUFfTW4Y1R-EYA2SulgXVfuzJe3hBR5dk-W6FslrZ0NtYQv4IQaIoJ48bNvGcp-4ZCKz4lv1J6_lx4LZJVU6i2PPWMo3fHJnIub0PrcXUwt2H7Rkl6aAfNqwjTH7qjmZEVjsLuf-iDRoe3cKU6Zh_cNuER7VHxppiZTkFu6IgyvyD0Urll1eUKYPfPAnfFSHDQi-zMVZqBHyiCz28VQ-pgHYiAG1U-ohZjhXrfNinyO_VbEY_TrG4de0fRu3SsKELzkduaM8szMSEv1zqD4a06giE0&searchType=return&searchBags=0.0"
+          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HJve0eSNApNjpq4w3CmaM2KQDGscAHdU7-KQdspidJfVGesqrYpJ6meBpru35ngH9C8cv6tEq_sxRGeA7WXujPYBdEuzhZC5Lc_AvP8KAcxiuPEt6MeFuOvJHdTNzY4gUTtxQkfoInXxh_GfxElckTu07JxQRMuIstQF9xNFGYILjmdlLQU7GPAd5mlss-CdRef5b48rZCDZGzt6zKCnhWdQa7vVz4CFPT2zjzTKDfvyjWAMBkKQRgs7TTxAcHZ531VV1H0v942tzbkgDIrf8bm257-BCcOXkbX83hA0b9ckO578Nsv3yBSNxxQl257rq5ZVRdBFOUpXw5w9uCyEAcCoEVZjvdiDGg4ooZhWdA9ZV_mKp81bD7fkc8GxCkh4jZM9CWbUC6nt3j3MgVLRP2u1t90a3gdxiFSVlaEHxdU68FJY-BJiuk97dNwmNrzrMV4PLo8GU9mKnlO1Vpp703mYp8N_KANH3gSV6hxCfvUKlgENa7oW92rs9UYxcVFsLA7s7CxUy4JRax2n6jTCZlWVvL4ivVNzmJ7c0qlkUHxGBc12TvLgTSzgrHXKjyaDYT8WWKSOulivgRdeJt3O9kl7pzyiiH3NMhecl5RPv-jmxjS0UauF4MOZ-dgflsWc6ZnZtNXglvjruDUL5jdbbEzvhH18shi0aNUa2c9xhrP9mmXpUaoNmJv9dKasKb2Sn9iWD_bykreumuttQ5beQxwn2gBqyK8W-4a7axC8o23coP5CwOMTyLSPT4AmclDGyyOn8fiSflzXxvnSezlY-mF0DXEtfXcKcHMflVTDV1kxibkxChQwbITtp2aZtt8Utd2jZ6ub7O0ULD3zXj-WENYu0U5zfx5V33SbsZpTa-tKUYOMTOi9eifMNBgKX5qkTA4DtuBprqB5D2frDGVSn0CJMmptlHTRl3VSqO0XP-lUwnQwiuq5Ers2nvhmhoNdxHqKYmk4XdmoHDSnpiTlge9x0KSHj_MmnkVlUIWHtu7ZGaTnIq-fbWIFbz5neH4crUYKqGNXwG1aPuJsIZohrFoHGcI2adM-jVc_xccEZ0uTWqLjpoSIc48gt1S6NDis3izfpRF_eyA63CaQZTplH8Jen93nx-wKx3HTZGknqIXnQQPulzQDIcJxsjZXPZ9ItNCvyp1AEp9i0-HAyJFZk_xVZtWymMUnnS98mLengunh4WV0eRh0SU7h4CkdotHQGgrNjDxqKJRtGW04pdUwy_8z93I0wlEGLkM1Mr8FuOyy-QCDYghVQnZe797X0WRKa&searchType=return&searchBags=0.0"
         },
         {
           "title": "Skyscanner 어디든지 검색",
@@ -3749,7 +3817,7 @@
         },
         {
           "title": "Google 항공편 (TAE → HKG)",
-          "uri": "https://www.google.com/travel/flights?hl=ko&curr=KRW&q=Flights%20from%20TAE%20to%20HKG%20on%202027-01-18%20through%202027-01-20"
+          "uri": "https://www.google.com/travel/flights?hl=ko&curr=KRW&q=Flights%20from%20TAE%20to%20HKG%20on%202027-01-29%20through%202027-02-01"
         }
       ],
       "history": [
@@ -3941,6 +4009,15 @@
           "airline": "Hong Kong Express Airways",
           "destCode": "HKG",
           "destCity": "홍콩"
+        },
+        {
+          "timestamp": "2026-11-25T14:29:55.053Z",
+          "price": 266100,
+          "depDate": "2027-01-29",
+          "retDate": "2027-02-01",
+          "airline": "Hong Kong Express Airways",
+          "destCode": "HKG",
+          "destCity": "홍콩"
         }
       ],
       "errorMessage": null
@@ -3961,8 +4038,8 @@
       "targetPrice": null,
       "checkIntervalMinutes": 15,
       "isActive": true,
-      "baselinePrice": 325000,
-      "currentPrice": 293900,
+      "baselinePrice": 319000,
+      "currentPrice": 293400,
       "bestDepDate": "2027-01-30",
       "bestRetDate": "2027-02-02",
       "airline": "이스타항공 · 춘추항공",
@@ -3974,336 +4051,294 @@
           "destCode": "PVG",
           "destCity": "상하이",
           "destCountry": "중국",
-          "price": 293900,
+          "price": 293400,
           "depDate": "2027-01-30",
           "retDate": "2027-02-02",
           "airline": "이스타항공 · 춘추항공",
           "isDirect": true,
           "duration": "2시간 40분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HpSDnkjVu8e8SrNZfTx4oFJPpP2vG49bg5_fSCD7iQrQD3pXcOoLv8QMVcHNi8tA6nMnfcpAVBZ26YeR-30R4m1sF-9WhDOz-GKOs7KpMElAHddHTPOxg9RZu73gCHlvIq9vrED8GBgUTXfu-scu4xfizJAPPCTl-izvwEYI3-piQhYCeGuHrSxbr8IFArT20QhMupZef5P_cRS3cjexIVdS3C6uGspd-NmsZo03vehpReaf7Cu8qnAksjNqupYPS7n-H0Io-p5qYaj_M9-QUaQ6DozD0YIKR7eEAgaRL_aXkXIgNkMPDS7WAc3cUVvZsAdhsMpAiin2Yb_-tNc3yR8Y6q3220NNoCyLemgwPKsjnVdS-l88min49r16ydhIsWLynZ5Dh0Xutxf2tqGKuXR15wLaR_dy5IENNaaMfXBKcn4ULYFQiGTWRhvBWB5qcYdn0QZUUYYdgJm5D39AKNvUn2ymk8D0qaCe17YjgCItNBUf533NgXNekdMelWfhTB1KmIixBPUV9hl2LwoK9KNYhj7_kukty1JBynq9aCHabCAWXNkwEDgpAPS6cmLsqaYQ2LNa_VO9heCcS4zfY9zc4rgDq82RQ9SkRNcyqYjOkn0Eo6sZz8OosHN0GhTgzW-g3T2y3lz8fZQL6w7ubEEDjhLNyRQHbBbI5qewElU549IkzQCbwwMgDns6KveMQ_Mp21ILDILyZPmj7g0cyPFCeDf_l6y3Y-gsduKNLZgqBhO1mIZG616Evp3sQbckZEZ-MSr8RWcdQ4HPPtfYPwWzVO2pTtP1SdLqsg4Cj9CvB3N4Xq8IxhINKUL67NAs7dwVrrtYoqlKxsMDPUwcs1adEzsHX6td-6l5hooX6xNwK5LfnYF4ix9NNmfdUyxMwoy5OpOOs_rRYkW6ulsKlre6IQ_tbOoaBUJhJxtwXyWBIb6hAbCHI8RJjY5Dio4cPxfw41K-9nZ7v6XUW-Q76EgoAyxx2yTna7cWlQ0nOmzjiUq-4KaNKqK-c8pdfe4aQnthS-PxEpawP2VzsT0piU9T98QwHyp1YA5T4zPX0aSr2otEMOZEt7kAoSOiTOssDO1hlmYwL6AoDWImyH3FcEcJJFH0PnUboDBiwYMFSOG52KwUElTOskEhLTQU4RBHUJGPs6ZuEx6pMXdfzLB9mfly4UGgVU5w73UH3CUaGqLdLAAhu-Y0oHQSnyjD3xvjMdfbF8UN2pVlrOoBj6_K3Qw%3D%3D&searchType=return&searchBags=0.0"
-        },
-        {
-          "destCode": "TPE",
-          "destCity": "타이베이",
-          "destCountry": "대만",
-          "price": 311500,
-          "depDate": "2027-01-23",
-          "retDate": "2027-01-26",
-          "airline": "이스타항공 · 춘추항공",
-          "isDirect": true,
-          "duration": "2시간 30분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HRsleYgV_mqLyFVw_nAXK1LQJ38yTmO56DD8OMj8ogjq5DzW9v37EvaX7368N5k18_xKc37768bB3gRxJIHE72VZG0sz-0m1PErrHVkirbQDOFEsuWJmi2KB2VIm8gXjBNGS54UG8nAkZo7znRlyudc-EMyQuOnniAVy-23Lz8TFY1WccTK1xxKv_edVQ0LCge2Hv57VUPbg2uNUAXXcg5bjxQbciqnwKuxiRm_h-NoPSxaxXWlo7xUCm1mT2-epKEhgIPtvIGVoPSkOYDmCHSyWW5wMkpAoRLKWozyEE3RmWpT3QxlhVqOubBv1HVSBFBDLG3rCNlpUoQVb84yHn20Qnljp3MOBcpeP1qzguRamyRIGt5ohwRi6_QonXxmPU9Ib3TfOoD1Qxp6J67mVW-d66UT_1kkY2bX0ia3fRDdVUEoBq0FKTgKgO8V--3-OmHCpRZr4SvseQdtcCx_KjroMuQIeW9soVrRtDBo0qDW9iUjJDex-s-StWtz49kaq0eIJ2W4VHay-HTevzLahShC_8kx9HWU1fIM8nqHwg5LjKpbeN8CmfOaafsIiaoV3lgAZRel9Mu57tsahMdeMNCxR7uod8YAJ5uY8kqV2c0V1_pKqRk_qclcIBjsEMeWjj3Rza8C4aItYolKrpPhOxo8lnqn0wZi3z8cZDC0Y3QQrgyWHjrNj6Kzz_1O2F03VoQPE50cE_UGxw1j3kIqTku_77OC0Cd_1a7UOLJ2UnlzaYLiUqQlefbQO6duRUppytXrZzO9nmv7BJbHGZ_E5-B-Swe_0SAf1hZzMGabwrXEBVEyQRxR8yFnfliETFY7svVKDZnFBsmukFZ3qARdx01z7PqAoNjuvwThBwk70X6xdOiUD8d_ssaBFFvROJqA07RXsJ3nTDpop-JlVm1YjnBsTj0WARNAXAWqf10zuQL5jGZrQUf-IHg7RPoB4L5AXx8BNjV-a3Exp5n9DKKJ4sFlIWhMD3s9LoTYCUmP5P8pcgyZdTaExgD7x3JtoVOEaE-Ws3OXLpt30nAonKPuRxCq1YJtKm3Gw2hdD_pJWIQ_zfFd9nzElkoAIvaNnieq8xD9o7byI4S933laqYYv08DYimLmSM2wve2yGMXJVRgPl-G2WE5ELgbr8CbfNmsqII_lBBl56crCRxfX723jXatWE25V_mHVPPDUy3Rt8X2SfXKd7chbonT9V0UvT3iExJ10D-SDboRKeSvJVWfvXv5g%3D%3D&searchType=return&searchBags=0.0"
-        },
-        {
-          "destCode": "YNJ",
-          "destCity": "옌지",
-          "destCountry": "중국",
-          "price": 323900,
-          "depDate": "2027-01-27",
-          "retDate": "2027-01-30",
-          "airline": "티웨이항공 · 춘추항공",
-          "isDirect": true,
-          "duration": "2시간 30분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HalFOPW43jA7KJr9qBeWDj5h6VjMtoZ7aejZBfPx7ZAhZTRjjs2jtnN0VXyTL89LWaB6nSRnluVAiKBzbEA2Oah-zhQq390onJzTJl9ajAomLejbF18rUwu0QxB0clTweu-suh5kfxyKf3vsNOe4MaqSMs408RhXkI4nvd-QGyk9C3PhwHEFqTY3xd9U9cJFyFcdrdoRWnK0lgdEEJiV9ThU01Sr-jOvTeSMFN4FPh82rcjoW6P7nj2Tsn1R9OR5fhg7L6USzoJQYWRHxr1rYDdRH9RCGx1gIq0agT9Z2RMaG4HRowxI0Zx_ppXrDvREWOnFUqB9ZalFXlp-_OxR8ao2_60pTEEysr8aaq9A2P10-ssJ_vN-nUNYl0SQfPi7kAszwv5FONvBGiYf-qxpHsQJuLnsbOP5nadDwmbKEmE6tIKHfKspN2WQ1dVYuFYNvH6j5Qgp3e37O1y3ZLQOJ_KxQM-GSpWhUdB3pWRFKqYrMJF6qOafVLS6evuQMHtmqDsljz_WAmplt2qE74D1Nrq-q1VhP7CH-afbkKIBaZSHb405-fnDwN7RLs5KpGbtc5zZ72z1CEb3DafBU1GiZhrAAPwXmDmte05iCf73iiTWDD2Utiz3aixE9pEqv_PgBz_rz72WRA2GlrSvwWq533FIS5O9aznM979iiVJld1n3ksMIn_YyTno5kWq5gpzWemGTK3l2mSvx1hxiWTt1R7Ciq5vXCi3D00ECJVBnkMjFJcrNuSxTEmGaQLEqQk2EwN8YbIn7THj48vYq4QkRAdGA2qD1b8Czm917dTTdykd_IAvl7pwKYX8NQE2YohL-N-p6Oyrc7gOfC1Nfw99AkBETE8UMObmLsqFMpDC8g0FLIGEnsQ3E2MVPivG88toxEFDZb3sg4KZqBrs_0uQHKoeh05--zxujnlN8wBhyTGyW8ieQGZYPBfXqsV6v7L3xPGJf08VO8cO1Z3sWrxPHYPJG5MLWUm7Sdf4ZG7TEa3p2hKFihWory2GruWaco0fPFIezxKLU3-4mnCQgrWpAM4vhSxyz30mJYOSRrhnrU5mi0p7HgWk-u3z_BDJelIvPDgvBTO9LGVVbebl3OWWmA-vojfcKdk-_zbPXeqTUllhBGLDKeG1IiTKXqSVrU09MteAlrl4nR9jVY2ROPRWmU9RQ3xiJ_woRnORvZr9jzEEXvFBQHoH3xr3rxvrqGe7fEThg--zxl1n0B3aHruTzAXE26No_xeFoXMVo-pC_RENA%3D&searchType=return&searchBags=0.0"
-        },
-        {
-          "destCode": "MYJ",
-          "destCity": "마쓰야마",
-          "destCountry": "일본",
-          "price": 329400,
-          "depDate": "2027-01-28",
-          "retDate": "2027-01-30",
-          "airline": "에어로케이 · 춘추항공",
-          "isDirect": true,
-          "duration": "1시간 35분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H7eOZv1P-0BOLq3euhWiQD1W3E6f-5R9qj5DdQQWUn_3hI3-M9Yxk7trEuf_bFfuXKT46x4B6KPj3xkHieu9gnKrSlclxmlDOSD6A7HvLS6KOhegWLsbQ0_GPZjNW6mjnjb1lgyZwpp5obJaFASaT_H4s3CQUsodnZOcM2WIH1OZAds5pGXTE8LxbwHoH5pTEFKdXtJiNiOIJB4kVbCK7FavAx7za0A1QXea8OaDIb4OxESITSxie5iLE3lN2iATMYPxQv_ZMDsC80Byy8tMbIkWYtM8_Ity9ymjf8oeKGcLOoR0a-Rsz3uvVSVnU7UH19w_IFVky-nz-gB5ay_W0iVOrUUn2ucHqTQqMGfs_l_fKCY_HzKTqIsyVQXrYClwEwKV7QIEcx_5SwTfJQOjDOraK2haBVBgERe0MYd2U89bGDp1iDOp1uVixGYCr5SMJGvUS0eYvCwU2n_IFLbTnrPVJEkguWewASS00nFXpzQsPDCb5icqyvvUqqOul-sgNlKPQ9zbfLIy9MsOIg_t3N93CbLMaiERocBX2XhgvP9UHCc2tEuJz0fuQVWPePMS5XMsiZQsHmTAuVxJ5asrU76jwzM0a090_eFB-p-GU_TobTNsKRBuh_VlgmcOx7_f3nLPjD1bDNu7YSi-opp9RZdAoqazl-D5WPmMjJc_PebJQ7syUU3sL-6kEG3SSdVkPApGu9kJk7RIgXLEm4YYVpLhBwtqTvcfAYsh-zBOKeDU__NJCHC-TfceufIcN8kiSQ1r2PI9pzOHvvpZkgM9Uslf2bUVM_PH4x995PhbQtj-d3zeY8mPa6AQWmHurIgV7VYgO7-qkBb2aeXnaCFP_qLAMavCnZzbMvEUM0oBPcGlsyC5sczSl3_7Elm0BRLn_upIJbkk6TcB0pAWm0BfVXaHpyJgETzkAr5BNYsB60al2NMU41x2XjSGMPXUdDWt3wlPTcpsZq_-FPORTEcDGJpjhRAJWw67gv0dfCKABbkVT7y-qnaIJMm-GJd-4nq-VFx5SrhP5L6qWCjHaO0NEHvI3eEMEffqiM-ef3zIpClCstEAxe9X-y7hGQ2HP36RNehScNkDAcPqXL1kJHSinDeD2tNsVNU_wKP-8UnhE9Iv84itSizCUXyxgQEdmX-VC--8TNi7AgD3TPYtio835eBeLkrJx2P-wucGqsUyHD-ywxcfkW6cSIsPDXt4cjuLTnZqA5o7es6-XIcZray_SHCREULgk08RfctYsr3wqJ1o%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HB0ZXjxJg_plO0INEhEAlhyfCqDEYhjbjJBG0aXBxRWOHehQZxDJYudens_Dco9fBxIcsjwYswgfJzrO_z5X0dDeHKm_kxF6QF07GAxsGiTn4LLRKmzvwnCeyu82Ib03Tm8DeW0X4Rlk-yaqhXvUm8yorLDF5WzE41LNgWd8DXyBJZCy4Nc8UvkcZ1NzexNsjE3eGg9oueNDH214Z-zlRKGdy1GnPd7DBKQ38lL6s7jdjMKuQeWlUMNCvJDam_7hSsRFrDHQqJN9plRjmJaG0cZJ1NjeM-9JLFcVDaZOTMUUpnrIsSZ0aDrg5u_NBxkb2BYAFkMFTkjq5wu9byORE0wJg6qB_cC0YvdKbT27xYegPfeEXYq7Z1a1eV7FIrhIqDtyNsH60AkjuBRtAX81WkkWNlRQ9TQhAP-kUV0bBFr03fugaPihxhpCzTtRqelIbkwYdSd__sR46yIz2IJmlwDlynScwHA9mO0z_yYb8cNkokozOVgPN7PnOnAvFeR8_7kI1ISj_sxHh1l_aHELBHtQF9ZCUUOy-QV3q8A4RFglHMUCPCQFpLmAy9xNxfqjqNMZW-bLFwdXdyLjFnZ3sEE917GDhav_YE-JDbZR4awuNYkXHE0f-45k9ce1ldA3vE-uIByZGuo9WGL1BmDFIcr9fQGTE5ucTXMKinKZZu55tRcQzz_FhSYqSihrgbtQTXJdf-n3L8hjoDjn2Y9L2NtJ5KKGll5Igus8lTaMZs0igpNxMxIMTUhO_5y0a7JrarwkpImW_ov2VJMID9KVjuhIWzw2OLEZ1GnkxrZpAiirwpgAb5F4wuM0Oq-YwypdPx-LKOAHhNTa58mxg1dF9GYioxHIbix7ofYlIrx48chb8fFJp9aXBDJxBzwwIWnHugc-0YJVh2mZyY628iAAwbpNLVdINzezJU2nK2vXXRQ457e8PREK0kgM7_nW-mp8i0yYCaU-ml0Ei6YKvR17r0tmyXUCJoRND36ZH8-vzOqxgJeo43eySGGccfSmn4mbmt7ouJ53Yd9EsTsvpecCxl9QmHIL4RBjV_63R1dL0tjwupkkqITXFyi_Tv0zNN-Iwx8lKKQEeXN7f-gl0Iop2ekSv_p3V31LmeDg0whUqE3x0g8bHZgSGlGjLsE0cIKjbDqqITBA3slj9CNaBIFDYR4rWCMJU3a8nTkERg3iFx1YL9gJZNqEPmNzjyh9oLfor&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "HIJ",
           "destCity": "히로시마",
           "destCountry": "일본",
-          "price": 329600,
-          "depDate": "2027-01-24",
-          "retDate": "2027-01-27",
+          "price": 294900,
+          "depDate": "2027-01-19",
+          "retDate": "2027-01-23",
           "airline": "에어로케이 · 춘추항공",
           "isDirect": true,
           "duration": "1시간 20분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HdlH31K3SeiOANg-PsGI64Dmsv4oTsPjFpmsLGEbobc7TCUOTXtND2Md_Y7L-WD0qEqUjmaIXmtqELgC8CXWj3j1DFGU8-JCQs5rQt_oURBSOk6R722DCIYBa626h1xPbFWc_SX7RNhTM7LgOSAL82UIJ6Vqdf2c2Nq9WxqP2WbNsc5LmraqElSveKluClQh3PS5Dk92NXLCXQsbnQaPbQSfYeweUnfIcYS7A33YUun--judKD9OTYCP6_PCQu-bcyABJX-0JsnjMPHY2DzGPLyotZ7_8IT9nSuh4wDIVfn3PiDiZZtg8wureKEuOU7wERb10tZE08vGo4Y-57DsvFowzY87xpsNZYxOY2QLWm69JXOcwkCyDVR5s7A20xfVMUJao6m-kd6IDiicDIRIdt5KnvQVTha-7mvZbt1mB1ra7KSNUOFXGjr0CCfdMsAB5JNVcIxkQTcTt9qE17SqWH103gTEcTUy7MgorCyO7CRVuhrQFGXvZNHPTQANdeQHjAll78P84mQCR5svDyA7HB0Rb0CSG4VUv_hg7bLGisPDRWDh9PGPu_KGM_z0QnMUi9xO9vanttI2X0Z6-pKgDwGWBwo1U3jlFnAobPOQJcPLP2TRJ84ZnQp_KZfjqW0XDcr-q7ZQc4YQolNEWjNfKZ9YvWc-HO54KVDJWoiqgsxsKE8_Dzcv8_UvenYRZHiRI-ooy9hZ-zYxUdYGrlJcg85Ifa1JeYdLA08y2T4V5U_nGxhOMIKp9tBg5BF4bAqvk3wvUtbI2bJ0rXW9yfo1d0J9AABsXEY9pzi81iX1njGb6bFn0Lq1cpZgXrdVBcmxUGkyvnp9ZqSMbmnKPa1TUVLALb79qGp3cdPOIVtEkFcDxcEpvgqNE-f-NJZNLD5xADapB5QAe9_NfyZ781bUVXjugjO02G7GnppKhwOn1PN2zOwSlLB3MJuPRI12DMrTqSkNtf9o3s2FVCyRhem5jQvNONj7YDTNBDtcaGUxJoRtX8up5ZfCYWsWkEOCV2Ao7FfUjv-OFwcE99dsi5ifp6ICiYXQBjU-biPojVOYAIYtLgueH-ZlnulxBf4qDNGdgaXgnzGC6tu_-KmBv8y0f6iJd7ga353lEghsU61ApODEAq_3_EUe0G80JL0wIMW4_TcPJ_6s7Faj4loWYoNzxNg1Qy_rrDuGtAXoSvyZcoUEvB8xOdQLJtcTb7XAoOaqadMh_mxSvpcgIhDXaKIptJV14HsInaAhMXQhvMEtAxAs%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HjVzXazkl2bFl4Jmn-u5-bg-PZ7ZAMO-n2jyGfN9XPLKOsJjP0ALb6Paf2GXpDuFc_ciKwS1OgKu6f9eaV1pbpkTOnUWbdJP0NGO-FCjtmplmC8ebZqfhJ4_xyHUi6AFSGTe3AkKWFPnv-NgkcwX67hF030-bnqXFl66HGyKiUKKQ8fS_RaIMsygsmTT6C-IPnj_PixRdWDOXupfIrBB4zIRuybL2HZ5jU8RFWSl3uwr09nnVZxnEiiryxNCJOK9l_2vZfOQsmEWirg-pMTMtEjXT_0cOqlYiLMvIxQealy4E0CMgGajZ-juxnp3mZBqk5qsE68yyjMXI3r5C2w3CsjInFhHMUNV7T5AALaZce_44NxJO0FIo3Xmnrt0fEQY9oXTulsauatCulhdkknxwsMznyvTomWSBhSKKLrV2GmqlLiVs3YjU_mSEwgw9-R3Rwc7J3RO615uhK9jo0rpqKziCkOTfs5LWS4P6VtSVED_H-Tr-8kJFBWgg4aAXlaHAXSMm2uz7actmVyoDW0Hm9AZAuiGLWIMZpZaJiLk5C9QpIqb2pMeBBP0IsQuwaTdCmNagdF4hSdnWFN3V8c_Rb-lP9JrbDI-q0_cTmv0kLDyfUF7lxPmh8qyZ2pKRn1Z-cxJncV0irc3ImD74LpG4mQk0DHKAl3vwElH9MH39sy7gkgWIAfGy32xz4eOpYQX2R7wJjaZRsHje293mv6HXlrWHmBxQcDaHxqJ9HxdAKgNxXY_g-nR2ETGa9BTeQUd9IfpFUs1th7YJCPAkvq81erek8T_rRRRaUeNnGm30sAsclKpCrfkDO-cqn-pmLk12G0LYEeH7nKLnX5JrBp4hpk51tV1s0I9guqGTHytyW90I6AHVIkRR2N7V0Sbyh2njwFn8geLINZ3C8ta_RWczRg4kkZG2yptJ58X_YSkZUOi-4abpjHc48sZJyDeVK3MgZONYm9tmxWgoSZsmxW9QPV7cQUVu2GqbwWFSXC1zfiMLqs_5IQU3UwcaNQR_8QljVaZE8gAcN5TO2LQ8zDgOHkX1bHh5kMkQWIN-oH-MTD-4FcX_Tkw_OAYR_kxu1zYoYlxK2xZjy9W13Vo-ynu8oJTH-PY1Ab_ah80GsYAiMgcF66pD4qh8TVEsWDTuPz0OL9Q9H2P0_qrFyEWhzbe_Cl5A5IJNROvXsJs60SpkBpOI-1b2UeQElPTfZL0b-YVm&searchType=return&searchBags=0.0"
+        },
+        {
+          "destCode": "YNJ",
+          "destCity": "옌지",
+          "destCountry": "중국",
+          "price": 323200,
+          "depDate": "2027-01-27",
+          "retDate": "2027-01-30",
+          "airline": "티웨이항공 · 춘추항공",
+          "isDirect": true,
+          "duration": "2시간 30분",
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HENWsqgY5HfZnUVsVG57DfrsFY2Iufc69ac_3oYHzOLZZawPpG73B0ZO8cuGHawCHR1LULO7-DsjVRmOpJEwkNPgZ_0Jw8hVsSPzMcSDvFgWdt0MQjoJfci_Wys8UobbbX3BPxf-50JWH9qR1rpxhKmwB9i9TRtnh5isywqtUrLcZxgrLffkLhk6eDdumJ8cn997nWTmOjTniW9MxbsXEbTUnaB5CdNngS_sIuDb4ijBrt0jqw1Fx7SX4DuhTvPP8aSugNY0f12PIwzYlYvQO2FEEvKaaAMVQFIsVpskwb9Pzz_c--IbIk4Bck1kIwi3vun9T4jJ-fc8FDivTj65Wl1AN00af8J9tMQoO_RqMCouASPKYgeFl97dRnuynFIFVBzhC6uT-QgFKw9TbG6h0oR-oNChbLJQfi_kVUcSvy0KskEXEGq08LwsQyNjqWI5aS9iphP6wr_tYxk-MYLSmC_X5l8g3netk8Hm72FL7VOt90I0XVp5tuKdtTZXFSZHNjqkky3j04CyiXddry8kTEvBGFmE9phxZ4yLnCHgo5IUrHTBUJVDq7smyOeUkhS3EIPX2oZPiF0rYoRe4AHjj5m_AE46t2KzytQRMaPbJ75zE2_SnGokLZNavsSYz6mFVoKxPRTh6bqWOKci0v82H3WqL9jgvdXts7BqXeBUe9P_52amN7oESG6nVESpWZJx7afpTWJ4BqfrMMsWLAatxB93POiW9fF-9xItSAqi47S7FWaQzEHxUM7YahK5c0lN9u9NA4htfDiSMn0XQQ-ZJe5fOKpILXURmeYpoG9c2C8PHeqdIwNkRmBls3sfcp-LKUlx11_-FJ973hVZgNzbdsuu6vCW7gcutEqRRgHxjf6TeqwU_5Heu35cff3SLT1i7vFUCk_W_RayLLTBhnslZ2BCobu8TSdSYpuis_Ir8D0pvuAan52rwqGjbqIqpfYnrjrgfqGOn7H-mTSbLO-Z2XgX4v1ht7we9mqZHmZoA6Fx5g9TNwrdmifAEk659-D9nB-Q8lzU99J08koifChyIDM6Dr2YamWm6-NB_F6A_QeY40gh8yzgmxIBrnc2zd1askWTNndGpM6pH4CENjdTswNLEoE6yoxQxiWauEd1BJVcN3T-QmYPyztfNFgiqWxZMxJS7SiMOaqIiagm9Zn9Ozu485fPnexFQ18JAX23rdAN9ZWyjrPU7kPRtWVw-7rQvCwaKM6G2MzpMKLW88rjhjIHK2WHcTFYHpCfc0Wt-clY%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "CXR",
           "destCity": "나트랑",
           "destCountry": "베트남",
           "price": 450400,
-          "depDate": "2027-01-25",
-          "retDate": "2027-01-27",
-          "airline": "티웨이항공 · 에어로케이",
+          "depDate": "2027-01-18",
+          "retDate": "2027-01-22",
+          "airline": "티웨이항공",
           "isDirect": true,
           "duration": "5시간 20분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HsgT3_XM4G9mNGhpnUQ39SG18fcZ_3Exbja9E0MWqOwXBioUNHV3sj_OJFgtID2rrTgYUghrzODWQyw4QSzocTEtVsum1wxBZ4iqbRStu843IvG-DFpw-Z3NZXJtKkLCnO9tD7hHFstWP_-0hsJqPYk7uW5i8brFz8hMfmz-JJfdwrfX2ijh54WApybZVQ5hftdSXAtGIeqWTMH6jhWMWwsbniycf0lBYNCR63cVLGRlHah3yappDOznH16vrHRFWu3zhKPbP5BGngBujYmHGfam6LtMg4xLOz4CUXj5kuLPyHqt0YcgFGAOrv1Rw9teLGlZsGyl1GlNYOI7LmBbMNlmjA9dGp9uEC5CvSThyMwcrTX0bUY-meTpjxugTh7DUItb7_4bYyVFV7VltLq1TGNyCinlqR1h-_B41X5KafDCAMvUWJfalU7xnY0wLD8fQba8bPTQIrRmmBEXifr27gy2Mz85QSGWzHzUiOtG94whMKNGwx33jF0IQL5Ei4vQwQ6e07h74dllbjpPf57XKMuC5xVxkjntPo2Phh6VOPw9kgRR0CVbbDqu2fwZz3GNcuPsFDAbETL1f4OaB2qMRrwKlWe1u9IJVduBXRQWb463ItC4Fx-FWa4ssquwk4MKL7XmdwRjhLi00eiBPCIdgBDA5KTbhb30A5nh3mYp0IR5BwV2FUSlFytL7iUpwF3_l8f6J5bBmit4N8uAp6VhYZVU2OZOM4P-QqfO4jfMdURtYkxjJWBw7XIDjkw-Gi0Aknns6g15V_zfOdksPSfz7Tons4ps6hWF-vpyUfEPKa3KTIoGrZVRwEiGWliPAoEC1A5RXTBpUX94NOF8NPHmva2Dtjt04_ieH8por4IoStoURtXE7Zc1zwyyYmE1xyD66l9TzhDjasue2h_rLOcT40FRrzZtyHGunPZDsvXugGscskAPtM9s_63MYm5OivSl9E9oTcoS4m3cTxOehU_o5zNlvkjBinnvCnEUW0OdZGE8ylBQ2P3eocpGkVXxtk_Y3qUQjOjsd7F7c6PZfOlKE1V-WepDov-_uFFsOtVe5QNJHt1zBNTG5wxJyt6ZzNZ7gNme-JkeQd_sg54BqVABLD4WD4XQ4S7VbpwXVctuB7aN7pm2EbYtvGjI5rJ16GaJ_InrBSYwLLhi6-SypNoNS5vvKkrZjg5ZhYXtdv4lldNNod1QBPC97PL908KSZ_k8DrsnUXjJcMIU0HhVsei1NVZYVGRdjOIG6IQHl_OQbbyA%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H8SHr-PI8okPMnNUVFkt7V6WpBYXOuBj6FnemNa1UiWdvR_4eMTrMHjGXQEztJZdZIvHNaECueYkGT2uWeplBoB55CziWmyLKsmDUsTytOa30YLetaE1TY8WfOP6SaXxc0Pmd7vjy5zSebqu6mr0ymwrHhnd-KOTtBClqHsl3OjV1Aw_vn97HHIALUlycJop-1uRqR8VLmIN0HHkIsUj2gkvC1vD1NA_riDHDlowtnAAztw40rCwteYPkw9ohhM2q92GIbjEAdJYn4noqtClDgvUNU2BuRr8nXeFflDDFo7Va1XR4T-gq7wO09T0k1L75OvnOPG7UXBDSuaanJyV72BIX1aH5G3JD_3pxW80B7s22ABb4CMbkgO-61jKzuJOwhmAq1tEg__DO6DKZcPzdfraotp3QMNUb8kcOXOSWqUVeW19egxFEKoBn-HvEabc0I-FgyTRHeFRqXAThcOko2reyUVRg4MZhfzvx0oUGIXcG16BeWbgo7_-fmBl6RZBTjJg5_bCgBrbrRz2oRRE9A06Y-9pw7jYGEbdgBEESNVE8u5P7M6Ij0ojsHQpaORhNnVdCCXUwvEKiU-VKdXJdOXOqOlpm7AlMX8jTFv8QJmlsPhIsATvkuuKFLd1yb3BA_lhNyH7IY-hT3WsDGn8R_wuE3ylGgBMv24X2vQNN2NGkh3PaJfsQoaOIQfHR3HJ-0rPgzdSaB0ExPM3nQgDiDf5HmgL5D4JaZutuFW3WmTmniN3jm7bN97aHBXEbTOzhtC1n1xu8M1Iyt6wG4ul2y8q4ab8EnXAqfJwPBsuGR6iozlY5bHlSEWdfJZhX1yAUNTMxYIrrK_ZZmLATQcyv6V1TvEhTnQ-x_ILGUi6QXJhLUkZXkEXcHlLJdcPOYQTx-pytteAobs1N9Eoz7xvnCTsrUolzfLZSbAOiOPAgeZwaM6NlaFePkICgFC1PRH7GV7Z8CjL2TqaW9vXCW59eJhiP4ZgEWAzMR7L3OxLIjHRhzUHHk8H6JyAq5HgMdPmMlaDcz9YhpY6B7tucjKk3IKBV4WKmuVwYel8KT57n_u5uFa3MeN4auSrsAZK12g9-Vvk63YsdBIbuQxkisPJ-jZJ0HfYLwdbsVScyPkdJZK21MfifKIHV3rYDVJzpmLxBnDlJkLFLN8dLLvHxnnhl6kMeR2WttH6twceVBgyuMwDMN4NF6dav2IMpszFAGCop2dsCe18FkrZ4qgS7t_9YlOOIE0ZAh8q9bnGhSAyDgAY%3D&searchType=return&searchBags=0.0"
         },
         {
           "destCode": "DAD",
           "destCity": "다낭",
           "destCountry": "베트남",
-          "price": 478100,
-          "depDate": "2027-01-24",
-          "retDate": "2027-01-27",
-          "airline": "티웨이항공 · 에어로케이",
+          "price": 489800,
+          "depDate": "2027-01-17",
+          "retDate": "2027-01-22",
+          "airline": "티웨이항공",
           "isDirect": true,
           "duration": "5시간",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HvEg_3Vvw-Fk6sW9mISC5tGggeGlZhXSK6GbdaboEDcQENt--_a4AT3SH2JrSek3-52-GB7iOslCFiFwl8b1Yqd4yictMAGlH68e8fx0GoveS123j6GL5YQtnROY_9Tw8BU8f1oE_RmxRxsZJ3TkGBa6-CZnmIX0u2LmcWMdnItAwOUGXcq-VHvUiazuBrDFPtbT6kqY4HZdCBj24Sb3QKDZUdjzNhZaE6taPOo9XbKeLUu5Ne9h5OSF8aYVgfF1uJgtxWzGY5kQIDIENMxHweRbcUKm_b6YnAYfPFGOjSjjJ4wGEKxKGFoami-l0qVirb3x1Ed0OmgxMsrVchg6XNxn0_YUcsF_gouMjLbQRInOncoT23qhadoRkzjGCTVgxt3Nv0jBlYr5vcPmVsNpmNwxX1lRkWsckZYqSL-Sut8snJHDDIM7tCAX2h3h7sCuVeLYAXZQUnZ4zh6TMwJJRWpAScZxsolId1EbopoD4hCatnOlP_XumabFnG6KivzPaWdQvc0bvewiMAA5dtmzgcxZ-hv1-AAoQdLI9dyCmQjeQ9OmuUIRjMM-Hn3AcJP4-zLVU7ZChjreAu6yldLvMxmEjMQ0QoNKXV-IMugkK0vz6k7W3gQ4z_Q9i7eGQo8qxSrgjU0RZ9FxIxVd7ovZUnmZ9PtABzhC2IxW8ovvIHg4l_XVhZ4e3Bwr4Qz5v44rjv_Jrmmb9ZabT9NI6RaSYjESk--N0m9l02Szt5kmHF1xIbQHF4C7EjFlFplq5LotF7wWgSK98BkyMpLD5oN3lW0uVFB4E0GW4VvUWCeGJsAFnxaGVaSJnjqUKHnqif45krl8Y-DrVy4Uo1XUgqP51clNMl56l5-N0ytAP23HofAhiYJDMU57jBPM6_SQElxnAdKzekiNtqhNlUrnU3L9vRVIXXEvM_KlzsnWb45lelm55-6LCV5yh4v2SMKkTF46kUpflxA-KaM_NOX_PN_JPuZIi8gPzC_Td3EsO0r5ueMOYCho4TrmgGofk14xyE6qHQEI313WMNeQr0iEIMx6PYmD3AI07Nrvzz2vhqRpTqJTdaGwvC8tzYJXI9tvMXRCh5OL4-z-tXQm4WkmjjvqmEpmjFV7P83AK-mkHzNUgxVNJxHTWml3bhB6R9OO8CVyaWp3aZ_qBvXB-JJDb39-DoXTWHHWOItNBi9_C1mFvLWNnWtCEjKGO-FLxyHDFzk9SeJKdM4YaV552mYvBTIbgiA%3D%3D&searchType=return&searchBags=0.0"
-        },
-        {
-          "destCode": "CRK",
-          "destCity": "앙헬레스",
-          "destCountry": "필리핀",
-          "price": 519300,
-          "depDate": "2027-01-26",
-          "retDate": "2027-01-29",
-          "airline": "에어로케이 · 티웨이항공",
-          "isDirect": true,
-          "duration": "3시간 45분",
-          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=H0RUmNoupLWhJE11kcfzxroX0wYYdFEcxhjxCofFqDi1YwQYAjK3AsBEVNTiYtH-YGnHTCbTFPNHoNHsSYOr3ADVSozJtdbYeMZiFDg2tk1cYMcPoURhsN2qFPtnC-L0lYtf8V6LledNvNo4o3EV7gMcOg-f1tGkNELhUW69Mo74LKLj5Yewkvr8KgFjYSVQFecNrmwV9pQTyGnu8QubRoXsXdMToVkkgebKlIGX8lUxFNP-VT-Z6Vkw5P7j9zljFJLJ3ZJI1HLHelvAivfUp3XIeYaf2uCjJzi1tyGj-wqsfxtiaQ_hMlTWZxPoGS0vJBmzcTamuB5n1UBF4-ONK4jbWGVfrAturxofa7XoqR2fLcetF9UhKKgzgRp4HpEC4s_AF07PiUVe2giDdMXOMJkPKzys28P80JCGfBA7MdxoUINOSrG7cKep7ixrTDzWYbFXP6NhWUswCTMkVgfu_ToP20y-MyUNIi5QgromhuqkGwqqHYN17ZnAmjSubKwA6tC1Hwnq9wLG-GQ9A5skkyptqrcFoeTsOZMPooHPI-WVJkNeTyusfAtOvrpXi_PCr9kk23x7_qhgu7L4k_6-t8lIehJbrDH1IuLjUDZUL7UV5lS9YTN5_K5pqaGB1ZlSrtg-s_CMUFne8V3jR2mmfvQZw18WcXRU9JMJLPHJvW9x5Qa66nEX8U3E3kJLZJD8U0G-o_4PtyfNmIZLIYlGVJNIlymWLIBGluuVvnVy-xsfADRlbnwF2wWzpLyljfTd50ynpftRYxnc4PSpfPJaQtTkmuRuNvCeiPa1AwQvfG470it-P_zzk3GRBJ2YJzt1ZfjOqtK1GshNll0VAGaUY9Wn_HdjrsDNnDJJmLkpilKFOl_teWYEqF3NvtOanRraJXEVpPzgV6Gh2UvSdyYS2JctohnywgCPOYiHNVWrpCvPcfKU5h_zLn7PY7KZhwHfurwTzB13G0HheGUbPeCEmR6xb9ZNKjS33JCX2gWTgOeRdOdhzOCMDDjGgH2VTW7ibmG5znwcht3IFBajDwJCSyeyPjUSk2frjRXd3aHpZwLhCPIKfe9HZuAooo2FYEegpWhd9LeCJ3Ig8L76_urfs-ZFAhhbKTW4NwgeBviGgGaQX2_hNavCEh5O1uKB5x36FqxCloZZKdE2eIfsZVrD1IciN8tcTDvjpEundy3SdRoLzixYdhiyuwD3Y883o26fQO1u54o_QI42MD2TTDuQZvw%3D%3D&searchType=return&searchBags=0.0"
+          "bookingUrl": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HFsYySDCjedYdEPZtgzwQn_7Bmfk0Pz_4c0LFWyc1NTgXacCLNvyaGsdbZqECv0MQ_9yAJgcDPDK7fotElNfrC9-r8YyIoVUMVc49guoYJAyBDbmWX9CRCqsRXBLYnVy6t22mr3G6aGSiV5CQBiSE8snWZ5dviluLoNNUV0_XMBkjPPjzqQUBdZNmeoYlUbwSdvEgiv4xusG4lCpIr7CnV2HFBW1Zq_JG739wWRSVLxIPyMvLtu0LOBapfOMdxZLzoM3cP8cXxNy7P6mhgczz2r2bduzLUCEL2OlbRXDZwXH24XrHs4Hun2hYz3_UAEwCvgnapjqVSWm1QCYPaGwyBLDSYLefBueU53dT43FgfUxN80YCRsky6nc7LZbKt2_CkfS83M7S_E6rpZ0mmUmU30PdJL0Dq4zXyXwn1GKHw5ZxB9w8tWNF-6AFx53nAHvaiyC3yX-wO1bNihrZ97oz91HHqz_6G4Bksm_S-MrnvTHcXeyAGa5lujtG4QNP6ly0o3WIryCwxlCAKMk9MLJjOYjEbBzlHJOHVKoSUo5G97Ka274IstxBjTpJzVWC_8rkLdoFRhdVZiHM9d_PvgEbTVRg1ovhglcNCgIHZ1i-iSpio1RgoKHGCjSAdoKxOqZdSw8CafY3GRa6jFOMHL7rSs69BBwMK0TpK80MlGDhJtRVujpf-o0FK_qgzftxCo6MMhRxSTqUxtBxw3OfIrTGM_z1DglV91Tma5Ir6f_SiiK4dizkW1b51hsY3frSmRgYqSzTun2d96Q6FbOe03_qU6hPFPQHtrQZJHHDczuyxeuOPJ-xZ8koSc6Ne2ghCP7UB_NaEsLpUXKw4MHtehFx1PspE-Fb-0bFxbiCPt2ZN9-sPGTHKyn5yD25R8-PJTaGngVM8YhA_MclIdph-Pxzg6vCjXWnNDDW2v2n0rF4xyOwzclux7oa-42JP_k4DEVC63VWyoQlt_-Z-leZU0WYPSL9xeBzuuanDym1iL6UyvPcJmHLeO_M2Zy4H-_hM3vi29OOdkh5Ylxb4GAgCa8LxBMN_X_Gj9MgulXe5ue3oLYXpzCQ9vXBdevd4ZoMbnRAsYAA37WwMNXPL2S6KaISxSVnQr-0px7Tg-_kIhSHFp2L3KW-F8atyRK0HaOcN1IQJsbgs9ak4W1gCK8lAVWLDvuGThArYL1jCgpoy-EKuRS-cHwYYkPpiIeUHNVHtOkKw2Dn1Zbvh-VjhBcDuwmjJKjwvB1y6z295VRM8PC-lyE%3D&searchType=return&searchBags=0.0"
         }
       ],
-      "lastCheckedAt": "2026-11-25T04:13:43.502Z",
-      "lastAlertedPrice": 294300,
+      "lastCheckedAt": "2026-11-25T14:30:03.918Z",
+      "lastAlertedPrice": null,
       "lastAlertedByDest": {
-        "HIJ": 228300,
-        "PVG": 294300
+        "HIJ": 228300
       },
       "baselineInfo": {
         "source": "calendar",
         "destCode": "PVG",
-        "median": 325000,
+        "median": 319000,
         "sampleDates": 17,
         "totalDates": 17,
         "periodStart": "2027-01-15",
         "periodEnd": "2027-01-31",
-        "min": 293900,
+        "min": 293400,
         "minDate": "2027-01-30",
         "minRetDate": "2027-02-02",
-        "builtAt": "2026-11-25T04:13:49.927Z",
-        "weekChangePercent": null
+        "builtAt": "2026-11-25T14:30:11.659Z",
+        "weekChangePercent": 5
       },
       "calendars": {
         "PVG": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
+          "builtAt": "2026-11-25T14:30:11.659Z",
           "destCode": "PVG",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 307800,
+              "price": 307200,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-16",
-              "price": 308000,
+              "price": 307400,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-17",
-              "price": 319600,
+              "price": 319000,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-18",
-              "price": 343900,
+              "price": 343200,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 427100,
+              "price": 426700,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 325000,
-              "retDate": "2027-01-24"
-            },
-            {
-              "date": "2027-01-21",
-              "price": 361900,
+              "price": 316600,
               "retDate": "2027-01-23"
             },
             {
+              "date": "2027-01-21",
+              "price": 316400,
+              "retDate": "2027-01-25"
+            },
+            {
               "date": "2027-01-22",
-              "price": 341900,
+              "price": 339100,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-23",
-              "price": 322500,
+              "price": 321500,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 338600,
-              "retDate": "2027-01-26"
+              "price": 316400,
+              "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 332200,
+              "price": 322300,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-26",
-              "price": 317300,
+              "price": 316400,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-27",
-              "price": 316900,
+              "price": 319700,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-28",
-              "price": 339700,
+              "price": 338800,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-29",
-              "price": 310800,
+              "price": 310700,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-30",
-              "price": 293900,
+              "price": 293400,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-31",
-              "price": 338900,
+              "price": 338800,
               "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 325000,
-          "min": 293900,
+          "median": 319000,
+          "min": 293400,
           "minDate": "2027-01-30",
           "minRetDate": "2027-02-02",
           "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "TPE": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
+          "builtAt": "2026-11-25T14:30:11.659Z",
           "destCode": "TPE",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 353200,
+              "price": 352600,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-16",
-              "price": 346300,
+              "price": 345700,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-17",
-              "price": 370100,
+              "price": 369600,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-18",
-              "price": 355900,
+              "price": 355400,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 369400,
+              "price": 368300,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 378800,
+              "price": 378100,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 395300,
+              "price": 394400,
               "retDate": "2027-01-24"
             },
             {
               "date": "2027-01-22",
-              "price": 369800,
+              "price": 373600,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-23",
-              "price": 311500,
-              "retDate": "2027-01-26"
-            },
-            {
-              "date": "2027-01-25",
-              "price": 445100,
-              "retDate": "2027-01-30"
+              "price": 358800,
+              "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 444600,
+              "price": 443500,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-28",
-              "price": 420300,
+              "price": 406500,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-29",
-              "price": 365800,
+              "price": 378200,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-30",
-              "price": 365400,
+              "price": 378000,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-31",
-              "price": 413700,
-              "retDate": "2027-02-03"
+              "price": 394900,
+              "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 369800,
-          "min": 311500,
-          "minDate": "2027-01-23",
-          "minRetDate": "2027-01-26",
+          "median": 375800,
+          "min": 345700,
+          "minDate": "2027-01-16",
+          "minRetDate": "2027-01-19",
           "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "FUK": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
+          "builtAt": "2026-11-25T14:30:11.659Z",
           "destCode": "FUK",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 367600,
+              "price": 367200,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-16",
-              "price": 367600,
+              "price": 368300,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-17",
-              "price": 362900,
+              "price": 364800,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-18",
-              "price": 381500,
+              "price": 379000,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 357300,
+              "price": 356600,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 388900,
+              "price": 389800,
               "retDate": "2027-01-23"
             },
             {
@@ -4313,37 +4348,37 @@
             },
             {
               "date": "2027-01-22",
-              "price": 391300,
+              "price": 390800,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-23",
-              "price": 391300,
+              "price": 390600,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 391300,
+              "price": 390800,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 388400,
+              "price": 389200,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 376100,
+              "price": 377100,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-27",
-              "price": 378700,
+              "price": 379000,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-28",
-              "price": 388900,
+              "price": 388400,
               "retDate": "2027-01-30"
             },
             {
@@ -4353,399 +4388,367 @@
             },
             {
               "date": "2027-01-30",
-              "price": 377400,
+              "price": 377600,
               "retDate": "2027-02-02"
             },
             {
               "date": "2027-01-31",
-              "price": 356600,
+              "price": 375300,
               "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 381500,
+          "median": 379000,
           "min": 356600,
-          "minDate": "2027-01-31",
-          "minRetDate": "2027-02-02",
+          "minDate": "2027-01-19",
+          "minRetDate": "2027-01-23",
           "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "KIX": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
+          "builtAt": "2026-11-25T14:30:11.659Z",
           "destCode": "KIX",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 390300,
+              "price": 389600,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-16",
-              "price": 421800,
+              "price": 421000,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-17",
-              "price": 424200,
+              "price": 423400,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-18",
-              "price": 450900,
+              "price": 446200,
               "retDate": "2027-01-21"
             },
             {
               "date": "2027-01-19",
-              "price": 376300,
+              "price": 381200,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-20",
-              "price": 396900,
+              "price": 395700,
               "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-21",
-              "price": 413400,
+              "price": 412600,
               "retDate": "2027-01-25"
             },
             {
               "date": "2027-01-22",
-              "price": 416100,
-              "retDate": "2027-01-25"
-            },
-            {
-              "date": "2027-01-24",
-              "price": 367400,
-              "retDate": "2027-01-27"
-            },
-            {
-              "date": "2027-01-25",
-              "price": 399100,
-              "retDate": "2027-01-27"
-            },
-            {
-              "date": "2027-01-26",
-              "price": 376100,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-27",
-              "price": 396800,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-28",
-              "price": 378000,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-29",
-              "price": 355400,
-              "retDate": "2027-02-02"
-            },
-            {
-              "date": "2027-01-30",
-              "price": 396100,
-              "retDate": "2027-02-02"
-            },
-            {
-              "date": "2027-01-31",
-              "price": 382900,
-              "retDate": "2027-02-02"
-            }
-          ],
-          "totalDates": 17,
-          "median": 396500,
-          "min": 355400,
-          "minDate": "2027-01-29",
-          "minRetDate": "2027-02-02",
-          "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "CXR": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
-          "destCode": "CXR",
-          "days": [
-            {
-              "date": "2027-01-15",
-              "price": 629700,
-              "retDate": "2027-01-19"
-            },
-            {
-              "date": "2027-01-16",
-              "price": 584600,
-              "retDate": "2027-01-19"
-            },
-            {
-              "date": "2027-01-17",
-              "price": 499800,
-              "retDate": "2027-01-21"
-            },
-            {
-              "date": "2027-01-18",
-              "price": 453200,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-19",
-              "price": 509000,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-20",
-              "price": 542200,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-21",
-              "price": 625500,
-              "retDate": "2027-01-25"
-            },
-            {
-              "date": "2027-01-22",
-              "price": 522800,
+              "price": 415000,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-23",
-              "price": 535200,
+              "price": 386000,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-24",
-              "price": 477800,
+              "price": 415000,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-25",
-              "price": 450400,
+              "price": 345600,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 654700,
-              "retDate": "2027-01-28"
+              "price": 375300,
+              "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-27",
-              "price": 518700,
-              "retDate": "2027-01-29"
+              "price": 395900,
+              "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-28",
-              "price": 557200,
+              "price": 377200,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-29",
-              "price": 614300,
-              "retDate": "2027-01-31"
+              "price": 355500,
+              "retDate": "2027-02-02"
+            },
+            {
+              "date": "2027-01-30",
+              "price": 395700,
+              "retDate": "2027-02-02"
+            },
+            {
+              "date": "2027-01-31",
+              "price": 381900,
+              "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 535200,
-          "min": 450400,
+          "median": 395700,
+          "min": 345600,
           "minDate": "2027-01-25",
           "minRetDate": "2027-01-27",
           "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
-        "CRK": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
-          "destCode": "CRK",
+        "CXR": {
+          "builtAt": "2026-11-25T14:30:11.659Z",
+          "destCode": "CXR",
           "days": [
             {
               "date": "2027-01-15",
-              "price": 724700,
+              "price": 627800,
               "retDate": "2027-01-19"
             },
             {
               "date": "2027-01-16",
-              "price": 699000,
+              "price": 581900,
+              "retDate": "2027-01-19"
+            },
+            {
+              "date": "2027-01-17",
+              "price": 497800,
               "retDate": "2027-01-21"
+            },
+            {
+              "date": "2027-01-18",
+              "price": 450400,
+              "retDate": "2027-01-22"
+            },
+            {
+              "date": "2027-01-19",
+              "price": 507100,
+              "retDate": "2027-01-22"
             },
             {
               "date": "2027-01-20",
-              "price": 785800,
-              "retDate": "2027-01-25"
-            },
-            {
-              "date": "2027-01-24",
-              "price": 932700,
-              "retDate": "2027-01-27"
-            },
-            {
-              "date": "2027-01-26",
-              "price": 519300,
-              "retDate": "2027-01-29"
-            },
-            {
-              "date": "2027-01-29",
-              "price": 600900,
-              "retDate": "2027-02-01"
-            }
-          ],
-          "totalDates": 17,
-          "median": 711900,
-          "min": 519300,
-          "minDate": "2027-01-26",
-          "minRetDate": "2027-01-29",
-          "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "NGO": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
-          "destCode": "NGO",
-          "days": [
-            {
-              "date": "2027-01-16",
-              "price": 407200,
-              "retDate": "2027-01-19"
-            },
-            {
-              "date": "2027-01-17",
-              "price": 435000,
-              "retDate": "2027-01-19"
-            },
-            {
-              "date": "2027-01-25",
-              "price": 434400,
-              "retDate": "2027-01-27"
-            },
-            {
-              "date": "2027-01-28",
-              "price": 415300,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-29",
-              "price": 365800,
-              "retDate": "2027-02-02"
-            }
-          ],
-          "totalDates": 17,
-          "median": 415300,
-          "min": 365800,
-          "minDate": "2027-01-29",
-          "minRetDate": "2027-02-02",
-          "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "DAD": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
-          "destCode": "DAD",
-          "days": [
-            {
-              "date": "2027-01-16",
-              "price": 701600,
-              "retDate": "2027-01-21"
-            },
-            {
-              "date": "2027-01-17",
-              "price": 481800,
+              "price": 539300,
               "retDate": "2027-01-22"
             },
             {
               "date": "2027-01-21",
-              "price": 568100,
+              "price": 622000,
+              "retDate": "2027-01-25"
+            },
+            {
+              "date": "2027-01-22",
+              "price": 520700,
+              "retDate": "2027-01-26"
+            },
+            {
+              "date": "2027-01-23",
+              "price": 554900,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-24",
-              "price": 478100,
-              "retDate": "2027-01-27"
-            },
-            {
-              "date": "2027-01-27",
-              "price": 629900,
-              "retDate": "2027-01-30"
-            },
-            {
-              "date": "2027-01-28",
-              "price": 667900,
-              "retDate": "2027-01-31"
-            }
-          ],
-          "totalDates": 17,
-          "median": 599000,
-          "min": 478100,
-          "minDate": "2027-01-24",
-          "minRetDate": "2027-01-27",
-          "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
-        },
-        "YNJ": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
-          "destCode": "YNJ",
-          "days": [
-            {
-              "date": "2027-01-18",
-              "price": 337200,
-              "retDate": "2027-01-21"
-            },
-            {
-              "date": "2027-01-20",
-              "price": 326400,
-              "retDate": "2027-01-23"
-            },
-            {
-              "date": "2027-01-22",
-              "price": 336800,
+              "price": 499400,
               "retDate": "2027-01-26"
             },
             {
               "date": "2027-01-25",
-              "price": 326400,
-              "retDate": "2027-01-27"
+              "price": 479700,
+              "retDate": "2027-01-29"
+            },
+            {
+              "date": "2027-01-26",
+              "price": 530000,
+              "retDate": "2027-01-29"
             },
             {
               "date": "2027-01-27",
-              "price": 323900,
+              "price": 539000,
+              "retDate": "2027-01-29"
+            },
+            {
+              "date": "2027-01-28",
+              "price": 589100,
               "retDate": "2027-01-30"
             },
             {
               "date": "2027-01-29",
-              "price": 333700,
+              "price": 536800,
+              "retDate": "2027-01-31"
+            }
+          ],
+          "totalDates": 17,
+          "median": 536800,
+          "min": 450400,
+          "minDate": "2027-01-18",
+          "minRetDate": "2027-01-22",
+          "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
+        },
+        "NGO": {
+          "builtAt": "2026-11-25T14:30:11.659Z",
+          "destCode": "NGO",
+          "days": [
+            {
+              "date": "2027-01-16",
+              "price": 406000,
+              "retDate": "2027-01-19"
+            },
+            {
+              "date": "2027-01-17",
+              "price": 433700,
+              "retDate": "2027-01-19"
+            },
+            {
+              "date": "2027-01-25",
+              "price": 432800,
+              "retDate": "2027-01-27"
+            },
+            {
+              "date": "2027-01-26",
+              "price": 467400,
+              "retDate": "2027-01-28"
+            },
+            {
+              "date": "2027-01-29",
+              "price": 410000,
               "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 330100,
-          "min": 323900,
+          "median": 432800,
+          "min": 406000,
+          "minDate": "2027-01-16",
+          "minRetDate": "2027-01-19",
+          "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
+        },
+        "DAD": {
+          "builtAt": "2026-11-25T14:30:11.659Z",
+          "destCode": "DAD",
+          "days": [
+            {
+              "date": "2027-01-16",
+              "price": 596200,
+              "retDate": "2027-01-21"
+            },
+            {
+              "date": "2027-01-17",
+              "price": 489800,
+              "retDate": "2027-01-22"
+            },
+            {
+              "date": "2027-01-18",
+              "price": 844400,
+              "retDate": "2027-01-22"
+            },
+            {
+              "date": "2027-01-21",
+              "price": 545600,
+              "retDate": "2027-01-26"
+            },
+            {
+              "date": "2027-01-24",
+              "price": 506300,
+              "retDate": "2027-01-29"
+            },
+            {
+              "date": "2027-01-26",
+              "price": 547200,
+              "retDate": "2027-01-29"
+            },
+            {
+              "date": "2027-01-28",
+              "price": 678500,
+              "retDate": "2027-01-31"
+            }
+          ],
+          "totalDates": 17,
+          "median": 547200,
+          "min": 489800,
+          "minDate": "2027-01-17",
+          "minRetDate": "2027-01-22",
+          "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
+        },
+        "YNJ": {
+          "builtAt": "2026-11-25T14:30:11.659Z",
+          "destCode": "YNJ",
+          "days": [
+            {
+              "date": "2027-01-18",
+              "price": 336200,
+              "retDate": "2027-01-21"
+            },
+            {
+              "date": "2027-01-20",
+              "price": 325300,
+              "retDate": "2027-01-23"
+            },
+            {
+              "date": "2027-01-22",
+              "price": 334800,
+              "retDate": "2027-01-26"
+            },
+            {
+              "date": "2027-01-25",
+              "price": 325700,
+              "retDate": "2027-01-27"
+            },
+            {
+              "date": "2027-01-27",
+              "price": 323200,
+              "retDate": "2027-01-30"
+            },
+            {
+              "date": "2027-01-29",
+              "price": 336900,
+              "retDate": "2027-02-02"
+            }
+          ],
+          "totalDates": 17,
+          "median": 330300,
+          "min": 323200,
           "minDate": "2027-01-27",
           "minRetDate": "2027-01-30",
           "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         },
         "HIJ": {
-          "builtAt": "2026-11-25T04:13:49.927Z",
+          "builtAt": "2026-11-25T14:30:11.659Z",
           "destCode": "HIJ",
           "days": [
             {
-              "date": "2027-01-18",
-              "price": 402400,
-              "retDate": "2027-01-22"
-            },
-            {
-              "date": "2027-01-22",
-              "price": 434100,
-              "retDate": "2027-01-26"
+              "date": "2027-01-19",
+              "price": 294900,
+              "retDate": "2027-01-23"
             },
             {
               "date": "2027-01-24",
-              "price": 329600,
+              "price": 372100,
               "retDate": "2027-01-27"
             },
             {
               "date": "2027-01-26",
-              "price": 370200,
+              "price": 368800,
               "retDate": "2027-01-30"
             },
             {
+              "date": "2027-01-28",
+              "price": 385700,
+              "retDate": "2027-02-01"
+            },
+            {
               "date": "2027-01-31",
-              "price": 355100,
+              "price": 354500,
               "retDate": "2027-02-02"
             }
           ],
           "totalDates": 17,
-          "median": 370200,
-          "min": 329600,
-          "minDate": "2027-01-24",
-          "minRetDate": "2027-01-27",
+          "median": 368800,
+          "min": 294900,
+          "minDate": "2027-01-19",
+          "minRetDate": "2027-01-23",
           "key": "CJJ|ANYWHERE|2027-01-15|2027-01-31|2|4|direct"
         }
       },
@@ -4814,6 +4817,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 325000
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 319000
           }
         ],
         "TPE": [
@@ -4880,6 +4887,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 369800
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 375800
           }
         ],
         "FUK": [
@@ -4946,6 +4957,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 381500
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 379000
           }
         ],
         "KIX": [
@@ -5012,6 +5027,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 396500
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 395700
           }
         ],
         "CXR": [
@@ -5078,6 +5097,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 535200
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 536800
           }
         ],
         "CRK": [
@@ -5220,6 +5243,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 599000
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 547200
           }
         ],
         "YNJ": [
@@ -5286,6 +5313,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 330100
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 330300
           }
         ],
         "HIJ": [
@@ -5340,6 +5371,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 370200
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 368800
           }
         ],
         "NGO": [
@@ -5406,6 +5441,10 @@
           {
             "at": "2026-11-25T04:13:49.927Z",
             "median": 415300
+          },
+          {
+            "at": "2026-11-25T14:30:11.659Z",
+            "median": 432800
           }
         ],
         "OBO": [
@@ -5440,7 +5479,7 @@
       "sources": [
         {
           "title": "상하이 최저가 예약 (실시간)",
-          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HpSDnkjVu8e8SrNZfTx4oFJPpP2vG49bg5_fSCD7iQrQD3pXcOoLv8QMVcHNi8tA6nMnfcpAVBZ26YeR-30R4m1sF-9WhDOz-GKOs7KpMElAHddHTPOxg9RZu73gCHlvIq9vrED8GBgUTXfu-scu4xfizJAPPCTl-izvwEYI3-piQhYCeGuHrSxbr8IFArT20QhMupZef5P_cRS3cjexIVdS3C6uGspd-NmsZo03vehpReaf7Cu8qnAksjNqupYPS7n-H0Io-p5qYaj_M9-QUaQ6DozD0YIKR7eEAgaRL_aXkXIgNkMPDS7WAc3cUVvZsAdhsMpAiin2Yb_-tNc3yR8Y6q3220NNoCyLemgwPKsjnVdS-l88min49r16ydhIsWLynZ5Dh0Xutxf2tqGKuXR15wLaR_dy5IENNaaMfXBKcn4ULYFQiGTWRhvBWB5qcYdn0QZUUYYdgJm5D39AKNvUn2ymk8D0qaCe17YjgCItNBUf533NgXNekdMelWfhTB1KmIixBPUV9hl2LwoK9KNYhj7_kukty1JBynq9aCHabCAWXNkwEDgpAPS6cmLsqaYQ2LNa_VO9heCcS4zfY9zc4rgDq82RQ9SkRNcyqYjOkn0Eo6sZz8OosHN0GhTgzW-g3T2y3lz8fZQL6w7ubEEDjhLNyRQHbBbI5qewElU549IkzQCbwwMgDns6KveMQ_Mp21ILDILyZPmj7g0cyPFCeDf_l6y3Y-gsduKNLZgqBhO1mIZG616Evp3sQbckZEZ-MSr8RWcdQ4HPPtfYPwWzVO2pTtP1SdLqsg4Cj9CvB3N4Xq8IxhINKUL67NAs7dwVrrtYoqlKxsMDPUwcs1adEzsHX6td-6l5hooX6xNwK5LfnYF4ix9NNmfdUyxMwoy5OpOOs_rRYkW6ulsKlre6IQ_tbOoaBUJhJxtwXyWBIb6hAbCHI8RJjY5Dio4cPxfw41K-9nZ7v6XUW-Q76EgoAyxx2yTna7cWlQ0nOmzjiUq-4KaNKqK-c8pdfe4aQnthS-PxEpawP2VzsT0piU9T98QwHyp1YA5T4zPX0aSr2otEMOZEt7kAoSOiTOssDO1hlmYwL6AoDWImyH3FcEcJJFH0PnUboDBiwYMFSOG52KwUElTOskEhLTQU4RBHUJGPs6ZuEx6pMXdfzLB9mfly4UGgVU5w73UH3CUaGqLdLAAhu-Y0oHQSnyjD3xvjMdfbF8UN2pVlrOoBj6_K3Qw%3D%3D&searchType=return&searchBags=0.0"
+          "uri": "https://www.kiwi.com/ko/booking/?direct=true&locale=ko&currency=krw&passengers=1-0-0&token=HB0ZXjxJg_plO0INEhEAlhyfCqDEYhjbjJBG0aXBxRWOHehQZxDJYudens_Dco9fBxIcsjwYswgfJzrO_z5X0dDeHKm_kxF6QF07GAxsGiTn4LLRKmzvwnCeyu82Ib03Tm8DeW0X4Rlk-yaqhXvUm8yorLDF5WzE41LNgWd8DXyBJZCy4Nc8UvkcZ1NzexNsjE3eGg9oueNDH214Z-zlRKGdy1GnPd7DBKQ38lL6s7jdjMKuQeWlUMNCvJDam_7hSsRFrDHQqJN9plRjmJaG0cZJ1NjeM-9JLFcVDaZOTMUUpnrIsSZ0aDrg5u_NBxkb2BYAFkMFTkjq5wu9byORE0wJg6qB_cC0YvdKbT27xYegPfeEXYq7Z1a1eV7FIrhIqDtyNsH60AkjuBRtAX81WkkWNlRQ9TQhAP-kUV0bBFr03fugaPihxhpCzTtRqelIbkwYdSd__sR46yIz2IJmlwDlynScwHA9mO0z_yYb8cNkokozOVgPN7PnOnAvFeR8_7kI1ISj_sxHh1l_aHELBHtQF9ZCUUOy-QV3q8A4RFglHMUCPCQFpLmAy9xNxfqjqNMZW-bLFwdXdyLjFnZ3sEE917GDhav_YE-JDbZR4awuNYkXHE0f-45k9ce1ldA3vE-uIByZGuo9WGL1BmDFIcr9fQGTE5ucTXMKinKZZu55tRcQzz_FhSYqSihrgbtQTXJdf-n3L8hjoDjn2Y9L2NtJ5KKGll5Igus8lTaMZs0igpNxMxIMTUhO_5y0a7JrarwkpImW_ov2VJMID9KVjuhIWzw2OLEZ1GnkxrZpAiirwpgAb5F4wuM0Oq-YwypdPx-LKOAHhNTa58mxg1dF9GYioxHIbix7ofYlIrx48chb8fFJp9aXBDJxBzwwIWnHugc-0YJVh2mZyY628iAAwbpNLVdINzezJU2nK2vXXRQ457e8PREK0kgM7_nW-mp8i0yYCaU-ml0Ei6YKvR17r0tmyXUCJoRND36ZH8-vzOqxgJeo43eySGGccfSmn4mbmt7ouJ53Yd9EsTsvpecCxl9QmHIL4RBjV_63R1dL0tjwupkkqITXFyi_Tv0zNN-Iwx8lKKQEeXN7f-gl0Iop2ekSv_p3V31LmeDg0whUqE3x0g8bHZgSGlGjLsE0cIKjbDqqITBA3slj9CNaBIFDYR4rWCMJU3a8nTkERg3iFx1YL9gJZNqEPmNzjyh9oLfor&searchType=return&searchBags=0.0"
         },
         {
           "title": "Skyscanner 어디든지 검색",
@@ -5635,6 +5674,15 @@
         {
           "timestamp": "2026-11-25T04:13:43.502Z",
           "price": 293900,
+          "depDate": "2027-01-30",
+          "retDate": "2027-02-02",
+          "airline": "이스타항공 · 춘추항공",
+          "destCode": "PVG",
+          "destCity": "상하이"
+        },
+        {
+          "timestamp": "2026-11-25T14:30:03.918Z",
+          "price": 293400,
           "depDate": "2027-01-30",
           "retDate": "2027-02-02",
           "airline": "이스타항공 · 춘추항공",
